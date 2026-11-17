@@ -1,0 +1,107 @@
+title: Contact Us: Book an IT Consultation
+desc: Book an IT consultation with Aitropolis Technologies. Talk to an engineer about ERP, cloud, AI or GPU projects from Dubai, London, Islamabad or Singapore.
+active: contact
+---
+<section id="top" class="hero px">
+  <div class="ht" aria-hidden="true"><div data-par=".35" style="position:absolute;inset:0"><canvas id="ht"></canvas></div></div>
+  <div class="hero-in">
+    {{header}}
+    <div class="hero-copy">
+      <div data-h style="--d:0ms"><span class="pill pill-glass"><i><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg></i>Contact</span></div>
+      <h1 class="h1" data-mask="hero">Talk to an engineer, not a queue.</h1>
+      <p class="lead t-bl" data-h style="--d:420ms">Whether you have a specific project in mind or want to explore how we can transform your enterprise, let's talk. We reply within 24 hours.</p>
+      <div class="acts" data-h style="--d:520ms">
+        <a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        <a class="btn btn-o" href="#form-card">Write to us</a>
+      </div>
+    </div>
+    <div class="dash-wrap" data-par=".15"><div data-hd>
+      <div class="dash dash-sol" id="dash">
+        <div class="dash-l">
+          <div>
+            <p class="t-bs" style="color:var(--on-soft)">We reply within</p>
+            <p class="num-l"><span data-count>24</span><span class="num-m" style="padding-left:.5rem">hours</span></p>
+            <div style="padding-top:1rem"><span class="stat-pill"><svg class="ic" aria-hidden="true"><use href="#i-arrow-up-right"/></svg><span>From four studios, across four time zones</span></span></div>
+          </div>
+          <dl class="rows">
+            <div class="dash-t d" style="padding-top:1rem"><dt>Email</dt><dd>info@aitropolis.com</dd></div>
+            <div class="dash-t d"><dt>Dubai</dt><dd>+971 56 238 786 9</dd></div>
+            <div class="dash-t d"><dt>London</dt><dd>+44 7436 620835</dd></div>
+          </dl>
+        </div>
+        <div class="dash-r">
+          <div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">When someone is online, in GMT</p><span class="stat-pill" id="covClock">GMT 00:00</span></div>
+          <div class="cov" id="cov"></div>
+          <div class="legend"><span><i></i>Studio working day, 09:00 to 18:00 local</span><span><i class="l"></i>Two or more studios online</span></div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<section class="sec px" id="form-card">
+  <div class="shead dash-t">
+    <div><span class="pill pill-line"><i><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg></i>Write to us</span></div>
+    <div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Tell us the system that hurts most.</h2><p class="t-bm muted">It helps to describe your current technology, the challenge or opportunity, and a rough timeline. None of it is required, and we can help you frame the rest.</p></div>
+  </div>
+  <div class="cgrid2">
+    <div class="card fcard" data-r>
+      <form id="cform" novalidate>
+        <div class="fgrid">
+          <div class="fld"><label for="f-name">Full name <em>required</em></label><input id="f-name" name="name" autocomplete="name" required><p class="ferr" id="e-name" hidden></p></div>
+          <div class="fld"><label for="f-phone">Phone <em>optional</em></label><input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="+971 5X XXX XXXX"></div>
+          <div class="fld"><label for="f-email">Work email <em>required</em></label><input id="f-email" name="email" type="email" autocomplete="email" required><p class="ferr" id="e-email" hidden></p></div>
+          <div class="fld"><label for="f-company">Company <em>optional</em></label><input id="f-company" name="company" autocomplete="organization"></div>
+          <div class="fld wide"><label for="f-service">What do you need help with? <em>optional</em></label><div class="sel"><select id="f-service" name="service"><option value="">Choose a service</option></select><svg class="ic" aria-hidden="true"><use href="#i-chevron-down"/></svg></div></div>
+          <div class="fld wide"><label for="f-msg">Message <em>required</em></label><textarea id="f-msg" name="message" rows="5" required></textarea><p class="ferr" id="e-msg" hidden></p></div>
+          <div class="hp" aria-hidden="true"><label for="f-web">Leave this field empty</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+        </div>
+        <p class="ferr formerr" id="e-form" role="alert" hidden></p>
+        <div class="factions"><button class="btn btn-d" type="submit" id="send"><span>Send message</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></button><p class="t-bs muted">We reply within 24 hours.</p></div>
+      </form>
+      <div class="fok" id="fok" tabindex="-1" role="status" hidden>
+        <span class="mico lg ok"><svg class="ic" aria-hidden="true"><use href="#i-circle-check"/></svg></span>
+        <h3 class="t-tl">Thank you. We have your message.</h3>
+        <p class="t-bm muted">An engineer will reply within 24 hours.</p>
+        <p class="proto">This is a design prototype, so nothing was actually sent. Use the booking button to reach the team.</p>
+        <button class="btn btn-oi btn-sm" type="button" id="again">Send another</button>
+      </div>
+    </div>
+    <div class="cside">
+      <article class="big p-blue" data-r style="min-height:0">
+        <img class="iso" src="assets/aitropolis-symbol-pearl-white.svg" alt="" aria-hidden="true">
+        <span class="pill pill-glass" style="position:relative;align-self:flex-start"><i><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg></i>Studios</span>
+        <div style="position:relative"><h3 class="t-tl" style="max-width:22rem">Who is awake right now</h3><ul class="clocks" id="clocks" style="padding-top:1rem"></ul></div>
+      </article>
+      <article class="card sopt" data-r style="--d:90ms"><span class="mico lg"><svg class="ic" aria-hidden="true"><use href="#i-calendar"/></svg></span><div><h3 class="t-tm">Book a 15-minute assessment</h3><p class="t-bm muted">A short call with an engineer. You leave knowing where to start.</p><a class="btn btn-d btn-sm" href="#" data-book style="margin-top:1rem">Pick a time<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a></div></article>
+      <article class="card sopt" data-r style="--d:150ms"><span class="mico lg"><svg class="ic" aria-hidden="true"><use href="#i-message-circle"/></svg></span><div><h3 class="t-tm">WhatsApp</h3><p class="t-bm muted">Message the Dubai team directly.</p><a class="lnk" style="font-weight:500;display:inline-block;margin-top:.75rem" href="https://wa.me/971562387869" target="_blank" rel="noopener noreferrer">+971 56 238 786 9</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec px" id="offices">
+  <div class="shead dash-t">
+    <div><span class="pill pill-line"><i><svg class="ic" aria-hidden="true"><use href="#i-map-pin"/></svg></i>Offices</span></div>
+    <div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Visit us, by appointment.</h2><p class="t-bm muted">Aitropolis has offices in Dubai, London, Islamabad and Singapore. Contact us in advance to arrange a meeting at the one nearest you.</p></div>
+  </div>
+  <div class="ogrid" id="ogrid"></div>
+</section>
+
+<section class="sec px" id="faq">
+  <div class="faq dash-t" style="padding-top:2rem">
+    <div data-r="fade"><span class="pill pill-line"><i><svg class="ic" aria-hidden="true"><use href="#i-circle-help"/></svg></i>Questions</span><h2 class="h2" style="padding-top:1.5rem" data-mask="h">Before you write.</h2></div>
+    <div id="faqList"></div>
+  </div>
+</section>
+
+<section class="sec px" id="start">
+  <div class="close" data-r>
+    <canvas id="flow3" aria-hidden="true"></canvas>
+    <div class="in">
+      <span class="th" aria-hidden="true">∴</span>
+      <h2 class="h2">The fastest way to start is fifteen minutes.</h2>
+      <p class="t-bl">Pick a time. An engineer will listen first, then say where to begin.</p>
+      <div class="acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a></div>
+    </div>
+  </div>
+</section>

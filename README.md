@@ -6,8 +6,22 @@ Standalone HTML prototypes of the redesigned site. They are a design test for th
 |---|---|
 | Homepage | `index.html` |
 | Solutions hub | `solutions.html` |
+| Industries | `industries.html` (generated) |
+| Case studies | `case-studies.html` (generated) |
+| About | `about.html` (generated) |
+| Contact | `contact.html` (generated) |
 
 Shared code lives in `assets/site.css` and `assets/site.js`. `assets/icons.js` is the inline Lucide icon sprite (ISC licence, see `assets/LICENSE-lucide.txt`). Each page adds its own markup and a small page script. `assets/` also holds the logo files. The Solutions mega menu and the district data are in `assets/site.js`.
+
+## Generated pages
+
+`index.html` and `solutions.html` are hand-written. The other four pages are generated from `src/`: each page is `src/<name>.html` (a few `key: value` lines, then the body) plus an optional `src/<name>.js`, wrapped in the shared header, footer, header bar and menu from `src/shell.html` and `src/header.html`. Edit the sources, then rebuild and commit the output:
+
+```bash
+python3 tools/build.py
+```
+
+The build also stamps every page's script and stylesheet links with a version, so browsers never serve a stale file after a deploy.
 
 ## Run it
 
@@ -32,6 +46,9 @@ No build step: the folder is plain static files, so any static host works. `robo
 
 ## Things to know before porting
 
+- **Case-study metrics are left out.** The case-study cards show only the published summaries. The numbers in `canon.json` need team sign-off before they are shown.
+- **The contact form sends nothing.** It validates and shows a confirmation that says so. The Next.js build posts to the existing contact route.
+- **Leadership photos are initials.** Real headshots can replace them.
 - **Figures are typed in.** The homepage and Solutions page hold company figures and the six districts with their services inline, as constants. In the Next.js build these must come from `content/canon.json` and `src/lib/districts.ts`.
 - **Service links** point to real site routes (for example `/solutions/systems/erp`). They return 404 on a plain static host unless a redirect or `404.html` is added.
 - **Motion is hand-written JavaScript** (springs approximated with CSS easing, one shared animation ticker). In Next.js it becomes client components.
