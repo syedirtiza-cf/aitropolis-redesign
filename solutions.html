@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#020b1e">
+<meta name="robots" content="noindex, nofollow">
+<title>IT Solutions: ERP, Cloud, AI, Blockchain | Aitropolis</title>
+<meta name="description" content="Enterprise IT solutions in six districts: ERP and CRM, cloud and infrastructure, AI and data, blockchain, digital marketing, and AV and immersive technology.">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<script>try{if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("js")}catch(e){}</script>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+/* ===== Solutions page ===== */
+.bar nav a{position:relative}.hdr nav a.on{opacity:1}.hdr nav a.on::after,.bar nav a.on::after{content:"";position:absolute;left:0;right:0;bottom:-.35rem;height:2px;background:var(--lime);border-radius:2px}
+.dash-sol .num-l{padding-top:.75rem}
+.bars{display:grid;gap:.75rem;margin-top:2rem}
+.bars .brow{display:grid;grid-template-columns:7.5rem 1fr 2rem;align-items:center;gap:1rem;height:2.25rem}
+.bars .brow b{font-weight:400;font-size:.875rem;color:var(--on-soft)}
+.bars .brow em{font-style:normal;text-align:right;font-variant-numeric:tabular-nums}
+.bars .track{position:relative;height:100%;border-radius:var(--r-xs);background:rgb(255 255 255/.06)}
+.bars .fill{position:absolute;inset:0 auto 0 0;border-radius:var(--r-xs);background:var(--on);transform-origin:0 50%;transform:scaleX(var(--g,1));transition:transform 1.1s var(--ease);transition-delay:var(--d,0ms)}
+.bars .brow:nth-child(odd) .fill{background:var(--on)}
+.bars .brow.hot .fill{background:var(--lime)}
+@media (max-width:768px){.bars .brow{grid-template-columns:6.5rem 1fr 1.5rem}}
+
+.sdgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+.scd{display:flex;flex-direction:column;padding:.75rem .75rem 1.5rem}
+.scd .dtile{height:13.5rem}
+.scd .dbody{display:flex;flex-direction:column;flex:1;padding:1.5rem 1.25rem 0}
+.scd .desc{padding-top:.75rem;color:var(--muted);min-height:calc(.75rem + 3 * 1.55 * var(--t-bm))}
+@media (max-width:768px){.scd .desc{min-height:0}}
+.svc{margin-top:1.5rem}
+.svc li a{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;padding-block:.875rem;border-top:1px solid;border-image:repeating-linear-gradient(to right,var(--dash) 0 2px,transparent 2px 3px) 1;transition:padding .35s var(--ease),color .2s}
+.svc li b{display:block;font-weight:500;font-size:var(--t-bm)}
+.svc li small{display:block;color:var(--muted);font-size:.875rem;line-height:1.4;padding-top:.125rem}
+.svc li svg{flex:none;width:1rem;height:1rem;margin-top:.35rem;fill:none;stroke:var(--accent);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s var(--ease)}
+@media (hover:hover) and (min-width:1025px){.svc li a:hover{padding-left:.5rem}.svc li a:hover svg{transform:translateX(3px)}}
+.open-d{margin-top:auto;padding-top:1.5rem;font-weight:500}
+@media (max-width:1024px){.sdgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:768px){.sdgrid{grid-template-columns:1fr}}
+
+.conn{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center;position:relative}
+.conn .pts li{display:grid;grid-template-columns:4rem 1fr;gap:1.25rem;padding-block:1.5rem}
+.conn .pts li+li{border-top:1px solid;border-image:repeating-linear-gradient(to right,rgb(255 255 255/.28) 0 2px,transparent 2px 3px) 1}
+.conn .pts .tile{width:4rem;height:4rem}
+.conn .pts h3{font-size:var(--t-tm);font-weight:500}
+.conn .pts p{padding-top:.5rem;color:var(--on-mute)}
+.diag{position:relative;width:100%;max-width:32.5rem;margin-inline:auto}
+.diag svg{width:100%;height:auto;overflow:visible}
+.diag .edge{fill:none;stroke:rgb(169 188 218/.28);stroke-width:1;stroke-dasharray:2 3}
+.diag .link{fill:none;stroke:var(--lime);stroke-width:1.5;stroke-linecap:round}
+.diag .node circle{fill:rgb(255 255 255/.08);stroke:rgb(255 255 255/.4);stroke-width:1;transition:fill .3s}
+.diag .node text{fill:#fff;font-family:var(--font);font-size:12.5px;text-anchor:middle}
+.diag .node text.n{fill:var(--on-mute);font-size:11px}
+.diag .node.hot circle{fill:rgb(221 245 69/.16);stroke:var(--lime)}
+.dlegend{display:grid;gap:.5rem;margin-top:1.5rem;font-size:.875rem;color:var(--on-soft)}.dlegend li{display:flex;align-items:center;gap:.625rem}.dlegend i{width:.5rem;height:.5rem;border-radius:50%;background:var(--lime)}
+.diag .pulse{fill:var(--lime)}
+@media (max-width:1024px){.conn{grid-template-columns:1fr}}
+
+.egrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+.ecard{display:flex;flex-direction:column;padding:.75rem .75rem 1.5rem}
+.ecard .dtile{height:9.5rem}
+.ecard .dbody{padding:1.5rem 1.25rem 0;display:flex;flex-direction:column;flex:1}
+.ecard p.t-bm{padding-top:.75rem;color:var(--muted)}
+@media (max-width:768px){.egrid{grid-template-columns:1fr}}
+
+.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:3rem}
+.faq details{border-top:1px solid;border-image:repeating-linear-gradient(to right,var(--dash) 0 2px,transparent 2px 3px) 1;padding-block:1.5rem}
+.faq details:last-child{border-bottom:1px solid;border-image:repeating-linear-gradient(to right,var(--dash) 0 2px,transparent 2px 3px) 1}
+.faq summary{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;cursor:pointer;list-style:none;font-weight:500;font-size:var(--t-bm)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary i{position:relative;flex:none;width:2rem;height:2rem;border-radius:50%;background:var(--soft);transition:transform .4s var(--ease),background .2s}
+.faq summary i::before,.faq summary i::after{content:"";position:absolute;left:50%;top:50%;width:.75rem;height:1.5px;background:var(--ink);transform:translate(-50%,-50%)}
+.faq summary i::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .4s var(--ease)}
+.faq details[open] summary i{background:var(--lime);transform:rotate(180deg)}
+.faq details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+.faq p{padding:1rem 3rem 0 0;color:var(--muted)}
+.faq details[open] p{animation:fq .5s var(--ease)}
+@keyframes fq{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+@media (max-width:1024px){.faq{grid-template-columns:1fr;gap:2rem}}
+
+.close{position:relative;overflow:hidden;border-radius:var(--r-card);background:var(--g-dash);color:var(--on);padding:5rem 2.5rem;text-align:center}
+.close canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.close .in{position:relative;display:flex;flex-direction:column;align-items:center}
+.close .th{font-size:calc(var(--t-h3)*1.8);line-height:1;color:var(--lime);letter-spacing:-.05em;font-weight:300}
+.close h2{padding-top:1.25rem;max-width:40rem}
+.close p.t-bl{padding-top:1.5rem;max-width:36rem;color:var(--on-soft)}
+.close .acts{display:flex;gap:.75rem;padding-top:2.5rem;justify-content:center}
+@media (max-width:560px){.close{padding:3rem 1.5rem}.close .acts{flex-direction:column;width:100%}}
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+<main>
+<canvas class="trail" id="trail" aria-hidden="true"></canvas>
+
+<!-- ===== HERO ===== -->
+<section id="top" class="hero px">
+  <div class="ht" aria-hidden="true"><div data-par=".35" style="position:absolute;inset:0"><canvas id="ht"></canvas></div></div>
+  <div class="hero-in">
+    <header class="hdr" data-h style="--d:0ms">
+      <a class="logo" href="index.html"><img src="assets/aitropolis-pearl-white.svg" alt="Aitropolis"></a>
+      <nav aria-label="Main"><a class="on" href="solutions.html" aria-current="page">Solutions</a><a href="index.html#cases">Case studies</a><a href="index.html#studios">Company</a></nav>
+      <div class="hdr-r">
+        <a class="login" href="index.html#contact">Contact</a>
+        <a class="btn btn-o" href="#" data-book>Book a call</a>
+        <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg viewBox="0 0 20 20"><path d="M0 6.5H20M0 13.5H20"/></svg></button>
+      </div>
+    </header>
+    <div class="hero-copy">
+      <div data-h style="--d:0ms"><span class="pill pill-glass"><i><svg viewBox="0 0 16 16"><path d="M2 14V7l3-2v9M7 14V3l4 2v9M13 14V8l-2-1"/></svg></i>Solutions</span></div>
+      <h1 class="h1" data-mask="hero">Six districts. One metropolis.</h1>
+      <p class="lead t-bl" data-h style="--d:420ms">Enterprise technology is not a collection of point solutions. It is an interconnected system. Aitropolis designs, builds and operates all six districts as one.</p>
+      <div class="acts" data-h style="--d:520ms">
+        <a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a>
+        <a class="btn btn-o" href="#districts">Browse the districts</a>
+      </div>
+    </div>
+    <div class="dash-wrap" data-par=".15">
+      <div data-hd>
+        <div class="dash dash-sol" id="dash">
+          <div class="dash-l">
+            <div>
+              <p class="t-bs" style="color:var(--on-soft)">Districts</p>
+              <p class="num-l" data-count>6</p>
+              <div style="padding-top:1rem"><span class="stat-pill"><svg viewBox="0 0 16 16"><path d="M4 12L12 4M5 4h7v7"/></svg><span><span id="svcTotal">32</span> services, each with its own page</span></span></div>
+            </div>
+            <dl class="rows">
+              <div class="dash-t d" style="padding-top:1rem"><dt>One team</dt><dd>Across every district</dd></div>
+              <div class="dash-t d"><dt>One roadmap</dt><dd>Agreed up front</dd></div>
+              <div class="dash-t d"><dt>One contract</dt><dd>No vendor handoffs</dd></div>
+            </dl>
+          </div>
+          <div class="dash-r">
+            <div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Services in each district</p></div>
+            <div class="bars" id="bars" data-stage></div>
+            <div class="legend"><span><i></i>Services listed in the district</span><span><i class="l"></i>Largest district</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DISTRICTS ===== -->
+<section class="sec px" id="districts">
+  <div class="shead dash-t">
+    <div><span class="pill pill-line"><i><svg viewBox="0 0 16 16"><path d="M2 14V7l3-2v9M7 14V3l4 2v9M13 14V8l-2-1"/></svg></i>The districts</span></div>
+    <div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Pick a district, or start with the problem.</h2><p class="t-bm muted">Each district has its own services and its own platforms. They are built to connect, so starting in one does not close off the others.</p></div>
+  </div>
+  <div class="sdgrid" id="sdgrid"></div>
+</section>
+
+<!-- ===== CONNECTED ===== -->
+<section class="sec px" id="connected">
+  <div class="steps-wrap" id="stepsWrap">
+    <canvas id="flow2" aria-hidden="true"></canvas>
+    <div class="steps-top" data-r style="align-items:flex-start;padding-bottom:2rem"><span class="pill pill-glass"><i><svg viewBox="0 0 16 16"><circle cx="3.5" cy="8" r="1.8"/><circle cx="12.5" cy="3.5" r="1.8"/><circle cx="12.5" cy="12.5" r="1.8"/><path d="M5 7.2L11 4.3M5 8.8l6 3"/></svg></i>One system</span>
+      <h2 class="h2" data-mask="h" style="text-align:left;width:40rem">Connected, not fragmented.</h2></div>
+    <div class="conn">
+      <ol class="pts" style="position:relative">
+        <li data-r><span class="tile">01</span><div><h3>Integrated by design</h3><p class="t-bm">Each district connects to the others. ERP data feeds business intelligence. Cloud enables AI. Marketing uses the customer data held in CRM.</p></div></li>
+        <li data-r style="--d:90ms"><span class="tile">02</span><div><h3>A single accountable partner</h3><p class="t-bm">One team, one platform, one roadmap. No finger-pointing between vendors and no data silos.</p></div></li>
+        <li data-r style="--d:180ms"><span class="tile">03</span><div><h3>Scaled together</h3><p class="t-bm">As the business grows, every district grows with it, so there is no patchwork of systems to reconcile.</p></div></li>
+      </ol>
+      <div class="diag" id="diag" aria-label="How the six districts connect"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WAYS TO ENGAGE ===== -->
+<section class="sec px" id="engage">
+  <div class="shead dash-t">
+    <div><span class="pill pill-line"><i><svg viewBox="0 0 16 16"><path d="M2 8h4l2-4 2 8 2-4h2"/></svg></i>Ways to engage</span></div>
+    <div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Beyond the districts.</h2></div>
+  </div>
+  <div class="egrid">
+    <article class="card ecard" data-r><div class="dtile a" data-pix="blocks"></div><div class="dbody"><h3 class="t-tl">Offshore IT teams</h3><p class="t-bm">Dedicated engineers who work inside your delivery process, managed by Aitropolis.</p><a class="open-d lnk" href="/solutions/offshore-it-teams">See offshore IT teams</a></div></article>
+    <article class="card ecard" data-r style="--d:90ms"><div class="dtile b" data-pix="hex"></div><div class="dbody"><h3 class="t-tl">ISO and business process management</h3><p class="t-bm">Certification readiness and process design, with audit preparation built in.</p><a class="open-d lnk" href="/solutions/iso-bpm">See ISO and BPM</a></div></article>
+    <article class="card ecard" data-r style="--d:180ms"><div class="dtile c" data-pix="waves"></div><div class="dbody"><h3 class="t-tl">Digital Growth Partner</h3><p class="t-bm">Build, grow and automate under one retainer, with no handoffs between agencies.</p><a class="open-d lnk" href="/digital-growth-partner">See the growth partnership</a></div></article>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="sec px" id="faq">
+  <div class="faq dash-t" style="padding-top:2rem">
+    <div data-r="fade"><span class="pill pill-line"><i><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><path d="M6.3 6.2a1.8 1.8 0 113 1.2c-.6.5-1.3.8-1.3 1.6M8 11.4v.1"/></svg></i>Questions</span><h2 class="h2" style="padding-top:1.5rem" data-mask="h">Solutions, answered.</h2></div>
+    <div id="faqList"></div>
+  </div>
+</section>
+
+<!-- ===== CLOSE ===== -->
+<section class="sec px" id="start">
+  <div class="close" data-r>
+    <canvas id="flow3" aria-hidden="true"></canvas>
+    <div class="in">
+      <span class="th" aria-hidden="true">∴</span>
+      <h2 class="h2">Choose a district, or talk to a specialist.</h2>
+      <p class="t-bl">Bring the roadmap you have, or the problem you do not know how to start. An engineer will say where to begin.</p>
+      <div class="acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a><a class="btn btn-o" href="index.html#contact">Write to us</a></div>
+    </div>
+  </div>
+</section>
+</main>
+<span id="mainEnd" style="display:block;height:1px;margin-bottom:-1px"></span>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<div class="under" id="under"><footer id="footer">
+  <div class="px">
+    <div class="f-top">
+      <div><p class="t-tl" style="width:21rem;max-width:100%">The metropolis behind the modern enterprise</p>
+        <div class="f-soc"><a class="btn btn-o" href="#">LinkedIn</a><a class="btn btn-o" href="#">X</a></div></div>
+      <nav aria-label="Solutions"><p class="cap">Solutions</p><ul class="t-bm"><li><a class="lnk" href="/solutions/systems">Systems</a></li><li><a class="lnk" href="/solutions/foundations">Foundations</a></li><li><a class="lnk" href="/solutions/intelligence">Intelligence</a></li><li><a class="lnk" href="/solutions/exchange">Exchange</a></li><li><a class="lnk" href="/solutions/signal">Signal</a></li><li><a class="lnk" href="/solutions/immersion">Immersion</a></li></ul></nav>
+      <nav aria-label="Company"><p class="cap">Company</p><ul class="t-bm"><li><a class="lnk" href="index.html#studios">Studios</a></li><li><a class="lnk" href="index.html#cases">Case studies</a></li><li><a class="lnk" href="index.html#how">How we work</a></li><li><a class="lnk" href="index.html#contact">Contact</a></li></ul></nav>
+      <nav aria-label="Legal"><p class="cap">Legal</p><ul class="t-bm"><li><a class="lnk" href="#">Privacy</a></li><li><a class="lnk" href="#">Terms</a></li><li><a class="lnk" href="#">Accessibility</a></li></ul></nav>
+    </div>
+    <div class="f-bot dash-t d"><p style="max-width:34.7rem">Aitropolis Technologies Ltd. Product and platform names belong to their owners.</p><div><p>Founded <span data-canon="founded">2010</span> · Head office DIFC, Dubai</p><p>© 2026 Aitropolis · <a class="lnk" href="#top" id="toTop">Back to top ↑</a></p></div></div>
+  </div>
+  <div class="px" aria-hidden="true"><div class="mega-box"><p class="mega" id="mega"></p></div></div>
+</footer></div>
+
+<div class="bar" id="bar" aria-hidden="true"><div class="in"><a class="logo" href="index.html"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"></a><nav aria-label="Main"><a class="on" href="solutions.html">Solutions</a><a href="index.html#cases">Case studies</a><a href="index.html#studios">Company</a></nav><div class="r"><a class="login" href="index.html#contact">Contact</a><a class="btn btn-oi btn-sm" href="#" data-book>Book a call</a><button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg viewBox="0 0 20 20"><path d="M0 6.5H20M0 13.5H20"/></svg></button></div></div></div>
+<div class="dim" id="dim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Menu"><div class="top"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"><button class="xb" type="button" aria-label="Close menu" id="xb"><svg viewBox="0 0 20 20"><path d="M3 3L17 17M17 3L3 17"/></svg></button></div>
+  <nav class="dash-t"><a class="dash-b" href="solutions.html">Solutions</a><a class="dash-b" href="index.html#cases">Case studies</a><a class="dash-b" href="index.html#studios">Company</a></nav>
+  <div class="acts"><a class="btn btn-oi" href="index.html#contact">Contact</a><a class="btn btn-p" href="#" data-book>Book a call</a></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
+<script src="assets/site.js"></script>
+<script>
+(()=>{
+const {ART,ORDER,smooth,easeIO,clamp,mk,inView,NS,REDUCED,whileVisible}=window.AIT;
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+/* District data: in the Next.js build this is src/lib/districts.ts. */
+const D=[
+ {slug:"systems",title:"Systems",sub:"ERP, CRM and business intelligence",desc:"End-to-end enterprise systems that are the backbone of business operations.",art:"blocks",g:"a",s:[["erp","ERP Implementation","Oracle EBS, Oracle Cloud, SAP, D365, Odoo"],["crm","CRM Solutions","Salesforce, Dynamics, Siebel, Oracle CX"],["bi","Business Intelligence","Analytics, dashboards, data warehousing"],["application-modernization","Application Modernization","Legacy refactoring, cloud migration, microservices"],["assessments","Assessments & Upgrades","Functional and technical assessments, upgrades"],["database","Database Management","Administration, tuning, performance"]]},
+ {slug:"foundations",title:"Foundations",sub:"Cloud and infrastructure",desc:"The cloud-native foundation that every modern enterprise is built on.",art:"slabs",g:"b",s:[["cloud","Cloud Transformation","AWS, Azure, GCP, BytePlus"],["cloud-virtualization","Cloud & Virtualization","Private, hybrid, public cloud, migration"],["private-cloud","Private Cloud","VMware, Red Hat OpenShift"],["devops","DevOps & Automation","CI/CD, infrastructure as code"],["finops","FinOps","Cloud cost governance and optimisation"],["managed-services","Managed Services","24/7 operations and support"]]},
+ {slug:"intelligence",title:"Intelligence",sub:"AI, machine learning and custom software",desc:"Artificial intelligence, machine learning and custom platforms that unlock competitive advantage.",art:"burst",g:"c",s:[["generative-ai","Generative AI","LLMs, RAG systems, AI agents"],["mlops","ML & MLOps","Model training, OpenShift AI, pipelines"],["data-engineering","Data Engineering","Pipelines, warehousing, insights"],["custom-software","Custom Software","Core banking, wallets, payment gateways"],["telecom-platforms","Telecom Platforms","OSS/BSS, VAS platforms"]]},
+ {slug:"exchange",title:"Exchange",sub:"Blockchain and fintech",desc:"Distributed systems and blockchain that enable trust in digital economies.",art:"hex",g:"b",s:[["smart-contracts","Smart Contracts","Contract development, audits, Web3"],["defi","DeFi Protocols","Lending, staking, liquidity systems"],["tokenization","Tokenization & NFT","Asset tokenisation, NFT marketplaces"],["wallets-exchanges","Wallets & Exchanges","Custody, trading platforms"],["blockchain-consulting","Integration & Consulting","Blockchain strategy and enterprise integration"]]},
+ {slug:"signal",title:"Signal",sub:"AI-powered go-to-market and growth",desc:"AI-driven go-to-market and growth marketing that turns market signals into measurable revenue.",art:"waves",g:"c",s:[["seo","SEO & Content","Search, organic growth, content marketing"],["paid-media","Paid Media","Google, Meta, LinkedIn advertising"],["marketing-automation","Marketing Automation","Journeys, nurture, CRM-connected campaigns"],["social-media-marketing","Social Media Marketing","Multi-platform strategy and community"],["social-influencer","Social & Influencer","Social media management, influencer marketing"],["brand-analytics","Brand & Analytics","Brand strategy, performance tracking"]]},
+ {slug:"immersion",title:"Immersion",sub:"AR/VR, AV and experiences",desc:"Immersive technologies and audio-visual environments that redefine customer and employee experiences.",art:"gem",g:"a",s:[["ar-vr","AR/VR Experiences","XR, metaverse, interactive installations"],["smart-meetings","Smart Meeting Rooms","Control systems, room automation"],["av-integration","Museum & Public-Space AV","Interactive installations, kiosks, exhibits"],["scenography","Scenography & Lighting","Technical lighting, scenography, automation"]]}
+];
+const total=D.reduce((n,d)=>n+d.s.length,0);$("#svcTotal").textContent=total;
+
+/* pixel art tile (same engine as the homepage) */
+const pixTile=(host,kind)=>{const svg=document.createElementNS(NS,"svg");svg.setAttribute("viewBox","0 0 448 308");svg.setAttribute("aria-hidden","true");svg.setAttribute("fill","#fff");svg.setAttribute("preserveAspectRatio","xMidYMid slice");svg.style.cssText="position:absolute;inset:0;left:0;top:0;width:100%;height:100%;transform:none";
+  const px=[];for(let r=0;r<22;r++)for(let c=0;c<32;c++){const e=document.createElementNS(NS,"circle");e.setAttribute("cx",c*14+7);e.setAttribute("cy",r*14+7);e.setAttribute("r",1);e.setAttribute("fill-opacity",.4);svg.append(e);if(ART[kind](c,r))px.push({e,k:ORDER[kind](c,r)})}
+  const ks=px.map(p=>p.k),lo=Math.min(...ks),rg=Math.max(1e-6,Math.max(...ks)-lo);px.forEach(p=>p.s=((p.k-lo)/rg)*.6);host.append(svg);
+  const draw=p=>px.forEach(o=>{const g=smooth((p-o.s)/.4);o.e.setAttribute("r",1+4*g);o.e.setAttribute("fill-opacity",.4+.6*g)});
+  if(REDUCED){draw(1);return}draw(0);
+  inView(svg,()=>{const t0=performance.now()+250;const f=()=>{const p=clamp((performance.now()-t0)/1400);draw(easeIO(p));if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)},"0px 0px -10% 0px")};
+$$("[data-pix]").forEach(el=>pixTile(el,el.dataset.pix));
+
+/* hero bars: services per district */
+(()=>{const host=$("#bars");const max=Math.max(...D.map(d=>d.s.length));
+  D.forEach((d,i)=>{const row=mk("div","brow"+(d.s.length===max?" hot":""));row.innerHTML=`<b>${d.title}</b><div class="track"><span class="fill" style="--d:${900+i*80}ms;--g:0"></span></div><em>${d.s.length}</em>`;host.append(row);row.querySelector(".fill").style.width=`${d.s.length/max*100}%`});
+  const run=()=>$$(".fill",host).forEach(f=>f.style.setProperty("--g",1));
+  if(REDUCED)run();else inView($("#dash"),run,"0px")})();
+
+/* district cards */
+(()=>{const grid=$("#sdgrid");const arrow='<svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg>';
+  D.forEach((d,i)=>{const c=mk("article","card scd");c.dataset.r="";c.style.setProperty("--d",`${(i%3)*90}ms`);
+    const tile=mk("div",`dtile ${d.g}`);pixTile(tile,d.art);
+    const body=mk("div","dbody");
+    body.innerHTML=`<div class="dtop"><h3 class="t-tl">${d.title}</h3><p class="num-m">${String(i+1).padStart(2,"0")}</p></div><p class="t-bs" style="padding-top:.25rem;font-weight:500">${d.sub}</p><p class="t-bm desc">${d.desc}</p><ul class="svc">${d.s.map(s=>`<li><a href="/solutions/${d.slug}/${s[0]}"><span><b>${s[1]}</b><small>${s[2]}</small></span>${arrow}</a></li>`).join("")}</ul><a class="open-d lnk" href="/solutions/${d.slug}">Open the ${d.title} district</a>`;
+    c.append(tile,body);grid.append(c)});
+  if(!REDUCED)$$("[data-r]",grid).forEach(el=>{new IntersectionObserver(([e],io)=>{if(e.isIntersecting){el.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(el)})})();
+
+/* connection diagram */
+(()=>{const host=$("#diag");const W=520,H=500,cx=260,cy=250,R=190;
+  const order=["systems","intelligence","exchange","immersion","signal","foundations"];
+  const pos={};order.forEach((s,i)=>{const a=-Math.PI/2+i*Math.PI/3;pos[s]=[cx+R*Math.cos(a),cy+R*Math.sin(a)]});
+  const name=Object.fromEntries(D.map(d=>[d.slug,d.title]));const num=Object.fromEntries(D.map((d,i)=>[d.slug,String(i+1).padStart(2,"0")]));
+  const links=[["systems","intelligence","ERP data feeds BI"],["foundations","intelligence","Cloud enables AI"],["systems","signal","CRM feeds marketing"]];
+  const hot=new Set(links.flat().filter(x=>x.length<14&&pos[x]));
+  let g=`<svg viewBox="0 0 ${W} ${H}" role="img">`;
+  order.forEach((a,i)=>{const b=order[(i+1)%6];g+=`<path class="edge" d="M${pos[a][0]} ${pos[a][1]}L${pos[b][0]} ${pos[b][1]}"/>`});
+  const paths=[];links.forEach(([a,b,cap],i)=>{const [x1,y1]=pos[a],[x2,y2]=pos[b];const mx=(x1+x2)/2+(cx-(x1+x2)/2)*.35,my=(y1+y2)/2+(cy-(y1+y2)/2)*.35;const d=`M${x1} ${y1}Q${mx} ${my} ${x2} ${y2}`;paths.push(d);
+    g+=`<path class="link" id="lk${i}" d="${d}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${REDUCED?0:1}"/>`;
+    });
+  order.forEach(s=>{const [x,y]=pos[s];g+=`<g class="node${hot.has(s)?" hot":""}"><circle cx="${x}" cy="${y}" r="46"/><text class="n" x="${x}" y="${y-6}">${num[s]}</text><text x="${x}" y="${y+12}">${name[s]}</text></g>`});
+  links.forEach((_,i)=>{g+=`<circle class="pulse" r="3.5" id="pl${i}" cx="-20" cy="-20" opacity="0"/>`});
+  g+="</svg>";host.innerHTML=g+`<ul class="dlegend">${links.map(l=>`<li><i></i>${l[2]}</li>`).join("")}</ul>`;
+  if(REDUCED)return;
+  const lk=links.map((_,i)=>$("#lk"+i)),pl=links.map((_,i)=>$("#pl"+i));let started=false;
+  inView(host,()=>{started=true;lk.forEach((p,i)=>{p.style.transition=`stroke-dashoffset 1.4s var(--ease) ${.4+i*.35}s`;requestAnimationFrame(()=>p.style.strokeDashoffset=0)})},"0px 0px -15% 0px");
+  whileVisible(host,(dt,t)=>{if(!started)return;lk.forEach((p,i)=>{const len=p.getTotalLength();const f=((t*.22+i*.33)%1.4)/1.4;const pt=p.getPointAtLength(len*clamp(f));pl[i].setAttribute("cx",pt.x);pl[i].setAttribute("cy",pt.y);pl[i].setAttribute("opacity",Math.min(1,f*6,(1-f)*6)*.95)})})})();
+
+/* FAQ */
+(()=>{const F=[
+ ["What ERP systems does Aitropolis implement?","Oracle E-Business Suite, Oracle Cloud, Microsoft Dynamics 365 and Odoo, with end-to-end services from requirements analysis and system design through go-live support and ongoing managed services."],
+ ["How does Aitropolis approach cloud migration?","In phases: assessment and readiness review, architecture design, migration execution with zero-downtime strategies, and post-migration optimisation, across AWS, Azure and GCP."],
+ ["Can Aitropolis provide dedicated offshore development teams?","Yes. Dedicated teams work from our Islamabad and Singapore centres: pre-vetted engineers, architects and QA professionals embedded in your workflows, with full Aitropolis management oversight."],
+ ["What blockchain services does Aitropolis offer?","Smart contract development, DeFi protocol design, NFT marketplace builds, tokenisation platforms, and private or consortium blockchain networks, with security audits."],
+ ["Does Aitropolis offer digital marketing services?","Yes. The practice covers social media strategy and management, SEO, paid advertising on Google and Meta, content marketing and performance analytics, tied to your wider digital roadmap."],
+ ["What is Aitropolis's approach to digital transformation?","A three-pillar framework: strategic consultation and planning, advanced technology implementation, and ongoing support and optimisation, so initiatives are measured against business outcomes and not only technology metrics."],
+ ["What AI and machine learning services does Aitropolis provide?","AI-powered applications, LLM and RAG systems and MLOps pipelines, backed by GPU-accelerated infrastructure for training and inference, from strategy and architecture through custom software and managed AI operations."]];
+  $("#faqList").innerHTML=F.map(([q,a])=>`<details><summary><span>${q}</span><i aria-hidden="true"></i></summary><p class="t-bm">${a}</p></details>`).join("");
+  $$("#faqList details").forEach(d=>d.addEventListener("toggle",()=>{if(d.open)$$("#faqList details").forEach(o=>{if(o!==d)o.open=false})}))})();
+
+})();
+</script>
+</body>
+</html>

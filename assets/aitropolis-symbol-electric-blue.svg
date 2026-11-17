@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -8 650 600"><defs>
+    <linearGradient id="linear-gradient" x1="1937.3" y1="-20.5" x2="1937.3" y2="-19.5" gradientTransform="translate(-314377.9 5584.3) scale(162.5 269.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#90bcff" />
+      <stop offset="1" stop-color="#3783ff" />
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="1942.4" y1="-20.4" x2="1941.6" y2="-19.7" gradientTransform="translate(-512377.5 5446) scale(264)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#90bcff" />
+      <stop offset=".4" stop-color="#3783ff" />
+      <stop offset="1" stop-color="#155ad1" />
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="1942.4" y1="-19.7" x2="1941.6" y2="-20.4" gradientTransform="translate(-512227.5 5710) scale(264)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#90bcff" />
+      <stop offset=".4" stop-color="#3783ff" />
+      <stop offset="1" stop-color="#155ad1" />
+    </linearGradient>
+    <linearGradient id="linear-gradient3" x1="1941.6" y1="-19.7" x2="1942.4" y2="-20.4" gradientTransform="translate(-512529.5 5710) scale(264)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#90bcff" />
+      <stop offset=".4" stop-color="#3783ff" />
+      <stop offset="1" stop-color="#155ad1" />
+    </linearGradient>
+    <linearGradient id="linear-gradient4" gradientUnits="userSpaceOnUse" x1="0" y1="64" x2="0" y2="555.8">
+      <stop offset="0" stop-color="#3783FF" stop-opacity="0" /><stop offset="0.08" stop-color="#5A98EE" stop-opacity="0.35" /><stop offset="0.2" stop-color="#78AAF0" stop-opacity="1" /><stop offset="0.36" stop-color="#83B3F4" stop-opacity="1" /><stop offset="0.5" stop-color="#609EF3" stop-opacity="1" /><stop offset="0.66" stop-color="#3783FF" stop-opacity="1" /><stop offset="0.83" stop-color="#3783FF" stop-opacity="0.6" /><stop offset="1" stop-color="#3783FF" stop-opacity="0" /></linearGradient>
+  </defs>
+  <g id="reference-logo">
+    <path id="cyan-connecting-ribbon" d="M345,97c41-20,77.6-5.2,87.2,24.8l75.3,235.2h-50.4l-67.2-210c-10.9-34-29.9-45-44.9-50h0Z" fill="url(#linear-gradient)" />
+    <circle id="top-circle" cx="306.5" cy="162" r="132" fill="url(#linear-gradient1)" />
+    <circle id="bottom-left-circle" cx="456.5" cy="426" r="132" fill="url(#linear-gradient2)" />
+    <circle id="bottom-right-circle" cx="154.5" cy="426" r="132" fill="url(#linear-gradient3)" />
+    <path id="cyan-connecting-ribbon1" d="M246.5,64c-50,28-82.1,78.7-67.4,132.7l51.5,189.3c15.8,58,5.8,116-52.2,169.8,71.7-13.3,119.1-82.1,105.8-153.8-.7-3.6-1.5-7.1-2.4-10.7l-54.8-201.3c-14.2-52-6.6-80,19.4-126h0Z" fill="url(#linear-gradient4)" />
+  </g>
+  </svg>

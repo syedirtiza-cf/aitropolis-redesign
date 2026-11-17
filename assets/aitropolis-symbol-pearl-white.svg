@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -8 650 600"><defs>
+<linearGradient id="pearl-top" x1="0.94" y1="0.10" x2="0.12" y2="0.91"><stop stop-color="#FCFDFF" /><stop offset="0.30" stop-color="#ECF0FF" /><stop offset="0.66" stop-color="#CBD5FE" /><stop offset="1" stop-color="#B5C3FC" /></linearGradient>
+<linearGradient id="pearl-front-circle" x1="0.85" y1="0.13" x2="0.07" y2="0.88"><stop stop-color="#B2BFF8" /><stop offset="0.34" stop-color="#C9D2FD" /><stop offset="0.73" stop-color="#E7ECFF" /><stop offset="1" stop-color="#FAFBFF" /></linearGradient>
+<linearGradient id="pearl-back-circle" x1="0.12" y1="0.10" x2="0.92" y2="0.82"><stop stop-color="#B4C1FD" /><stop offset="0.36" stop-color="#C9D2FD" /><stop offset="0.73" stop-color="#E7ECFD" /><stop offset="1" stop-color="#F9FAFF" /></linearGradient>
+<radialGradient id="pearl-top-glow" cx="0.80" cy="0.13" r="0.86"><stop stop-color="#FFFFFF" stop-opacity="0.34" /><stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.10" /><stop offset="1" stop-color="#FFFFFF" stop-opacity="0" /></radialGradient>
+<radialGradient id="pearl-front-glow" cx="0.16" cy="0.74" r="0.83"><stop stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.65" stop-color="#FFFFFF" stop-opacity="0.06" /><stop offset="1" stop-color="#FFFFFF" stop-opacity="0" /></radialGradient>
+<radialGradient id="pearl-back-glow" cx="0.86" cy="0.68" r="0.85"><stop stop-color="#FFFFFF" stop-opacity="0.25" /><stop offset="0.64" stop-color="#FFFFFF" stop-opacity="0.08" /><stop offset="1" stop-color="#FFFFFF" stop-opacity="0" /></radialGradient>
+<linearGradient id="pearl-front-ribbon" gradientUnits="userSpaceOnUse" x1="0" y1="64" x2="0" y2="555.8"><stop offset="0" stop-color="#CBD5FC" stop-opacity="0" /><stop offset="0.08" stop-color="#E3EBFC" stop-opacity="0.35" /><stop offset="0.2" stop-color="#EDF2FF" stop-opacity="1" /><stop offset="0.36" stop-color="#F3F7FF" stop-opacity="1" /><stop offset="0.54" stop-color="#EEF3FE" stop-opacity="1" /><stop offset="0.7" stop-color="#DEE6FC" stop-opacity="1" /><stop offset="0.86" stop-color="#D1DBFA" stop-opacity="0.6" /><stop offset="1" stop-color="#DCE4FC" stop-opacity="0" /></linearGradient>
+<linearGradient id="pearl-back-ribbon" gradientUnits="userSpaceOnUse" x1="430" y1="150" x2="517" y2="365" gradientTransform="translate(-35 -13)"><stop stop-color="#EFF3FF" /><stop offset="0.38" stop-color="#FFFFFF" /><stop offset="0.72" stop-color="#E4EBFE" /><stop offset="1" stop-color="#C7D3FB" /></linearGradient>
+<linearGradient id="pearl-type" gradientUnits="userSpaceOnUse" x1="0" y1="98" x2="0" y2="491"><stop stop-color="#FFFFFF" /><stop offset="0.52" stop-color="#D8E1FC" /><stop offset="1" stop-color="#F4F7FF" /></linearGradient>
+<linearGradient id="pearl-demo-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2854FA" /><stop offset="1" stop-color="#4F62FF" /></linearGradient>
+</defs><g id="reference-logo">
+    <path id="cyan-connecting-ribbon" d="M345,97c41-20,77.6-5.2,87.2,24.8l75.3,235.2h-50.4l-67.2-210c-10.9-34-29.9-45-44.9-50h0Z" fill="url(#pearl-back-ribbon)" />
+    <circle id="top-circle" cx="306.5" cy="162" r="132" fill="url(#pearl-top)" />
+    <circle cx="306.5" cy="162" r="132" fill="url(#pearl-top-glow)" />
+    <circle cx="306.5" cy="162" r="132" fill="none" stroke="#F8FAFF" stroke-opacity=".4" stroke-width="1.1" />
+    <circle id="bottom-left-circle" cx="456.5" cy="426" r="132" fill="url(#pearl-back-circle)" />
+    <circle cx="456.5" cy="426" r="132" fill="url(#pearl-back-glow)" />
+    <circle cx="456.5" cy="426" r="132" fill="none" stroke="#F8FAFF" stroke-opacity=".4" stroke-width="1.1" />
+    <circle id="bottom-right-circle" cx="154.5" cy="426" r="132" fill="url(#pearl-front-circle)" />
+    <circle cx="154.5" cy="426" r="132" fill="url(#pearl-front-glow)" />
+    <circle cx="154.5" cy="426" r="132" fill="none" stroke="#F8FAFF" stroke-opacity=".4" stroke-width="1.1" />
+    <path id="cyan-connecting-ribbon1" d="M246.5,64c-50,28-82.1,78.7-67.4,132.7l51.5,189.3c15.8,58,5.8,116-52.2,169.8,71.7-13.3,119.1-82.1,105.8-153.8-.7-3.6-1.5-7.1-2.4-10.7l-54.8-201.3c-14.2-52-6.6-80,19.4-126h0Z" fill="url(#pearl-front-ribbon)" />
+  </g>
+  </svg>

@@ -1,0 +1,44 @@
+# Aitropolis redesign prototypes
+
+Standalone HTML prototypes of the redesigned site. They are a design test for the Aitropolis website redesign and are not the live site.
+
+| Page | File |
+|---|---|
+| Homepage | `index.html` |
+| Solutions hub | `solutions.html` |
+
+Shared code lives in `assets/site.css` and `assets/site.js`. Each page adds its own markup and a small page script. `assets/` also holds the logo files.
+
+## Run it
+
+Serve the folder over http. Opening the files directly breaks the relative asset paths.
+
+```bash
+python3 -m http.server 4173
+```
+
+Then open `http://localhost:4173/`.
+
+## Hosting a test build
+
+No build step: the folder is plain static files, so any static host works. `robots.txt` and a `noindex` meta tag on each page ask search engines to stay away, so a test URL does not compete with the live site. The site is not linked to the live app or its domains.
+
+## Where the design comes from
+
+- **Layout, motion and effects:** the Kelder template (getlayers.ai), released into the public domain (Unlicense). The prototypes are written fresh from its spec and source: the preloader, the hero halftone and its clear band behind the header, the tilted dashboard card, silk line flows, pixel-art tiles, the footer revealed from under the page, and the cursor dot trail.
+- **Type:** Awesomic's `DESIGN.md` names Cosmica. DM Sans is its listed substitute and is loaded from Google Fonts. To switch, change `--font` in `assets/site.css` once the Cosmica files are licensed.
+- **Logos:** the approved electric blue and pearl-white SVGs. Pearl-white sits on the dark hero and footer. Electric blue sits on light surfaces (the scrolled header bar and the mobile menu).
+- **Colour:** the Kelder palette on the Aitropolis electric blue, with one lime accent (`#ddf545`) for the primary action and live states.
+
+## Things to know before porting
+
+- **Figures are typed in.** The homepage and Solutions page hold company figures and the six districts with their services inline, as constants. In the Next.js build these must come from `content/canon.json` and `src/lib/districts.ts`.
+- **Service links** point to real site routes (for example `/solutions/systems/erp`). They return 404 on a plain static host unless a redirect or `404.html` is added.
+- **Motion is hand-written JavaScript** (springs approximated with CSS easing, one shared animation ticker). In Next.js it becomes client components.
+- **Copy is a first draft.** Process statements (for example "scope changes are agreed in writing") need a read by the delivery lead before publishing.
+- **Reduced motion:** the pages render their static design with no entrances, preloader or canvases except the line flows as a still frame.
+- **Preview limitation:** the in-app browser throttles animation frames, so check motion timing in a normal browser.
+
+## Open items
+
+Rules: `DESIGN-SYSTEM.md` (v3). The next steps are porting both pages into the Next.js site, redesigning the inner pages, and swapping DM Sans for Cosmica once the font files are licensed.
