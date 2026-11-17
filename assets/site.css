@@ -405,7 +405,8 @@ html[data-preloader] .pre{display:block}
 .nav-sol[aria-expanded="true"] .chev{transform:rotate(180deg)}
 .hdr nav .nav-sol,.bar nav .nav-sol{padding:0}
 .mdim{position:fixed;inset:0;z-index:70;background:rgb(6 20 46/.32);opacity:0;pointer-events:none;transition:opacity .4s var(--ease)}
-.mdim.open{opacity:1;pointer-events:auto}
+.mdim.open{opacity:1}
+.msol::before{content:"";position:absolute;left:0;right:0;top:-1.5rem;height:1.5rem}
 .msol{position:fixed;left:50%;top:5rem;z-index:95;width:min(72rem,calc(100% - 2.5rem));background:var(--surface);color:var(--ink);border-radius:var(--r-card);box-shadow:0 1.875rem 3.125rem -1.5rem rgb(6 20 46/.45);opacity:0;visibility:hidden;transform:translate(-50%,-.75rem) scale(.985);transform-origin:50% 0;transition:opacity .35s var(--ease),transform .5s var(--ease),visibility 0s .5s}
 .msol.open{opacity:1;visibility:visible;transform:translate(-50%,0) scale(1);transition:opacity .35s var(--ease),transform .5s var(--ease),visibility 0s}
 .msol-in{display:grid;grid-template-columns:24rem 1fr;grid-template-rows:auto auto;padding:1.5rem}

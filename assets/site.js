@@ -320,21 +320,23 @@ if(document.fonts)document.fonts.ready.then(()=>{if(![...document.fonts].some(f=
     svc.innerHTML=d.s.map((s,k)=>`<li style="--k:${k}"><a href="/solutions/${d.slug}/${s[0]}"><span class="mico sm">${ic(s[3])}</span><span><b>${s[1]}</b><small>${s[2]}</small></span></a></li>`).join("")};
   items.forEach((a,i)=>{a.addEventListener("mouseenter",()=>setActive(i));a.addEventListener("focus",()=>setActive(i))});
   setActive(0);
-  const triggers=$$(".nav-sol");let isOpen=false,cur=null,tmr=0;
+  const triggers=$$(".nav-sol");let isOpen=false,cur=null,tmr=0,pinned=false;
   const fine=matchMedia("(hover:hover) and (pointer:fine) and (min-width:769px)");
   const place=t=>{const h=t.closest(".hdr,.bar");const r=h.getBoundingClientRect();panel.style.top=Math.max(0,r.bottom+8)+"px"};
   const show=t=>{clearTimeout(tmr);cur=t;place(t);if(isOpen)return;isOpen=true;panel.classList.add("open");panel.inert=false;dim.classList.add("open");triggers.forEach(x=>x.setAttribute("aria-expanded","true"))};
-  const hide=(back)=>{clearTimeout(tmr);if(!isOpen)return;isOpen=false;panel.classList.remove("open");panel.inert=true;dim.classList.remove("open");triggers.forEach(x=>x.setAttribute("aria-expanded","false"));if(back&&cur)cur.focus()};
-  const later=()=>{clearTimeout(tmr);tmr=setTimeout(()=>hide(false),180)};
+  const hide=(back)=>{clearTimeout(tmr);pinned=false;if(!isOpen)return;isOpen=false;panel.classList.remove("open");panel.inert=true;dim.classList.remove("open");triggers.forEach(x=>x.setAttribute("aria-expanded","false"));if(back&&cur)cur.focus()};
+  const later=()=>{if(pinned)return;clearTimeout(tmr);tmr=setTimeout(()=>hide(false),220)};
   triggers.forEach(t=>{
-    t.addEventListener("click",e=>{e.preventDefault();if(isOpen&&cur===t){hide(false)}else{show(t);if(e.detail===0)items[0].focus({preventScroll:true})}});
+    /* A click on a hover-opened menu pins it open; a second click closes it. Touch and keyboard: click toggles. */
+    t.addEventListener("click",e=>{e.preventDefault();if(isOpen&&cur===t){if(pinned||!fine.matches){hide(false)}else{pinned=true}}else{show(t);pinned=true;if(e.detail===0)items[0].focus({preventScroll:true})}});
     t.addEventListener("mouseenter",()=>{if(fine.matches)show(t)});
     t.addEventListener("mouseleave",()=>{if(fine.matches)later()});
-    t.addEventListener("keydown",e=>{if(e.key==="ArrowDown"){e.preventDefault();show(t);items[0].focus({preventScroll:true})}});
+    t.addEventListener("keydown",e=>{if(e.key==="ArrowDown"){e.preventDefault();show(t);pinned=true;items[0].focus({preventScroll:true})}});
   });
   panel.addEventListener("mouseenter",()=>{clearTimeout(tmr)});
   panel.addEventListener("mouseleave",()=>{if(fine.matches)later()});
-  dim.addEventListener("click",()=>hide(false));
+  /* The dim layer is visual only (pointer-events none). Clicks outside the menu close it. */
+  document.addEventListener("click",e=>{if(isOpen&&!panel.contains(e.target)&&!e.target.closest(".nav-sol"))hide(false)});
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&isOpen){e.preventDefault();hide(true)}if(e.key==="Tab"&&isOpen&&panel.contains(document.activeElement)){const f=$$("a",panel);if(e.shiftKey&&document.activeElement===f[0]){e.preventDefault();cur&&cur.focus()}else if(!e.shiftKey&&document.activeElement===f[f.length-1]){e.preventDefault();hide(true)}}});
   let lastY=scrollY;addEventListener("scroll",()=>{if(isOpen&&Math.abs(scrollY-lastY)>60)hide(false);lastY=scrollY},{passive:true});
   addEventListener("resize",()=>{if(isOpen)hide(false)});
