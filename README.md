@@ -7,7 +7,7 @@ Standalone HTML prototypes of the redesigned site. They are a design test for th
 | Homepage | `index.html` |
 | Solutions hub | `solutions.html` |
 
-Shared code lives in `assets/site.css` and `assets/site.js`. Each page adds its own markup and a small page script. `assets/` also holds the logo files.
+Shared code lives in `assets/site.css` and `assets/site.js`. `assets/icons.js` is the inline Lucide icon sprite (ISC licence, see `assets/LICENSE-lucide.txt`). Each page adds its own markup and a small page script. `assets/` also holds the logo files. The Solutions mega menu and the district data are in `assets/site.js`.
 
 ## Run it
 

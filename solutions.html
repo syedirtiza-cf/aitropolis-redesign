@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="assets/site.css">
 <style>
 /* ===== Solutions page ===== */
-.bar nav a{position:relative}.hdr nav a.on{opacity:1}.hdr nav a.on::after,.bar nav a.on::after{content:"";position:absolute;left:0;right:0;bottom:-.35rem;height:2px;background:var(--lime);border-radius:2px}
+.bar nav a{position:relative}.hdr nav a.on{opacity:1}.hdr nav a.on::after,.bar nav a.on::after,.nav-sol.on::after{content:"";position:absolute;left:0;right:0;bottom:-.35rem;height:2px;background:var(--lime);border-radius:2px}
 .dash-sol .num-l{padding-top:.75rem}
 .bars{display:grid;gap:.75rem;margin-top:2rem}
 .bars .brow{display:grid;grid-template-columns:7.5rem 1fr 2rem;align-items:center;gap:1rem;height:2.25rem}
@@ -35,11 +35,11 @@
 .scd .desc{padding-top:.75rem;color:var(--muted);min-height:calc(.75rem + 3 * 1.55 * var(--t-bm))}
 @media (max-width:768px){.scd .desc{min-height:0}}
 .svc{margin-top:1.5rem}
-.svc li a{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;padding-block:.875rem;border-top:1px solid;border-image:repeating-linear-gradient(to right,var(--dash) 0 2px,transparent 2px 3px) 1;transition:padding .35s var(--ease),color .2s}
+.dname{display:flex;align-items:center;gap:.875rem}.svc .stx{flex:1}.svc li a{display:flex;align-items:center;justify-content:space-between;gap:.875rem;padding-block:.75rem;border-top:1px solid;border-image:repeating-linear-gradient(to right,var(--dash) 0 2px,transparent 2px 3px) 1;transition:padding .35s var(--ease),color .2s}
 .svc li b{display:block;font-weight:500;font-size:var(--t-bm)}
 .svc li small{display:block;color:var(--muted);font-size:.875rem;line-height:1.4;padding-top:.125rem}
-.svc li svg{flex:none;width:1rem;height:1rem;margin-top:.35rem;fill:none;stroke:var(--accent);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .3s var(--ease)}
-@media (hover:hover) and (min-width:1025px){.svc li a:hover{padding-left:.5rem}.svc li a:hover svg{transform:translateX(3px)}}
+.svc li>a>svg.ic{width:1rem;height:1rem;color:var(--accent);stroke-width:2;transition:transform .3s var(--ease)}
+@media (hover:hover) and (min-width:1025px){.svc li a:hover>svg.ic{transform:translateX(3px)}}
 .open-d{margin-top:auto;padding-top:1.5rem;font-weight:500}
 @media (max-width:1024px){.sdgrid{grid-template-columns:1fr 1fr}}
 @media (max-width:768px){.sdgrid{grid-template-columns:1fr}}
@@ -105,19 +105,19 @@
   <div class="hero-in">
     <header class="hdr" data-h style="--d:0ms">
       <a class="logo" href="index.html"><img src="assets/aitropolis-pearl-white.svg" alt="Aitropolis"></a>
-      <nav aria-label="Main"><a class="on" href="solutions.html" aria-current="page">Solutions</a><a href="index.html#cases">Case studies</a><a href="index.html#studios">Company</a></nav>
+      <nav aria-label="Main"><button class="nav-sol on" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="mega-sol">Solutions<svg class="ic chev" aria-hidden="true"><use href="#i-chevron-down"/></svg></button><a href="index.html#cases">Case studies</a><a href="index.html#studios">Company</a></nav>
       <div class="hdr-r">
         <a class="login" href="index.html#contact">Contact</a>
         <a class="btn btn-o" href="#" data-book>Book a call</a>
-        <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg viewBox="0 0 20 20"><path d="M0 6.5H20M0 13.5H20"/></svg></button>
+        <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg></button>
       </div>
     </header>
     <div class="hero-copy">
-      <div data-h style="--d:0ms"><span class="pill pill-glass"><i><svg viewBox="0 0 16 16"><path d="M2 14V7l3-2v9M7 14V3l4 2v9M13 14V8l-2-1"/></svg></i>Solutions</span></div>
+      <div data-h style="--d:0ms"><span class="pill pill-glass"><i><svg class="ic" aria-hidden="true"><use href="#i-blocks"/></svg></i>Solutions</span></div>
       <h1 class="h1" data-mask="hero">Six districts. One metropolis.</h1>
       <p class="lead t-bl" data-h style="--d:420ms">Enterprise technology is not a collection of point solutions. It is an interconnected system. Aitropolis designs, builds and operates all six districts as one.</p>
       <div class="acts" data-h style="--d:520ms">
-        <a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a>
+        <a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
         <a class="btn btn-o" href="#districts">Browse the districts</a>
       </div>
     </div>
@@ -128,7 +128,7 @@
             <div>
               <p class="t-bs" style="color:var(--on-soft)">Districts</p>
               <p class="num-l" data-count>6</p>
-              <div style="padding-top:1rem"><span class="stat-pill"><svg viewBox="0 0 16 16"><path d="M4 12L12 4M5 4h7v7"/></svg><span><span id="svcTotal">32</span> services, each with its own page</span></span></div>
+              <div style="padding-top:1rem"><span class="stat-pill"><svg class="ic" aria-hidden="true"><use href="#i-arrow-up-right"/></svg><span><span id="svcTotal">32</span> services, each with its own page</span></span></div>
             </div>
             <dl class="rows">
               <div class="dash-t d" style="padding-top:1rem"><dt>One team</dt><dd>Across every district</dd></div>
@@ -150,7 +150,7 @@
 <!-- ===== DISTRICTS ===== -->
 <section class="sec px" id="districts">
   <div class="shead dash-t">
-    <div><span class="pill pill-line"><i><svg viewBox="0 0 16 16"><path d="M2 14V7l3-2v9M7 14V3l4 2v9M13 14V8l-2-1"/></svg></i>The districts</span></div>
+    <div><span class="pill pill-line"><i><svg class="ic" aria-hidden="true"><use href="#i-blocks"/></svg></i>The districts</span></div>
     <div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Pick a district, or start with the problem.</h2><p class="t-bm muted">Each district has its own services and its own platforms. They are built to connect, so starting in one does not close off the others.</p></div>
   </div>
   <div class="sdgrid" id="sdgrid"></div>
@@ -160,7 +160,7 @@
 <section class="sec px" id="connected">
   <div class="steps-wrap" id="stepsWrap">
     <canvas id="flow2" aria-hidden="true"></canvas>
-    <div class="steps-top" data-r style="align-items:flex-start;padding-bottom:2rem"><span class="pill pill-glass"><i><svg viewBox="0 0 16 16"><circle cx="3.5" cy="8" r="1.8"/><circle cx="12.5" cy="3.5" r="1.8"/><circle cx="12.5" cy="12.5" r="1.8"/><path d="M5 7.2L11 4.3M5 8.8l6 3"/></svg></i>One system</span>
+    <div class="steps-top" data-r style="align-items:flex-start;padding-bottom:2rem"><span class="pill pill-glass"><i><svg class="ic" aria-hidden="true"><use href="#i-network"/></svg></i>One system</span>
       <h2 class="h2" data-mask="h" style="text-align:left;width:40rem">Connected, not fragmented.</h2></div>
     <div class="conn">
       <ol class="pts" style="position:relative">
@@ -176,7 +176,7 @@
 <!-- ===== WAYS TO ENGAGE ===== -->
 <section class="sec px" id="engage">
   <div class="shead dash-t">
-    <div><span class="pill pill-line"><i><svg viewBox="0 0 16 16"><path d="M2 8h4l2-4 2 8 2-4h2"/></svg></i>Ways to engage</span></div>
+    <div><span class="pill pill-line"><i><svg class="ic" aria-hidden="true"><use href="#i-handshake"/></svg></i>Ways to engage</span></div>
     <div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Beyond the districts.</h2></div>
   </div>
   <div class="egrid">
@@ -189,7 +189,7 @@
 <!-- ===== FAQ ===== -->
 <section class="sec px" id="faq">
   <div class="faq dash-t" style="padding-top:2rem">
-    <div data-r="fade"><span class="pill pill-line"><i><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><path d="M6.3 6.2a1.8 1.8 0 113 1.2c-.6.5-1.3.8-1.3 1.6M8 11.4v.1"/></svg></i>Questions</span><h2 class="h2" style="padding-top:1.5rem" data-mask="h">Solutions, answered.</h2></div>
+    <div data-r="fade"><span class="pill pill-line"><i><svg class="ic" aria-hidden="true"><use href="#i-circle-help"/></svg></i>Questions</span><h2 class="h2" style="padding-top:1.5rem" data-mask="h">Solutions, answered.</h2></div>
     <div id="faqList"></div>
   </div>
 </section>
@@ -202,7 +202,7 @@
       <span class="th" aria-hidden="true">∴</span>
       <h2 class="h2">Choose a district, or talk to a specialist.</h2>
       <p class="t-bl">Bring the roadmap you have, or the problem you do not know how to start. An engineer will say where to begin.</p>
-      <div class="acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a><a class="btn btn-o" href="index.html#contact">Write to us</a></div>
+      <div class="acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a><a class="btn btn-o" href="index.html#contact">Write to us</a></div>
     </div>
   </div>
 </section>
@@ -225,27 +225,21 @@
   <div class="px" aria-hidden="true"><div class="mega-box"><p class="mega" id="mega"></p></div></div>
 </footer></div>
 
-<div class="bar" id="bar" aria-hidden="true"><div class="in"><a class="logo" href="index.html"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"></a><nav aria-label="Main"><a class="on" href="solutions.html">Solutions</a><a href="index.html#cases">Case studies</a><a href="index.html#studios">Company</a></nav><div class="r"><a class="login" href="index.html#contact">Contact</a><a class="btn btn-oi btn-sm" href="#" data-book>Book a call</a><button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg viewBox="0 0 20 20"><path d="M0 6.5H20M0 13.5H20"/></svg></button></div></div></div>
+<div class="bar" id="bar" aria-hidden="true"><div class="in"><a class="logo" href="index.html"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"></a><nav aria-label="Main"><button class="nav-sol on" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="mega-sol">Solutions<svg class="ic chev" aria-hidden="true"><use href="#i-chevron-down"/></svg></button><a href="index.html#cases">Case studies</a><a href="index.html#studios">Company</a></nav><div class="r"><a class="login" href="index.html#contact">Contact</a><a class="btn btn-oi btn-sm" href="#" data-book>Book a call</a><button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg></button></div></div></div>
 <div class="dim" id="dim"></div>
-<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Menu"><div class="top"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"><button class="xb" type="button" aria-label="Close menu" id="xb"><svg viewBox="0 0 20 20"><path d="M3 3L17 17M17 3L3 17"/></svg></button></div>
-  <nav class="dash-t"><a class="dash-b" href="solutions.html">Solutions</a><a class="dash-b" href="index.html#cases">Case studies</a><a class="dash-b" href="index.html#studios">Company</a></nav>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Menu"><div class="top"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"><button class="xb" type="button" aria-label="Close menu" id="xb"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div>
+  <nav class="dash-t"><a class="dash-b" data-sol-link href="solutions.html">Solutions</a><a class="dash-b" href="index.html#cases">Case studies</a><a class="dash-b" href="index.html#studios">Company</a></nav>
   <div class="acts"><a class="btn btn-oi" href="index.html#contact">Contact</a><a class="btn btn-p" href="#" data-book>Book a call</a></div></div>
 
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
+<script src="assets/icons.js"></script>
 <script src="assets/site.js"></script>
 <script>
 (()=>{
 const {ART,ORDER,smooth,easeIO,clamp,mk,inView,NS,REDUCED,whileVisible}=window.AIT;
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
-/* District data: in the Next.js build this is src/lib/districts.ts. */
-const D=[
- {slug:"systems",title:"Systems",sub:"ERP, CRM and business intelligence",desc:"End-to-end enterprise systems that are the backbone of business operations.",art:"blocks",g:"a",s:[["erp","ERP Implementation","Oracle EBS, Oracle Cloud, SAP, D365, Odoo"],["crm","CRM Solutions","Salesforce, Dynamics, Siebel, Oracle CX"],["bi","Business Intelligence","Analytics, dashboards, data warehousing"],["application-modernization","Application Modernization","Legacy refactoring, cloud migration, microservices"],["assessments","Assessments & Upgrades","Functional and technical assessments, upgrades"],["database","Database Management","Administration, tuning, performance"]]},
- {slug:"foundations",title:"Foundations",sub:"Cloud and infrastructure",desc:"The cloud-native foundation that every modern enterprise is built on.",art:"slabs",g:"b",s:[["cloud","Cloud Transformation","AWS, Azure, GCP, BytePlus"],["cloud-virtualization","Cloud & Virtualization","Private, hybrid, public cloud, migration"],["private-cloud","Private Cloud","VMware, Red Hat OpenShift"],["devops","DevOps & Automation","CI/CD, infrastructure as code"],["finops","FinOps","Cloud cost governance and optimisation"],["managed-services","Managed Services","24/7 operations and support"]]},
- {slug:"intelligence",title:"Intelligence",sub:"AI, machine learning and custom software",desc:"Artificial intelligence, machine learning and custom platforms that unlock competitive advantage.",art:"burst",g:"c",s:[["generative-ai","Generative AI","LLMs, RAG systems, AI agents"],["mlops","ML & MLOps","Model training, OpenShift AI, pipelines"],["data-engineering","Data Engineering","Pipelines, warehousing, insights"],["custom-software","Custom Software","Core banking, wallets, payment gateways"],["telecom-platforms","Telecom Platforms","OSS/BSS, VAS platforms"]]},
- {slug:"exchange",title:"Exchange",sub:"Blockchain and fintech",desc:"Distributed systems and blockchain that enable trust in digital economies.",art:"hex",g:"b",s:[["smart-contracts","Smart Contracts","Contract development, audits, Web3"],["defi","DeFi Protocols","Lending, staking, liquidity systems"],["tokenization","Tokenization & NFT","Asset tokenisation, NFT marketplaces"],["wallets-exchanges","Wallets & Exchanges","Custody, trading platforms"],["blockchain-consulting","Integration & Consulting","Blockchain strategy and enterprise integration"]]},
- {slug:"signal",title:"Signal",sub:"AI-powered go-to-market and growth",desc:"AI-driven go-to-market and growth marketing that turns market signals into measurable revenue.",art:"waves",g:"c",s:[["seo","SEO & Content","Search, organic growth, content marketing"],["paid-media","Paid Media","Google, Meta, LinkedIn advertising"],["marketing-automation","Marketing Automation","Journeys, nurture, CRM-connected campaigns"],["social-media-marketing","Social Media Marketing","Multi-platform strategy and community"],["social-influencer","Social & Influencer","Social media management, influencer marketing"],["brand-analytics","Brand & Analytics","Brand strategy, performance tracking"]]},
- {slug:"immersion",title:"Immersion",sub:"AR/VR, AV and experiences",desc:"Immersive technologies and audio-visual environments that redefine customer and employee experiences.",art:"gem",g:"a",s:[["ar-vr","AR/VR Experiences","XR, metaverse, interactive installations"],["smart-meetings","Smart Meeting Rooms","Control systems, room automation"],["av-integration","Museum & Public-Space AV","Interactive installations, kiosks, exhibits"],["scenography","Scenography & Lighting","Technical lighting, scenography, automation"]]}
-];
+/* District data lives in assets/site.js (src/lib/districts.ts in the Next.js build). */
+const D=window.AIT.D,ic=window.AIT.ic;
 const total=D.reduce((n,d)=>n+d.s.length,0);$("#svcTotal").textContent=total;
 
 /* pixel art tile (same engine as the homepage) */
@@ -264,11 +258,11 @@ $$("[data-pix]").forEach(el=>pixTile(el,el.dataset.pix));
   if(REDUCED)run();else inView($("#dash"),run,"0px")})();
 
 /* district cards */
-(()=>{const grid=$("#sdgrid");const arrow='<svg viewBox="0 0 16 16"><path d="M2 8h12M9 3l5 5-5 5"/></svg>';
-  D.forEach((d,i)=>{const c=mk("article","card scd");c.dataset.r="";c.style.setProperty("--d",`${(i%3)*90}ms`);
+(()=>{const grid=$("#sdgrid");const arrow='<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg>';
+  D.forEach((d,i)=>{const c=mk("article","card scd");c.dataset.r="";c.id="d-"+d.slug;c.style.setProperty("--d",`${(i%3)*90}ms`);
     const tile=mk("div",`dtile ${d.g}`);pixTile(tile,d.art);
     const body=mk("div","dbody");
-    body.innerHTML=`<div class="dtop"><h3 class="t-tl">${d.title}</h3><p class="num-m">${String(i+1).padStart(2,"0")}</p></div><p class="t-bs" style="padding-top:.25rem;font-weight:500">${d.sub}</p><p class="t-bm desc">${d.desc}</p><ul class="svc">${d.s.map(s=>`<li><a href="/solutions/${d.slug}/${s[0]}"><span><b>${s[1]}</b><small>${s[2]}</small></span>${arrow}</a></li>`).join("")}</ul><a class="open-d lnk" href="/solutions/${d.slug}">Open the ${d.title} district</a>`;
+    body.innerHTML=`<div class="dtop"><h3 class="t-tl dname"><span class="mico">${ic(d.icon)}</span>${d.title}</h3><p class="num-m">${String(i+1).padStart(2,"0")}</p></div><p class="t-bs" style="padding-top:.25rem;font-weight:500">${d.sub}</p><p class="t-bm desc">${d.desc}</p><ul class="svc">${d.s.map(s=>`<li><a href="/solutions/${d.slug}/${s[0]}"><span class="mico sm">${ic(s[3])}</span><span class="stx"><b>${s[1]}</b><small>${s[2]}</small></span>${arrow}</a></li>`).join("")}</ul><a class="open-d lnk" href="/solutions/${d.slug}">Open the ${d.title} district</a>`;
     c.append(tile,body);grid.append(c)});
   if(!REDUCED)$$("[data-r]",grid).forEach(el=>{new IntersectionObserver(([e],io)=>{if(e.isIntersecting){el.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(el)})})();
 

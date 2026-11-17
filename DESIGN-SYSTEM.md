@@ -81,6 +81,12 @@ The page is drawn at 1440 and re-laid at 1024, 768 and 390. Everything is in rem
 
 Required states on every interactive element: default, hover, active, focus-visible, disabled, error. Touch targets 44px or more. Focus ring is `2px solid --accent2` with a 3px offset.
 
+## 5b / Icons and the Solutions menu
+
+- **Icons:** Lucide (ISC licence), 24px grid, 1.75 stroke (2 at 16px), no fill, `currentColor`. One glyph per concept. A subset is inlined as an SVG sprite in `assets/icons.js`; add an icon there before using it. No emoji and no other icon set. The Lucide licence text is in `assets/LICENSE-lucide.txt`.
+- **Solutions menu (desktop):** a white 20px panel under the header that opens on click, on hover for fine pointers, and on the down arrow key. The left column lists the six districts with their Lucide icons; hovering or focusing one swaps the right column to that district's services, each with its own icon and one-line subtitle. A bottom row holds the extra offers (AI Center, Growth Partner offer, Offshore IT teams) and "See all solutions". Esc closes it and returns focus. It closes on scroll and on outside click. The page dims behind it.
+- **Solutions menu (mobile):** the sheet's "Solutions" row expands into an accordion of districts, each expanding to its services.
+
 ## 6 / Motion
 
 Calm and precise, no bounce. Critically damped feel: `cubic-bezier(.2, 0, 0, 1)`, 0.9 to 1.4s for entrances, 150 to 400ms for hover. One shared animation ticker; per-frame values scale by real frame time. Heading lines rise out of masks. Content blocks rise 48px and fade once, siblings 90ms apart. Numbers count up once in view. Three canvas effects run only while on screen: the hero halftone, the line flows, the cursor dot trail.

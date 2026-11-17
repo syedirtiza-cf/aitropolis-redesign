@@ -72,12 +72,12 @@ const rowsData=CANON.studios.map(s=>{const o=offset(s.tz,NOW);return{...s,off:o,
 
 /* ---- District cards with procedural pixel art ---- */
 const DISTRICTS=[
- {n:"Systems",sub:"ERP, CRM and business intelligence",plat:"Oracle EBS, Oracle Cloud, SAP, D365, Odoo",start:"ERP assessment",art:"blocks",g:"a",k:"01"},
- {n:"Foundations",sub:"Cloud and infrastructure",plat:"AWS, Azure, GCP, VMware, OpenShift",start:"Cloud migration",art:"slabs",g:"b",k:"02"},
- {n:"Intelligence",sub:"AI, machine learning and custom software",plat:"LLMs, MLOps, data engineering",start:"Generative AI",art:"burst",g:"c",k:"03"},
- {n:"Exchange",sub:"Blockchain and fintech",plat:"Smart contracts, DeFi, tokenisation",start:"Smart contracts",art:"hex",g:"b",k:"04"},
- {n:"Signal",sub:"AI-powered go-to-market and growth",plat:"SEO, paid media, automation",start:"Enterprise SEO",art:"waves",g:"c",k:"05"},
- {n:"Immersion",sub:"AR/VR, AV and experiences",plat:"AV integration, XR, smart rooms",start:"AV integration",art:"gem",g:"a",k:"06"}];
+ {n:"Systems",icon:"blocks",sub:"ERP, CRM and business intelligence",plat:"Oracle EBS, Oracle Cloud, SAP, D365, Odoo",start:"ERP assessment",art:"blocks",g:"a",k:"01"},
+ {n:"Foundations",icon:"layers",sub:"Cloud and infrastructure",plat:"AWS, Azure, GCP, VMware, OpenShift",start:"Cloud migration",art:"slabs",g:"b",k:"02"},
+ {n:"Intelligence",icon:"brain",sub:"AI, machine learning and custom software",plat:"LLMs, MLOps, data engineering",start:"Generative AI",art:"burst",g:"c",k:"03"},
+ {n:"Exchange",icon:"hexagon",sub:"Blockchain and fintech",plat:"Smart contracts, DeFi, tokenisation",start:"Smart contracts",art:"hex",g:"b",k:"04"},
+ {n:"Signal",icon:"radar",sub:"AI-powered go-to-market and growth",plat:"SEO, paid media, automation",start:"Enterprise SEO",art:"waves",g:"c",k:"05"},
+ {n:"Immersion",icon:"glasses",sub:"AR/VR, AV and experiences",plat:"AV integration, XR, smart rooms",start:"AV integration",art:"gem",g:"a",k:"06"}];
 const ART={
  blocks:(c,r)=>c>=8&&c<=22&&r>=3&&r<=17&&((c-8)%5<4)&&((r-3)%5<4),
  slabs:(c,r)=>{const i=Math.floor((r-4)/4);return r>=4&&r<=17&&(r-4)%4<3&&c>=9+i*0&&c<=22-(3-i)*0&&c>=(8+i*1)&&c<=(23-i*1)},
@@ -98,7 +98,7 @@ window.AIT={ART,ORDER,smooth,easeIO,clamp,mk,inView,NS,REDUCED,whileVisible,tick
   const ks=px.map(p=>p.k);const lo=Math.min(...ks),rg=Math.max(1e-6,Math.max(...ks)-lo);px.forEach(p=>p.s=((p.k-lo)/rg)*.6);
   tile.append(svg);
   const body=mk("div","dbody");
-  body.innerHTML=`<div class="dtop"><h3 class="t-tm">${d.n}</h3><p class="num-m" style="font-size:var(--t-m)">${d.k}</p></div><p class="t-bm muted" style="padding-top:.25rem">${d.sub}</p><dl class="dash-t" style="margin-top:1.25rem"><div class="dash-b"><dt>Platforms</dt><dd style="text-align:right;max-width:13rem">${d.plat}</dd></div><div><dt>Start with</dt><dd>${d.start}</dd></div></dl>`;
+  body.innerHTML=`<div class="dtop"><h3 class="t-tm dname"><span class="mico">${`<svg class="ic" aria-hidden="true"><use href="#i-${d.icon}"/></svg>`}</span>${d.n}</h3><p class="num-m" style="font-size:var(--t-m)">${d.k}</p></div><p class="t-bm muted" style="padding-top:.25rem">${d.sub}</p><dl class="dash-t" style="margin-top:1.25rem"><div class="dash-b"><dt>Platforms</dt><dd style="text-align:right;max-width:13rem">${d.plat}</dd></div><div><dt>Start with</dt><dd>${d.start}</dd></div></dl>`;
   card.append(tile,body);grid.append(card);
   const draw=p=>px.forEach(o=>{const g=smooth((p-o.s)/.4);o.e.setAttribute("r",1+4*g);o.e.setAttribute("fill-opacity",.4+.6*g)});
   if(REDUCED)draw(1);else{draw(0);arts.push({svg,draw,played:false})}
@@ -290,4 +290,60 @@ Object.entries(FLOWS).forEach(([id,cfg])=>{const cv=$("#"+id);if(cv)flow(cv,cfg)
 const fail=(u,e)=>{if($(".errbar"))return;const b=mk("div","errbar");b.setAttribute("role","alert");b.textContent="Asset failed to load: "+u+(e?" ("+e+")":"");document.body.append(b)};
 $$("img").forEach(i=>i.addEventListener("error",()=>fail(i.src),{once:true}));
 if(document.fonts)document.fonts.ready.then(()=>{if(![...document.fonts].some(f=>f.status==="loaded"))console.warn("[aitropolis] web font not loaded, using fallback")});
+})();
+
+/* ===== Solutions mega menu (desktop) and accordion (mobile sheet) ===== */
+(()=>{
+  const {mk,REDUCED}=window.AIT;const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+  const ic=(n,c="ic")=>`<svg class="${c}" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+  /* District data: in the Next.js build this is src/lib/districts.ts. Service rows: [slug, title, subtitle, icon]. */
+  const D=[
+   {slug:"systems",title:"Systems",sub:"ERP, CRM and business intelligence",desc:"End-to-end enterprise systems that are the backbone of business operations.",icon:"blocks",art:"blocks",g:"a",s:[["erp","ERP Implementation","Oracle EBS, Oracle Cloud, SAP, D365, Odoo","boxes"],["crm","CRM Solutions","Salesforce, Dynamics, Siebel, Oracle CX","users"],["bi","Business Intelligence","Analytics, dashboards, data warehousing","chart-column"],["application-modernization","Application Modernization","Legacy refactoring, cloud migration, microservices","refresh-cw"],["assessments","Assessments & Upgrades","Functional and technical assessments, upgrades","clipboard-check"],["database","Database Management","Administration, tuning, performance","database"]]},
+   {slug:"foundations",title:"Foundations",sub:"Cloud and infrastructure",desc:"The cloud-native foundation that every modern enterprise is built on.",icon:"layers",art:"slabs",g:"b",s:[["cloud","Cloud Transformation","AWS, Azure, GCP, BytePlus","cloud"],["cloud-virtualization","Cloud & Virtualization","Private, hybrid, public cloud, migration","server"],["private-cloud","Private Cloud","VMware, Red Hat OpenShift","lock"],["devops","DevOps & Automation","CI/CD, infrastructure as code","git-branch"],["finops","FinOps","Cloud cost governance and optimisation","trending-down"],["managed-services","Managed Services","24/7 operations and support","headset"]]},
+   {slug:"intelligence",title:"Intelligence",sub:"AI, machine learning and custom software",desc:"Artificial intelligence, machine learning and custom platforms that unlock competitive advantage.",icon:"brain",art:"burst",g:"c",s:[["generative-ai","Generative AI","LLMs, RAG systems, AI agents","sparkles"],["mlops","ML & MLOps","Model training, OpenShift AI, pipelines","cpu"],["data-engineering","Data Engineering","Pipelines, warehousing, insights","workflow"],["custom-software","Custom Software","Core banking, wallets, payment gateways","code"],["telecom-platforms","Telecom Platforms","OSS/BSS, VAS platforms","radio-tower"]]},
+   {slug:"exchange",title:"Exchange",sub:"Blockchain and fintech",desc:"Distributed systems and blockchain that enable trust in digital economies.",icon:"hexagon",art:"hex",g:"b",s:[["smart-contracts","Smart Contracts","Contract development, audits, Web3","file-code"],["defi","DeFi Protocols","Lending, staking, liquidity systems","landmark"],["tokenization","Tokenization & NFT","Asset tokenisation, NFT marketplaces","coins"],["wallets-exchanges","Wallets & Exchanges","Custody, trading platforms","wallet"],["blockchain-consulting","Integration & Consulting","Blockchain strategy and enterprise integration","link"]]},
+   {slug:"signal",title:"Signal",sub:"AI-powered go-to-market and growth",desc:"AI-driven go-to-market and growth marketing that turns market signals into measurable revenue.",icon:"radar",art:"waves",g:"c",s:[["seo","SEO & Content","Search, organic growth, content marketing","search"],["paid-media","Paid Media","Google, Meta, LinkedIn advertising","megaphone"],["marketing-automation","Marketing Automation","Journeys, nurture, CRM-connected campaigns","zap"],["social-media-marketing","Social Media Marketing","Multi-platform strategy and community","share-2"],["social-influencer","Social & Influencer","Social media management, influencer marketing","users-round"],["brand-analytics","Brand & Analytics","Brand strategy, performance tracking","chart-pie"]]},
+   {slug:"immersion",title:"Immersion",sub:"AR/VR, AV and experiences",desc:"Immersive technologies and audio-visual environments that redefine customer and employee experiences.",icon:"glasses",art:"gem",g:"a",s:[["ar-vr","AR/VR Experiences","XR, metaverse, interactive installations","box"],["smart-meetings","Smart Meeting Rooms","Control systems, room automation","presentation"],["av-integration","Museum & Public-Space AV","Interactive installations, kiosks, exhibits","tv"],["scenography","Scenography & Lighting","Technical lighting, scenography, automation","lamp-ceiling"]]}
+  ];
+  const EXTRA=[{t:"AI Center",s:"GPU-accelerated AI and ML",h:"/ai",i:"cpu"},{t:"Growth Partner offer",s:"Build, grow and automate, bundled",h:"/digital-growth-partner",i:"handshake"},{t:"Offshore IT teams",s:"Engineers inside your delivery process",h:"/solutions/offshore-it-teams",i:"users"}];
+  Object.assign(window.AIT,{D,ic});
+
+  /* ---- Desktop panel ---- */
+  const panel=mk("div","msol");panel.id="mega-sol";panel.setAttribute("role","dialog");panel.setAttribute("aria-label","Solutions");panel.inert=true;
+  panel.innerHTML=`<div class="msol-in"><div class="msol-l"><p class="cap">Solutions</p><ul class="mdist">${D.map((d,i)=>`<li><a class="mitem" href="/solutions/${d.slug}" data-i="${i}"><span class="mico">${ic(d.icon)}</span><span><b>${d.title}</b><small>${d.sub}</small></span></a></li>`).join("")}</ul></div>
+  <div class="msol-r"><div class="msol-h"><p class="cap" id="msolCap"></p><a class="mopen lnk" id="msolOpen" href="#"></a></div><ul class="msvc" id="msolSvc"></ul></div>
+  <div class="msol-b">${EXTRA.map(e=>`<a class="mxtra" href="${e.h}"><span class="mico">${ic(e.i)}</span><span><b>${e.t}</b><small>${e.s}</small></span></a>`).join("")}<a class="btn btn-d btn-sm" href="solutions.html">See all solutions${ic("arrow-right")}</a></div></div>`;
+  document.body.append(panel);
+  const dim=mk("div","mdim");document.body.append(dim);
+  const items=$$(".mitem",panel),svc=$("#msolSvc"),cap=$("#msolCap"),opn=$("#msolOpen");
+  const setActive=i=>{items.forEach((a,k)=>a.classList.toggle("on",k===i));const d=D[i];cap.textContent=`${d.title} services`;opn.href=`/solutions/${d.slug}`;opn.innerHTML=`Open the ${d.title} district`;
+    svc.innerHTML=d.s.map((s,k)=>`<li style="--k:${k}"><a href="/solutions/${d.slug}/${s[0]}"><span class="mico sm">${ic(s[3])}</span><span><b>${s[1]}</b><small>${s[2]}</small></span></a></li>`).join("")};
+  items.forEach((a,i)=>{a.addEventListener("mouseenter",()=>setActive(i));a.addEventListener("focus",()=>setActive(i))});
+  setActive(0);
+  const triggers=$$(".nav-sol");let isOpen=false,cur=null,tmr=0;
+  const fine=matchMedia("(hover:hover) and (pointer:fine) and (min-width:769px)");
+  const place=t=>{const h=t.closest(".hdr,.bar");const r=h.getBoundingClientRect();panel.style.top=Math.max(0,r.bottom+8)+"px"};
+  const show=t=>{clearTimeout(tmr);cur=t;place(t);if(isOpen)return;isOpen=true;panel.classList.add("open");panel.inert=false;dim.classList.add("open");triggers.forEach(x=>x.setAttribute("aria-expanded","true"))};
+  const hide=(back)=>{clearTimeout(tmr);if(!isOpen)return;isOpen=false;panel.classList.remove("open");panel.inert=true;dim.classList.remove("open");triggers.forEach(x=>x.setAttribute("aria-expanded","false"));if(back&&cur)cur.focus()};
+  const later=()=>{clearTimeout(tmr);tmr=setTimeout(()=>hide(false),180)};
+  triggers.forEach(t=>{
+    t.addEventListener("click",e=>{e.preventDefault();if(isOpen&&cur===t){hide(false)}else{show(t);if(e.detail===0)items[0].focus({preventScroll:true})}});
+    t.addEventListener("mouseenter",()=>{if(fine.matches)show(t)});
+    t.addEventListener("mouseleave",()=>{if(fine.matches)later()});
+    t.addEventListener("keydown",e=>{if(e.key==="ArrowDown"){e.preventDefault();show(t);items[0].focus({preventScroll:true})}});
+  });
+  panel.addEventListener("mouseenter",()=>{clearTimeout(tmr)});
+  panel.addEventListener("mouseleave",()=>{if(fine.matches)later()});
+  dim.addEventListener("click",()=>hide(false));
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"&&isOpen){e.preventDefault();hide(true)}if(e.key==="Tab"&&isOpen&&panel.contains(document.activeElement)){const f=$$("a",panel);if(e.shiftKey&&document.activeElement===f[0]){e.preventDefault();cur&&cur.focus()}else if(!e.shiftKey&&document.activeElement===f[f.length-1]){e.preventDefault();hide(true)}}});
+  let lastY=scrollY;addEventListener("scroll",()=>{if(isOpen&&Math.abs(scrollY-lastY)>60)hide(false);lastY=scrollY},{passive:true});
+  addEventListener("resize",()=>{if(isOpen)hide(false)});
+  panel.addEventListener("click",e=>{if(e.target.closest("a"))hide(false)});
+
+  /* ---- Mobile sheet accordion ---- */
+  const sl=$("#sheet [data-sol-link]");
+  if(sl){const wrap=mk("div","sh-sol");
+    wrap.innerHTML=`<button class="sh-btn dash-b" type="button" aria-expanded="false" aria-controls="shSolBody"><span>Solutions</span>${ic("chevron-down","ic chev")}</button><div class="sh-body" id="shSolBody"><div class="sh-inner">${D.map(d=>`<details><summary><span class="mico sm">${ic(d.icon)}</span><span>${d.title}</span>${ic("chevron-down","ic chev")}</summary><ul>${d.s.map(s=>`<li><a href="/solutions/${d.slug}/${s[0]}">${s[1]}</a></li>`).join("")}<li><a class="all" href="/solutions/${d.slug}">Open ${d.title}${ic("arrow-right")}</a></li></ul></details>`).join("")}<a class="sh-all" href="solutions.html">See all solutions${ic("arrow-right")}</a></div></div>`;
+    sl.replaceWith(wrap);const b=$(".sh-btn",wrap);b.addEventListener("click",()=>{const o=wrap.classList.toggle("open");b.setAttribute("aria-expanded",String(o))});
+    $$("details",wrap).forEach(d=>d.addEventListener("toggle",()=>{if(d.open)$$("details",wrap).forEach(o=>{if(o!==d)o.open=false})}))}
 })();
