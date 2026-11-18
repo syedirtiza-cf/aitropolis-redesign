@@ -48,7 +48,7 @@ class X(HTMLParser):
         if t in TEXT and not s.skip:
             if s.stack:
                 s.stack[-1][3] = True
-            s.stack.append([t, a.get("class", ""), "", False, a.get("href", ""), []])
+            s.stack.append([t, a.get("class", ""), "", False, a.get("href", ""), [], None])
         if t == "br" and s.stack:
             s.stack[-1][2] += " "
     def emit(s, tok):
@@ -69,16 +69,25 @@ class X(HTMLParser):
             s.emit(["faq_end"])
         if not (t in TEXT and s.stack and s.stack[-1][0] == t):
             return
-        tag, cls, buf, hc, href, kids = s.stack.pop()
+        tag, cls, buf, hc, href, kids, lastrow = s.stack.pop()
         text = re.sub(r"\s+", " ", buf).strip()
         parent = s.stack[-1][0] if s.stack else ""
         if tag == "div":
             # a div holding only short text-leaves is a row: (label, note, value)
             if kids and not text:
+                if lastrow is not None:
+                    lastrow[1].extend(kids)   # a value beside a (label, note) row belongs to that row
+                    if s.stack and s.stack[-1][0] == "div": s.stack[-1][6] = lastrow
+                    return
                 if len(kids) == 1:
                     s.emit(["span", kids[0], "", ""])
                 else:
-                    s.emit(["row", kids, "", ""])
+                    tok = ["row", kids, "", ""]
+                    s.emit(tok)
+                    if s.stack and s.stack[-1][0] == "div": s.stack[-1][6] = tok
+                return
+            if lastrow is not None and not kids and not text:
+                if s.stack and s.stack[-1][0] == "div": s.stack[-1][6] = lastrow
                 return
             if text and not hc:
                 if parent == "div":

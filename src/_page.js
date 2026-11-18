@@ -20,3 +20,9 @@ document.querySelectorAll("[data-pix]").forEach(host=>{const kind=host.dataset.p
   const set=id=>links.forEach(a=>{const on=a.getAttribute("href")==="#"+id;a.classList.toggle("on",on);if(on)a.setAttribute("aria-current","true");else a.removeAttribute("aria-current")});
   const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)set(e.target.id)})},{rootMargin:"-30% 0px -60% 0px"});secs.forEach(s=>io.observe(s));
   links.forEach(a=>a.addEventListener("click",e=>{const t=document.getElementById(a.getAttribute("href").slice(1));if(!t)return;e.preventDefault();t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"});history.replaceState(null,"",a.getAttribute("href"))}))})();
+/* article: reading progress and contents highlight */
+(()=>{const bar=document.querySelector(".aprog i");if(!bar)return;const art=document.querySelector(".abody");
+  const upd=()=>{const r=art.getBoundingClientRect(),h=r.height-innerHeight*.5;bar.style.transform="scaleX("+Math.max(0,Math.min(1,(-r.top+innerHeight*.2)/Math.max(1,h)))+")"};
+  addEventListener("scroll",upd,{passive:true});addEventListener("resize",upd);upd();
+  const links=[...document.querySelectorAll(".ptoc a")];const secs=links.map(a=>document.getElementById(a.getAttribute("href").slice(1))).filter(Boolean);
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-25% 0px -65% 0px"});secs.forEach(s=>io.observe(s))})();

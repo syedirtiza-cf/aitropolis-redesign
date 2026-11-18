@@ -126,28 +126,23 @@
    "faq": [],
    "kv": [
     [
-     "Oracle E-Business Suite",
-     "System Adopt"
+     "Oracle E-Business Suite · System Adopt",
+     "14-18 months"
     ],
     [
-     "Microsoft Dynamics 365",
-     "Greenfield"
+     "Microsoft Dynamics 365 · Greenfield",
+     "10-14 months"
     ],
     [
-     "SAP S/4HANA",
-     "Modernise"
+     "SAP S/4HANA · Modernise",
+     "20-28 months"
     ],
     [
-     "Odoo",
-     "Greenfield"
+     "Odoo · Greenfield",
+     "8-12 months"
     ]
    ],
-   "bullets": [
-    "14-18 months",
-    "10-14 months",
-    "20-28 months",
-    "8-12 months"
-   ],
+   "bullets": [],
    "tags": []
   },
   {

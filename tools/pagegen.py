@@ -434,6 +434,40 @@ def case_body(rest, ids, icon, cfg, hero_html):
     sub = f'<nav class="subnav" aria-label="On this page"><div class="px"><div class="subnav-in">' + "".join(f'<a href="#{i}">{E(t)}</a>' for i, t in nav) + "</div></div></nav>" if len(nav) > 2 else ""
     return [hero_html, sub, f'<section class="px svc"><div class="svc-grid">{rail}<div class="svc-main">{"".join(main)}</div></div></section>']
 
+def alist(items):
+    rows = []
+    for x in items:
+        x = re.sub(r"^\s*(?:[-\u2022]|\d+\.)\s*", "", x)
+        a, _, b = x.partition(" \u00b7 ")
+        rows.append(f'<li>{ic("check")}<span><b>{E(a)}</b>{(" <i>" + E(b) + "</i>") if b else ""}</span></li>')
+    return '<ul class="alist">' + "".join(rows) + "</ul>"
+
+def article_body(rest, ids, icon, cfg, hero_html):
+    blocks, toc = [], []
+    live = [x for x in rest if x["h2"] or x["lead"] or x["cards"] or x["bullets"] or x["kv"]]
+    for k, sec in enumerate(live):
+        sec = clean(sec)
+        h = sec["h2"]; sid = slug(h or f"part-{k}")
+        low = h.lower()
+        if h: toc.append(f'<li><a href="#{sid}">{E(h)}</a></li>')
+        paras = [f'<p class="{"t-bl" if i == 0 and k == 0 else "t-bm"}">{E(p)}</p>' for i, p in enumerate(sec["lead"])]
+        if "frequently" in low and sec["cards"]:
+            body = "".join(f'<details><summary><span>{E(c["h"])}</span><i aria-hidden="true"></i></summary>' + "".join(f'<p class="t-bm">{E(p)}</p>' for p in c["p"]) + "</details>" for c in sec["cards"])
+            blocks.append(f'<section class="ablock" id="{sid}" data-r><h2 class="h3">{E(h)}</h2><div class="faq afaq">{body}</div></section>'); continue
+        cls = "ablock"
+        if k == 0 and sec["lead"]: cls += " acall"
+        elif sec["lead"] and any(w in low for w in ("bottom line", "where to start")) and not sec["cards"]: cls += " acall dark"
+        parts = [f'<h2 class="h3">{E(h)}</h2>' if h else ""] + paras
+        for c in sec["cards"]:
+            parts.append(f'<h3 class="t-tm">{E(c["h"])}</h3>' + "".join(f'<p class="t-bm">{E(p)}</p>' for p in c["p"]))
+            if c["li"]: parts.append(alist(c["li"]))
+        if sec["bullets"]: parts.append(alist(sec["bullets"]))
+        if sec["kv"]: parts.append('<dl class="atable">' + "".join(f"<div><dt>{E(a)}</dt><dd>{E(b)}</dd></div>" for a, b in sec["kv"]) + "</dl>")
+        blocks.append(f'<section class="{cls}" id="{sid}" data-r>{"".join(parts)}</section>')
+    nav = f'<nav class="ptoc" aria-label="On this page"><p class="eb" style="padding-top:0">On this page</p><ol>{"".join(toc)}</ol></nav>' if len(toc) > 2 else "<div></div>"
+    end = f'''<section class="aend" data-r><div class="card gcard"><span class="glogo gi">{ic("headset")}</span><h2 class="h3">Talk it through with an engineer.</h2><p class="t-bm muted">Bring the system you run today and the date that is worrying you. You will get a straight answer on scope, risk and a first step.</p><div class="rail-acts" style="grid-template-columns:auto auto;justify-content:start"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment{ARROW}</a><a class="btn btn-oi" href="contact.html">Talk to an engineer, not a form</a></div></div></section>'''
+    return [hero_html, '<div class="aprog" aria-hidden="true"><i></i></div>', f'<section class="sec px" id="article"><div class="prose-grid">{nav}<article class="pbody abody">{"".join(blocks)}{end}</article></div></section>']
+
 def build(data, cfg):
     secs = data["sections"]
     hero, rest = secs[0], secs[1:]
@@ -461,6 +495,16 @@ def build(data, cfg):
         pillnote = E(facts_case["domain"] or facts_case["district"] or "Case study")
         rows_html = "".join(f'<div class="dash-t d"{" style=\"padding-top:1rem\"" if i == 0 else ""}><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for i, (k, v) in enumerate([("District", facts_case["district"]), ("Domain", facts_case["domain"]), ("Format", "Published case study")]) if v)
         right_html = '<div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Key figures</p></div><dl class="kfig">' + "".join(f'<div><dd>{E(v)}</dd><dt>{E(k)}</dt></div>' for k, v in facts_case["stats"][:4]) + "</dl>"
+    elif cfg.get("article"):
+        meta = [b for b in hero["bullets"] if b.strip() and b.strip() != "•"]
+        date = meta[0] if meta else ""
+        mins = re.search(r"(\d+)", meta[1]).group(1) if len(meta) > 1 and re.search(r"\d+", meta[1]) else ""
+        heads = [x["h2"] for x in rest if x["h2"]]
+        sub = "Reading time"
+        num_html = f'<p class="num-l">{mins or "-"}<span class="unit"> min</span></p>'
+        pillnote = E(date or "Insight")
+        rows_html = "".join(f'<div class="dash-t d"{" style=\"padding-top:1rem\"" if i == 0 else ""}><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for i, (k, v) in enumerate([("Published", date), ("Topic", title_case(hero["eyebrow"])), ("Sections", str(len(heads)))]) if v)
+        right_html = '<div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">In this article</p></div><ol class="kcont">' + "".join(f'<li><a href="#{slug(h)}"><span>{i + 1:02d}</span>{E(h)}</a></li>' for i, h in enumerate(heads)) + "</ol>"
     else:
         num_html = f'<p class="num-l" data-count>{nsec}</p>'
         pillnote = f"{total} items listed across them"
@@ -499,7 +543,9 @@ def build(data, cfg):
 </section>'''
     wall = platforms(secs)
     name = cfg.get("name", "")
-    if cfg.get("case"):
+    if cfg.get("article"):
+        body = article_body(rest, ids, icon, cfg, hero_html)
+    elif cfg.get("case"):
         body = case_body(rest, ids, icon, {**cfg, "_facts": facts_case}, hero_html)
     elif cfg.get("service"):
         body = service_body(rest, ids, icon, cfg, secs, hero_html, platforms(secs, True))
