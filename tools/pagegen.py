@@ -23,6 +23,33 @@ def route(href, ids=()):
     out = "index.html" if not path else path.replace("/", "-") + ".html"
     return out + ("#" + frag if frag else "")
 
+BRANDS = [
+    ("oracle", "Oracle", r"\bOracle\b"), ("aws", "AWS", r"\bAWS\b|Amazon Web Services"), ("azure", "Azure", r"\bAzure\b"),
+    ("gcp", "Google Cloud", r"Google Cloud|\bGCP\b|Vertex AI"), ("vmware", "VMware", r"\bVMware\b"),
+    ("redhat", "Red Hat", r"Red Hat|OpenShift"), ("sap", "SAP", r"\bSAP\b"), ("odoo", "Odoo", r"\bOdoo\b"),
+    ("ibm", "IBM", r"\bIBM\b"), ("zoom", "Zoom", r"\bZoom\b"), ("nvidia", "NVIDIA", r"NVIDIA|Mellanox"),
+    ("kubernetes", "Kubernetes", r"Kubernetes|\bK8s\b"), ("docker", "Docker", r"\bDocker\b"), ("terraform", "Terraform", r"\bTerraform\b"),
+    ("python", "Python", r"\bPython\b"), ("apachespark", "Spark", r"\bSpark\b"), ("apachekafka", "Kafka", r"\bKafka\b"),
+    ("redis", "Redis", r"\bRedis\b"), ("postgresql", "PostgreSQL", r"Postgre(?:SQL|s)\b"), ("mysql", "MySQL", r"\bMySQL\b"),
+    ("mongodb", "MongoDB", r"\bMongoDB\b"), ("github", "GitHub", r"\bGitHub\b"), ("gitlab", "GitLab", r"\bGitLab\b"),
+    ("jenkins", "Jenkins", r"\bJenkins\b"), ("ansible", "Ansible", r"\bAnsible\b"), ("apacheairflow", "Airflow", r"\bAirflow\b"),
+    ("snowflake", "Snowflake", r"\bSnowflake\b"), ("tableau", "Tableau", r"\bTableau\b"), ("salesforce", "Salesforce", r"\bSalesforce\b"),
+    ("hubspot", "HubSpot", r"\bHubSpot\b"), ("grafana", "Grafana", r"\bGrafana\b"), ("prometheus", "Prometheus", r"\bPrometheus\b"),
+    ("ethereum", "Ethereum", r"\bEthereum\b"), ("solana", "Solana", r"\bSolana\b"), ("cisco", "Cisco", r"\bCisco\b"),
+    ("dell", "Dell", r"\bDell\b"), ("apachecassandra", "Cassandra", r"\bCassandra\b"), ("openjdk", "Java", r"\bJava\b(?!Script)"),
+]
+BRE = [(f, n, re.compile(rx)) for f, n, rx in BRANDS]
+
+def brand_in(text):
+    """First vendor mark named in a short string, or None."""
+    for f, n, rx in BRE:
+        if rx.search(text):
+            return f, n
+    return None
+
+def mark(f, cls="brand"):
+    return f'<i class="{cls}" aria-hidden="true" style="--m:url(brands/{f}.svg)"></i>'
+
 def title_case(t):
     return t if not t.isupper() else t.capitalize()
 
@@ -30,10 +57,12 @@ def count(s):
     return len(s["cards"]) + len(s["kv"]) + len(s["bullets"]) + len(s["faq"])
 
 def card(c, ids, i, flat=False):
-    h = f'<h3 class="t-tm">{E(c["h"])}</h3>'
+    b = brand_in(c["h"])
+    logo = f'<span class="glogo" title="{E(b[1])}">{mark(b[0])}</span>' if b else ""
+    h = logo + f'<h3 class="t-tm">{E(c["h"])}</h3>'
     body = "".join((f'<p class="eb" style="padding-top:.5rem">{E(p)}</p>' if len(p) <= 28 and not p.endswith(".") else f'<p class="t-bm muted">{E(p)}</p>') for p in c["p"])
     if c["tags"]:
-        body += '<ul class="tags">' + "".join(f"<li>{E(t)}</li>" for t in c["tags"]) + "</ul>"
+        body += '<ul class="tags">' + "".join(f"<li>{(mark(brand_in(t)[0], 'tm') if brand_in(t) else '')}{E(t)}</li>" for t in c["tags"]) + "</ul>"
     if c["kv"]:
         body += '<dl class="spec">' + "".join(f"<div><dt>{E(k)}</dt><dd>{E(v)}</dd></div>" for k, v in c["kv"]) + "</dl>"
     if c["li"]:
@@ -103,6 +132,30 @@ def section(s, ids, icon):
     out.append("</section>")
     return "".join(out)
 
+def platforms(secs):
+    text = []
+    for s in secs:
+        text += [s["h2"], s["h1"]] + s["lead"] + s["bullets"] + s["tags"] + [x for k in s["kv"] for x in k]
+        for c in s["cards"]:
+            text += [c["h"]] + c["p"] + c["tags"] + c["li"] + [x for k in c["kv"] for x in k]
+        for f in s["faq"]:
+            text += [f["q"]] + f["a"]
+    blob = " \n ".join(text)
+    found = []
+    for f, n, rx in BRE:
+        k = len(rx.findall(blob))
+        if k:
+            found.append((k, f, n))
+    if len(found) < 2:
+        return ""
+    found.sort(key=lambda x: -x[0])
+    cells = "".join(f'<div class="gcell">{mark(f)}<small>{E(n)}</small></div>' for _, f, n in found[:12])
+    return f'''<section class="sec px" id="platforms">
+  <div class="shead dash-t"><div><span class="pill pill-line"><i>{ic("layers")}</i>Platforms</span></div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Platforms named on this page.</h2></div></div>
+  <div class="gwall" data-r>{cells}</div>
+  <p class="t-bs muted gfine" data-r>Product and platform names belong to their owners. A mark identifies the platform we work on and implies no endorsement.</p>
+</section>'''
+
 def build(data, cfg):
     secs = data["sections"]
     hero, rest = secs[0], secs[1:]
@@ -152,7 +205,8 @@ def build(data, cfg):
     </div></div>
   </div>
 </section>'''
-    body = [hero_html] + [section(s, ids, icon) for s in rest]
+    wall = platforms(secs)
+    body = [hero_html] + ([wall] if wall else []) + [section(s, ids, icon) for s in rest]
     cta = cfg.get("cta", {})
     body.append(f'''<section class="sec px" id="start">
   <div class="close" data-r>

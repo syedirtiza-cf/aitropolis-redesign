@@ -8,3 +8,11 @@ Zoom) and are shown here only to identify the vendor whose technology we work on
 They appear as single-colour marks and do not imply endorsement. Where a vendor's partner
 programme requires its own badge or logo rules, replace these with the assets from that
 programme before publishing. BytePlus has no mark in this set and uses an initials tile.
+
+Marks added for the content pages (also Simple Icons, CC0, v13.21.0): NVIDIA, Kubernetes,
+Docker, Terraform, Python, Apache Spark, Apache Kafka, Redis, PostgreSQL, MySQL, MongoDB,
+GitHub, GitLab, Jenkins, Ansible, Apache Airflow, Snowflake, Tableau, Salesforce, HubSpot,
+Grafana, Prometheus, Ethereum, Solana, Cisco, Dell, Apache Cassandra, Java. Marks are
+trademarks of their owners and identify the platform only. Microsoft Dynamics 365,
+Power BI, Hyperledger, BytePlus and Mellanox have no mark in the set (Mellanox shows
+the NVIDIA mark).

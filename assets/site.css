@@ -706,3 +706,17 @@ html[data-preloader] .pre{display:block}
 @media (max-width:1024px){.gstats{grid-template-columns:1fr 1fr}}
 @media (max-width:768px){.gbig{grid-template-columns:1fr}.gbig>div:last-child{grid-column:auto}}
 @media (max-width:560px){.gstats{grid-template-columns:1fr}.gstats .card{min-height:0}}
+
+/* ---- Platform marks on content pages ---- */
+.glogo{display:flex;align-items:center;justify-content:center;width:4rem;height:3.5rem;padding:.75rem;border-radius:var(--r-panel);background:var(--soft);color:var(--ink)}
+.glogo .brand{height:100%}
+.gcard:hover .glogo{background:var(--ink);color:var(--on)}
+.glogo,.gcard:hover .glogo{transition:background .3s var(--ease),color .3s var(--ease)}
+.tags li .tm{display:inline-block;width:1rem;height:1rem;margin-right:.5rem;vertical-align:-.125rem;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat}
+.gwall{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden}
+.gcell{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.75rem;height:8.5rem;padding:1.5rem;background:var(--surface);color:var(--muted);text-align:center}
+.gcell .brand{width:100%;max-width:5rem;height:2.5rem}
+.gcell small{font-size:.8125rem;line-height:1}
+.gfine{padding-top:1rem}
+@media (max-width:1024px){.gcell{height:7.5rem}}
+@media (max-width:560px){.gwall{grid-template-columns:repeat(auto-fit,minmax(6.5rem,1fr))}.gcell{height:6.5rem;padding:1rem}}
