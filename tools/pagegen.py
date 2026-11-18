@@ -207,7 +207,7 @@ def steps(cards):
     return f'<ol class="gsteps">{items}</ol>'
 
 def head(s, icon, lead, idx=""):
-    pill = f'<span class="pill pill-line"><i>{ic(icon)}</i>{E(title_case(s["eyebrow"]))}</span>' if s["eyebrow"] else ""
+    pill = f'<span class="pill pill-line"><i>{ic(icon_for(s["eyebrow"] + " " + s["h2"], "", icon))}</i>{E(title_case(s["eyebrow"]))}</span>' if s["eyebrow"] else ""
     ld = "".join(f'<p class="t-bm muted">{E(p)}</p>' for p in lead)
     return f'<div class="shead dash-t"><div>{pill}{idx}</div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">{E(s["h2"])}</h2>{ld}</div></div>'
 
