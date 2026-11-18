@@ -414,21 +414,21 @@ def case_body(rest, ids, icon, cfg, hero_html):
             main.append(chapter(sec, "lightbulb", "ok")); nav.append((sid, "Solution"))
         elif "result" in e and sec["cards"]:
             cells = "".join(
-                f'<div class="res" data-r style="--d:{i * 70}ms"><p class="num-m">{E(c["li"][0]) if c["li"] else ""}</p><h3 class="t-tm">{E(c["h"])}</h3>' + "".join(f'<p class="t-bm">{E(p)}</p>' for p in c["p"]) + "</div>"
+                f'<div class="res" data-r style="--d:{i * 70}ms">{f'<p class="num-m">{E(c["li"][0])}</p>' if c["li"] else f'<span class="resic">{ic("check")}</span>'}<h3 class="t-tm">{E(c["h"])}</h3>' + "".join(f'<p class="t-bm">{E(p)}</p>' for p in c["p"]) + "</div>"
                 for i, c in enumerate(sec["cards"]))
             main.append(f'<section class="ssec" id="{sid}"><div class="shead"><span class="pill pill-line"><i>{ic("trending-up")}</i>{E(title_case(sec["eyebrow"]))}</span><div class="hd"><h2 class="h2" data-mask="h">{E(sec["h2"])}</h2></div></div><div class="gres">{cells}</div></section>')
             nav.append((sid, "Results"))
         elif "connects" in e or ("connect" in e):
             pairs = [sec["lead"][i:i + 2] for i in range(0, len(sec["lead"]) - 1, 2)]
-            tiles = "".join(f'<div class="card gcard" data-r style="--d:{i * 90}ms"><p class="idx" style="padding-top:0">{E(lab)}</p><h3 class="t-tm">{E(a)}</h3>{"" if b == lab else f'<p class="t-bm muted">{E(b)}</p>'}</div>' for i, ((a, b), lab) in enumerate(zip(pairs, ["District", "Service", "Industry"])))
-            main.append(f'<section class="ssec" id="{sid}"><div class="shead"><span class="pill pill-line"><i>{ic("network")}</i>Connections</span><div class="hd"><h2 class="h2" data-mask="h">{E(sec["h2"])}</h2></div></div><div class="ggrid g3">{tiles}</div></section>')
+            tiles = "".join(f'<div class="card gcard" data-r style="--d:{i * 90}ms"><p class="idx" style="padding-top:0">{E(lab)}</p><h3 class="t-tm">{E(a)}</h3>{"" if b == lab else f'<p class="t-bm muted">{E(b)}</p>'}</div>' for i, ((a, b), lab) in enumerate(zip(pairs, {1: ["District"], 2: ["District", "Industry"]}.get(len(pairs), ["District", "Service", "Industry"]))))
+            main.append(f'<section class="ssec" id="{sid}"><div class="shead"><span class="pill pill-line"><i>{ic("network")}</i>Connections</span><div class="hd"><h2 class="h2" data-mask="h">{E(sec["h2"])}</h2></div></div><div class="ggrid {"g3" if len(pairs) >= 3 else "g2"}">{tiles}</div></section>')
             nav.append((sid, "Connections"))
         else:
             main.append(section(sec, ids, icon, k, "", 0, rows=True, bare=True))
             nav.append((sid, label))
     rail = f'''<aside class="svc-rail" aria-label="At a glance"><div class="card rail-card">
       <p class="idx" style="padding-top:0">Case study</p>
-      <dl class="rail-facts"><div><dt>district</dt><dd class="txt">{E(f["district"])}</dd></div><div><dt>domain</dt><dd class="txt">{E(f["domain"])}</dd></div>{f'<div><dt>headline</dt><dd class="txt">{E(f["fig"])}</dd></div>' if f["fig"] else ""}</dl>
+      <dl class="rail-facts"><div><dt>district</dt><dd class="txt">{E(f["district"])}</dd></div>{f'<div><dt>domain</dt><dd class="txt">{E(f["domain"])}</dd></div>' if f["domain"] else ""}{f'<div><dt>headline</dt><dd class="txt">{E(f["fig"])}</dd></div>' if f["fig"] else ""}</dl>
       <div class="rail-acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment{ARROW}</a><a class="btn btn-oi" href="contact.html">Talk to an engineer, not a form</a></div>
     </div></aside>'''
     sub = f'<nav class="subnav" aria-label="On this page"><div class="px"><div class="subnav-in">' + "".join(f'<a href="#{i}">{E(t)}</a>' for i, t in nav) + "</div></div></nav>" if len(nav) > 2 else ""
@@ -458,7 +458,7 @@ def build(data, cfg):
         facts_case["domain"] = title_case(parts[1]) if len(parts) > 1 else ""
         sub = facts_case["label"]
         num_html = f'<p class="num-l">{E(facts_case["fig"])}</p>'
-        pillnote = E(facts_case["domain"] or cfg.get("title", ""))
+        pillnote = E(facts_case["domain"] or facts_case["district"] or "Case study")
         rows_html = "".join(f'<div class="dash-t d"{" style=\"padding-top:1rem\"" if i == 0 else ""}><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for i, (k, v) in enumerate([("District", facts_case["district"]), ("Domain", facts_case["domain"]), ("Format", "Published case study")]) if v)
         right_html = '<div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Key figures</p></div><dl class="kfig">' + "".join(f'<div><dd>{E(v)}</dd><dt>{E(k)}</dt></div>' for k, v in facts_case["stats"][:4]) + "</dl>"
     else:

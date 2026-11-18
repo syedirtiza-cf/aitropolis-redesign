@@ -92,6 +92,10 @@ Lessons from reviewing the pages (also in `DESIGN-SYSTEM.md` section 5d):
 
 The 32 service pages (`solutions-<district>-<service>.html`) share a layout: a sticky section nav, a side rail with the section, step and question counts, the platforms the page names and the next step, row lists in place of card grids, a dark band for the delivery steps and a "Keep exploring" row of sibling services. The section nav appears when a page has three or more titled sections. The District hubs, Offshore IT teams and ISO and BPM keep the general layout.
 
+## Case studies
+
+The 21 case studies (`case-studies-*.html`) share a story layout: the hero card carries the headline result and the four key figures from the published case, a side rail keeps district, domain and headline in view, and the chapters run Challenge, Solution, Results (a dark panel with the figures in lime), then the technology or architecture list and the connections tiles. It handles results lists of two to six, a result without a figure, and a district-only label such as "Foundations + Systems".
+
 ## Imported copy
 
 - **Text comes from the current site.** The 67 inner pages carry the published wording, converted to UK spelling by `tools/extract.py`. It has not had an editorial pass.
