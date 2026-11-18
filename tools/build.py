@@ -17,8 +17,8 @@ import pagegen
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
 PAGES = ["industries", "case-studies", "insights", "partners", "about", "contact"]
-# pages that use the service layout (one for review first; widen to all services once approved)
-SERVICE_LAYOUT = {"solutions-systems-erp"}
+# service pages (solutions-<district>-<service>) use the side-rail layout
+SERVICE_LAYOUT = "service pages: solutions-<district>-<service>"
 VERSION = time.strftime("%Y%m%d%H%M")
 
 def nav(active):
@@ -71,7 +71,7 @@ def main():
         elif name.startswith("industries-"): cfg["related_h"] = "Other sectors."
         elif group(name).startswith("solutions-"): cfg["related_h"] = "Other services in this district."
         data = json.loads((SRC / "content" / f"{name}.json").read_text())
-        cfg = {**cfg, "name": name, "prose": name.startswith("insights-") or name in ("privacy", "terms", "accessibility"), "service": name in SERVICE_LAYOUT}
+        cfg = {**cfg, "name": name, "prose": name.startswith("insights-") or name in ("privacy", "terms", "accessibility"), "service": len(name.split("-")) > 2 and name.split("-")[0] == "solutions" and name.split("-")[1] in pagegen.DIST}
         body = pagegen.build(data, cfg)
         ctx = {"v": VERSION, "nav": nav(cfg.get("active", "")), "on_contact": ""}
         ctx["header"] = render(header, ctx)

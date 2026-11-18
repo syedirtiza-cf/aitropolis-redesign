@@ -86,7 +86,11 @@ Lessons from reviewing the pages (also in `DESIGN-SYSTEM.md` section 5d):
 - A generator needs one id rule: derive from the section title, omit it when empty, and give generated blocks their own names (`keep-exploring`, `platform-wall`) so they cannot collide with imported sections.
 - Check by eye as well as by script. The script cannot see a truncated chart label or a hero count that disagrees with the side rail; a screenshot can.
 - Chrome will not go narrower than about 606px, so true phone width is checked with the audit script's 390px iframes, not by resizing the window.
-- Roll a new layout out on one page first, review it, then widen it (`SERVICE_LAYOUT` in `tools/build.py` is the switch).
+- Roll a new layout out on one page first, review it, then widen it (the `service` flag set in `tools/build.py` decides which pages use the service layout).
+
+## Service pages
+
+The 32 service pages (`solutions-<district>-<service>.html`) share a layout: a sticky section nav, a side rail with the section, step and question counts, the platforms the page names and the next step, row lists in place of card grids, a dark band for the delivery steps and a "Keep exploring" row of sibling services. The section nav appears when a page has three or more titled sections. The District hubs, Offshore IT teams and ISO and BPM keep the general layout.
 
 ## Imported copy
 
