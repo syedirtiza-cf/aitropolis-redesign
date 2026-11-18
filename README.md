@@ -100,6 +100,10 @@ The 21 case studies (`case-studies-*.html`) share a story layout: the hero card 
 
 The seven articles (`insights-*.html`) share an editorial layout: the hero card shows reading time, date, topic and a numbered contents list; the body has a sticky contents list with the current section highlighted, a reading-progress bar under the header, a callout for the short answer, a dark callout for the bottom line, checklists with a bold lead-in and a note, tables for figures, and a questions block that opens one answer at a time. Privacy, terms and accessibility keep the plainer reading layout.
 
+## District hubs
+
+The six hubs (`solutions-<district>.html`) share a navigation-first layout: a district switcher under the hero, a hero card that lists every service page in the district, a grid of service tiles (pixel art, the page's own description, a link), then the district's own sections, with industries as chips that link to the sector pages where one exists. The service list comes from the manifest, so a new service page appears on its hub on the next build. The hubs no longer show the live site's "Dive deeper" list, which was missing some services.
+
 ## Imported copy
 
 - **Text comes from the current site.** The 67 inner pages carry the published wording, converted to UK spelling by `tools/extract.py`. It has not had an editorial pass.

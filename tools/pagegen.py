@@ -187,6 +187,7 @@ def count(s):
     return len(s["cards"]) + len(s["kv"]) + len(s["bullets"]) + len(s["faq"])
 
 def prep(c):
+    c["li"] = [x for x in c["li"] if not re.match(r"^(read|see|view|open|learn|book)\b", x, re.I)]
     nums = [x for x in c["li"] if re.fullmatch(r"\d{1,2}", x)]
     if nums:
         c["n"] = c["n"] or nums[0].zfill(2)

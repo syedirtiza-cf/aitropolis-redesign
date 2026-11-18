@@ -99,7 +99,7 @@ class X(HTMLParser):
             return
         if parent in ("h1", "h2", "h3", "h4", "p", "summary", "li", "dt", "dd") or (parent == "a" and tag not in ("h3", "h4", "p")):
             if text != "+":
-                s.stack[-1][2] += " " + text
+                s.stack[-1][2] += " " + text + (" " if buf[-1:].isspace() else "")
         elif text:
             if not href:
                 href = next((e[4] for e in reversed(s.stack) if e[0] == "a" and e[4]), "")

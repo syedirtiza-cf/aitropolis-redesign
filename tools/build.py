@@ -23,8 +23,8 @@ SERVICE_LAYOUT = "service pages: solutions-<district>-<service>"
 CASE_LAYOUT = "every case-studies-* page"
 # insight articles (insights-*) use the editorial layout
 ARTICLE_LAYOUT = "every insights-* article"
-# district hubs on the hub layout (one for review first)
-HUB_LAYOUT = {"solutions-systems"}
+# the six district hubs use the hub layout
+HUB_LAYOUT = {"solutions-" + d for d in ("systems", "foundations", "intelligence", "exchange", "signal", "immersion")}
 VERSION = time.strftime("%Y%m%d%H%M")
 
 def nav(active):

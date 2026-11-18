@@ -186,7 +186,7 @@
      "lvl": "h3",
      "p": [
       "H200",
-      "Workload profile:Fine-tuning, inference, RAG and departmental training"
+      "Workload profile: Fine-tuning, inference, RAG and departmental training"
      ],
      "tags": [],
      "li": [
@@ -206,7 +206,7 @@
      "lvl": "h3",
      "p": [
       "H200, B200 or B300",
-      "Workload profile:Large-model training, high-throughput inference and multi-node clusters"
+      "Workload profile: Large-model training, high-throughput inference and multi-node clusters"
      ],
      "tags": [],
      "li": [
