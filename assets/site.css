@@ -726,3 +726,7 @@ html[data-preloader] .pre{display:block}
 .gsteps .t-tm{display:flex;align-items:center;gap:.75rem}
 .gi2{display:inline-flex;color:var(--accent)}
 .gi2 .ic{width:1.25rem;height:1.25rem}
+.gnum .ic{width:1.75rem;height:1.75rem}
+.gnum{color:var(--accent)}
+.gsteps li:hover .gnum{color:var(--ink)}
+@media (max-width:768px){.gnum .ic{width:1.375rem;height:1.375rem}}

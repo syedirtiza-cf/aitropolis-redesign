@@ -332,7 +332,7 @@
    "cards": [
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Discovery & Strategy",
      "lvl": "h3",
      "p": [],
@@ -344,15 +344,14 @@
       "Vendor selection and negotiation",
       "Detailed implementation roadmap and timeline",
       "Change management and communication plan",
-      "Team mobilisation and training kickoff",
-      "2"
+      "Team mobilisation and training kickoff"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Design & Configuration",
      "lvl": "h3",
      "p": [],
@@ -364,15 +363,14 @@
       "System architecture and infrastructure planning",
       "Security and access control design",
       "Report and dashboard design",
-      "Build environment setup and configuration",
-      "3"
+      "Build environment setup and configuration"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Build & Development",
      "lvl": "h3",
      "p": [],
@@ -384,15 +382,14 @@
       "Third-party integrations (CRM, BI tools, etc.)",
       "Workflow automation and business process automation",
       "Testing scripts preparation",
-      "Knowledge transfer to support team",
-      "4"
+      "Knowledge transfer to support team"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Testing & Validation",
      "lvl": "h3",
      "p": [],
@@ -404,15 +401,14 @@
       "System testing (full-cycle transactions)",
       "User acceptance testing (UAT) with business users",
       "Performance testing and optimisation",
-      "Security testing and compliance validation",
-      "5"
+      "Security testing and compliance validation"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "05",
      "h": "Deployment & Go-Live",
      "lvl": "h3",
      "p": [],
@@ -424,15 +420,14 @@
       "24/7 war room during cutover",
       "Post-go-live stabilisation support",
       "Issue logging and resolution",
-      "Hypercare support (intensive support post-go-live)",
-      "6"
+      "Hypercare support (intensive support post-go-live)"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "06",
      "h": "Optimisation & Support",
      "lvl": "h3",
      "p": [],
@@ -452,9 +447,7 @@
    ],
    "faq": [],
    "kv": [],
-   "bullets": [
-    "1"
-   ],
+   "bullets": [],
    "tags": []
   },
   {

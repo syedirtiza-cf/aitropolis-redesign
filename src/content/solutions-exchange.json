@@ -261,60 +261,52 @@
       "Architecture, consensus mechanism, tokenomics, and governance model."
      ],
      "tags": [],
-     "li": [
-      "1"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Develop",
      "lvl": "h3",
      "p": [
       "Smart contracts, protocols, and backend infrastructure development."
      ],
      "tags": [],
-     "li": [
-      "2"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Audit",
      "lvl": "h3",
      "p": [
       "Security audits, code review, penetration testing, and vulnerability assessment."
      ],
      "tags": [],
-     "li": [
-      "3"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Deploy",
      "lvl": "h3",
      "p": [
       "Testnet deployment, monitoring setup, and mainnet launch."
      ],
      "tags": [],
-     "li": [
-      "4"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Operate",
      "lvl": "h3",
      "p": [

@@ -326,75 +326,65 @@
       "Understand business flows, data, and constraints. Design system architecture for scale and compliance."
      ],
      "tags": [],
-     "li": [
-      "01"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Core Development",
      "lvl": "h4",
      "p": [
       "Build backend services, APIs, and data pipelines. Agile sprints with working software every 2 weeks."
      ],
      "tags": [],
-     "li": [
-      "02"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "AI Integration",
      "lvl": "h4",
      "p": [
       "Develop models, integrate Vertex/SageMaker/Azure ML, build feature stores, deploy inference APIs."
      ],
      "tags": [],
-     "li": [
-      "03"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Security & Testing",
      "lvl": "h4",
      "p": [
       "Penetration testing, security audit, compliance validation, load testing at 10x expected volume."
      ],
      "tags": [],
-     "li": [
-      "04"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Production Launch",
      "lvl": "h4",
      "p": [
       "Blue-green deployment, canary rollout, 24/7 war room, rollback plan, monitoring dashboards."
      ],
      "tags": [],
-     "li": [
-      "05"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "05",
      "h": "Operations & Learning",
      "lvl": "h4",
      "p": [

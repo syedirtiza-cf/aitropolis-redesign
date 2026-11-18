@@ -153,60 +153,52 @@
       "Understand your current systems, processes, and business goals."
      ],
      "tags": [],
-     "li": [
-      "1"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Design",
      "lvl": "h3",
      "p": [
       "Architect the target solution with zero-downtime migration strategy."
      ],
      "tags": [],
-     "li": [
-      "2"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Build",
      "lvl": "h3",
      "p": [
       "Configure, customise, integrate, and test in controlled environment."
      ],
      "tags": [],
-     "li": [
-      "3"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Deploy",
      "lvl": "h3",
      "p": [
       "Go-live with 24/7 war room support and rollback plan."
      ],
      "tags": [],
-     "li": [
-      "4"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Optimise",
      "lvl": "h3",
      "p": [

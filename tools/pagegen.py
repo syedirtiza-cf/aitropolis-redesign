@@ -117,8 +117,10 @@ def count(s):
     return len(s["cards"]) + len(s["kv"]) + len(s["bullets"]) + len(s["faq"])
 
 def prep(c):
-    if c["li"] and all(re.fullmatch(r"\d{1,2}", x) for x in c["li"]):
-        c["n"] = c["n"] or c["li"][0].zfill(2); c["li"] = []
+    nums = [x for x in c["li"] if re.fullmatch(r"\d{1,2}", x)]
+    if nums:
+        c["n"] = c["n"] or nums[0].zfill(2)
+        c["li"] = [x for x in c["li"] if x not in nums]
     return c
 
 def card(c, ids, i, flat=False, fb="check"):
@@ -141,7 +143,7 @@ def card(c, ids, i, flat=False, fb="check"):
 
 def steps(cards):
     items = "".join(
-        f'<li data-r style="--d:{(i % 3) * 90}ms"><span class="gnum">{E(c["n"] or str(i + 1).zfill(2))}</span><div><h3 class="t-tm"><span class="gi2">{ic(icon_for(c["h"] + "\x00" + " ".join(c["p"][:1]), "", "check"))}</span>{E(c["h"])}</h3>'
+        f'<li data-r style="--d:{(i % 3) * 90}ms"><span class="gnum" aria-hidden="true">{ic(icon_for(c["h"] + "\x00" + " ".join(c["p"][:1]), "", "check"))}</span><div><h3 class="t-tm"><span class="sr">Step {i + 1}: </span>{E(c["h"])}</h3>'
         + "".join(f'<p class="t-bm muted">{E(p)}</p>' for p in c["p"]) + "</div></li>"
         for i, c in enumerate(cards))
     return f'<ol class="gsteps">{items}</ol>'
@@ -154,7 +156,7 @@ def head(s, icon, lead):
 CTA_RE = re.compile(r"^(book a|talk to an engineer|get in touch|contact us|read the|see )", re.I)
 
 def clean(s):
-    s["bullets"] = [b for b in s["bullets"] if re.search(r"[A-Za-z0-9]", b)]
+    s["bullets"] = [b for b in s["bullets"] if re.search(r"[A-Za-z0-9]", b) and not re.fullmatch(r"\d{1,2}", b)]
     s["lead"] = [p for p in s["lead"] if not CTA_RE.match(p)]
     return s
 
@@ -185,7 +187,7 @@ def section(s, ids, icon):
     else:
         out.append(head(s, icon, s["lead"]))
         cards = [prep(c) for c in s["cards"]]
-        if cards and all(c["n"] for c in cards):
+        if cards and sum(1 for c in cards if c["n"]) >= max(2, len(cards) - 1) and all(c["h"] for c in cards):
             out.append(steps(cards))
         elif cards:
             n = len(cards)

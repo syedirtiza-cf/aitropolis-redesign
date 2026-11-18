@@ -234,7 +234,7 @@
    "cards": [
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Discover & Strategize",
      "lvl": "h3",
      "p": [
@@ -242,15 +242,13 @@
       "Full digital strategy & roadmap"
      ],
      "tags": [],
-     "li": [
-      "02"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Build & Launch",
      "lvl": "h3",
      "p": [
@@ -258,15 +256,13 @@
       "Live, optimised digital platform"
      ],
      "tags": [],
-     "li": [
-      "03"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Attract & Convert",
      "lvl": "h3",
      "p": [
@@ -274,15 +270,13 @@
       "Active, optimised conversion funnels"
      ],
      "tags": [],
-     "li": [
-      "04"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Optimise & Scale",
      "lvl": "h3",
      "p": [
@@ -302,9 +296,7 @@
    ],
    "faq": [],
    "kv": [],
-   "bullets": [
-    "01"
-   ],
+   "bullets": [],
    "tags": []
   },
   {

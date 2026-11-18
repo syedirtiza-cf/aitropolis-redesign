@@ -191,60 +191,52 @@
       "Assess current processes and controls against the target ISO standard."
      ],
      "tags": [],
-     "li": [
-      "01"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Design",
      "lvl": "h3",
      "p": [
       "Define the management system, policies, and controls needed to close gaps."
      ],
      "tags": [],
-     "li": [
-      "02"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Implement",
      "lvl": "h3",
      "p": [
       "Roll out documented processes, training, and BPM automation where useful."
      ],
      "tags": [],
-     "li": [
-      "03"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Internal Audit",
      "lvl": "h3",
      "p": [
       "Test the management system before the external certification audit."
      ],
      "tags": [],
-     "li": [
-      "04"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Certify & Maintain",
      "lvl": "h3",
      "p": [

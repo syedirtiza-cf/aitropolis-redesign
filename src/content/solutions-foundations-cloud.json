@@ -457,7 +457,7 @@
    "cards": [
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Assess",
      "lvl": "h3",
      "p": [],
@@ -468,15 +468,14 @@
       "Infrastructure mapping",
       "Cloud readiness assessment",
       "Cost modeling (on-prem vs cloud)",
-      "Compliance and security requirements",
-      "2"
+      "Compliance and security requirements"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Design",
      "lvl": "h3",
      "p": [],
@@ -488,15 +487,14 @@
       "Network and VPC design",
       "Security framework (IAM, encryption, VPC endpoints)",
       "HA/DR strategy",
-      "Cost optimisation roadmap",
-      "3"
+      "Cost optimisation roadmap"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Pilot",
      "lvl": "h3",
      "p": [],
@@ -507,15 +505,14 @@
       "Validate migration tools and processes",
       "Test backup and recovery procedures",
       "Performance baseline and tuning",
-      "Team training and knowledge transfer",
-      "4"
+      "Team training and knowledge transfer"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Migrate",
      "lvl": "h3",
      "p": [],
@@ -527,15 +524,14 @@
       "Large database migrations with minimal downtime",
       "DNS cutover and traffic migration",
       "Decommission on-premises infrastructure",
-      "24/7 war room support",
-      "5"
+      "24/7 war room support"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "05",
      "h": "Optimise",
      "lvl": "h3",
      "p": [],
@@ -554,9 +550,7 @@
    ],
    "faq": [],
    "kv": [],
-   "bullets": [
-    "1"
-   ],
+   "bullets": [],
    "tags": []
   },
   {

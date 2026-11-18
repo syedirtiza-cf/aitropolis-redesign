@@ -126,6 +126,8 @@ def group(sec):
             if tag == "summary": faq["q"] = text
             elif tag in ("p", "li", "span"): faq["a"].append(text)
             i += 1; continue
+        if tag in ("span", "li", "div", "p") and re.fullmatch(r"\d{1,2}", text) and i + 1 < len(toks) and toks[i + 1][0] in ("h3", "h4"):
+            num = text.zfill(2); i += 1; continue
         if tag == "p" and "eyebrow" in cls:
             out["eyebrow"] = text
         elif tag == "h1":

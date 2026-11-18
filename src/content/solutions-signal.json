@@ -205,7 +205,7 @@
    "cards": [
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Go-to-Market",
      "lvl": "h3",
      "p": [],
@@ -216,15 +216,14 @@
       "GTM Strategy",
       "Customer Journey Mapping",
       "Launch Strategy",
-      "Sales Enablement",
-      "02"
+      "Sales Enablement"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Demand",
      "lvl": "h3",
      "p": [],
@@ -234,15 +233,14 @@
       "Paid Media",
       "Social & Influencer",
       "Account-Based Marketing",
-      "Lead Generation",
-      "03"
+      "Lead Generation"
      ],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Intelligence",
      "lvl": "h3",
      "p": [],
@@ -260,9 +258,7 @@
    ],
    "faq": [],
    "kv": [],
-   "bullets": [
-    "01"
-   ],
+   "bullets": [],
    "tags": []
   },
   {
@@ -501,75 +497,65 @@
       "Understand the product, market, customers, funnel and unit economics."
      ],
      "tags": [],
-     "li": [
-      "1"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Discover",
      "lvl": "h3",
      "p": [
       "Use data and AI to surface opportunities, gaps and growth constraints."
      ],
      "tags": [],
-     "li": [
-      "2"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Design",
      "lvl": "h3",
      "p": [
       "Build the positioning, messaging and go-to-market strategy."
      ],
      "tags": [],
-     "li": [
-      "3"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Launch",
      "lvl": "h3",
      "p": [
       "Execute campaigns, channels, content and sales enablement."
      ],
      "tags": [],
-     "li": [
-      "4"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Experiment",
      "lvl": "h3",
      "p": [
       "Test continuously — A/B, multivariate, and channel experiments."
      ],
      "tags": [],
-     "li": [
-      "5"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "05",
      "h": "Scale",
      "lvl": "h3",
      "p": [

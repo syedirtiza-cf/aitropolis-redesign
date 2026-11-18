@@ -247,60 +247,52 @@
       "Cloud readiness assessment, cost modeling, and target architecture design."
      ],
      "tags": [],
-     "li": [
-      "1"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Design",
      "lvl": "h3",
      "p": [
       "Multi-cloud strategy, landing zones, network design, security framework."
      ],
      "tags": [],
-     "li": [
-      "2"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Migrate",
      "lvl": "h3",
      "p": [
       "Database migration, application re-platforming, data transfer, testing."
      ],
      "tags": [],
-     "li": [
-      "3"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Optimise",
      "lvl": "h3",
      "p": [
       "Cost optimisation, performance tuning, auto-scaling configuration."
      ],
      "tags": [],
-     "li": [
-      "4"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Operate",
      "lvl": "h3",
      "p": [

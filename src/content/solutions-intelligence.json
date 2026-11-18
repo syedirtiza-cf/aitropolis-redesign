@@ -46,75 +46,65 @@
       "AI readiness audit, use case identification, ROI modeling, and roadmap development."
      ],
      "tags": [],
-     "li": [
-      "1"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Data Foundation",
      "lvl": "h3",
      "p": [
       "Data collection, preparation, pipeline automation, and governance for AI systems."
      ],
      "tags": [],
-     "li": [
-      "2"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Model Development",
      "lvl": "h3",
      "p": [
       "Custom model training, hyperparameter tuning, ensemble methods, and transfer learning."
      ],
      "tags": [],
-     "li": [
-      "3"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Production Deployment",
      "lvl": "h3",
      "p": [
       "Model serving, API deployment, containerisation, and edge deployment options."
      ],
      "tags": [],
-     "li": [
-      "4"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Monitoring & Optimisation",
      "lvl": "h3",
      "p": [
       "Model performance tracking, drift detection, retraining automation, and cost optimisation."
      ],
      "tags": [],
-     "li": [
-      "5"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "05",
      "h": "Governance & Ethics",
      "lvl": "h3",
      "p": [
@@ -307,60 +297,52 @@
       "Identify AI opportunities, data availability, and business impact."
      ],
      "tags": [],
-     "li": [
-      "1"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Prepare",
      "lvl": "h3",
      "p": [
       "Collect, clean, and engineer features from raw data."
      ],
      "tags": [],
-     "li": [
-      "2"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Develop",
      "lvl": "h3",
      "p": [
       "Train, validate, and optimise models in controlled environment."
      ],
      "tags": [],
-     "li": [
-      "3"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Deploy",
      "lvl": "h3",
      "p": [
       "Containerise, serve, and monitor models in production."
      ],
      "tags": [],
-     "li": [
-      "4"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Optimise",
      "lvl": "h3",
      "p": [

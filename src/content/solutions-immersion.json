@@ -250,60 +250,52 @@
       "Define experience goals, target users, platforms, and ROI metrics."
      ],
      "tags": [],
-     "li": [
-      "1"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "01",
      "h": "Design",
      "lvl": "h3",
      "p": [
       "UX design, 3D mockups, storyboarding, and user research."
      ],
      "tags": [],
-     "li": [
-      "2"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "02",
      "h": "Develop",
      "lvl": "h3",
      "p": [
       "Asset creation, game engine development, and feature implementation."
      ],
      "tags": [],
-     "li": [
-      "3"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "03",
      "h": "Test",
      "lvl": "h3",
      "p": [
       "User testing, performance optimisation, and platform compatibility."
      ],
      "tags": [],
-     "li": [
-      "4"
-     ],
+     "li": [],
      "kv": [],
      "a": []
     },
     {
      "href": "",
-     "n": "",
+     "n": "04",
      "h": "Deploy",
      "lvl": "h3",
      "p": [
