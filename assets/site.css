@@ -822,3 +822,25 @@ html[data-preloader] .pre{display:block}
 @media (max-width:768px){.subnav{top:4rem}.srow{grid-template-columns:3rem 1fr;gap:1rem}.srow .sbody{grid-column:2}.rail-card{grid-template-columns:1fr}.rail-card .idx,.rail-card .eb,.rail-marks,.rail-acts{grid-column:auto}.rail-acts{grid-template-columns:1fr}.ssec{padding-bottom:3rem}}
 .rail-acts .btn{height:auto;min-height:3.5rem;padding:.75rem 1rem;white-space:normal;text-align:center;line-height:1.25}
 .gband .idx{color:var(--on-mute)}
+
+/* ---- Case-study layout ---- */
+.kfig{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem 1.5rem;padding-top:1.5rem}
+.kfig>div{display:flex;flex-direction:column-reverse;gap:.25rem;padding-top:1rem;border-top:1px dashed rgb(255 255 255/.3)}
+.kfig dd{font-weight:300;font-size:var(--t-m);letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.kfig dt{font-family:var(--mono);font-size:.8125rem;color:var(--on-soft)}
+.rail-facts dd.txt{font-size:1rem;font-weight:500;letter-spacing:0;text-align:right}
+.case-intro{display:grid;gap:1.25rem;max-width:44rem}
+.case-intro .t-bl{color:var(--ink)}
+.chap{display:grid;grid-template-columns:.8fr 1.4fr;gap:2rem;padding-top:2rem;border-top:1px solid;border-image:repeating-linear-gradient(to right,var(--dash) 0 2px,transparent 2px 3px) 1}
+.chap-h .h3{padding-top:.5rem}
+.chap-b{display:grid;gap:1.25rem;align-content:start}
+.chap-b .t-bl{color:var(--muted)}
+.gres{display:grid;grid-template-columns:1fr 1fr;gap:0;border-radius:var(--r-card);background:var(--g-steps);color:var(--on);overflow:hidden;padding:.5rem}
+.res{display:flex;flex-direction:column;gap:.5rem;padding:2rem;min-height:14rem}
+.res:nth-child(even){border-left:1px dashed rgb(255 255 255/.3)}
+.res:nth-child(n+3){border-top:1px dashed rgb(255 255 255/.3)}
+.res .num-m{color:var(--lime)}
+.res .t-tm{color:var(--on);padding-top:auto}
+.res p.t-bm{color:var(--on-soft)}
+.ssec .shead .pill{margin-bottom:0}
+@media (max-width:768px){.chap{grid-template-columns:1fr}.gres{grid-template-columns:1fr}.res:nth-child(even){border-left:0}.res+.res{border-top:1px dashed rgb(255 255 255/.3)}.res{min-height:0;padding:1.5rem}}

@@ -375,6 +375,65 @@ def service_body(rest, ids, icon, cfg, secs, hero_html, found):
     sub = f'<nav class="subnav" aria-label="On this page"><div class="px"><div class="subnav-in">{"".join(nav)}</div></div></nav>' if len(nav) > 2 else ""
     return [hero_html, sub, f'<section class="px svc"><div class="svc-grid">{rail}<div class="svc-main">{"".join(main)}</div></div></section>']
 
+def case_facts(rest):
+    """Headline figure, key figures and district/domain for a case study."""
+    out = {"fig": "", "label": "Headline result", "intro": [], "stats": [], "district": "", "domain": ""}
+    for s in rest:
+        if not s["h2"] and not s["eyebrow"] and s["lead"] and not out["fig"] and len(s["lead"][0]) <= 12:
+            out["fig"] = s["lead"][0]
+            out["label"] = s["lead"][1] if len(s["lead"]) > 1 else out["label"]
+            out["intro"] = s["lead"][2:]
+        elif not s["h2"] and not s["eyebrow"] and s["kv"] and not out["stats"]:
+            out["stats"] = [(k, v) for k, v in s["kv"]]
+    return out
+
+def chapter(sec, icon_name, kind):
+    items = "".join(f"<li>{ic('minus' if kind == 'pain' else 'check')}<span>{E(x)}</span></li>" for x in sec["bullets"])
+    lead = "".join(f'<p class="t-bl">{E(p)}</p>' for p in sec["lead"])
+    sid = slug(sec["eyebrow"] or sec["h2"])
+    return f'''<section class="ssec" id="{sid}"><div class="chap" data-r>
+  <div class="chap-h"><span class="glogo gi">{ic(icon_name)}</span><p class="idx" style="padding-top:.75rem">{E(title_case(sec["eyebrow"]))}</p><h2 class="h3">{E(sec["h2"])}</h2></div>
+  <div class="chap-b">{lead}<ul class="ep-list{" ok" if kind != "pain" else ""}">{items}</ul></div>
+</div></section>'''
+
+def case_body(rest, ids, icon, cfg, hero_html):
+    f = cfg["_facts"]
+    main, nav = [], []
+    if f["intro"]:
+        main.append('<section class="ssec" id="overview"><div class="case-intro" data-r>' + "".join(f'<p class="t-bl">{E(p)}</p>' for p in f["intro"]) + "</div></section>")
+    for k, sec in enumerate(rest):
+        sec = clean(sec)
+        e = (sec["eyebrow"] or "").lower()
+        if not sec["h2"] and not sec["eyebrow"]:
+            continue
+        sid = slug(sec["eyebrow"] or sec["h2"])
+        label = short(title_case(sec["eyebrow"]) or sec["h2"])
+        if "challenge" in e:
+            main.append(chapter(sec, "shield-alert", "pain")); nav.append((sid, "Challenge"))
+        elif "solution" in e:
+            main.append(chapter(sec, "lightbulb", "ok")); nav.append((sid, "Solution"))
+        elif "result" in e and sec["cards"]:
+            cells = "".join(
+                f'<div class="res" data-r style="--d:{i * 70}ms"><p class="num-m">{E(c["li"][0]) if c["li"] else ""}</p><h3 class="t-tm">{E(c["h"])}</h3>' + "".join(f'<p class="t-bm">{E(p)}</p>' for p in c["p"]) + "</div>"
+                for i, c in enumerate(sec["cards"]))
+            main.append(f'<section class="ssec" id="{sid}"><div class="shead"><span class="pill pill-line"><i>{ic("trending-up")}</i>{E(title_case(sec["eyebrow"]))}</span><div class="hd"><h2 class="h2" data-mask="h">{E(sec["h2"])}</h2></div></div><div class="gres">{cells}</div></section>')
+            nav.append((sid, "Results"))
+        elif "connects" in e or ("connect" in e):
+            pairs = [sec["lead"][i:i + 2] for i in range(0, len(sec["lead"]) - 1, 2)]
+            tiles = "".join(f'<div class="card gcard" data-r style="--d:{i * 90}ms"><p class="idx" style="padding-top:0">{E(lab)}</p><h3 class="t-tm">{E(a)}</h3>{"" if b == lab else f'<p class="t-bm muted">{E(b)}</p>'}</div>' for i, ((a, b), lab) in enumerate(zip(pairs, ["District", "Service", "Industry"])))
+            main.append(f'<section class="ssec" id="{sid}"><div class="shead"><span class="pill pill-line"><i>{ic("network")}</i>Connections</span><div class="hd"><h2 class="h2" data-mask="h">{E(sec["h2"])}</h2></div></div><div class="ggrid g3">{tiles}</div></section>')
+            nav.append((sid, "Connections"))
+        else:
+            main.append(section(sec, ids, icon, k, "", 0, rows=True, bare=True))
+            nav.append((sid, label))
+    rail = f'''<aside class="svc-rail" aria-label="At a glance"><div class="card rail-card">
+      <p class="idx" style="padding-top:0">Case study</p>
+      <dl class="rail-facts"><div><dt>district</dt><dd class="txt">{E(f["district"])}</dd></div><div><dt>domain</dt><dd class="txt">{E(f["domain"])}</dd></div>{f'<div><dt>headline</dt><dd class="txt">{E(f["fig"])}</dd></div>' if f["fig"] else ""}</dl>
+      <div class="rail-acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment{ARROW}</a><a class="btn btn-oi" href="contact.html">Talk to an engineer, not a form</a></div>
+    </div></aside>'''
+    sub = f'<nav class="subnav" aria-label="On this page"><div class="px"><div class="subnav-in">' + "".join(f'<a href="#{i}">{E(t)}</a>' for i, t in nav) + "</div></div></nav>" if len(nav) > 2 else ""
+    return [hero_html, sub, f'<section class="px svc"><div class="svc-grid">{rail}<div class="svc-main">{"".join(main)}</div></div></section>']
+
 def build(data, cfg):
     secs = data["sections"]
     hero, rest = secs[0], secs[1:]
@@ -392,6 +451,23 @@ def build(data, cfg):
     nsec = len([s for s in rest if s["h2"] or s["eyebrow"]])
     total = sum(count(s) for s in rest if not s["faq"])
     sub = cfg.get("stat", "Topics on this page")
+    facts_case = case_facts(rest) if cfg.get("case") else None
+    if facts_case:
+        parts = [x.strip() for x in re.split(r"[·|]", hero["eyebrow"]) if x.strip()]
+        facts_case["district"] = title_case(re.sub(r"\s*district$", "", parts[0], flags=re.I)) if parts else ""
+        facts_case["domain"] = title_case(parts[1]) if len(parts) > 1 else ""
+        sub = facts_case["label"]
+        num_html = f'<p class="num-l">{E(facts_case["fig"])}</p>'
+        pillnote = E(facts_case["domain"] or cfg.get("title", ""))
+        rows_html = "".join(f'<div class="dash-t d"{" style=\"padding-top:1rem\"" if i == 0 else ""}><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for i, (k, v) in enumerate([("District", facts_case["district"]), ("Domain", facts_case["domain"]), ("Format", "Published case study")]) if v)
+        right_html = '<div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Key figures</p></div><dl class="kfig">' + "".join(f'<div><dd>{E(v)}</dd><dt>{E(k)}</dt></div>' for k, v in facts_case["stats"][:4]) + "</dl>"
+    else:
+        num_html = f'<p class="num-l" data-count>{nsec}</p>'
+        pillnote = f"{total} items listed across them"
+        rows_html = '<div class="dash-t d" style="padding-top:1rem"><dt>Founded</dt><dd data-canon="founded">2010</dd></div><div class="dash-t d"><dt>Deployments</dt><dd data-canon="deployments">200+</dd></div><div class="dash-t d"><dt>Countries</dt><dd data-canon="countries">30+</dd></div>'
+        right_html = f'''<div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Items listed in each section</p></div>
+          <div class="bars" id="bars" data-stage data-bars="{E(__import__("json").dumps(bars))}" data-max="{mx}"></div>
+          <div class="legend"><span><i></i>Items on this page</span><span><i class="l"></i>Largest section</span></div>'''
     hero_html = f'''<section id="top" class="hero px">
   <div class="ht" aria-hidden="true"><div data-par=".35" style="position:absolute;inset:0"><canvas id="ht"></canvas></div></div>
   <div class="hero-in">
@@ -411,27 +487,21 @@ def build(data, cfg):
         <div class="dash-l">
           <div>
             <p class="t-bs" style="color:var(--on-soft)">{E(sub)}</p>
-            <p class="num-l" data-count>{nsec}</p>
-            <div style="padding-top:1rem"><span class="stat-pill">{ic("arrow-up-right")}<span>{total} items listed across them</span></span></div>
+            {num_html}
+            <div style="padding-top:1rem"><span class="stat-pill">{ic("arrow-up-right")}<span>{pillnote}</span></span></div>
           </div>
-          <dl class="rows">
-            <div class="dash-t d" style="padding-top:1rem"><dt>Founded</dt><dd data-canon="founded">2010</dd></div>
-            <div class="dash-t d"><dt>Deployments</dt><dd data-canon="deployments">200+</dd></div>
-            <div class="dash-t d"><dt>Countries</dt><dd data-canon="countries">30+</dd></div>
-          </dl>
+          <dl class="rows">{rows_html}</dl>
         </div>
-        <div class="dash-r">
-          <div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Items listed in each section</p></div>
-          <div class="bars" id="bars" data-stage data-bars="{E(__import__("json").dumps(bars))}" data-max="{mx}"></div>
-          <div class="legend"><span><i></i>Items on this page</span><span><i class="l"></i>Largest section</span></div>
-        </div>
+        <div class="dash-r">{right_html}</div>
       </div>
     </div></div>
   </div>
 </section>'''
     wall = platforms(secs)
     name = cfg.get("name", "")
-    if cfg.get("service"):
+    if cfg.get("case"):
+        body = case_body(rest, ids, icon, {**cfg, "_facts": facts_case}, hero_html)
+    elif cfg.get("service"):
         body = service_body(rest, ids, icon, cfg, secs, hero_html, platforms(secs, True))
     elif cfg.get("prose"):
         body = [hero_html] + ([wall] if wall else []) + [prose(rest, ids, icon)]
