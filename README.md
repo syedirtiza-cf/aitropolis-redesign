@@ -96,6 +96,10 @@ The 32 service pages (`solutions-<district>-<service>.html`) share a layout: a s
 
 The 21 case studies (`case-studies-*.html`) share a story layout: the hero card carries the headline result and the four key figures from the published case, a side rail keeps district, domain and headline in view, and the chapters run Challenge, Solution, Results (a dark panel with the figures in lime), then the technology or architecture list and the connections tiles. It handles results lists of two to six, a result without a figure, and a district-only label such as "Foundations + Systems".
 
+## Insight articles
+
+The seven articles (`insights-*.html`) share an editorial layout: the hero card shows reading time, date, topic and a numbered contents list; the body has a sticky contents list with the current section highlighted, a reading-progress bar under the header, a callout for the short answer, a dark callout for the bottom line, checklists with a bold lead-in and a note, tables for figures, and a questions block that opens one answer at a time. Privacy, terms and accessibility keep the plainer reading layout.
+
 ## Imported copy
 
 - **Text comes from the current site.** The 67 inner pages carry the published wording, converted to UK spelling by `tools/extract.py`. It has not had an editorial pass.

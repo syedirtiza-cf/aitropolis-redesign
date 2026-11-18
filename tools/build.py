@@ -21,8 +21,8 @@ PAGES = ["industries", "case-studies", "insights", "partners", "about", "contact
 SERVICE_LAYOUT = "service pages: solutions-<district>-<service>"
 # case-study pages (case-studies-*) use the story layout
 CASE_LAYOUT = "every case-studies-* page"
-# insight articles on the editorial layout (one for review first)
-ARTICLE_LAYOUT = {"insights-erp-migration-timeline"}
+# insight articles (insights-*) use the editorial layout
+ARTICLE_LAYOUT = "every insights-* article"
 VERSION = time.strftime("%Y%m%d%H%M")
 
 def nav(active):
@@ -75,7 +75,7 @@ def main():
         elif name.startswith("industries-"): cfg["related_h"] = "Other sectors."
         elif group(name).startswith("solutions-"): cfg["related_h"] = "Other services in this district."
         data = json.loads((SRC / "content" / f"{name}.json").read_text())
-        cfg = {**cfg, "name": name, "prose": (name.startswith("insights-") and name not in ARTICLE_LAYOUT) or name in ("privacy", "terms", "accessibility"), "case": name.startswith("case-studies-"), "article": name in ARTICLE_LAYOUT, "service": len(name.split("-")) > 2 and name.split("-")[0] == "solutions" and name.split("-")[1] in pagegen.DIST}
+        cfg = {**cfg, "name": name, "prose": name in ("privacy", "terms", "accessibility"), "case": name.startswith("case-studies-"), "article": name.startswith("insights-"), "service": len(name.split("-")) > 2 and name.split("-")[0] == "solutions" and name.split("-")[1] in pagegen.DIST}
         body = pagegen.build(data, cfg)
         ctx = {"v": VERSION, "nav": nav(cfg.get("active", "")), "on_contact": ""}
         ctx["header"] = render(header, ctx)
