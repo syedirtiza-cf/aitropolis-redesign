@@ -1,0 +1,331 @@
+{
+ "sections": [
+  {
+   "eyebrow": "SYSTEMS DISTRICT",
+   "h1": "Application Modernisation",
+   "h2": "",
+   "lead": [
+    "Transform monolithic legacy applications into agile, scalable cloud-native systems. Reduce technical debt, improve performance, and enable continuous innovation."
+   ],
+   "links": [
+    [
+     "← Back to Systems",
+     "/solutions/systems"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "From our application modernisation engagements."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Cost Reduction",
+     "50-70%"
+    ],
+    [
+     "Faster Releases",
+     "3-6x"
+    ],
+    [
+     "Uptime SLA",
+     "99.9%"
+    ],
+    [
+     "Zero",
+     "Downtime Migration"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Trapped by legacy systems",
+   "lead": [
+    "Monolithic legacy applications slow innovation, increase operational costs, and create security vulnerabilities. Modernising requires expertise in both old and new technologies, plus zero-downtime migration strategies."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Monolithic architecture blocks agility",
+    "High operational costs and technical debt",
+    "Difficult to attract and retain talent",
+    "Security vulnerabilities in aged systems",
+    "Slow time-to-market for new features",
+    "Vendor lock-in and licensing complexity"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our Approach",
+   "h1": "",
+   "h2": "Phased modernisation",
+   "lead": [
+    "We assess your application landscape, design a phased migration path, and execute zero-downtime transformations. Modern cloud-native architectures, containerisation, microservices, and infrastructure-as-code enable rapid iteration and cost optimisation."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Assessment & architecture design",
+    "Containerisation & cloud migration",
+    "Microservices decomposition",
+    "Infrastructure-as-code & DevOps",
+    "Zero-downtime migration execution",
+    "Continuous improvement & optimisation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Modernisation Patterns",
+   "h1": "",
+   "h2": "Multiple pathways to cloud",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "6R Approach",
+     "lvl": "h3",
+     "p": [
+      "Structured assessment of each application to determine optimal modernisation strategy."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Rehost · Replatform · Refactor · Repurchase · Retire",
+       "Retain"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Strangler Pattern",
+     "lvl": "h3",
+     "p": [
+      "Replace legacy components gradually while maintaining system stability and service availability."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Incremental migration · Feature parity · Parallel running · Gradual cutover · Rollback capability",
+       "Zero-downtime"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud-Native Architecture",
+     "lvl": "h3",
+     "p": [
+      "Build modern, scalable applications using cloud-native patterns and managed services."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Microservices · Containerisation · Kubernetes · Serverless · Event-driven",
+       "Auto-scaling"
+      ]
+     ],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Stack",
+   "h1": "",
+   "h2": "Modern platforms and tools",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Legacy Systems We Modernise",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "COBOL",
+      "Mainframes",
+      "AS/400",
+      "Legacy Oracle",
+      "Legacy SQL Server"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Modern Application Stack",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "React",
+      "Vue.js",
+      "Angular",
+      "Node.js",
+      "Python",
+      "Java",
+      ".NET",
+      "Flutter",
+      "React Native"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI/ML Integration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "TensorFlow",
+      "PyTorch",
+      "OpenAI GPT",
+      "Claude",
+      "LangChain"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud Platforms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud",
+      "BytePlus"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Containerisation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Docker",
+      "Kubernetes",
+      "OpenShift",
+      "ECS/EKS"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Infrastructure",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Terraform",
+      "CloudFormation",
+      "Ansible",
+      "Chef"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "CI/CD & DevOps",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Jenkins",
+      "GitLab CI",
+      "GitHub Actions",
+      "ArgoCD"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Further reading",
+   "h1": "",
+   "h2": "Estates we have already moved.",
+   "lead": [
+    "45%",
+    "3-year TCO savings",
+    "Riyadh Pharma",
+    "ERP and infrastructure modernisation for a pharmaceutical manufacturer, KSA",
+    "30%+",
+    "TCO savings",
+    "Quikcard",
+    "Payments workload moved to Oracle Cloud, Canada"
+   ],
+   "links": [
+    [
+     "Read the case",
+     "/case-studies/riyadh-pharma-erp-modernization"
+    ],
+    [
+     "Read the case",
+     "/case-studies/quikcard-oracle-cloud-migration"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "How Long Does an ERP Migration Really Take? ERP Strategy · 8 min read"
+   ],
+   "tags": []
+  }
+ ]
+}

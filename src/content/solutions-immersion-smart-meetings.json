@@ -1,0 +1,162 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Smart Meeting Rooms",
+   "h1": "Hybrid Collaboration. Frictionless.",
+   "h2": "",
+   "lead": [
+    "Intelligent meeting spaces. Smart AV controls. Seamless conferencing. Optimise hybrid work experiences.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Room Types",
+   "h1": "",
+   "h2": "Meeting Solutions",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Focus Pods",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "1-2 person capacity",
+      "Videoconferencing",
+      "Noise isolation",
+      "Scheduling display"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Collaboration Spaces",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "4-8 person huddles",
+      "Whiteboarding",
+      "Wireless casting",
+      "Smart displays"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Executive Suites",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "12+ capacity",
+      "Professional AV",
+      "Premium conferencing",
+      "Recording capability"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Core Services",
+   "h1": "",
+   "h2": "Smart Room Services",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Room Design & Planning",
+     "lvl": "h3",
+     "p": [
+      "Acoustic design, layout optimisation, capacity planning."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AV Integration",
+     "lvl": "h3",
+     "p": [
+      "Cameras, mics, displays, audio systems. Professional installation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Control Systems",
+     "lvl": "h3",
+     "p": [
+      "One-touch meeting start, scheduling integration, analytics."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Support & Maintenance",
+     "lvl": "h3",
+     "p": [
+      "24/7 support, regular maintenance, firmware updates, troubleshooting."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Stack",
+   "h1": "",
+   "h2": "Leading Platforms",
+   "lead": [
+    "Microsoft Teams Rooms",
+    "Cisco Webex",
+    "Zoom Rooms",
+    "Google Meet Hardware"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Assessments & upgrades",
+   "h1": "Know what your ERP needs before you fund the project",
+   "h2": "",
+   "lead": [
+    "Upgrade quotes arrive without anyone having read your customisations, interfaces or data. An assessment replaces that guess with a written finding on what is broken, what is merely old and what can wait."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we do",
+   "h1": "",
+   "h2": "ERP Assessments & Upgrades: what is included",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Functional assessment",
+     "lvl": "h3",
+     "p": [
+      "We walk the business processes in the system as people actually use them, and compare that with how the modules were set up. Gaps, workarounds and unused features go on the record."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Technical assessment",
+     "lvl": "h3",
+     "p": [
+      "Customisations, extensions, interfaces, reports, patch level, database and infrastructure are inventoried and rated by risk and effort."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Upgrade planning",
+     "lvl": "h3",
+     "p": [
+      "A route from your current release to the target one, with the order of work, the testing needed and the downtime window each step implies."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Migration planning",
+     "lvl": "h3",
+     "p": [
+      "Where the move is to a new platform or to the cloud, we scope data, integrations and cut-over before a vendor is chosen."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Platforms covered",
+     "lvl": "h3",
+     "p": [
+      "Oracle E-Business Suite and Oracle Fusion Cloud, SAP, Microsoft Dynamics 365 and Odoo."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Written output",
+     "lvl": "h3",
+     "p": [
+      "A findings report, a ranked remediation list and a phased plan your finance and IT leads can both take to a budget meeting."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How it runs",
+   "h1": "",
+   "h2": "From first call to hand-over",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Scope",
+     "lvl": "h3",
+     "p": [
+      "Agree the systems, entities and questions the assessment must answer, and who we can interview."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "Discover",
+     "lvl": "h3",
+     "p": [
+      "Interviews, configuration review and an inventory of customisations and interfaces."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "Analyse",
+     "lvl": "h3",
+     "p": [
+      "Rate each finding by risk, effort and dependency, and separate what blocks an upgrade from what only annoys users."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Report",
+     "lvl": "h3",
+     "p": [
+      "Present findings and options. The decision stays with you."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "Plan",
+     "lvl": "h3",
+     "p": [
+      "If you proceed, convert the chosen option into a phased plan with owners and test scope."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Limits",
+   "h1": "",
+   "h2": "Where this service stops",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "An assessment does not fix anything",
+     "lvl": "h3",
+     "p": [
+      "It produces evidence and a plan. If your team already knows what it wants to do and needs hands on the system, go straight to implementation instead."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Related",
+   "h1": "",
+   "h2": "Read next",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/systems/erp",
+     "n": "",
+     "h": "ERP implementation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/riyadh-pharma-erp-modernization",
+     "n": "",
+     "h": "Riyadh pharma ERP modernisation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/saudi-contracting-ebs-optimization",
+     "n": "",
+     "h": "Oracle EBS optimisation, project accounting",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/insights/erp-migration-timeline",
+     "n": "",
+     "h": "How long does an ERP migration take?",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "ERP Assessments & Upgrades, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "What does an ERP assessment cover?",
+     "a": [
+      "Business processes, configuration, customisations, interfaces, reports, data quality, patch level and the supporting database and infrastructure. The scope is agreed before work starts, so a narrow question can have a narrow assessment."
+     ]
+    },
+    {
+     "q": "Do we need an assessment before an upgrade?",
+     "a": [
+      "If nobody can list your customisations and interfaces with their owners, yes. If that inventory already exists and is current, you may be able to skip straight to planning."
+     ]
+    },
+    {
+     "q": "Which systems can you assess?",
+     "a": [
+      "Oracle E-Business Suite, Oracle Fusion Cloud, SAP, Microsoft Dynamics 365 and Odoo."
+     ]
+    },
+    {
+     "q": "Will the assessment recommend that we buy your services?",
+     "a": [
+      "The report ranks options, including the option to do less or to use another supplier. We state what the evidence supports."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

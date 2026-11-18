@@ -1,0 +1,273 @@
+{
+ "sections": [
+  {
+   "eyebrow": "IMMERSION DISTRICT",
+   "h1": "RTA IoT Museum & Audio Visual",
+   "h2": "",
+   "lead": [
+    "Transforming how visitors experience transportation history through immersive, interactive IoT-enabled exhibits.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "18 min",
+    "Average time spent per exhibit",
+    "Static displays were losing visitor interest, holding attention for just 3 min per exhibit."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Exhibits",
+     "12"
+    ],
+    [
+     "Annual Visitors",
+     "100K+"
+    ],
+    [
+     "Interactive",
+     "100%"
+    ],
+    [
+     "Visitor Rating",
+     "5.0 / 5"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Static museums for digital generation",
+   "lead": [
+    "RTA wanted to reinvent their transportation museum to engage modern visitors. Traditional displays couldn't compete with digital experiences visitors expect today."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Static displays losing visitor interest",
+    "No personalisation or engagement tracking",
+    "Manual A/V system management",
+    "Limited visitor data insights"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Immersive interactive experiences",
+   "lead": [
+    "12 IoT-enabled, fully interactive exhibits with synchronised audio-visual, motion sensing, and personalised storytelling for every visitor."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Motion-triggered experiences",
+    "AR-enabled storytelling",
+    "Real-time A/V synchronisation",
+    "Visitor engagement analytics"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Museum transformed, visitors engaged",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Annual Visitors",
+     "lvl": "h3",
+     "p": [
+      "35% increase year-over-year"
+     ],
+     "tags": [],
+     "li": [
+      "100K+"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Rating",
+     "lvl": "h3",
+     "p": [
+      "Consistently top-rated museum"
+     ],
+     "tags": [],
+     "li": [
+      "5.0 / 5"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Avg Time",
+     "lvl": "h3",
+     "p": [
+      "Per exhibit (up from 3 min)"
+     ],
+     "tags": [],
+     "li": [
+      "18 min"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Repeat Rate",
+     "lvl": "h3",
+     "p": [
+      "Visitors return to experience"
+     ],
+     "tags": [],
+     "li": [
+      "95%"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Stack",
+   "h1": "",
+   "h2": "Immersive tech integration",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "IoT & Sensors",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Motion Detection",
+      "RFID Tracking",
+      "Environmental Sensors"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Audio Visual",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "4K Projection",
+      "Spatial Audio",
+      "LED Installations"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Software",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Central Control System",
+      "Experience Management",
+      "Analytics Engine"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AR/XR",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Mobile AR",
+      "Interactive Kiosks",
+      "Visitor Engagement Platform"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Immersion",
+    "Immersive & Audio-Visual",
+    "Government & Public Sector",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

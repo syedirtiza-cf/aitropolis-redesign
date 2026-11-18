@@ -1,0 +1,215 @@
+{
+ "sections": [
+  {
+   "eyebrow": "SYSTEMS + FOUNDATIONS",
+   "h1": "Riyadh Pharma ERP & Infrastructure Modernisation",
+   "h2": "",
+   "lead": [
+    "A KSA pharmaceutical manufacturer running end-of-life infrastructure, operating system, database, and ERP versions needed a modernisation path that reduced cost without disrupting production-critical systems.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "45%",
+    "Savings in total cost of ownership",
+    "End-of-life infrastructure, operating system, database and ERP versions were driving up support costs and capping the manufacturer's ability to scale.",
+    "Over 3 years"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Support/Infra Savings",
+     "44%"
+    ],
+    [
+     "45%",
+     "3-Yr TCO Savings"
+    ],
+    [
+     "KSA",
+     "Pharmaceutical Sector"
+    ],
+    [
+     "Cloud",
+     "Scalability Gained"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "End-of-life systems, rising support costs",
+   "lead": [
+    "Aging infrastructure, operating system, database, and ERP versions were approaching end-of-life, driving up support costs and limiting the ability to scale."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "End-of-life infrastructure and OS versions",
+    "Aging database and ERP versions",
+    "Rising support and maintenance costs",
+    "Limited scalability for future growth"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Full-stack modernisation, cloud-ready",
+   "lead": [
+    "Aitropolis modernised the infrastructure, OS, database, and ERP layers together and moved the environment toward a more scalable cloud architecture."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Infrastructure and OS modernisation",
+    "Database and ERP version upgrades",
+    "Cloud-ready scalable architecture",
+    "Reduced ongoing support burden"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Lower costs, 3-year TCO improvement",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Support/Infra Savings",
+     "lvl": "h3",
+     "p": [
+      "Reduction in overall support and infrastructure costs"
+     ],
+     "tags": [],
+     "li": [
+      "44%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3-Year TCO Savings",
+     "lvl": "h3",
+     "p": [
+      "Total cost of ownership improvement with cloud scalability"
+     ],
+     "tags": [],
+     "li": [
+      "45%"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "Platforms & stack",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "ERP",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "ERP version modernisation",
+      "Database upgrade"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Infrastructure",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "End-of-life infrastructure renewal",
+      "OS modernisation",
+      "Cloud scalability"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Systems",
+    "ERP / CRM & BI",
+    "Foundations",
+    "Cloud & Virtualisation",
+    "Manufacturing & Supply Chain",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "sections": [
+  {
+   "eyebrow": "AI Strategy",
+   "h1": "From Pilot to Production",
+   "h2": "",
+   "lead": [
+    "A practical framework for scaling AI from PoC to business-critical systems.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Insights",
+     "/insights"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "August 12, 2026",
+    "•",
+    "12 min read"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Roadmap",
+   "lead": [
+    "Most AI projects die between pilot and production. Here's how to avoid that."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Phase 1: Data Foundation (Months 0-3)",
+     "lvl": "h3",
+     "p": [
+      "Audit existing data sources, establish governance policies, and build data pipelines. This phase looks boring but unlocks everything after."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Phase 2: Model Development (Months 3-6)",
+     "lvl": "h3",
+     "p": [
+      "Build and train your model using production-quality data. Establish monitoring and feedback loops. Start thinking about deployment infrastructure."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Phase 3: Governance & Compliance (Months 6-9)",
+     "lvl": "h3",
+     "p": [
+      "Set up model governance, audit trails, explainability, and compliance. Define who owns the model and who watches it in production."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Phase 4: Deployment & Operations (Months 9-12)",
+     "lvl": "h3",
+     "p": [
+      "Deploy to production with proper monitoring, alerting, and rollback procedures. Train teams. Establish runbooks for common failure modes."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Phase 5: Continuous Improvement (Months 12+)",
+     "lvl": "h3",
+     "p": [
+      "Monitor model drift, retrain regularly, and gather feedback from users. Scale to additional use cases."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

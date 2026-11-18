@@ -349,3 +349,11 @@ if(document.fonts)document.fonts.ready.then(()=>{if(![...document.fonts].some(f=
     sl.replaceWith(wrap);const b=$(".sh-btn",wrap);b.addEventListener("click",()=>{const o=wrap.classList.toggle("open");b.setAttribute("aria-expanded",String(o))});
     $$("details",wrap).forEach(d=>d.addEventListener("toggle",()=>{if(d.open)$$("details",wrap).forEach(o=>{if(o!==d)o.open=false})}))}
 })();
+
+/* ---- Route links: the app's /a/b routes are flat files here (a-b.html) ---- */
+(()=>{const fix=a=>{const h=a.getAttribute("href");if(!h||h[0]!=="/"||h[1]==="/")return;const[p,f]=h.slice(1).split("#");
+    a.setAttribute("href",(p?p.replace(/\/$/,"").replace(/\//g,"-")+".html":"index.html")+(f?"#"+f:""))};
+  const run=r=>(r.querySelectorAll?r.querySelectorAll('a[href^="/"]'):[]).forEach(fix);
+  run(document);
+  new MutationObserver(m=>m.forEach(x=>x.addedNodes.forEach(n=>{if(n.nodeType===1){if(n.matches("a"))fix(n);run(n)}}))).observe(document.body,{childList:true,subtree:true});
+})();

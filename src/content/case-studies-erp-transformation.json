@@ -1,0 +1,302 @@
+{
+ "sections": [
+  {
+   "eyebrow": "SYSTEMS DISTRICT",
+   "h1": "Enterprise ERP Transformation",
+   "h2": "",
+   "lead": [
+    "Multi-million dollar ERP implementation delivering enterprise-wide operational excellence across 5000+ users globally.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "$250M+",
+    "Annual savings",
+    "Data sat fragmented across 12 legacy systems, and teams lost 40+ FTE hours every week reconciling them by hand, with no real-time view of operations.",
+    "Deployed in 18 months"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Annual Savings",
+     "$250M+"
+    ],
+    [
+     "Deployment",
+     "18 months"
+    ],
+    [
+     "Active Users",
+     "5000+"
+    ],
+    [
+     "System Uptime",
+     "99.8%"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Legacy systems holding back growth",
+   "lead": [
+    "A Fortune 500 enterprise was struggling with fragmented, aging systems across finance, supply chain, and operations. Manual processes, data silos, and integration nightmares were costing millions annually and limiting scalability."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Fragmented data across 12 legacy systems",
+    "Manual reconciliation taking 40+ FTE hours weekly",
+    "Zero real-time visibility into operations",
+    "Unable to scale to new markets"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Unified platform for enterprise scale",
+   "lead": [
+    "We implemented a best-of-breed ERP solution (Oracle/D365) with custom integrations, change management, and 24/7 support across 4 global studios."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Single source of truth across functions",
+    "Automated workflows reducing manual work by 85%",
+    "Real-time dashboards for decision-makers",
+    "Multi-currency, multi-entity support"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Transformed operations in 18 months",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Annual Savings",
+     "lvl": "h3",
+     "p": [
+      "Reduced operational costs through automation and process optimisation"
+     ],
+     "tags": [],
+     "li": [
+      "$250M+"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Manual Work Reduction",
+     "lvl": "h3",
+     "p": [
+      "Automated repetitive tasks, freeing teams for strategic work"
+     ],
+     "tags": [],
+     "li": [
+      "85%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Time Saved",
+     "lvl": "h3",
+     "p": [
+      "Eliminated manual reconciliation between systems"
+     ],
+     "tags": [],
+     "li": [
+      "40+ hrs/week"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Month-End Close",
+     "lvl": "h3",
+     "p": [
+      "From 4 hours down to just 5 minutes"
+     ],
+     "tags": [],
+     "li": [
+      "4h → 5min"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "System Uptime",
+     "lvl": "h3",
+     "p": [
+      "24/7 managed operations supporting global business"
+     ],
+     "tags": [],
+     "li": [
+      "99.8%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Users Trained",
+     "lvl": "h3",
+     "p": [
+      "Smooth adoption across all geographies and departments"
+     ],
+     "tags": [],
+     "li": [
+      "5000+"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Stack",
+   "h1": "",
+   "h2": "Enterprise-grade architecture",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "ERP Platform",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Oracle ERP Cloud",
+      "Microsoft Dynamics 365",
+      "Custom modules"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Integration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "MuleSoft",
+      "API Gateway",
+      "Real-time sync"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Analytics",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Oracle Analytics",
+      "Power BI",
+      "Custom dashboards"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Infrastructure",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Multi-cloud (AWS/Azure)",
+      "99.8% SLA",
+      "24/7 managed services"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Systems",
+    "ERP / CRM & BI"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

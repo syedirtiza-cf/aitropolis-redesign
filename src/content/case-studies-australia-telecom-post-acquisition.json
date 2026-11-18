@@ -1,0 +1,212 @@
+{
+ "sections": [
+  {
+   "eyebrow": "FOUNDATIONS + SYSTEMS",
+   "h1": "Australia Telecom Post-Acquisition Managed Services",
+   "h2": "",
+   "lead": [
+    "Following an acquisition, an Australian telecom operator needed to offload database support and logging analytics, then modernise analytics operations on Oracle Cloud.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "65%",
+    "Local resource savings from offloading database support and logging analytics",
+    "After the acquisition, database support and logging analytics depended on costly local resources, and the analytics operations behind them were overdue for modernisation."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Local Resource Savings",
+     "65%"
+    ],
+    [
+     "Analytics Cost Savings",
+     "55%"
+    ],
+    [
+     "Australia",
+     "Telecom Sector"
+    ],
+    [
+     "Post-M&A",
+     "Transformation"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Post-acquisition complexity, costly local resourcing",
+   "lead": [
+    "Post-acquisition, the telecom needed database support and logging analytics offloaded, and its analytics operations modernised, without the cost of scaling local resources."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Post-acquisition operational complexity",
+    "High cost of local database/analytics resources",
+    "Legacy analytics operations needing modernisation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Offloaded operations, managed analytics on Oracle Cloud",
+   "lead": [
+    "Aitropolis took on database support and logging analytics, then modernised analytics operations on Oracle Cloud under a fully managed model."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Database support offload",
+    "Logging analytics offload",
+    "Analytics modernisation on Oracle Cloud",
+    "Fully managed analytics operations"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Two engagements, compounding savings",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Local Resource Savings",
+     "lvl": "h3",
+     "p": [
+      "Database support & logging analytics offload"
+     ],
+     "tags": [],
+     "li": [
+      "65%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Analytics Cost Savings",
+     "lvl": "h3",
+     "p": [
+      "Post-acquisition analytics modernisation on Oracle Cloud"
+     ],
+     "tags": [],
+     "li": [
+      "55%"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "Platforms & stack",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Oracle Cloud analytics modernisation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operations",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Database support offload",
+      "Logging analytics",
+      "Managed analytics operations"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Foundations",
+    "Cloud & Virtualisation",
+    "Systems",
+    "ERP / CRM & BI",
+    "Telecommunications",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

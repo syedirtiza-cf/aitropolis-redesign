@@ -1,0 +1,208 @@
+{
+ "sections": [
+  {
+   "eyebrow": "SYSTEMS",
+   "h1": "Pakistan Telecom Oracle Database Center of Excellence",
+   "h2": "",
+   "lead": [
+    "A Pakistan telecom operator needed to unify enterprise data operations across critical workloads running on multiple Oracle Database platforms.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "45%",
+    "Cost savings from a unified Oracle Database Centre of Excellence",
+    "Critical telecom workloads ran across multiple Oracle Database platforms with no unified operating model, and fragmented support kept driving up cost and operational risk."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Cost Savings",
+     "45%"
+    ],
+    [
+     "Pakistan",
+     "Telecom Sector"
+    ],
+    [
+     "Multi-Platform",
+     "Oracle DB CoE"
+    ],
+    [
+     "Unified",
+     "Data Operations"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Fragmented database operations across platforms",
+   "lead": [
+    "Critical telecom workloads ran across multiple Oracle Database platforms with no unified operating model, driving up cost and operational risk."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Multiple Oracle Database platforms in use",
+    "No unified data operations model",
+    "Rising cost of fragmented database support"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "A single Center of Excellence for Oracle Database",
+   "lead": [
+    "Aitropolis established a multi-platform Oracle Database Center of Excellence, unifying enterprise data operations across the telecom's critical workloads."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Multi-platform Oracle Database CoE",
+    "Unified enterprise data operations",
+    "Standardised support across critical workloads"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "One operating model, lower cost",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Savings",
+     "lvl": "h3",
+     "p": [
+      "Reduction achieved through a unified Oracle Database CoE"
+     ],
+     "tags": [],
+     "li": [
+      "45%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Operations",
+     "lvl": "h3",
+     "p": [
+      "Single operating model across critical telecom workloads"
+     ],
+     "tags": [],
+     "li": [
+      "Unified"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "Platforms & stack",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Database",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Multi-platform Oracle Database",
+      "Center of Excellence model"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operations",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Unified enterprise data operations"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Systems",
+    "ERP / CRM & BI",
+    "Telecommunications",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

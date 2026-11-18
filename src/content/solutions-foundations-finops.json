@@ -1,0 +1,264 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Cloud Cost Governance",
+   "h1": "Cut cloud waste by 40%",
+   "h2": "",
+   "lead": [
+    "FinOps governance that reclaims budgets without sacrificing cloud agility. Cost allocation, reserved instances, Spot automation, and right-sizing."
+   ],
+   "links": [
+    [
+     "← Foundations District",
+     "/solutions/foundations"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "FinOps Practices",
+   "h1": "",
+   "h2": "5 patterns that work",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Allocation Tags",
+     "lvl": "h3",
+     "p": [
+      "Tag every resource by team, project, cost-center. Automate chargeback. Visibility kills waste."
+     ],
+     "tags": [],
+     "li": [
+      "2",
+      "10-15% savings"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Reserved Instance Pools",
+     "lvl": "h3",
+     "p": [
+      "Buy RIs as a company. Pool them across teams. Utilisation jumps from 45% to 75%."
+     ],
+     "tags": [],
+     "li": [
+      "3",
+      "10-15% savings"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Spot Automation",
+     "lvl": "h3",
+     "p": [
+      "Non-critical workloads run on Spot. Failover to on-demand when needed. Karpenter orchestrates."
+     ],
+     "tags": [],
+     "li": [
+      "4",
+      "5-10% savings"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Right-Sizing by Workload",
+     "lvl": "h3",
+     "p": [
+      "Profile real usage over 6 weeks. Downsize oversized instances. Quarterly refresh."
+     ],
+     "tags": [],
+     "li": [
+      "5",
+      "15-20% savings"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Commitment Discounts",
+     "lvl": "h3",
+     "p": [
+      "AWS Savings Plans & Azure Commitments beat per-instance RIs. Lock in 40% discounts."
+     ],
+     "tags": [],
+     "li": [
+      "6",
+      "5-10% savings"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Storage & Data Optimisation",
+     "lvl": "h3",
+     "p": [
+      "Lifecycle policies, compression, deduplication. Big leverage on large data lakes."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "1",
+    "10-15% savings"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our Approach",
+   "h1": "",
+   "h2": "FinOps delivered in phases",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Assess",
+     "lvl": "h4",
+     "p": [
+      "Audit current cloud spend. Identify waste. Baseline by team and workload."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Governance",
+     "lvl": "h4",
+     "p": [
+      "Implement tagging, cost allocation, budgets, and forecasting."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Commitment Strategy",
+     "lvl": "h4",
+     "p": [
+      "Right-size reserved instances and commitment discounts. Lock in savings."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Automation",
+     "lvl": "h4",
+     "p": [
+      "Enforce cost policies via IaC, auto-scaling, Spot management."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Continuous Optimisation",
+     "lvl": "h4",
+     "p": [
+      "Monthly reviews, right-sizing cycles, and emerging tech adoption."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Culture",
+     "lvl": "h4",
+     "p": [
+      "Build cost awareness into team OKRs and decision-making."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "FinOps · Answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "What's FinOps and why does it matter?",
+     "a": [
+      "FinOps (Financial Operations) is the practice of bringing accountability and visibility to cloud spend. Most enterprises waste 30-40% on idle resources and oversized instances. FinOps fixes this through cost allocation, reserved instances, and automation, without cutting features."
+     ]
+    },
+    {
+     "q": "How much can we save with FinOps?",
+     "a": [
+      "Typically 30-40% of cloud spend. For a $1M/month cloud bill, that's $300-400K annually. Most savings come from: reserved instances (10-15%), Spot instances (10-15%), right-sizing (5-10%), and storage optimisation (5%)."
+     ]
+    },
+    {
+     "q": "Will FinOps slow down our teams?",
+     "a": [
+      "No. Good FinOps is invisible to development teams. We implement cost-aware policies via Terraform/Infrastructure-as-Code, so teams stay agile while costs stay controlled. Automation > manual enforcement."
+     ]
+    },
+    {
+     "q": "How do you handle multi-cloud FinOps?",
+     "a": [
+      "We audit all clouds (AWS, Azure, GCP) together, allocate costs fairly across teams, and apply consistent policies. Tools like Vantage or CloudZero give unified visibility, then we enforce commitment discounts across all platforms."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

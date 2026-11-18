@@ -1,0 +1,290 @@
+{
+ "sections": [
+  {
+   "eyebrow": "INTELLIGENCE DISTRICT",
+   "h1": "GPU-Based AI Solutions",
+   "h2": "",
+   "lead": [
+    "High-performance computing solutions with NVIDIA B200 Blackwell GPUs powering next-generation AI workloads across the Gulf region.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "10x",
+    "Faster AI model training",
+    "Gulf enterprises had no local GPU infrastructure, so AI model training took 4 weeks."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Several",
+     "GPU Servers"
+    ],
+    [
+     "Regions",
+     "3"
+    ],
+    [
+     "Performance Gain",
+     "10x"
+    ],
+    [
+     "Availability",
+     "99.99%"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Computing at the speed of AI",
+   "lead": [
+    "Enterprises across the Gulf needed high-performance computing for AI/ML workloads - generative AI, data analytics, computer vision - but lacked infrastructure, expertise, and regional support."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "No local GPU infrastructure",
+    "AI model training taking weeks",
+    "Limited machine learning expertise",
+    "High latency for real-time inference"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Enterprise GPU computing",
+   "lead": [
+    "NVIDIA B200 Blackwell GPU clusters deployed across UAE, Singapore, and Gulf region with full management, optimisation, and 24/7 support."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "NVIDIA B200 Blackwell GPUs",
+    "AI/ML training pipelines",
+    "Low-latency inference clusters",
+    "Regional support centers"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Accelerating AI at scale",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Performance",
+     "lvl": "h3",
+     "p": [
+      "Faster model training"
+     ],
+     "tags": [],
+     "li": [
+      "10x"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Training",
+     "lvl": "h3",
+     "p": [
+      "Down from 4 weeks previously"
+     ],
+     "tags": [],
+     "li": [
+      "1 week"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Savings",
+     "lvl": "h3",
+     "p": [
+      "Per inference operation"
+     ],
+     "tags": [],
+     "li": [
+      "50%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Availability",
+     "lvl": "h3",
+     "p": [
+      "SLA-backed uptime"
+     ],
+     "tags": [],
+     "li": [
+      "99.99%"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Stack",
+   "h1": "",
+   "h2": "State-of-the-art AI infrastructure",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Hardware",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "NVIDIA B200 Blackwell",
+      "High-bandwidth interconnect",
+      "Enterprise-grade cooling"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Software",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "CUDA & cuDNN",
+      "TensorFlow, PyTorch",
+      "NVIDIA AI Enterprise"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Management",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "GPU cluster orchestration",
+      "Auto-scaling",
+      "Resource optimisation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Support",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "24/7 monitoring",
+      "Regional support centers",
+      "Performance optimisation"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Use Cases Enabled",
+   "h1": "",
+   "h2": "Powering AI applications",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Generative AI training & inference",
+    "Computer vision for surveillance",
+    "Financial AI models & trading",
+    "Healthcare diagnostics",
+    "Natural language processing",
+    "Recommendation systems"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Intelligence",
+    "AI & Software"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

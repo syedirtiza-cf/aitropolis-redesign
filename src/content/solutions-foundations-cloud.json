@@ -1,0 +1,822 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Cloud Migration & Operations",
+   "h1": "Move to Cloud. Stay in Control.",
+   "h2": "",
+   "lead": [
+    "End-to-end cloud migration with zero downtime. From on-premises to AWS, Azure, or GCP, with 24/7 managed operations that optimise cost and performance.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "AWS Partnership",
+   "h1": "",
+   "h2": "AWS Select Tier Partner",
+   "lead": [
+    "Aitropolis is an AWS Select Tier Partner with experienced architects, solution engineers, and DevOps specialists. We've migrated 200+ applications to AWS across banking, e-commerce, manufacturing, and healthcare."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "EC2 & Auto Scaling",
+     "lvl": "h3",
+     "p": [
+      "Compute infrastructure with auto-scaling for variable workloads"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "RDS & Aurora",
+     "lvl": "h3",
+     "p": [
+      "Managed relational databases with multi-AZ replication"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Lambda & Serverless",
+     "lvl": "h3",
+     "p": [
+      "Event-driven compute without server management"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "S3 & Storage",
+     "lvl": "h3",
+     "p": [
+      "Scalable object storage with lifecycle policies"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "VPC & Networking",
+     "lvl": "h3",
+     "p": [
+      "Isolated network environments with security groups"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "IAM & Security",
+     "lvl": "h3",
+     "p": [
+      "Fine-grained identity and access management"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "CloudFormation & IaC",
+     "lvl": "h3",
+     "p": [
+      "Infrastructure as code for reproducible deployments"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "CloudWatch & Monitoring",
+     "lvl": "h3",
+     "p": [
+      "Real-time monitoring, logging, and alerting"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Backup & Disaster Recovery",
+     "lvl": "h3",
+     "p": [
+      "AWS Backup, DMS, and recovery strategies"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AWS Partner",
+     "lvl": "h3",
+     "p": [
+      "Select tier, with experienced architects"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Private Cloud",
+   "h1": "",
+   "h2": "VMware Cloud Foundation 9 (VCF9)",
+   "lead": [
+    "Not every workload belongs in public cloud. VCF9 delivers a full software-defined private cloud - compute, storage, and networking - with the operating model of public cloud and the data control of on-premises infrastructure."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "When VCF9 is the right call",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data sovereignty",
+     "lvl": "h4",
+     "p": [
+      "Regulated data must stay in-country or on-prem"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Regulated workloads",
+     "lvl": "h4",
+     "p": [
+      "Banking, government, healthcare compliance boundaries"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Predictable scale",
+     "lvl": "h4",
+     "p": [
+      "Steady, high-volume capacity vs. bursty demand"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud repatriation",
+     "lvl": "h4",
+     "p": [
+      "Moving cost-heavy, steady workloads off public cloud"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Unified lifecycle management across the full VCF9 stack",
+    "Native Tanzu integration for Kubernetes alongside VMs",
+    "Edge-to-core consistency for distributed sites",
+    "Predictable capacity and cost at scale, no egress surprises"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Container Platform",
+   "h1": "",
+   "h2": "Red Hat OpenShift",
+   "lead": [
+    "OpenShift is the portable layer between your applications and whatever infrastructure runs beneath them - the same container platform on-premises, on VCF9, or on any public cloud, so applications move without rewrites."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Where OpenShift runs",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "K8s",
+       "Enterprise Kubernetes platform"
+      ],
+      [
+       "AI",
+       "OpenShift AI for MLOps pipelines"
+      ],
+      [
+       "Any",
+       "On-prem, VCF9, AWS, Azure, GCP"
+      ],
+      [
+       "CI/CD",
+       "Built-in DevSecOps pipelines"
+      ]
+     ],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Consistent operator model across hybrid and multi-cloud",
+    "OpenShift AI for training and serving models at scale",
+    "Built-in DevSecOps pipelines and image security scanning",
+    "No single-cloud container lock-in - migrate workloads freely"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Decision Framework",
+   "h1": "",
+   "h2": "Choosing your cloud model",
+   "lead": [
+    "Most enterprises run more than one model side by side. Here's how we help clients decide what runs where."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Public Cloud",
+     "lvl": "h3",
+     "p": [
+      "AWS · Azure · GCP"
+     ],
+     "tags": [],
+     "li": [
+      "Variable, bursty workloads",
+      "Managed services (RDS, Lambda)",
+      "Fast global reach"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Private Cloud",
+     "lvl": "h3",
+     "p": [
+      "VMware VCF9"
+     ],
+     "tags": [],
+     "li": [
+      "Data sovereignty & compliance",
+      "Predictable, steady capacity",
+      "Cost control at scale"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Container Platform",
+     "lvl": "h3",
+     "p": [
+      "Red Hat OpenShift"
+     ],
+     "tags": [],
+     "li": [
+      "Portability across any cloud",
+      "AI/ML workload orchestration",
+      "Avoiding vendor lock-in"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Business Impact",
+   "h1": "",
+   "h2": "What cloud delivers",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Reduction",
+     "lvl": "h3",
+     "p": [
+      "Pay only for what you use. Average 30-50% savings vs on-premises infrastructure."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Scalability",
+     "lvl": "h3",
+     "p": [
+      "Auto-scale to handle 10x traffic spikes without manual intervention."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Reliability",
+     "lvl": "h3",
+     "p": [
+      "99.99% uptime SLA with built-in redundancy and disaster recovery."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security",
+     "lvl": "h3",
+     "p": [
+      "Compliance frameworks (PCI, HIPAA, SOX) built-in with encryption everywhere."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Speed to Market",
+     "lvl": "h3",
+     "p": [
+      "Deploy new services in hours, not weeks. Faster time to value."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Global Reach",
+     "lvl": "h3",
+     "p": [
+      "Serve customers in 30+ countries with AWS regions and edge locations."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Migration Methodology",
+   "h1": "",
+   "h2": "Five phases to cloud success",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Assess",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "2-4 weeks",
+      "Application portfolio analysis",
+      "Infrastructure mapping",
+      "Cloud readiness assessment",
+      "Cost modeling (on-prem vs cloud)",
+      "Compliance and security requirements",
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "3-6 weeks",
+      "Target architecture design",
+      "Landing zone setup (AWS)",
+      "Network and VPC design",
+      "Security framework (IAM, encryption, VPC endpoints)",
+      "HA/DR strategy",
+      "Cost optimisation roadmap",
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Pilot",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "4-8 weeks",
+      "Migrate 1-2 low-risk applications",
+      "Validate migration tools and processes",
+      "Test backup and recovery procedures",
+      "Performance baseline and tuning",
+      "Team training and knowledge transfer",
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Migrate",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "8-16 weeks",
+      "Bulk application migration (wave-based)",
+      "Re-host or re-architect, decided per application",
+      "Large database migrations with minimal downtime",
+      "DNS cutover and traffic migration",
+      "Decommission on-premises infrastructure",
+      "24/7 war room support",
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Optimise",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Ongoing",
+      "Cost optimisation (reserved instances, spot pricing)",
+      "Performance tuning",
+      "Auto-scaling configuration",
+      "Security hardening",
+      "Managed services transition"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "1"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Success Stories",
+   "h1": "",
+   "h2": "Cloud migrations that worked",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Global Bank Migration to AWS",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Migrate 500+ on-premises servers with strict compliance requirements (PCI-DSS, SOX)",
+      "Solution",
+      "AWS landing zone with isolated security groups, PrivateLink for PCI workloads, AWS Config for compliance monitoring",
+      "Result",
+      "30% cost reduction, 99.99% uptime, zero compliance violations post-migration"
+     ],
+     "tags": [
+      "E-Commerce"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Retail Giant to AWS with Auto-Scaling",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Handle 10x traffic spikes during Black Friday without provisioning excess capacity year-round",
+      "Solution",
+      "Lambda for microservices, RDS Aurora for elastic DB scaling, CloudFront CDN, auto-scaling groups",
+      "Result",
+      "Handled 5M requests/min during peak, 45% infrastructure cost savings vs on-prem"
+     ],
+     "tags": [
+      "Manufacturing"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "ERP Migration (SAP) to AWS",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Migrate SAP ERP with zero downtime during quarter-end close",
+      "Solution",
+      "AWS Database Migration Service (DMS) with dual-write, cutover on weekend, instant rollback capability",
+      "Result",
+      "3-hour cutover, zero data loss, quarter-end close on schedule"
+     ],
+     "tags": [
+      "Healthcare"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Multi-Region DR Setup (AWS + Azure)",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Achieve <1 hour RTO across multiple regions for mission-critical systems",
+      "Solution",
+      "AWS primary (us-east), Azure secondary (europe), Route 53 health checks with failover",
+      "Result",
+      "Tested failover <15 minutes, HIPAA-compliant architecture, 24/7 monitoring"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": [
+    "Banking & Finance"
+   ]
+  },
+  {
+   "eyebrow": "Cost Optimisation",
+   "h1": "",
+   "h2": "Save 30-50% on cloud costs",
+   "lead": [
+    "Cloud cost optimisation isn't a one-time event, it's a continuous practice. We identify unused resources, right-size instances, and negotiate volume discounts."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Strategy",
+    "Savings Potential",
+    "Timeframe",
+    "Reserved Instances",
+    "1-3 year commitment",
+    "Spot Instances",
+    "For non-critical workloads",
+    "Compute Optimiser",
+    "Right-sizing recommendations",
+    "Storage Tiering",
+    "S3 Lifecycle policies",
+    "Data Transfer Optimisation",
+    "VPC endpoints, CloudFront"
+   ],
+   "tags": [
+    "30-40%",
+    "70-90%",
+    "20-30%",
+    "50-70%",
+    "15-25%"
+   ]
+  },
+  {
+   "eyebrow": "AWS Architecture",
+   "h1": "",
+   "h2": "Reference architectures",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "High-Availability Web App",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "ELB",
+      "Auto Scaling",
+      "RDS Multi-AZ",
+      "CloudFront CDN"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Serverless Microservices",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "API Gateway",
+      "Lambda",
+      "DynamoDB",
+      "SQS/SNS"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Lake on AWS",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "S3",
+      "Glue",
+      "Athena",
+      "QuickSight"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Multi-Region Disaster Recovery",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Route 53",
+      "Cross-region RDS",
+      "S3 Replication",
+      "AWS Backup"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Hybrid Cloud (On-prem + AWS)",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "VPN",
+      "Direct Connect",
+      "Storage Gateway",
+      "DataSync"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Container Orchestration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "ECS/EKS",
+      "ECR",
+      "CloudMap",
+      "CloudWatch Container Insights"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Ongoing Support",
+   "h1": "",
+   "h2": "Managed cloud, 24/7",
+   "lead": [
+    "Migration is just the beginning. Our engineers run AWS, Azure, GCP, BytePlus, VCF9 and OpenShift estates as managed cloud, monitored and optimised 24/7 from Dubai, London, Islamabad and Singapore."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "24/7 infrastructure monitoring and alerting",
+    "Proactive performance optimisation",
+    "Security patching and compliance audits",
+    "Cost analysis and optimisation reviews",
+    "Incident response and war room support",
+    "Infrastructure optimisation: architecture, security and cost audits",
+    "Legacy infrastructure upgrades and technology migrations",
+    "Capacity planning and forecasting"
+   ],
+   "tags": []
+  }
+ ]
+}

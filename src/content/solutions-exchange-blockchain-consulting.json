@@ -1,0 +1,307 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Integration and consulting",
+   "h1": "Most blockchain proposals do not need a blockchain",
+   "h2": "",
+   "lead": [
+    "Before a ledger earns a place in your architecture, someone has to ask what a database cannot do here. We start with that question, and sometimes the answer is to build something simpler."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we do",
+   "h1": "",
+   "h2": "Blockchain Consulting & Integration: what is included",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Feasibility review",
+     "lvl": "h3",
+     "p": [
+      "A written view on whether a shared ledger fits the problem, who the participants are and what trust gap it closes."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Platform selection",
+     "lvl": "h3",
+     "p": [
+      "Public, permissioned or hybrid networks compared on cost, privacy, throughput and the skills your team has."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise integration",
+     "lvl": "h3",
+     "p": [
+      "Connecting on-chain components to ERP, payments, identity and data platforms so the ledger does not become an island."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Proof of concept",
+     "lvl": "h3",
+     "p": [
+      "A narrow, time-boxed build that tests the riskiest assumption first, with exit criteria agreed in advance."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Governance and operating model",
+     "lvl": "h3",
+     "p": [
+      "Who runs nodes, who approves changes, and what happens when a participant leaves."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Delivery handover",
+     "lvl": "h3",
+     "p": [
+      "If you proceed, the work passes to build teams in smart contracts, tokenisation or custom software."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How it runs",
+   "h1": "",
+   "h2": "From first call to hand-over",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Frame the problem",
+     "lvl": "h3",
+     "p": [
+      "Identify the process, the parties and the failure that costs you money today."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "Test the fit",
+     "lvl": "h3",
+     "p": [
+      "Compare a ledger against simpler options on the same criteria."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "Choose the platform",
+     "lvl": "h3",
+     "p": [
+      "Pick a network and design the integration points."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Prove it",
+     "lvl": "h3",
+     "p": [
+      "Build a proof of concept and measure it against the criteria set at the start."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "Decide",
+     "lvl": "h3",
+     "p": [
+      "Scale, change course or stop. A stop is a valid result."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Limits",
+   "h1": "",
+   "h2": "Where this service stops",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "We may advise against it",
+     "lvl": "h3",
+     "p": [
+      "If the review shows a conventional system does the job, the report says so, and that is the end of the engagement."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Related",
+   "h1": "",
+   "h2": "Read next",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/exchange/smart-contracts",
+     "n": "",
+     "h": "Smart contracts",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/exchange/tokenization",
+     "n": "",
+     "h": "Tokenisation and NFT",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/exchange/defi",
+     "n": "",
+     "h": "DeFi protocols",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/insights/blockchain-enterprise-use-cases",
+     "n": "",
+     "h": "Enterprise blockchain use cases",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Blockchain Consulting & Integration, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "How do we know if we need a blockchain?",
+     "a": [
+      "Several parties who do not fully trust each other must share and update the same records, and no single party should control them. If that is not your situation, a database is usually better."
+     ]
+    },
+    {
+     "q": "Can you integrate with our ERP?",
+     "a": [
+      "Yes. Integration with ERP, payment and identity systems is a core part of the work, not an afterthought."
+     ]
+    },
+    {
+     "q": "How long does a proof of concept take?",
+     "a": [
+      "It depends on scope, which we fix at the start. A proof of concept should be small enough to answer one question."
+     ]
+    },
+    {
+     "q": "Do you also build the production system?",
+     "a": [
+      "Yes, through our smart contract, tokenisation and custom software teams, if the proof of concept justifies it."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Solutions",
+   "h1": "Foundations District",
+   "h2": "",
+   "lead": [
+    "Cloud & Infrastructure",
+    "The cloud-native foundation every modern enterprise is built on. Multi-cloud strategy, migration, managed operations across AWS, Azure, and GCP.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Why Cloud Foundations Matter",
+   "h1": "",
+   "h2": "Cloudmigration is infrastructure. Aitropolis is strategy.",
+   "lead": [
+    "Moving to the cloud is more than migrating workloads. It's rearchitecting for scale, cost optimisation, automation, and modern DevOps practices. We guide enterprises through every phase, from pre-cloud assessment through ongoing managed operations at scale."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Global Cloud Partnerships",
+   "h1": "",
+   "h2": "Deep expertise across all major clouds",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Amazon Web Services",
+     "lvl": "h3",
+     "p": [
+      "AWS Select Tier Partner",
+      "Select Tier partnership with experienced architects and DevOps engineers."
+     ],
+     "tags": [
+      "EC2/ECS/EKS",
+      "Lambda & Serverless",
+      "RDS/DynamoDB",
+      "CloudFormation",
+      "S3 & Storage"
+     ],
+     "li": [
+      "AWS"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Microsoft Azure",
+     "lvl": "h3",
+     "p": [
+      "Partner",
+      "Select Tier partnership with experienced architects and DevOps engineers."
+     ],
+     "tags": [
+      "VMs/AKS",
+      "Azure SQL",
+      "Cosmos DB",
+      "Azure DevOps",
+      "Azure Synapse"
+     ],
+     "li": [
+      "Azure"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Google Cloud Platform",
+     "lvl": "h3",
+     "p": [
+      "Partner",
+      "Select Tier partnership with experienced architects and DevOps engineers."
+     ],
+     "tags": [
+      "Compute Engine/GKE",
+      "BigQuery",
+      "Cloud Run",
+      "Vertex AI",
+      "Cloud Storage"
+     ],
+     "li": [
+      "GCP"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Capabilities",
+   "h1": "",
+   "h2": "Full-stack cloud services",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud Migration",
+     "lvl": "h3",
+     "p": [
+      "End-to-end cloud transformation, from legacy on-premises to modern cloud-native architectures with zero-downtime migration strategies."
+     ],
+     "tags": [
+      "AWS Migration",
+      "Azure Migration",
+      "GCP Migration",
+      "BytePlus",
+      "Hybrid Cloud"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud Operations",
+     "lvl": "h3",
+     "p": [
+      "Ongoing cloud operations, optimisation, and support across AWS, Azure, and GCP with SLA-backed uptime guarantees."
+     ],
+     "tags": [
+      "24/7 Managed Services",
+      "Infrastructure Monitoring",
+      "FinOps & Cost Governance",
+      "Security & Compliance"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "DevOps & Infrastructure",
+     "lvl": "h3",
+     "p": [
+      "Modern DevOps practices, containerised workloads, automated deployments, and infrastructure automation for scalability."
+     ],
+     "tags": [
+      "Kubernetes & Container Orchestration",
+      "CI/CD Pipelines",
+      "Infrastructure-as-Code",
+      "Terraform / CloudFormation"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Private Cloud & Virtualisation",
+     "lvl": "h3",
+     "p": [
+      "Enterprise virtualisation, private cloud infrastructure, and on-premises datacenter modernisation for organisations requiring hybrid deployments."
+     ],
+     "tags": [
+      "VMware vSphere",
+      "Red Hat OpenShift",
+      "Hyper-V",
+      "OpenStack"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Storage & Disaster Recovery",
+     "lvl": "h3",
+     "p": [
+      "Secure storage solutions, automated backups, geo-redundant disaster recovery, and business continuity strategies."
+     ],
+     "tags": [
+      "Cloud Storage",
+      "Backup & Recovery",
+      "Disaster Recovery as a Service",
+      "Data Replication"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Network & Security",
+     "lvl": "h3",
+     "p": [
+      "Secure cloud networking, VPC/VNet design, encrypted communications, and multi-layer security architectures."
+     ],
+     "tags": [
+      "Virtual Networks",
+      "VPN & ExpressRoute",
+      "Web Application Firewalls",
+      "DDoS Protection"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Delivery Methodology",
+   "h1": "",
+   "h2": "Cloud transformation in phases",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Assess",
+     "lvl": "h3",
+     "p": [
+      "Cloud readiness assessment, cost modeling, and target architecture design."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [
+      "Multi-cloud strategy, landing zones, network design, security framework."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Migrate",
+     "lvl": "h3",
+     "p": [
+      "Database migration, application re-platforming, data transfer, testing."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Optimise",
+     "lvl": "h3",
+     "p": [
+      "Cost optimisation, performance tuning, auto-scaling configuration."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operate",
+     "lvl": "h3",
+     "p": [
+      "24/7 managed services, monitoring, patching, disaster recovery."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Industries We Serve",
+   "h1": "",
+   "h2": "Vertical expertise at scale",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01",
+    "Banking & Finance",
+    "02",
+    "Telecommunications",
+    "03",
+    "Manufacturing",
+    "04",
+    "Healthcare",
+    "05",
+    "Government",
+    "06",
+    "Retail"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Dive Deeper",
+   "h1": "",
+   "h2": "Service detail pages",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud Transformation",
+     "lvl": "h3",
+     "p": [
+      "AWS, Azure, GCP, BytePlus"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud-virtualization",
+     "n": "",
+     "h": "Cloud & Virtualisation",
+     "lvl": "h3",
+     "p": [
+      "Private, hybrid, public cloud, migration"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/devops",
+     "n": "",
+     "h": "DevOps & Automation",
+     "lvl": "h3",
+     "p": [
+      "CI/CD, infrastructure-as-code"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/finops",
+     "n": "",
+     "h": "FinOps",
+     "lvl": "h3",
+     "p": [
+      "Cloud cost governance and optimisation"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/managed-services",
+     "n": "",
+     "h": "Managed Services",
+     "lvl": "h3",
+     "p": [
+      "24/7 operations & support"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Common Use Cases",
+   "h1": "",
+   "h2": "What we enable",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Legacy System Modernisation",
+     "lvl": "h3",
+     "p": [
+      "Migrate mainframe, monolithic apps to cloud-native microservices with zero downtime."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Multi-Cloud Strategy",
+     "lvl": "h3",
+     "p": [
+      "Leverage AWS for compute, Azure for enterprise integration, GCP for analytics, optimised per workload."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Disaster Recovery as a Service",
+     "lvl": "h3",
+     "p": [
+      "Geographically redundant backup, automated failover, and continuous replication for business continuity."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Optimisation",
+     "lvl": "h3",
+     "p": [
+      "Reserved instances, spot pricing, auto-scaling, and cloud financial management to reduce spend by 30-50%."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "DevOps Transformation",
+     "lvl": "h3",
+     "p": [
+      "CI/CD pipelines, containerisation, infrastructure-as-code, and shift-left security practices."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Hybrid & On-Premises",
+     "lvl": "h3",
+     "p": [
+      "VMware, OpenStack, and private cloud for workloads requiring on-premises or compliance-specific deployment."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

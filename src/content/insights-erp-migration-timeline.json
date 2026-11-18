@@ -1,0 +1,168 @@
+{
+ "sections": [
+  {
+   "eyebrow": "ERP Strategy",
+   "h1": "How Long Does an ERP Migration Really Take?",
+   "h2": "",
+   "lead": [
+    "From assessment through go-live: realistic timelines for Oracle, D365, and SAP migrations, plus the five factors that make the difference.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Insights",
+     "/insights"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "August 15, 2026",
+    "•",
+    "8 min read"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Short Answer",
+   "lead": [
+    "Most ERP migrations take 12 to 24 months from kickoff to go-live. But that timeline sits on a wide range: we've seen greenfield D365 implementations land in 8 months and enterprise SAP transformations take 36. The difference isn't complexity or budget, it's how well the five timeline drivers align."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Five Timeline Drivers",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "1. Scope (Extend / Adopt / Modernise)",
+     "lvl": "h3",
+     "p": [
+      "Are you replatforming an existing system (Adopt: 12-18 months), or rearchitecting to cloud-native design (Modernise: 18-24 months)? Greenfield builds on a platform you know (Extend) compress to 8-12 months."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "2. Data Quality & Readiness",
+     "lvl": "h3",
+     "p": [
+      "Spend 6-8 weeks before kickoff auditing your source systems. Clean data accelerates UAT by 2-3 months. Dirty data can add 4-6 months to scrubbing, migration, and validation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3. Change Readiness & Training",
+     "lvl": "h3",
+     "p": [
+      "Underestimating people is the #1 reason migrations slip. Plan 6-8 weeks for training and change management. Organisations that make this a parallel workstream (not post-go-live) hit their dates."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "4. Vendor Support & Methodology",
+     "lvl": "h3",
+     "p": [
+      "Vendors with in-house delivery methodologies (Oracle's AIM, Microsoft's Sure Step) shorten by 4-8 weeks. Partners who build custom playbooks add time."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "5. Stakeholder Availability",
+     "lvl": "h3",
+     "p": [
+      "Key business users and IT leads need to be hands-on 30-40% of project time. Availability gaps slip schedules by weeks per month. Dedicated resource pools close projects faster."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Sample Timelines",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Oracle E-Business Suite",
+     "System Adopt"
+    ],
+    [
+     "Microsoft Dynamics 365",
+     "Greenfield"
+    ],
+    [
+     "SAP S/4HANA",
+     "Modernise"
+    ],
+    [
+     "Odoo",
+     "Greenfield"
+    ]
+   ],
+   "bullets": [
+    "14-18 months",
+    "10-14 months",
+    "20-28 months",
+    "8-12 months"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Bottom Line",
+   "lead": [
+    "Most delays aren't technical, they're organisational. Lock in resources, clean your data upfront, and invest in change management. Those three moves compress schedules by 6-10 weeks more reliably than any other lever."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

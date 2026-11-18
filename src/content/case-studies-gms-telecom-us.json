@@ -1,0 +1,281 @@
+{
+ "sections": [
+  {
+   "eyebrow": "SYSTEMS DISTRICT · TELECOM INFRASTRUCTURE",
+   "h1": "GMS Global Message System Enterprise Messaging",
+   "h2": "",
+   "lead": [
+    "Enterprise-grade A2P (Application-to-Person) messaging platform providing secure, compliant, high-volume SMS delivery for telecommunications and global enterprise customers.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "$30M",
+    "Annual carrier savings through intelligent routing",
+    "Enterprise A2P messaging ran with no global routing optimisation, no compliance framework across regions, high carrier costs and poor carrier relationships."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Monthly Messages",
+     "1.8B"
+    ],
+    [
+     "Delivery Rate",
+     "98.8%"
+    ],
+    [
+     "Countries Served",
+     "140+"
+    ],
+    [
+     "Average Latency",
+     "500ms"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Messaging scale and compliance",
+   "lead": [
+    "Enterprise customers needed reliable, high-volume A2P messaging infrastructure with global reach. Existing solutions lacked compliance frameworks, routing intelligence, and cost optimisation."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "No global routing optimisation",
+    "Compliance complexity across regions",
+    "Limited delivery intelligence",
+    "High carrier costs",
+    "Poor carrier relationships"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Global messaging platform",
+   "lead": [
+    "Purpose-built A2P platform with direct carrier relationships, intelligent routing, compliance automation, and real-time delivery analytics optimised for enterprise telecommunications."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Direct carrier connections",
+    "Intelligent routing engine",
+    "Compliance automation",
+    "Real-time analytics",
+    "Cost optimisation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Global telecommunications leadership",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Monthly Message Volume",
+     "lvl": "h3",
+     "p": [
+      "Processed with reliable throughput"
+     ],
+     "tags": [],
+     "li": [
+      "1.8B"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Global Coverage",
+     "lvl": "h3",
+     "p": [
+      "Countries with carrier relationships"
+     ],
+     "tags": [],
+     "li": [
+      "140+"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Average Latency",
+     "lvl": "h3",
+     "p": [
+      "End-to-end message delivery time"
+     ],
+     "tags": [],
+     "li": [
+      "500ms"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Annual Carrier Savings",
+     "lvl": "h3",
+     "p": [
+      "Through intelligent routing optimisation"
+     ],
+     "tags": [],
+     "li": [
+      "$30M"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platform Architecture",
+   "h1": "",
+   "h2": "Enterprise-grade infrastructure",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Carrier Network",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Direct carrier connections",
+      "200+ partner operators",
+      "Fallback routing",
+      "Carrier quality scoring"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Routing Engine",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "AI-powered optimisation",
+      "Cost minimisation",
+      "Delivery guarantee",
+      "Regional failover"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Compliance & Security",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "DLT registration",
+      "Consent management",
+      "TCPA compliance",
+      "Data encryption"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Developer Platform",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "REST API",
+      "Webhooks",
+      "Rate limiting",
+      "Real-time analytics"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Systems",
+    "ERP / CRM & BI",
+    "Telecom platforms",
+    "OSS/BSS, VAS & operator integration",
+    "Telecommunications",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

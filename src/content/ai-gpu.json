@@ -1,0 +1,478 @@
+{
+ "sections": [
+  {
+   "eyebrow": "From the workload to the silicon",
+   "h1": "Enterprise AI infrastructure and GPU servers.",
+   "h2": "",
+   "lead": [
+    "NVIDIA H200 · B200 · B300 · four- and eight-GPU systems",
+    "GPU servers, AI clusters and the networking, storage and software that run them. We size the infrastructure to your workload, source the hardware, deploy it and operate it."
+   ],
+   "links": [
+    [
+     "Request a GPU quote on WhatsApp",
+     "https://wa.me/971562387869?text=Hi%20Aitropolis%20%E2%80%94%20I'd%20like%20a%20quote%20for%20GPU%20servers.%20Model%20%2F%20workload%20%2F%20quantity%3A"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "https://koalendar.com/e/meet-with-AitropolisTechnologies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we provide",
+   "h1": "",
+   "h2": "The hardware, and everything it needs to run.",
+   "lead": [
+    "Split these across three vendors and the gaps between them become your problem: the fabric nobody specified, the driver nobody owns, the server that arrives before the rack is ready."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "GPU hardware",
+    "Servers · GPUs · networking · storage · racks",
+    "NVIDIA H200, B200 and B300 systems, RTX professional cards, and the switches, optics, storage and racks around them, sourced against your configuration.",
+    "Infrastructure design",
+    "Sizing · cluster design · fabric · storage · scheduling",
+    "The cluster specified to the workload: GPU count, NVLink and InfiniBand fabric, parallel storage, and Slurm or Kubernetes scheduling.",
+    "Deployment",
+    "Rack · power · cooling · CUDA · drivers · orchestration",
+    "Racking, power and thermal envelope, the driver and CUDA stack, MIG partitioning, and multi-node training fabric brought up and tested.",
+    "Managed operations",
+    "Monitoring · optimisation · security · lifecycle",
+    "Monitoring that shows whether the GPUs are busy, utilisation and cost tuning, patching and security, and lifecycle through to refresh.",
+    "AI workloads",
+    "Training · inference · RAG · LLMs · HPC · agents",
+    "Model serving on vLLM or Triton, training pipelines and agent deployments, run on the infrastructure we built rather than handed over at the rack."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "GPU servers and AI systems",
+   "h1": "",
+   "h2": "H200, B200 and B300, configured to order.",
+   "lead": [
+    "The differences that decide a purchase. Figures are NVIDIA's published specifications; the full configuration comes with your quote.",
+    "Hopper"
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "NVIDIA H200",
+     "lvl": "h3",
+     "p": [
+      "High-memory training, inference and HPC, in four- or eight-GPU servers.",
+      "Blackwell"
+     ],
+     "tags": [],
+     "li": [
+      "HBM3e per GPU",
+      "141GB",
+      "memory bandwidth per GPU",
+      "4.8TB/s",
+      "GPUs per server",
+      "4 or 8"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "NVIDIA B200",
+     "lvl": "h3",
+     "p": [
+      "Blackwell training and inference on the HGX B200 eight-GPU platform.",
+      "Blackwell Ultra"
+     ],
+     "tags": [],
+     "li": [
+      "GPU memory per eight-GPU system",
+      "1.4TB",
+      "NVLink bandwidth per system",
+      "14.4TB/s",
+      "networking bandwidth per system",
+      "0.8TB/s"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "NVIDIA B300",
+     "lvl": "h3",
+     "p": [
+      "The largest-memory Blackwell system, for large-model training and reasoning inference.",
+      "NVIDIA, H200, B200, B300, HGX and RTX are trademarks of NVIDIA Corporation. We source through distributors and are not an NVIDIA partner of record."
+     ],
+     "tags": [],
+     "li": [
+      "GPU memory per eight-GPU system",
+      "2.1TB",
+      "NVLink bandwidth per system",
+      "14.4TB/s",
+      "networking bandwidth per system",
+      "1.6TB/s"
+     ],
+     "kv": [],
+     "a": [
+      [
+       "Compare by workload",
+       "#which-gpu"
+      ],
+      [
+       "Request a configuration",
+       "https://wa.me/971562387869?text=Hi%20Aitropolis%20%E2%80%94%20I'd%20like%20a%20quote%20for%20GPU%20servers.%20Model%20%2F%20workload%20%2F%20quantity%3A"
+      ]
+     ]
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Which GPU is right for me?",
+   "h1": "",
+   "h2": "Start from the workload, not the chip.",
+   "lead": [
+    "You know what you need to train or how many requests you need to serve. This is the usual direction; the final choice also depends on memory per model, software stack, networking, power and budget.",
+    "Typical GPU choice by workload"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Requirement",
+    "Typical direction",
+    "Large-memory AI and HPC workloads",
+    "H200",
+    "Blackwell training and inference",
+    "B200",
+    "The largest models, the most memory per system",
+    "B300",
+    "Large multi-node training",
+    "B200 or B300 cluster, on InfiniBand",
+    "Enterprise inference",
+    "H200, B200 or B300, sized to throughput and latency",
+    "AI development and visualisation",
+    "RTX professional workstation GPUs"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Server configurations",
+   "h1": "",
+   "h2": "What a four- and an eight-GPU server actually are.",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Four-GPU AI server",
+     "lvl": "h3",
+     "p": [
+      "H200",
+      "Workload profile:Fine-tuning, inference, RAG and departmental training"
+     ],
+     "tags": [],
+     "li": [
+      "Four H200 GPUs, SXM or NVL",
+      "Dual server CPUs and system memory sized to the data pipeline",
+      "Local NVMe for datasets and checkpoints",
+      "High-speed Ethernet or InfiniBand networking",
+      "Fits a standard air-cooled rack in most configurations"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Eight-GPU HGX server",
+     "lvl": "h3",
+     "p": [
+      "H200, B200 or B300",
+      "Workload profile:Large-model training, high-throughput inference and multi-node clusters"
+     ],
+     "tags": [],
+     "li": [
+      "Eight SXM GPUs on an NVIDIA HGX baseboard",
+      "NVLink and NVSwitch between every GPU",
+      "SuperNICs for InfiniBand or 400G/800G Ethernet",
+      "Enterprise NVMe and a path to shared parallel storage",
+      "Out-of-band management and rack integration"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "A GPU server is more than GPUs.",
+     "lvl": "h3",
+     "p": [
+      "We specify every line below, which is why a quote from us is not a race on GPU unit price."
+     ],
+     "tags": [],
+     "li": [
+      "GPUs",
+      "CPUs",
+      "System memory",
+      "NVMe storage",
+      "GPU interconnect (NVLink / NVSwitch)",
+      "NICs, SuperNICs and DPUs",
+      "Power supplies",
+      "Cooling",
+      "Rack configuration",
+      "Operating system",
+      "NVIDIA drivers and CUDA",
+      "Container runtime",
+      "Orchestration (Kubernetes or Slurm)",
+      "Monitoring"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Architecture",
+   "h1": "",
+   "h2": "Seven layers, one design.",
+   "lead": [
+    "A cluster is only as fast as its slowest layer. We design all seven together, so the GPUs you pay for are never waiting on the network, the storage or the power."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01 Workloads Training · inference · RAG · HPC · agents",
+    "02 AI software vLLM · Triton · Kubernetes · Slurm · CUDA",
+    "03 Compute H200 · B200 · B300",
+    "04 GPU fabric NVLink · NVSwitch",
+    "05 Network InfiniBand · 400G / 800G Ethernet",
+    "06 Storage NVMe · parallel filesystem · object storage",
+    "07 Data centre Power · cooling · rack · monitoring"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "How buying works",
+   "h1": "",
+   "h2": "From requirement to a running GPU cluster.",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Configuration-led sourcing",
+     "lvl": "h3",
+     "p": [
+      "We source against the configuration you need rather than sell from a fixed stock list, so your quote carries the exact configuration, its lead time and the deployment option, and none of it is a catalogue figure that was true last month."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "1 Tell us what you are running The model, the workload, training or inference, and the throughput you need. Not a part number, the problem.",
+    "2 We design the configuration GPU, CPU, memory, storage, network, power and cooling, matched to that workload.",
+    "3 We quote hardware and lead time A quote for that configuration with its lead time, not a price from a list.",
+    "4 We deploy Racked, cabled and networked, with the CUDA and software stack configured and tested.",
+    "5 We operate Monitoring, optimisation and support for as long as you want us to run it."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Workloads",
+   "h1": "",
+   "h2": "Built for demanding AI workloads.",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "AI training",
+    "LLMs, multimodal models and fine-tuning",
+    "AI inference",
+    "High-throughput and real-time enterprise inference",
+    "RAG and enterprise AI",
+    "Embedding, retrieval, reranking and generation",
+    "HPC and simulation",
+    "Scientific computing, engineering and life-sciences workloads",
+    "Computer vision",
+    "Training, video analytics and industrial inspection",
+    "Digital twins",
+    "Simulation and AI-driven environments"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Proof",
+   "h1": "",
+   "h2": "Already running, already measured.",
+   "lead": [
+    "GPU infrastructure we deployed and operate across 3 regions, on NVIDIA Blackwell B200.",
+    "10x",
+    "faster model training after the cluster was rebuilt",
+    "Training runs that took 4 weeks finish in 1 week.",
+    "99.99% availability, across 3 regions",
+    "Read the GPU infrastructure case study"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴",
+    "3-4x",
+    "training speed-up on B200 over the previous generation",
+    "8-10x",
+    "multi-node speed-up once InfiniBand replaces Ethernet",
+    "50%",
+    "lower inference cost per token after right-sizing",
+    "8-16 weeks",
+    "from engagement to a first use case in production"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "On the same infrastructure",
+   "h1": "",
+   "h2": "Agents, put into production.",
+   "lead": [
+    "Claims and document processing, KYC review, support triage, procurement and engineering agents, deployed with the four controls that decide whether they survive real work.",
+    "The honest limitation: an agent is only as good as the evaluation set you can write for it. Where a task has no checkable right answer, we scope it as assistance rather than automation."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Evaluation harness",
+    "A scored test set the agent has to pass before it touches production, and again after every change.",
+    "Guardrails",
+    "Hard limits on what the agent may call, spend, write to and see, enforced outside the model.",
+    "Human in the loop",
+    "A review step on the decisions that carry cost or risk.",
+    "Rollback",
+    "A way back to the previous behaviour that does not depend on the agent agreeing to it."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Answers, on the record.",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Do you sell H200, B200 and B300 servers?",
+     "a": [
+      "Yes. We supply NVIDIA H200, B200 and B300 systems, in four-GPU and eight-GPU HGX configurations, along with RTX professional cards and the networking and storage around them. We source each order against the configuration rather than hold stock, so every quote names the configuration and its lead time."
+     ]
+    },
+    {
+     "q": "Which GPU is right for my workload?",
+     "a": [
+      "It depends on model size, memory per GPU, training or inference, throughput, power and budget. H200 suits large-memory AI and HPC work, B200 is Blackwell training and inference, and B300 gives the most memory per system. Send us the workload and we recommend a configuration."
+     ]
+    },
+    {
+     "q": "What is included in a GPU server?",
+     "a": [
+      "More than the GPUs: CPUs, system memory, NVMe, the NVLink/NVSwitch interconnect, NICs or SuperNICs, power, cooling and rack configuration, then the operating system, NVIDIA drivers, CUDA, container runtime, orchestration and monitoring. We specify all of it, which is why we do not compete on GPU unit price alone."
+     ]
+    },
+    {
+     "q": "Can you source GPU hardware without the deployment work?",
+     "a": [
+      "Yes. Send a part number or a rough configuration and you get a specification and a lead time back. Nothing obliges you to buy the deployment alongside it."
+     ]
+    },
+    {
+     "q": "Where do you deliver and operate?",
+     "a": [
+      "From studios in Dubai, London, Islamabad, Singapore, serving clients across 30+ countries. We respond within 24 hours on business days."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Quoting hardware",
+   "h1": "",
+   "h2": "Tell us what you are trying to run",
+   "lead": [
+    "We respond within 24 hours on business days.",
+    "Full Name",
+    "Email Address",
+    "Service of Interest Select a service...GPU server quote (H200 / B200 / B300)GPU cluster design & deploymentHPC cluster design & deploymentAI infrastructure configuration & MLOpsManaged GPU operationsAgentic AI deployment",
+    "Message",
+    "Send Message"
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "A quote moves faster on WhatsApp",
+     "lvl": "h3",
+     "p": [
+      "Send the model, the workload, the rough configuration or a part number you have been given elsewhere. You get a configuration and a lead time back, not a brochure.",
+      "Request a hardware quote",
+      "Or book a 15-minute call with an engineer.",
+      "One team specifies the cluster, sources the H200, B200 or B300 systems, racks them and keeps them running. Nobody in the middle to point at."
+     ],
+     "tags": [],
+     "li": [
+      "⋯",
+      "∴"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "*",
+    "Phone Number",
+    "*",
+    "*",
+    "*"
+   ],
+   "tags": []
+  }
+ ]
+}

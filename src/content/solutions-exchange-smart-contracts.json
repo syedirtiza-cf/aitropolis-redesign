@@ -1,0 +1,145 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Smart Contracts & Blockchain",
+   "h1": "Secure Code. Audited. Deployed.",
+   "h2": "",
+   "lead": [
+    "Enterprise smart contract development. Solidity, Move, Rust. Code audits. Security testing. Multi-chain deployment strategies.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Core Services",
+   "h1": "",
+   "h2": "Smart Contract Lifecycle",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Architecture review",
+      "Token economics",
+      "Gas optimisation",
+      "Upgradability patterns"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Development",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Solidity/Move/Rust",
+      "Test coverage 100%",
+      "CI/CD pipelines",
+      "Staging deployments"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Audit & Deploy",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Security audits",
+      "Formal verification",
+      "Mainnet launch",
+      "Ongoing monitoring"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Use Cases",
+   "h1": "",
+   "h2": "Smart Contracts in Production",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Token Contracts",
+     "lvl": "h3",
+     "p": [
+      "ERC-20, ERC-721, ERC-1155. Minting, burns, access control."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "DeFi Protocols",
+     "lvl": "h3",
+     "p": [
+      "Liquidity pools, AMMs, lending protocols. Audited and deployed."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "DAOs & Governance",
+     "lvl": "h3",
+     "p": [
+      "Multi-sig contracts. Voting mechanisms. Treasury management."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "NFT Marketplaces",
+     "lvl": "h3",
+     "p": [
+      "Royalty enforcement, gas optimisation, secondary sales."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

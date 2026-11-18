@@ -1,0 +1,164 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Asset Tokenisation & RWA",
+   "h1": "Real Assets. On-Chain.",
+   "h2": "",
+   "lead": [
+    "Tokenise real-world assets. Equity, real estate, commodities. Security-compliant infrastructure. Audited end-to-end.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Asset Classes",
+   "h1": "",
+   "h2": "What We Tokenise",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Securities & Equity",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "◆ Company shares",
+      "◆ Bonds",
+      "◆ Fund units",
+      "◆ Derivatives"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Real Estate",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "◆ Property deeds",
+      "◆ Real estate funds",
+      "◆ Rental yields",
+      "◆ Land rights"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Commodities",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "◆ Precious metals",
+      "◆ Agricultural products",
+      "◆ Energy credits",
+      "◆ Carbon credits"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Core Services",
+   "h1": "",
+   "h2": "Full Tokenisation Stack",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Smart Contract Suite",
+     "lvl": "h3",
+     "p": [
+      "Token standards, transfer restrictions, compliance logic."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Custody & Settlement",
+     "lvl": "h3",
+     "p": [
+      "Secure asset custody, atomic settlement, escrow management."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Regulatory Compliance",
+     "lvl": "h3",
+     "p": [
+      "Know-your-customer, accreditation checks, KYC/AML integration."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Issuance & Distribution",
+     "lvl": "h3",
+     "p": [
+      "Primary offering, secondary markets, investor relations."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Token Standards",
+   "h1": "",
+   "h2": "Compliance & Standards",
+   "lead": [
+    "ERC-3643 (T-REX)",
+    "Security tokens with compliance",
+    "ERC-1400 Series",
+    "Regulated security tokens",
+    "ERC-20 + Restrictions",
+    "Custom compliance rules"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Digital Marketing",
+   "h1": "Why Your Social Budget Isn't Working",
+   "h2": "",
+   "lead": [
+    "Attribution models, audience segmentation, and platform strategy to turn spend into pipeline.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Insights",
+     "/insights"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "August 10, 2026",
+    "•",
+    "6 min read"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Problem",
+   "lead": [
+    "Most teams run social like a PR channel, posting brand news and hoping. Meanwhile, competitors are using social as a demand-gen engine. The gap isn't budget; it's strategy."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Three Fixes",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "1. Fix Your Attribution Model",
+     "lvl": "h3",
+     "p": [
+      "Last-click attribution credits social for sales it didn't drive. Use multi-touch models or test incrementality. Find out which platforms actually move pipeline."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "2. Segment Your Audience",
+     "lvl": "h3",
+     "p": [
+      "Treat brand followers like a list of potential customers, not a vanity metric. Tailor messaging by job title, industry, and buying stage. Use LinkedIn/Twitter lists and lookalike audiences."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3. Platform Strategy Matters",
+     "lvl": "h3",
+     "p": [
+      "LinkedIn is for B2B demand-gen (pipeline). Twitter is for thought leadership and engagement. TikTok is for brand awareness, not yet for B2B sales. Allocate budget accordingly."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Expected Outcomes",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "2-3x ROI from B2B social ads (vs. 0.5x with generic spend)",
+    "15-25% lower CAC when social is part of mix",
+    "40-60% faster sales cycle for warm leads from social"
+   ],
+   "tags": []
+  }
+ ]
+}

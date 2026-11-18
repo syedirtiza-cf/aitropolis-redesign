@@ -1,0 +1,362 @@
+{
+ "sections": [
+  {
+   "eyebrow": "FOUNDATIONS DISTRICT",
+   "h1": "Cloud & Virtualisation",
+   "h2": "",
+   "lead": [
+    "Transform your IT infrastructure with secure, scalable cloud and virtualisation solutions. From private cloud to public cloud to hybrid ecosystems, we architect infrastructure that grows with your business."
+   ],
+   "links": [
+    [
+     "← Back to Foundations",
+     "/solutions/foundations"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Cost Savings",
+     "50%"
+    ],
+    [
+     "Higher Performance",
+     "3x"
+    ],
+    [
+     "Availability SLA",
+     "99.99%"
+    ],
+    [
+     "Disaster Recovery RTO",
+     "10ms"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Cloud Infrastructure Services",
+   "h1": "",
+   "h2": "From on-premise to cloud",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Private Cloud Solutions",
+     "lvl": "h3",
+     "p": [
+      "Dedicated, secure cloud infrastructure for regulated industries and enterprise workloads."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "VMware vSphere · VMware vSAN · Red Hat OpenStack",
+       "Hyper-V"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Hybrid Cloud Architecture",
+     "lvl": "h3",
+     "p": [
+      "Seamless integration between on-premises and public cloud resources with unified management."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "VMware Hybrid Cloud · Azure Stack · Red Hat Hybrid Cloud",
+       "Multi-cloud management"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Public Cloud Adoption",
+     "lvl": "h3",
+     "p": [
+      "Migration and optimisation on AWS, Azure, GCP, and BytePlus with best-in-class architecture patterns."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "AWS · Microsoft Azure · Google Cloud",
+       "BytePlus"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Container & Kubernetes",
+     "lvl": "h3",
+     "p": [
+      "Enterprise-grade container orchestration and cloud-native application platforms."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Red Hat OpenShift · Kubernetes · Docker Enterprise",
+       "Container Registry"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud Security & Compliance",
+     "lvl": "h3",
+     "p": [
+      "Zero-trust architecture, encryption, compliance automation, and security operations."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Azure Security · AWS GuardDuty · Cloud IAM",
+       "Compliance as Code"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud Cost Optimisation",
+     "lvl": "h3",
+     "p": [
+      "FinOps strategies, reserved capacity management, and continuous cost optimisation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "FinOps platforms · Cost analytics · Resource optimisation",
+       "Chargeback models"
+      ]
+     ],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Deployment Models",
+   "h1": "",
+   "h2": "Choose the right architecture for your business",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Public Cloud",
+     "lvl": "h3",
+     "p": [
+      "Startups, web apps, development/test"
+     ],
+     "tags": [],
+     "li": [
+      "Rapid scaling",
+      "Pay-as-you-go",
+      "Global infrastructure",
+      "Managed services",
+      "Fastest deployment"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Private Cloud",
+     "lvl": "h3",
+     "p": [
+      "Regulated industries, sensitive data"
+     ],
+     "tags": [],
+     "li": [
+      "Maximum control",
+      "Regulatory compliance",
+      "Dedicated resources",
+      "Custom infrastructure",
+      "Long-term cost savings"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Hybrid Cloud",
+     "lvl": "h3",
+     "p": [
+      "Enterprise transformation, growth"
+     ],
+     "tags": [],
+     "li": [
+      "Flexibility",
+      "Unified management",
+      "Phased migration",
+      "Workload portability",
+      "Best of both worlds"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Multi-Cloud",
+     "lvl": "h3",
+     "p": [
+      "Global enterprises, risk mitigation"
+     ],
+     "tags": [],
+     "li": [
+      "Vendor independence",
+      "Optimal cost per workload",
+      "Geographic distribution",
+      "Resilience & redundancy",
+      "Strategic flexibility"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Cloud Migration Strategy",
+   "h1": "",
+   "h2": "Zero-downtime transformation",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "The Phased Approach",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Assess",
+     "lvl": "h4",
+     "p": [
+      "Current state analysis, cloud readiness assessment, business case development"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Plan",
+     "lvl": "h4",
+     "p": [
+      "Architecture design, migration roadmap, cost modeling, risk assessment"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Migrate",
+     "lvl": "h4",
+     "p": [
+      "Workload replication, cutover execution, validation, zero-downtime transition"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Optimise",
+     "lvl": "h4",
+     "p": [
+      "Performance tuning, cost optimisation, training, knowledge transfer"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Key Success Factors",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Executive sponsorship & clear ROI",
+      "Detailed readiness assessment",
+      "Proven migration methodology",
+      "24/7 migration team & war room",
+      "Comprehensive testing protocols",
+      "Rollback procedures at each step",
+      "Post-migration validation & support",
+      "Continuous cost & performance optimisation"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

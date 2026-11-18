@@ -1,0 +1,460 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Custom Development",
+   "h1": "Enterprise software with AI built in",
+   "h2": "",
+   "lead": [
+    "Core banking platforms, digital wallets, payment gateways, and telecom systems that learn, adapt, and improve with every transaction. Built on Vertex AI, AWS SageMaker, and Azure ML."
+   ],
+   "links": [
+    [
+     "Intelligence District",
+     "/solutions/intelligence"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ],
+    [
+     "See Banking AI in Action",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Software Products",
+   "h1": "",
+   "h2": "Custom platforms built to scale",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Core Banking Platforms",
+     "lvl": "h3",
+     "p": [
+      "Deposit, lending, payments, and securities trading built on modern cloud infrastructure. Multi-currency, multi-language, 99.99% uptime."
+     ],
+     "tags": [],
+     "li": [
+      "Real-time ledger",
+      "Fraud detection AI",
+      "Compliance automation",
+      "Customer analytics"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Digital Wallets & Payments",
+     "lvl": "h3",
+     "p": [
+      "White-label mobile wallets with AI-driven payment routing, spend analytics, and personalised offers."
+     ],
+     "tags": [],
+     "li": [
+      "Sub-second settlement",
+      "Churn prediction",
+      "Offer personalisation",
+      "Dispute resolution AI"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Telecom OSS/BSS",
+     "lvl": "h3",
+     "p": [
+      "Order Management, Service Provisioning, Billing systems with ML-powered customer service and network optimisation."
+     ],
+     "tags": [],
+     "li": [
+      "Customer churn AI",
+      "Network optimisation",
+      "Revenue assurance",
+      "Self-care optimisation"
+     ],
+     "kv": [],
+     "a": [
+      [
+       "Telecom platforms",
+       "/solutions/intelligence/telecom-platforms"
+      ]
+     ]
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Intelligent Agents",
+     "lvl": "h3",
+     "p": [
+      "Custom LLM-based conversational AI for customer service, compliance Q&A, and internal operations."
+     ],
+     "tags": [],
+     "li": [
+      "Context awareness",
+      "Multi-language",
+      "Knowledge base integration",
+      "Human escalation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Real-time Analytics",
+     "lvl": "h3",
+     "p": [
+      "Streaming data platforms that feed AI systems. Sub-second latency for decision-making."
+     ],
+     "tags": [],
+     "li": [
+      "Feature stores",
+      "Real-time ETL",
+      "Anomaly detection",
+      "Dashboard automation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Risk & Compliance",
+     "lvl": "h3",
+     "p": [
+      "AI systems for KYC/AML, sanctions screening, and regulatory reporting. Built-in audit trails."
+     ],
+     "tags": [],
+     "li": [
+      "ML risk scoring",
+      "Sanctions matching",
+      "Audit automation",
+      "Explainability"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Stack",
+   "h1": "",
+   "h2": "Purpose-built for scale and intelligence",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "AI & ML Platforms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Google Vertex AI",
+       "AutoML, Forecasting, Custom Training"
+      ],
+      [
+       "AWS SageMaker",
+       "Training, Inference, Feature Store"
+      ],
+      [
+       "Azure ML & Healthcare AI",
+       "ML Pipelines, Model Management"
+      ],
+      [
+       "Anthropic Claude API",
+       "LLM integration, RAG systems"
+      ],
+      [
+       "XGBoost & LightGBM",
+       "Gradient boosting for tabular data"
+      ],
+      [
+       "MedGamma & Medical AI",
+       "Healthcare-specific models"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Backend & Data Infrastructure",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Python/Java/Go",
+       "Core business logic & services"
+      ],
+      [
+       "FastAPI/Spring Boot",
+       "High-performance APIs"
+      ],
+      [
+       "PostgreSQL/Oracle",
+       "ACID transactions & compliance"
+      ],
+      [
+       "Apache Kafka",
+       "Event streaming at scale"
+      ],
+      [
+       "Spark/Airflow",
+       "Data pipelines & orchestration"
+      ],
+      [
+       "Vector DBs (Pinecone)",
+       "Embeddings for RAG & search"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Inference & Serving",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "NVIDIA Triton",
+       "Multi-model serving <100ms"
+      ],
+      [
+       "Ray Serve",
+       "Distributed inference scaling"
+      ],
+      [
+       "KServe",
+       "Kubernetes-native model serving"
+      ],
+      [
+       "vLLM",
+       "Fast LLM inference"
+      ],
+      [
+       "Redis",
+       "In-memory feature cache"
+      ],
+      [
+       "Feature Stores",
+       "Real-time feature serving"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Compliance & Security",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "ISO 27001",
+       "Certification in progress"
+      ],
+      [
+       "PCI-DSS",
+       "Payment card industry compliant"
+      ],
+      [
+       "GDPR/CCPA",
+       "Data privacy frameworks"
+      ],
+      [
+       "Regulatory APIs",
+       "DFSA, SBP, ASIC integration"
+      ],
+      [
+       "Audit Trails",
+       "Immutable transaction logs"
+      ],
+      [
+       "Model Explainability",
+       "SHAP, LIME for decision transparency"
+      ]
+     ],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Delivery Model",
+   "h1": "",
+   "h2": "Build with confidence",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Discovery & Architecture",
+     "lvl": "h4",
+     "p": [
+      "Understand business flows, data, and constraints. Design system architecture for scale and compliance."
+     ],
+     "tags": [],
+     "li": [
+      "01"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Core Development",
+     "lvl": "h4",
+     "p": [
+      "Build backend services, APIs, and data pipelines. Agile sprints with working software every 2 weeks."
+     ],
+     "tags": [],
+     "li": [
+      "02"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI Integration",
+     "lvl": "h4",
+     "p": [
+      "Develop models, integrate Vertex/SageMaker/Azure ML, build feature stores, deploy inference APIs."
+     ],
+     "tags": [],
+     "li": [
+      "03"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security & Testing",
+     "lvl": "h4",
+     "p": [
+      "Penetration testing, security audit, compliance validation, load testing at 10x expected volume."
+     ],
+     "tags": [],
+     "li": [
+      "04"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Production Launch",
+     "lvl": "h4",
+     "p": [
+      "Blue-green deployment, canary rollout, 24/7 war room, rollback plan, monitoring dashboards."
+     ],
+     "tags": [],
+     "li": [
+      "05"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operations & Learning",
+     "lvl": "h4",
+     "p": [
+      "24/7 support, model monitoring, A/B testing, continuous improvement based on production data."
+     ],
+     "tags": [],
+     "li": [
+      "06"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Custom Software · Answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "What's included in custom AI software development?",
+     "a": [
+      "Architecture design, full-stack development (backend + frontend + mobile), AI/ML integration, data pipelines, real-time inference, API design, security & compliance, deployment, and 24/7 support. We build complete systems, not components."
+     ]
+    },
+    {
+     "q": "Which AI platforms do you use for custom software?",
+     "a": [
+      "We integrate with Google Vertex AI (AutoML, forecasting), AWS (SageMaker, Anthropic Claude API), Microsoft Azure (ML, Healthcare AI), and open-source frameworks (XGBoost, PyTorch). Each choice is driven by your data residency and use case, not platform loyalty."
+     ]
+    },
+    {
+     "q": "Can you build real-time fraud detection systems?",
+     "a": [
+      "Yes. We've deployed sub-100ms fraud detection using XGBoost on GPU, streaming feature stores, and real-time inference APIs. Typical savings: 40-60% reduction in false positives, 25-35% lower fraud loss."
+     ]
+    },
+    {
+     "q": "Do you have banking/fintech experience?",
+     "a": [
+      "Yes. Aitropolis has built core banking platforms, digital wallets, payment gateways, and telecom billing systems. All deployments follow ISO 27001-aligned security controls, PCI-DSS, and local regulatory requirements (DFSA, SBP, ASIC)."
+     ]
+    },
+    {
+     "q": "How long does custom software development take?",
+     "a": [
+      "MVP to production: 4-8 months for a focused use case. Larger platforms (core banking, telecom BSS): 12-18 months. Timeline depends on scope, data readiness, and regulatory requirements. We deliver incrementally with working software every 2-4 weeks."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

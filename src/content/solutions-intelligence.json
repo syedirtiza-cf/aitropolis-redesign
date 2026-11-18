@@ -1,0 +1,587 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Solutions",
+   "h1": "Intelligence District",
+   "h2": "",
+   "lead": [
+    "AI, ML & Custom Software",
+    "Artificial intelligence and machine learning that unlock competitive advantage. From strategy through production deployment to ongoing optimisation.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Enterprise AI",
+   "h1": "",
+   "h2": "Production-ready AI, not prototypes.",
+   "lead": [
+    "Generative AI is real. But most implementations fail because they skip the hard parts: data engineering, model monitoring, governance, and integration with existing systems. Aitropolis builds AI that runs."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Six Pillars of Enterprise AI",
+   "h1": "",
+   "h2": "From assessment to autonomy",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Strategy & Assessment",
+     "lvl": "h3",
+     "p": [
+      "AI readiness audit, use case identification, ROI modeling, and roadmap development."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Foundation",
+     "lvl": "h3",
+     "p": [
+      "Data collection, preparation, pipeline automation, and governance for AI systems."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Model Development",
+     "lvl": "h3",
+     "p": [
+      "Custom model training, hyperparameter tuning, ensemble methods, and transfer learning."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Production Deployment",
+     "lvl": "h3",
+     "p": [
+      "Model serving, API deployment, containerisation, and edge deployment options."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Monitoring & Optimisation",
+     "lvl": "h3",
+     "p": [
+      "Model performance tracking, drift detection, retraining automation, and cost optimisation."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Governance & Ethics",
+     "lvl": "h3",
+     "p": [
+      "Model explainability, bias detection, compliance, and responsible AI practices."
+     ],
+     "tags": [],
+     "li": [
+      "6"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Capabilities",
+   "h1": "",
+   "h2": "Full-spectrum AI services",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Generative AI",
+     "lvl": "h3",
+     "p": [
+      "Production-ready generative AI solutions using OpenAI, Claude, Llama, and custom models. From chatbots to document analysis to autonomous agents."
+     ],
+     "tags": [
+      "LLM Applications",
+      "Prompt Engineering",
+      "RAG Systems",
+      "AI Agents"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Machine Learning",
+     "lvl": "h3",
+     "p": [
+      "Custom machine learning models for classification, regression, forecasting, and anomaly detection. Deployed at scale with monitoring."
+     ],
+     "tags": [
+      "Model Training",
+      "Feature Engineering",
+      "Model Serving",
+      "A/B Testing"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Engineering",
+     "lvl": "h3",
+     "p": [
+      "Enterprise data pipelines, data lakes, and warehouses that feed AI/ML systems with clean, organised data at scale."
+     ],
+     "tags": [
+      "ETL/ELT Pipelines",
+      "Data Warehousing",
+      "Real-time Streaming",
+      "Data Governance"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "MLOps & ML Infrastructure",
+     "lvl": "h3",
+     "p": [
+      "Production machine learning infrastructure. Model versioning, monitoring, retraining pipelines, and governance."
+     ],
+     "tags": [
+      "OpenShift AI",
+      "Model Monitoring",
+      "CI/CD for ML",
+      "Feature Stores",
+      "Model Registry"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Custom Software & Fintech",
+     "lvl": "h3",
+     "p": [
+      "Custom-built enterprise software: core banking, wallets, payment gateways, and mission-critical platforms engineered to your business logic."
+     ],
+     "tags": [
+      "Core Banking Systems",
+      "Digital Wallets",
+      "Payment Gateways",
+      "Bespoke Platforms"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Telecom Platforms",
+     "lvl": "h3",
+     "p": [
+      "Operations and business support systems, value-added service platforms, and telecom-grade engineering built over 16 years in the sector."
+     ],
+     "tags": [
+      "OSS/BSS",
+      "VAS Platforms",
+      "Billing Systems",
+      "Network Automation"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Computer Vision",
+     "lvl": "h3",
+     "p": [
+      "Visual AI applications for quality control, document processing, surveillance, and autonomous inspection."
+     ],
+     "tags": [
+      "Image Classification",
+      "Object Detection",
+      "Document OCR",
+      "Video Analytics"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "NLP & Language AI",
+     "lvl": "h3",
+     "p": [
+      "Natural language processing for chatbots, content analysis, information extraction, and multilingual applications."
+     ],
+     "tags": [
+      "Text Classification",
+      "Sentiment Analysis",
+      "Named Entity Recognition",
+      "Translation"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Methodology",
+   "h1": "",
+   "h2": "How we build AI",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Assess",
+     "lvl": "h3",
+     "p": [
+      "Identify AI opportunities, data availability, and business impact."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Prepare",
+     "lvl": "h3",
+     "p": [
+      "Collect, clean, and engineer features from raw data."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Develop",
+     "lvl": "h3",
+     "p": [
+      "Train, validate, and optimise models in controlled environment."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Deploy",
+     "lvl": "h3",
+     "p": [
+      "Containerise, serve, and monitor models in production."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Optimise",
+     "lvl": "h3",
+     "p": [
+      "Monitor performance, detect drift, retrain, and iterate."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Industries We Serve",
+   "h1": "",
+   "h2": "AI applications across sectors",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01",
+    "Banking & Finance",
+    "02",
+    "Telecommunications",
+    "03",
+    "Manufacturing",
+    "04",
+    "Healthcare",
+    "05",
+    "Retail",
+    "06",
+    "Government"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Real-World AI",
+   "h1": "",
+   "h2": "What we enable",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Predictive Analytics",
+     "lvl": "h3",
+     "p": [
+      "Forecast demand, customer churn, equipment failure, and financial trends."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Intelligent Document Processing",
+     "lvl": "h3",
+     "p": [
+      "OCR, invoice processing, contract analysis, and automated data extraction."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI-Powered Chatbots",
+     "lvl": "h3",
+     "p": [
+      "Customer support, FAQ automation, and multilingual conversational AI."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Recommendation Engines",
+     "lvl": "h3",
+     "p": [
+      "Personalised product recommendations, content discovery, and cross-selling."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Fraud Detection",
+     "lvl": "h3",
+     "p": [
+      "Real-time anomaly detection for financial transactions and suspicious behaviour."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Computer Vision Systems",
+     "lvl": "h3",
+     "p": [
+      "Quality control, defect detection, visual search, and autonomous inspection."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Dive Deeper",
+   "h1": "",
+   "h2": "Service detail pages",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/intelligence/generative-ai",
+     "n": "",
+     "h": "Generative AI",
+     "lvl": "h3",
+     "p": [
+      "LLMs, RAG systems, AI agents"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/mlops",
+     "n": "",
+     "h": "ML & MLOps",
+     "lvl": "h3",
+     "p": [
+      "Model training, OpenShift AI, pipelines"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/data-engineering",
+     "n": "",
+     "h": "Data Engineering",
+     "lvl": "h3",
+     "p": [
+      "Pipelines, warehousing, insights"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/custom-software",
+     "n": "",
+     "h": "Custom Software",
+     "lvl": "h3",
+     "p": [
+      "Core banking, wallets, payment gateways"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/telecom-platforms",
+     "n": "",
+     "h": "Telecom Platforms",
+     "lvl": "h3",
+     "p": [
+      "OSS/BSS, VAS platforms"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

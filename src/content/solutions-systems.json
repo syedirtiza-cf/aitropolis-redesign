@@ -1,0 +1,376 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Solutions",
+   "h1": "Systems District",
+   "h2": "",
+   "lead": [
+    "ERP, CRM & Business Intelligence",
+    "End-to-end enterprise systems that are the backbone of business operations.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Capabilities",
+   "h1": "",
+   "h2": "What we deliver",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "ERP Implementation",
+     "lvl": "h3",
+     "p": [
+      "End-to-end ERP deployment across financials, supply chain, HR, and manufacturing."
+     ],
+     "tags": [
+      "Oracle E-Business Suite",
+      "Oracle Cloud",
+      "SAP S/4HANA",
+      "Microsoft Dynamics 365",
+      "Odoo"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "CRM Solutions",
+     "lvl": "h3",
+     "p": [
+      "Customer relationship management that drives sales, service, and marketing alignment."
+     ],
+     "tags": [
+      "Salesforce",
+      "Siebel CRM",
+      "Microsoft Dynamics CRM",
+      "Oracle CX Cloud"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Business Intelligence",
+     "lvl": "h3",
+     "p": [
+      "Real-time dashboards, KPI tracking, and predictive analytics for data-driven decisions."
+     ],
+     "tags": [
+      "Power BI",
+      "Tableau",
+      "Oracle Analytics",
+      "Data Warehousing"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Assessments & Upgrades",
+     "lvl": "h3",
+     "p": [
+      "Health checks, roadmaps, and safe upgrade paths for the systems you already run."
+     ],
+     "tags": [
+      "Functional Assessments",
+      "Technical Assessments",
+      "Version Upgrades",
+      "Platform Migrations"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Database Management",
+     "lvl": "h3",
+     "p": [
+      "Administration, backup and recovery, and performance optimisation for mission-critical databases."
+     ],
+     "tags": [
+      "Oracle DBA",
+      "SQL Server",
+      "PostgreSQL",
+      "Performance Tuning"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Performance Optimisation",
+     "lvl": "h3",
+     "p": [
+      "Keep enterprise systems fast under real load, with measurable response-time targets."
+     ],
+     "tags": [
+      "Application Tuning",
+      "Capacity Planning",
+      "SLA Monitoring"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Delivery",
+   "h1": "",
+   "h2": "How we work",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Assess",
+     "lvl": "h3",
+     "p": [
+      "Understand your current systems, processes, and business goals."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [
+      "Architect the target solution with zero-downtime migration strategy."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Build",
+     "lvl": "h3",
+     "p": [
+      "Configure, customise, integrate, and test in controlled environment."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Deploy",
+     "lvl": "h3",
+     "p": [
+      "Go-live with 24/7 war room support and rollback plan."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Optimise",
+     "lvl": "h3",
+     "p": [
+      "Post-go-live tuning, training, and knowledge transfer."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Industries We Serve",
+   "h1": "",
+   "h2": "Vertical expertise, built over 16 years",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01",
+    "Banking & Finance",
+    "02",
+    "Manufacturing",
+    "03",
+    "Retail",
+    "04",
+    "Healthcare",
+    "05",
+    "Government",
+    "06",
+    "Telecom"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Dive Deeper",
+   "h1": "",
+   "h2": "Service detail pages",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/systems/erp",
+     "n": "",
+     "h": "ERP Implementation",
+     "lvl": "h3",
+     "p": [
+      "Oracle EBS, Oracle Cloud, SAP, D365, Odoo"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/crm",
+     "n": "",
+     "h": "CRM Solutions",
+     "lvl": "h3",
+     "p": [
+      "Salesforce, Dynamics, Siebel, Oracle CX"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/bi",
+     "n": "",
+     "h": "Business Intelligence",
+     "lvl": "h3",
+     "p": [
+      "Analytics, dashboards, data warehousing"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/application-modernization",
+     "n": "",
+     "h": "Application Modernisation",
+     "lvl": "h3",
+     "p": [
+      "Legacy system refactoring, cloud migration, microservices"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Further reading",
+   "h1": "",
+   "h2": "Systems work, measured after go-live.",
+   "lead": [
+    "45%",
+    "3-year TCO savings",
+    "Riyadh Pharma",
+    "ERP and infrastructure modernisation for a pharmaceutical manufacturer, KSA",
+    "35%",
+    "faster financial close",
+    "Saudi Contracting",
+    "Oracle EBS project accounting, KSA, with 50% fewer reporting errors",
+    "30%+",
+    "TCO savings",
+    "Quikcard",
+    "Payments workload moved to Oracle Cloud, Canada",
+    "45%",
+    "cost savings",
+    "Pakistan Telecom",
+    "Oracle Database Centre of Excellence for a telecom operator"
+   ],
+   "links": [
+    [
+     "Read the case",
+     "/case-studies/riyadh-pharma-erp-modernization"
+    ],
+    [
+     "Read the case",
+     "/case-studies/saudi-contracting-ebs-optimization"
+    ],
+    [
+     "Read the case",
+     "/case-studies/quikcard-oracle-cloud-migration"
+    ],
+    [
+     "Read the case",
+     "/case-studies/pakistan-telecom-oracle-coe"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "How Long Does an ERP Migration Really Take? ERP Strategy · 8 min read",
+    "What Role Does AI Play in Oracle EBS? ERP Strategy · 7 min read"
+   ],
+   "tags": []
+  }
+ ]
+}

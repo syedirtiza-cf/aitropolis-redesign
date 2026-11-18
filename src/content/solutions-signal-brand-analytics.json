@@ -1,0 +1,206 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Brand Intelligence",
+   "h1": "Know what your brand really means",
+   "h2": "",
+   "lead": [
+    "Brand tracking, sentiment analysis, competitive positioning, and marketing attribution. Real-time dashboards powered by NLP and multi-touch analytics."
+   ],
+   "links": [
+    [
+     "Signal District",
+     "/solutions/signal"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Capabilities",
+   "h1": "",
+   "h2": "Understand your brand position",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Brand Sentiment",
+     "lvl": "h3",
+     "p": [
+      "AI-powered sentiment analysis across social, reviews, and news. Track perception shifts in real-time."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Brand Tracking",
+     "lvl": "h3",
+     "p": [
+      "Awareness, consideration, and preference metrics. Monitor changes quarterly or monthly."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Share of Voice",
+     "lvl": "h3",
+     "p": [
+      "Your brand mentions vs. competitors in owned, earned, and paid media."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Competitive Intelligence",
+     "lvl": "h3",
+     "p": [
+      "Monitor competitor positioning, messaging, and campaigns. Identify market gaps."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Marketing Attribution",
+     "lvl": "h3",
+     "p": [
+      "Multi-touch models connecting campaigns to revenue. Understand true ROI by channel."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Audience Insights",
+     "lvl": "h3",
+     "p": [
+      "Psychographics, behaviour, preferences. Segment audiences by brand perception."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Data & Insights",
+   "h1": "",
+   "h2": "Real-time intelligence platform",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Sources",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Social media (Twitter, LinkedIn, TikTok, Instagram)",
+      "News & PR monitoring",
+      "Review sites (G2, Trustpilot, App stores)",
+      "Website analytics (Google Analytics, Mixpanel)",
+      "Sales & CRM data",
+      "Surveys & feedback",
+      "Competitive digital presence"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Key Metrics",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Brand Health Score (composite)",
+      "Sentiment Index (positive/negative/neutral)",
+      "Share of Voice vs. competitors",
+      "Awareness & consideration trends",
+      "Engagement rate by channel",
+      "Marketing ROI by campaign",
+      "Customer sentiment by segment"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Brand Analytics · Answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "How does brand analytics differ from Google Analytics?",
+     "a": [
+      "Google Analytics tracks website behaviour. Brand analytics tracks how your brand is perceived: sentiment, share of voice, brand health metrics, competitive positioning, and offline impact (surveys, sales lift). Together they tell the full story."
+     ]
+    },
+    {
+     "q": "What data sources do you monitor?",
+     "a": [
+      "Social media (organic + paid), news & PR, review sites, surveys, website analytics, sales data, and competitive digital presence. We synthesize signals into actionable brand intelligence."
+     ]
+    },
+    {
+     "q": "Can you measure marketing ROI?",
+     "a": [
+      "Yes. We build attribution models (first-touch, multi-touch, time-decay) that connect marketing activities to revenue. In our attribution work, 60-70% of revenue typically traces back to non-direct sources once it is properly attributed."
+     ]
+    },
+    {
+     "q": "How often are reports updated?",
+     "a": [
+      "Real-time dashboards for social & website metrics. Daily brand health scores. Weekly competitive analysis. Monthly strategic reports. Custom reporting on demand."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

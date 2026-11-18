@@ -1,0 +1,261 @@
+{
+ "sections": [
+  {
+   "eyebrow": "DELIVERY CAPACITY",
+   "h1": "Offshore teams that feel in-house",
+   "h2": "",
+   "lead": [
+    "Dedicated development capacity from our Islamabad and Singapore centers - pre-vetted engineers, embedded in your workflow, fully managed by Aitropolis."
+   ],
+   "links": [
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ],
+    [
+     "All Services",
+     "/solutions"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Engagement Models",
+   "h1": "",
+   "h2": "Capacity, however you need it",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Dedicated Team",
+     "lvl": "h3",
+     "p": [
+      "A fixed team of engineers, architects, and QA working exclusively on your product roadmap, managed end-to-end by Aitropolis.",
+      "Best for",
+      "Long-running products needing sustained, predictable capacity"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Staff Augmentation",
+     "lvl": "h3",
+     "p": [
+      "Individual engineers embedded directly into your existing team, tools, and processes - reporting to your leads.",
+      "Best for",
+      "Filling specific skill gaps or scaling an existing team quickly"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Project-Based Development",
+     "lvl": "h3",
+     "p": [
+      "A scoped deliverable with a fixed timeline, budget, and outcome, delivered by an Aitropolis-managed team.",
+      "Best for",
+      "Well-defined projects with clear requirements and a deadline"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Talent Pool",
+   "h1": "",
+   "h2": "Roles we staff",
+   "lead": [
+    "From junior engineers to solution architects, our Islamabad and Singapore centers cover the full delivery stack, so you scale exactly the skill set you're missing."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Frontend Engineers (React, Next.js, Angular, Vue)",
+    "Backend Engineers (Node.js, Python, Java, .NET)",
+    "Mobile Engineers (iOS, Android, React Native, Flutter)",
+    "DevOps & Cloud Engineers",
+    "QA & Test Automation Engineers",
+    "Solution & Enterprise Architects",
+    "Data Engineers & Data Scientists",
+    "Project & Delivery Managers"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "How It Works",
+   "h1": "",
+   "h2": "From scope to delivery",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Scope",
+     "lvl": "h3",
+     "p": [
+      "Define the roles, skills, and engagement model that fit your need."
+     ],
+     "tags": [],
+     "li": [
+      "01"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Shortlist",
+     "lvl": "h3",
+     "p": [
+      "Pre-vetted candidates matched to your requirements within days, not weeks."
+     ],
+     "tags": [],
+     "li": [
+      "02"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Interview",
+     "lvl": "h3",
+     "p": [
+      "You interview and select engineers directly - full transparency, no black box."
+     ],
+     "tags": [],
+     "li": [
+      "03"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Onboard",
+     "lvl": "h3",
+     "p": [
+      "Engineers onboard into your tools, repos, and processes with Aitropolis oversight."
+     ],
+     "tags": [],
+     "li": [
+      "04"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Deliver",
+     "lvl": "h3",
+     "p": [
+      "Ongoing sprint cadence, code review, and reporting keep delivery visible and accountable."
+     ],
+     "tags": [],
+     "li": [
+      "05"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Offshore teams, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Where are Aitropolis's offshore development centers located?",
+     "a": [
+      "Aitropolis operates dedicated offshore development centers in Islamabad, Pakistan, and Singapore, giving clients coverage across South Asia and APAC timezones alongside our Dubai and London studios."
+     ]
+    },
+    {
+     "q": "What engagement models are available for offshore teams?",
+     "a": [
+      "Three models: Dedicated Team (a fixed team of engineers working exclusively on your product, managed by Aitropolis), Staff Augmentation (individual engineers embedded directly in your existing team and processes), and Project-Based Development (a scoped deliverable with a fixed timeline and outcome)."
+     ]
+    },
+    {
+     "q": "How are engineers vetted before joining a client team?",
+     "a": [
+      "Every engineer goes through technical screening, live coding assessment, and a communication/culture-fit interview before being presented to a client. Only pre-vetted engineers are placed on client engagements."
+     ]
+    },
+    {
+     "q": "Do offshore teams work in our timezone?",
+     "a": [
+      "Yes. Teams align their working hours to overlap with your core hours, and our follow-the-sun model across Dubai, London, Islamabad, and Singapore means someone from your extended team is reachable close to around the clock."
+     ]
+    },
+    {
+     "q": "Who manages quality and delivery for offshore engagements?",
+     "a": [
+      "Aitropolis provides full management oversight - a delivery manager, code review standards, sprint cadence, and reporting - so offshore capacity behaves like an extension of your team, not a black box."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The work behind it",
+   "h1": "",
+   "h2": "What an offshore team returned.",
+   "lead": [
+    "68%",
+    "lower DBA, OS and cloud-admin cost",
+    "ARIB",
+    "Fintech cloud platform, KSA, run through an offshore delivery model"
+   ],
+   "links": [
+    [
+     "Read the case",
+     "/case-studies/arib-fintech-cloud-acceleration"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

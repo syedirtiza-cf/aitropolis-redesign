@@ -1,0 +1,307 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Private cloud",
+   "h1": "Some workloads are not allowed to leave the building",
+   "h2": "",
+   "lead": [
+    "Regulation, data residency, latency or plain cost can rule out the public cloud for a system. A private cloud gives those workloads self-service and automation without moving them."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we do",
+   "h1": "",
+   "h2": "Private Cloud: what is included",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "VMware platforms",
+     "lvl": "h3",
+     "p": [
+      "Design, build and operation of VMware private cloud, including VMware Cloud Foundation, with capacity and licence planning."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Red Hat OpenShift",
+     "lvl": "h3",
+     "p": [
+      "Kubernetes platforms on OpenShift for containerised applications, on premises or hosted, with the pipelines that feed them."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Migration into private cloud",
+     "lvl": "h3",
+     "p": [
+      "Moving workloads from ageing hardware or hypervisors onto the new platform in waves, with rollback at each step."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Hybrid connectivity",
+     "lvl": "h3",
+     "p": [
+      "Private cloud joined to AWS, Azure or Google Cloud so a workload can sit where it belongs and still talk to the rest."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security and compliance",
+     "lvl": "h3",
+     "p": [
+      "Network segmentation, access control and audit evidence for regulated environments."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operations",
+     "lvl": "h3",
+     "p": [
+      "Patching, monitoring, capacity reviews and 24/7 support under a service level."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How it runs",
+   "h1": "",
+   "h2": "From first call to hand-over",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Qualify workloads",
+     "lvl": "h3",
+     "p": [
+      "Sort workloads into those that need private hosting and those that do not. Not everything should be on it."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [
+      "Size compute, storage and network, choose the platform and agree the operating model."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "Build",
+     "lvl": "h3",
+     "p": [
+      "Stand up the platform with infrastructure as code, so it can be rebuilt and audited."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Migrate",
+     "lvl": "h3",
+     "p": [
+      "Move workloads in waves, starting with low-risk systems."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "Operate",
+     "lvl": "h3",
+     "p": [
+      "Run it, or hand it to your team with documentation and training."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Limits",
+   "h1": "",
+   "h2": "Where this service stops",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "You carry the capacity risk",
+     "lvl": "h3",
+     "p": [
+      "A private cloud is sized in advance. If demand is spiky or hard to forecast, public cloud or a hybrid burst model may cost less and fit better."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Related",
+   "h1": "",
+   "h2": "Read next",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/foundations/cloud-virtualization",
+     "n": "",
+     "h": "Cloud and virtualisation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud migration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/managed-services",
+     "n": "",
+     "h": "Managed services",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/uae-public-sector-cloud-compliance",
+     "n": "",
+     "h": "UAE government cloud compliance",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Private Cloud, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "When is private cloud better than public cloud?",
+     "a": [
+      "When data residency or regulation limits where a workload may run, when latency to on-premises systems matters, or when steady, predictable load makes owned capacity cheaper."
+     ]
+    },
+    {
+     "q": "VMware or OpenShift?",
+     "a": [
+      "VMware suits virtual-machine estates. OpenShift suits container-based applications. Many clients run both, and we advise on where each belongs."
+     ]
+    },
+    {
+     "q": "Can a private cloud connect to public cloud?",
+     "a": [
+      "Yes. Hybrid designs are common, with the private platform holding regulated data and public cloud taking burst or new workloads."
+     ]
+    },
+    {
+     "q": "Can you operate it after the build?",
+     "a": [
+      "Yes, under a managed service agreement, or we hand over to your team with documentation."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

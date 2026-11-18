@@ -1,0 +1,299 @@
+{
+ "sections": [
+  {
+   "eyebrow": "INTELLIGENCE DISTRICT · FINTECH SECURITY",
+   "h1": "TrustedPoF Fraud Prevention",
+   "h2": "",
+   "lead": [
+    "Machine learning-powered fraud detection and transaction validation platform protecting financial institutions from payment fraud at scale.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "$280M",
+    "Fraud prevented each year",
+    "Legacy rule-based systems could not keep up with evolving fraud patterns, leaving detection gaps, high false-positive rates and manual review bottlenecks at transaction scale."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Detection Accuracy",
+     "99.2%"
+    ],
+    [
+     "Transactions/Day",
+     "50M"
+    ],
+    [
+     "Response Time",
+     "42ms"
+    ],
+    [
+     "Fraud Prevented",
+     "$280M"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Rising fraud complexity",
+   "lead": [
+    "Financial institutions faced growing fraud sophistication requiring real-time detection. Legacy rule-based systems couldn't adapt to evolving fraud patterns at transaction scale."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Rule-based detection gaps",
+    "High false positive rates",
+    "Manual review bottlenecks",
+    "Limited fraud intelligence",
+    "Slow pattern adaptation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "ML-powered validation",
+   "lead": [
+    "Real-time machine learning platform analysing transaction patterns, behavioral signals, and network relationships to detect fraud while minimising false positives."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "ML-based pattern detection",
+    "Real-time scoring",
+    "Behavioral analysis",
+    "Network intelligence",
+    "Adaptive learning"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Fraud prevention at scale",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Detection Accuracy",
+     "lvl": "h3",
+     "p": [
+      "ML model accuracy on fraud detection"
+     ],
+     "tags": [],
+     "li": [
+      "99.2%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Daily Transactions",
+     "lvl": "h3",
+     "p": [
+      "Processed and validated in real-time"
+     ],
+     "tags": [],
+     "li": [
+      "50M"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Average Response",
+     "lvl": "h3",
+     "p": [
+      "Decision time per transaction"
+     ],
+     "tags": [],
+     "li": [
+      "42ms"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Fraud Prevented",
+     "lvl": "h3",
+     "p": [
+      "Annual fraud prevention value"
+     ],
+     "tags": [],
+     "li": [
+      "$280M"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platform Capabilities",
+   "h1": "",
+   "h2": "Enterprise fraud defence",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "ML Detection",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Pattern recognition",
+      "Anomaly detection",
+      "Behavioral scoring",
+      "Device fingerprinting"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Real-time Processing",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Sub-50ms decisions",
+      "Streaming data",
+      "Event processing",
+      "High throughput"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Intelligence Layer",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Network analysis",
+      "Velocity checks",
+      "Identity verification",
+      "Risk scoring"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Integration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "API framework",
+      "Webhook support",
+      "Legacy system bridges",
+      "Dashboard & reporting"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Beyond the Platform",
+   "h1": "",
+   "h2": "Brand & digital presence",
+   "lead": [
+    "Alongside the fraud detection platform, Aitropolis led TrustedPoF’s brand identity and digital presence, giving the fintech a market-ready face to match its engineering."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Brand identity: name system, logo, and visual guidelines built for a fintech security audience",
+    "Website design: a marketing site presenting the platform and trust story to enterprise buyers",
+    "SEO: technical and on-page foundations so the platform surfaces for fraud-prevention search intent"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Intelligence",
+    "AI & Software",
+    "Signal",
+    "Brand & Digital Marketing",
+    "Banking & Financial Services",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

@@ -96,6 +96,8 @@ Required states on every interactive element: default, hover, active, focus-visi
 - **People and offices (about):** initials tiles on the blue gradients, years of experience as a plain figure, and offices with a live local time.
 - **Form (contact):** 14px fields, visible labels with "required" or "optional", inline errors tied to the field with `aria-invalid`, an error summary with `role="alert"` and focus on the first error, a loading state, and a confirmation with `role="status"` and focus moved to it. A honeypot field is hidden from people and screen readers. Errors use `#b3261e`, which is never used for anything else.
 
+- **Content pages:** the sub-page hero, then one section per heading in this order of preference: card grid (two columns for even counts, three when divisible by three), numbered steps (64px tile, lime on hover), spec list (dashed rows, label left, value right), stat tiles (four across, figure in `num-m`), checklist, FAQ. The page ends with the closing block. Short labels inside a card ("Ideal for") use the small blue label style.
+
 ## 6 / Motion
 
 Calm and precise, no bounce. Critically damped feel: `cubic-bezier(.2, 0, 0, 1)`, 0.9 to 1.4s for entrances, 150 to 400ms for hover. One shared animation ticker; per-frame values scale by real frame time. Heading lines rise out of masks. Content blocks rise 48px and fade once, siblings 90ms apart. Numbers count up once in view. Three canvas effects run only while on screen: the hero halftone, the line flows, the cursor dot trail.

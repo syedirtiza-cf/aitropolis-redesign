@@ -1,0 +1,628 @@
+{
+ "sections": [
+  {
+   "eyebrow": "SIGNAL DISTRICT",
+   "h1": "Social Media Marketing",
+   "h2": "",
+   "lead": [
+    "Build authentic communities and drive measurable business results through strategic social media. From content strategy to influencer partnerships, we amplify your brand voice across every platform."
+   ],
+   "links": [
+    [
+     "← Back to Signal",
+     "/solutions/signal"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Engagement Growth",
+     "3-5x"
+    ],
+    [
+     "Avg Conversion Rate",
+     "2.5%"
+    ],
+    [
+     "Lower CAC",
+     "40%"
+    ],
+    [
+     "ROI Ratio",
+     "6:1"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Core Services",
+   "h1": "",
+   "h2": "Complete social platform coverage",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Content Creation & Strategy",
+     "lvl": "h3",
+     "p": [
+      "Data-driven content calendars, video production, copywriting, and design tailored for each platform and audience segment."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Meta (Facebook/Instagram) · LinkedIn · TikTok",
+       "YouTube"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Community Management",
+     "lvl": "h3",
+     "p": [
+      "24/7 monitoring, rapid response, sentiment analysis, and community engagement to build loyal brand advocates."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "All Platforms · Moderation · Crisis Response",
+       "Brand Voice"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Influencer & Affiliate Marketing",
+     "lvl": "h3",
+     "p": [
+      "Identify, negotiate, and manage partnerships with micro and macro influencers aligned with your brand values."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Talent Discovery · Contract Management · Campaign Tracking",
+       "Performance ROI"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Social Commerce",
+     "lvl": "h3",
+     "p": [
+      "Convert followers to customers with shoppable posts, live commerce, and seamless checkout experiences."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Instagram Shopping · Facebook Shop · TikTok Shop",
+       "LinkedIn Commerce"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Paid Social Advertising",
+     "lvl": "h3",
+     "p": [
+      "Audience targeting, creative optimisation, A/B testing, and campaign scaling across Meta, LinkedIn, and emerging platforms."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Meta Ads · LinkedIn Ads · TikTok Ads",
+       "Pinterest Ads"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Analytics & Reporting",
+     "lvl": "h3",
+     "p": [
+      "Real-time dashboards, predictive analytics, competitor benchmarking, and quarterly business reviews."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Native Analytics · Custom Dashboards · AI Insights",
+       "Attribution"
+      ]
+     ],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platform-Specific Strategy",
+   "h1": "",
+   "h2": "Where your audience lives",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Meta Ecosystem (Facebook, Instagram, Threads)",
+     "lvl": "h3",
+     "p": [
+      "Largest audience reach, advanced targeting, social commerce maturity",
+      "Community building, visual storytelling, retargeting campaigns"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "LinkedIn",
+     "lvl": "h3",
+     "p": [
+      "B2B audience, professional credibility, thought leadership positioning",
+      "Industry insights, executive visibility, lead generation"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "TikTok",
+     "lvl": "h3",
+     "p": [
+      "Gen Z/millennial reach, viral potential, authentic brand voice",
+      "Trending audio, short-form video, creator partnerships"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "YouTube",
+     "lvl": "h3",
+     "p": [
+      "Long-form content authority, SEO benefits, ecosystem monetisation",
+      "Education, tutorials, testimonials, series content"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Emerging Platforms",
+     "lvl": "h3",
+     "p": [
+      "Early-mover advantage, niche audiences, experimental formats",
+      "Pinterest, Discord, Telegram, BeReal community engagement"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "WhatsApp & Messaging",
+     "lvl": "h3",
+     "p": [
+      "Direct customer relationships, high engagement rates, broadcast potential",
+      "Customer service, exclusive offers, community groups"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Measurable Business Impact",
+   "h1": "",
+   "h2": "Revenue-focused social marketing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Key Performance Metrics",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Customer Acquisition Cost (CAC)",
+      "Lifetime Value (LTV)",
+      "Conversion Rate & ROAS",
+      "Follower Growth & Quality",
+      "Engagement Rate & Sentiment",
+      "Market Share & Competitive Position"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Revenue Models",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Direct sales through social commerce",
+      "Lead generation for sales teams",
+      "Subscription/membership growth",
+      "Brand partnerships & sponsorships",
+      "Content monetisation (YouTube, TikTok)",
+      "Community & loyalty programs"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Success Stories",
+   "h1": "",
+   "h2": "Real results from real clients",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Luxury Real Estate Brand",
+     "lvl": "h3",
+     "p": [
+      "Challenge:",
+      "Limited digital visibility in competitive Dubai market",
+      "Results:",
+      "280% lead growth, 4.8M annual impressions, 42% conversion rate"
+     ],
+     "tags": [],
+     "li": [
+      "280% Lead Growth",
+      "125K Followers",
+      "4.8M Impressions",
+      "42% Conversion"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "E-Commerce Fashion Brand",
+     "lvl": "h3",
+     "p": [
+      "Challenge:",
+      "Instagram presence but no conversion strategy",
+      "Results:",
+      "Shoppable posts and live commerce generated 35% of revenue"
+     ],
+     "tags": [],
+     "li": [
+      "35% Revenue",
+      "5.2% Engagement Rate",
+      "120K+ Monthly Sales",
+      "2.8x ROI"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "B2B SaaS Company",
+     "lvl": "h3",
+     "p": [
+      "Challenge:",
+      "LinkedIn strategy needed for enterprise lead generation",
+      "Results:",
+      "Thought leadership positioning generated qualified leads at 60% lower CAC"
+     ],
+     "tags": [],
+     "li": [
+      "60% Lower CAC",
+      "40+ Leads/Month",
+      "18% Close Rate",
+      "3.2x LTV:CAC"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "D2C Consumer Brand",
+     "lvl": "h3",
+     "p": [
+      "Challenge:",
+      "TikTok strategy for Gen Z audience engagement",
+      "Results:",
+      "Viral content and influencer partnerships scaled to $2M quarterly revenue"
+     ],
+     "tags": [],
+     "li": [
+      "$2M Quarterly",
+      "8.5% Engagement",
+      "500K Followers",
+      "2.1x ROAS"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our Methodology",
+   "h1": "",
+   "h2": "From audit to scale, in four phases",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Discover & Strategize",
+     "lvl": "h3",
+     "p": [
+      "Audience research, competitor benchmarking, platform audit, and a content strategy built around your business goals."
+     ],
+     "tags": [],
+     "li": [
+      "01"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Build & Launch",
+     "lvl": "h3",
+     "p": [
+      "Brand voice, content calendar, creative production pipeline, and profile optimisation across chosen platforms."
+     ],
+     "tags": [],
+     "li": [
+      "02"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Attract & Convert",
+     "lvl": "h3",
+     "p": [
+      "Publishing cadence, paid amplification, community engagement, and conversion-focused campaign testing."
+     ],
+     "tags": [],
+     "li": [
+      "03"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Optimise & Scale",
+     "lvl": "h3",
+     "p": [
+      "Performance analysis, budget reallocation to top channels, and expansion into new platforms and formats."
+     ],
+     "tags": [],
+     "li": [
+      "04"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Engagement Models",
+   "h1": "",
+   "h2": "Scaled to where you are today",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Foundation",
+     "lvl": "h3",
+     "p": [
+      "Startups & SMBs"
+     ],
+     "tags": [],
+     "li": [
+      "Profile setup & optimisation",
+      "Content calendar (2 platforms)",
+      "Basic community management",
+      "Monthly reporting"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Growth Accelerator",
+     "lvl": "h3",
+     "p": [
+      "Scaling Businesses"
+     ],
+     "tags": [],
+     "li": [
+      "Foundation, plus:",
+      "Paid social campaigns",
+      "Influencer partnerships",
+      "Weekly performance calls",
+      "Priority support",
+      "Most Popular"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise",
+     "lvl": "h3",
+     "p": [
+      "Large Organisations"
+     ],
+     "tags": [],
+     "li": [
+      "Growth, plus:",
+      "Multi-market campaigns",
+      "Dedicated account team",
+      "Custom analytics dashboards",
+      "24/7 support"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Frequently Asked",
+   "h1": "",
+   "h2": "Common questions",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "How long before we see results?",
+     "lvl": "h3",
+     "p": [
+      "Community growth and engagement typically show movement within 4-6 weeks. Revenue-attributable results depend on sales cycle length, but paid campaigns can show conversion signal within the first 30 days."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Which platforms do you recommend for us?",
+     "lvl": "h3",
+     "p": [
+      "It depends on your audience and goals. We run a platform audit as part of the Discover phase and recommend a focused mix rather than spreading thin across every channel."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Do you produce the creative content yourselves?",
+     "lvl": "h3",
+     "p": [
+      "Yes. Our in-house team handles copywriting, graphic design, video editing, and photography, along with sourcing when specialised production is required."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Can you work alongside our existing marketing team?",
+     "lvl": "h3",
+     "p": [
+      "Yes. We integrate with in-house teams and other agencies, operating as your social media specialists within a broader marketing function."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

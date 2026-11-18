@@ -1,0 +1,131 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Generative AI & LLMs",
+   "h1": "AI That Works. Not Just Hype.",
+   "h2": "",
+   "lead": [
+    "Production-ready generative AI. ChatGPT, Claude, Llama, Mistral expertise. From chatbots to RAG systems to autonomous agents -built for scale.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What We Build",
+   "h1": "",
+   "h2": "GenAI Use Cases",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Customer Service Chatbots",
+     "lvl": "h3",
+     "p": [
+      "24/7 AI support. Reduce support tickets 40%. Handle 80% of inquiries without escalation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "RAG Systems (Document Q&A)",
+     "lvl": "h3",
+     "p": [
+      "Upload docs. Ask questions. Get cited answers. Perfect for knowledge bases, compliance, internal docs."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Content Generation",
+     "lvl": "h3",
+     "p": [
+      "Email templates, social posts, blog outlines. Brand-consistent at scale. 10x writer productivity."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Code Generation & Optimisation",
+     "lvl": "h3",
+     "p": [
+      "GitHub Copilot at enterprise scale. Custom models trained on your codebase. 30% faster development."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Analysis & Insights",
+     "lvl": "h3",
+     "p": [
+      "Natural language analytics. Ask your data questions. Auto-generate insights, anomaly detection."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Autonomous Agents",
+     "lvl": "h3",
+     "p": [
+      "Self-directed AI that plans, executes, and reports. CRM updates, data entry, research automation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platform Expertise",
+   "h1": "",
+   "h2": "Models We Deploy",
+   "lead": [
+    "GPT-4 Turbo",
+    "Claude 3.5 Sonnet",
+    "Llama 2/3",
+    "Mistral",
+    "Custom Fine-Tuning",
+    "Open Source",
+    "Embedding Models",
+    "Vision Models"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

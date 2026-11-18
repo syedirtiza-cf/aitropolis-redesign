@@ -1,0 +1,151 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Legal",
+   "h1": "Privacy policy",
+   "h2": "",
+   "lead": [
+    "Last updated 15 September 2026"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "What we collect",
+   "lead": [
+    "This policy explains what personal data Aitropolis Technologies Ltd (“we”) collects through this website, why, how long we keep it and the rights you have. We are the controller of that data. Our registered address is London, United Kingdom.",
+    "We do not collect special-category data through this website and we do not knowingly collect data from children."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Enquiries. When you use the contact form we receive your name, email address and message, and, if you give them, your phone number, company and the service you are interested in.",
+    "Bookings. When you book an assessment, the booking provider collects your name, email and the slot you choose, and passes them to us.",
+    "Usage data. With analytics enabled we record pages viewed, referring site, approximate location (country or city, derived from an anonymised IP address), device and browser type."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Why we use it, and our lawful basis",
+   "lead": [
+    "We never sell personal data."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "To reply to your enquiry and prepare for a meeting you asked for: steps taken at your request before a contract.",
+    "To understand how the site is used and improve it: our legitimate interests, or your consent where the law requires it.",
+    "To measure advertising, where an advertising tag is enabled: your consent.",
+    "To meet legal, accounting and regulatory obligations: legal obligation."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Cookies and similar technologies",
+   "lead": [
+    "This site sets no cookies of its own. When analytics or advertising measurement is enabled, the following third parties may set cookies or use similar identifiers:",
+    "You can block or delete cookies in your browser settings. The site works without them."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Provider",
+    "Purpose",
+    "Google Analytics 4",
+    "Site usage statistics, with IP anonymisation and Google signals switched off",
+    "Meta Pixel",
+    "Advertising measurement, only where enabled",
+    "LinkedIn Insight Tag",
+    "Advertising measurement, only where enabled"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Who we share it with",
+   "lead": [
+    "Service providers who process data on our behalf under contract: our hosting and email provider, the booking provider and the analytics providers above. Where those providers are outside the UK or the UAE, we rely on appropriate safeguards such as standard contractual clauses. We may also disclose data where the law requires it."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "How long we keep it",
+   "lead": [
+    "Enquiries that do not become a project are deleted within 24 months of our last contact. Client records are kept for as long as accounting and contractual obligations require. Analytics data is retained for 14 months."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Your rights",
+   "lead": [
+    "Depending on where you live, including under the UK GDPR and the UAE Personal Data Protection Law, you can ask to access, correct, delete or export your data, object to or restrict how we use it, and withdraw consent at any time. Write to uk@aitropolis.co.uk. We reply within 30 days. You also have the right to complain to your data-protection regulator; in the UK that is the Information Commissioner's Office."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Security",
+   "lead": [
+    "The site is served over HTTPS. Access to enquiry data is limited to the people who need it to respond. Our information security programme is working towards ISO 27001 certification."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Changes",
+   "lead": [
+    "We will update this page when our practices change, and the date at the top will change with it. For other Aitropolis Technologies entities, contact info@aitropolis.com.",
+    "Questions about this page? Contact us."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

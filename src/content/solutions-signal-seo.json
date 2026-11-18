@@ -1,0 +1,145 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Enterprise SEO",
+   "h1": "Owned Traffic. Sustainable Growth.",
+   "h2": "",
+   "lead": [
+    "Technical SEO. Content strategy. Link building. Rank for your biggest keywords. Own your search traffic.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "SEO Pillars",
+   "h1": "",
+   "h2": "Our Approach",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Technical SEO",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Core Web Vitals",
+      "Site structure",
+      "Crawlability",
+      "Schema markup"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "On-Page",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Content optimisation",
+      "Keyword strategy",
+      "Meta tags",
+      "Internal linking"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Off-Page",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Link building",
+      "Brand mentions",
+      "Authority growth",
+      "Backlink strategy"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "SEO at Scale",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Keyword Research",
+     "lvl": "h3",
+     "p": [
+      "Find the keywords your audience searches. Volume, intent, difficulty analysis."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Competitive Analysis",
+     "lvl": "h3",
+     "p": [
+      "Understand competitor ranking strategies, backlink profiles, content gaps."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Content Strategy",
+     "lvl": "h3",
+     "p": [
+      "Pillar-cluster architecture. Topic mapping. Editorial calendar."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Reporting & Analytics",
+     "lvl": "h3",
+     "p": [
+      "Rank tracking, traffic attribution, conversion impact, ROI measurement."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

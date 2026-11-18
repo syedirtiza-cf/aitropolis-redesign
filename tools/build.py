@@ -9,8 +9,10 @@ header, footer, header bar, menu sheet and script tags come from src/shell.html
 and src/header.html. index.html and solutions.html are hand-written and are not
 generated.
 """
-import re, sys, time
+import json, re, sys, time
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import pagegen
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
@@ -37,6 +39,17 @@ def render(text, ctx):
 def main():
     shell = (SRC / "shell.html").read_text()
     header = (SRC / "header.html").read_text()
+    manifest = json.loads((SRC / "pages.json").read_text()) if (SRC / "pages.json").exists() else {}
+    for name, cfg in manifest.items():
+        data = json.loads((SRC / "content" / f"{name}.json").read_text())
+        body = pagegen.build(data, cfg)
+        ctx = {"v": VERSION, "nav": nav(cfg.get("active", "")), "on_contact": ""}
+        ctx["header"] = render(header, ctx)
+        body = render(body, ctx)
+        out = render(shell, {**ctx, "title": cfg["title"], "desc": cfg["desc"], "content": body,
+                             "page_script": f"<script>\n{(SRC / '_page.js').read_text()}\n</script>"})
+        (ROOT / (name + ".html")).write_text(out)
+        print("built", name + ".html", len(out), "bytes")
     for name in PAGES:
         if not (SRC / f"{name}.html").exists():
             print("skip", name, "(no source yet)")

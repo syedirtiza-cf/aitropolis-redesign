@@ -1,0 +1,279 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Managed Services & Operations",
+   "h1": "Always On. Always Responding.",
+   "h2": "",
+   "lead": [
+    "24/7 managed services across 4 global studios. Follow-the-sun support. Proactive monitoring. SLA-backed uptime. So your systems run while you sleep.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "24/7 Global Coverage",
+   "h1": "",
+   "h2": "The city never sleeps",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Dubai",
+     "lvl": "h3",
+     "p": [
+      "GMT+4",
+      "Global HQ - MENA region"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "London",
+     "lvl": "h3",
+     "p": [
+      "GMT+0/+1",
+      "Europe & UK coverage"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Islamabad",
+     "lvl": "h3",
+     "p": [
+      "GMT+5",
+      "South Asia coverage"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Singapore",
+     "lvl": "h3",
+     "p": [
+      "GMT+8",
+      "APAC coverage"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Support Model",
+   "h1": "",
+   "h2": "Three tiers. One SLA.",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "L1, Front Line",
+     "lvl": "h3",
+     "p": [
+      "Response",
+      "15 min",
+      "SLA",
+      "99.5%"
+     ],
+     "tags": [],
+     "li": [
+      "Incident triage",
+      "Password resets",
+      "User support",
+      "Monitoring alerts"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "L2, Specialists",
+     "lvl": "h3",
+     "p": [
+      "Response",
+      "30 min",
+      "SLA",
+      "99.8%"
+     ],
+     "tags": [],
+     "li": [
+      "Root cause analysis",
+      "System troubleshooting",
+      "Configuration changes",
+      "Performance tuning"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "L3, Engineering",
+     "lvl": "h3",
+     "p": [
+      "Response",
+      "1 hour",
+      "SLA",
+      "99.9%"
+     ],
+     "tags": [],
+     "li": [
+      "Architecture review",
+      "System redesign",
+      "Critical incident response",
+      "Strategic consulting"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "What we monitor and manage",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Infrastructure Monitoring",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Server health",
+      "Network uptime",
+      "Database performance",
+      "Disk space",
+      "CPU/Memory"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Application Support",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Error tracking",
+      "Performance monitoring",
+      "User issues",
+      "Log analysis",
+      "Crash debugging"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security & Compliance",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Patch management",
+      "Security scanning",
+      "Compliance audits",
+      "Access review",
+      "Incident response"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Backup & Disaster Recovery",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Automated backups",
+      "DR testing",
+      "Failover validation",
+      "Data integrity",
+      "Recovery runbooks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Capacity Planning",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Growth trending",
+      "Optimisation analysis",
+      "Cost modeling",
+      "Scaling recommendations",
+      "Utilisation reports"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "24/7 Support",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Escalation hotline",
+      "On-call rotation",
+      "War room support",
+      "Executive reporting",
+      "Post-incident review"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

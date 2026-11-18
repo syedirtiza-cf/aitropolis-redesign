@@ -1,0 +1,321 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Customer Relationship Management",
+   "h1": "360° Customer View. Better Sales. Happier Customers.",
+   "h2": "",
+   "lead": [
+    "Salesforce, Dynamics 365, Siebel and Oracle CX Cloud. From implementation to managed services. Drive revenue growth with customer intelligence.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Business Impact",
+   "h1": "",
+   "h2": "What CRM enables",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Sales Acceleration",
+     "lvl": "h3",
+     "p": [
+      "Automated lead scoring, opportunity management, and deal tracking. Close deals faster."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Customer Retention",
+     "lvl": "h3",
+     "p": [
+      "360° customer view. Proactive support. Reduced churn. Increased lifetime value."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Marketing Automation",
+     "lvl": "h3",
+     "p": [
+      "Lead nurturing campaigns. Behavioral triggers. Personalised customer journeys."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Service Excellence",
+     "lvl": "h3",
+     "p": [
+      "Multi-channel support (phone, email, chat, social). Faster resolution times."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Revenue Visibility",
+     "lvl": "h3",
+     "p": [
+      "Real-time sales pipeline. Forecasting accuracy. Deal health dashboards."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Team Collaboration",
+     "lvl": "h3",
+     "p": [
+      "Shared customer information. Better handoffs. Aligned sales and service teams."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "CRM Platform Selection",
+   "h1": "",
+   "h2": "Choose the right CRM for your organisation",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Salesforce",
+     "lvl": "h3",
+     "p": [
+      "Market leader. Largest app ecosystem. #1 for enterprise sales.",
+      "Modules",
+      "Sales Cloud, Service Cloud, Commerce Cloud, Experience Cloud"
+     ],
+     "tags": [
+      "Enterprise"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Microsoft Dynamics 365",
+     "lvl": "h3",
+     "p": [
+      "Integrated with Microsoft ecosystem. Strong in finance + CRM together.",
+      "Modules",
+      "Sales, Customer Service, Marketing, Field Service"
+     ],
+     "tags": [
+      "Mid-Market"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Oracle Siebel CRM",
+     "lvl": "h3",
+     "p": [
+      "On-premise CRM built for complex, heavily customised customer relationships. Integrated with Oracle EBS.",
+      "Modules",
+      "Sales, Service, Marketing, Open UI"
+     ],
+     "tags": [
+      "Enterprise"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Oracle CX Cloud",
+     "lvl": "h3",
+     "p": [
+      "Modern cloud CRM. Integrated with Oracle ERP. Global enterprises.",
+      "Modules",
+      "Sales, Service, Marketing, Commerce"
+     ],
+     "tags": [
+      "Enterprise"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Siebel CRM",
+   "h1": "",
+   "h2": "Modernise Siebel before you replace it",
+   "lead": [
+    "A Siebel estate carries years of customisation and customer history. Replacing it is not always the cheapest way to get what the business is missing. We support and upgrade Siebel where it stands, extend it, and plan the move to Oracle CX Cloud when that is the right call."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Siebel Sales and Service support across the customer lifecycle",
+    "Upgrades, database tuning and performance optimisation",
+    "AI assistants and customer insight built into Siebel workflows",
+    "Tamper-evident audit trails for refunds, complaints and approvals",
+    "Real-time service dashboards on top of Siebel data",
+    "Migration strategy from Siebel to Oracle CX Cloud"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our Approach",
+   "h1": "",
+   "h2": "CRM implementation done right",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "1. Discovery",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Sales process mapping",
+      "Team interviews",
+      "Current system audit",
+      "Requirements definition"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "2. Design",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Sales methodology selection",
+      "Data model design",
+      "Workflow configuration",
+      "Integration architecture"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3. Configuration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Custom fields and objects",
+      "Workflow automation",
+      "Third-party integrations",
+      "App ecosystem setup"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "4. Training",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Admin training",
+      "End-user training",
+      "Sales methodology coaching",
+      "Documentation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "5. Go-Live",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Data migration",
+      "Production deployment",
+      "24/7 war room",
+      "Post-launch support"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "6. Optimisation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Usage analytics",
+      "Performance tuning",
+      "Process refinement",
+      "Ongoing enhancements"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

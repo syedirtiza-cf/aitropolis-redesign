@@ -1,0 +1,423 @@
+{
+ "sections": [
+  {
+   "eyebrow": "DevOps & Continuous Delivery",
+   "h1": "Deploy Faster. Fail Safer. Ship Daily.",
+   "h2": "",
+   "lead": [
+    "Modern DevOps practices. CI/CD pipelines. Kubernetes containerisation. Infrastructure-as-code. From monolith to microservices.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Why DevOps Matters",
+   "h1": "",
+   "h2": "What modern DevOps delivers",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Faster Time to Market",
+     "lvl": "h3",
+     "p": [
+      "Deploy multiple times per day. Iterate based on feedback. Stay ahead of competition."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Reliability & Stability",
+     "lvl": "h3",
+     "p": [
+      "Automated testing catches issues before production. Rollback mechanisms for safety."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Optimisation",
+     "lvl": "h3",
+     "p": [
+      "Efficient resource usage. Auto-scaling. Eliminate manual infrastructure management."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Team Empowerment",
+     "lvl": "h3",
+     "p": [
+      "Developers ship their own code. Ops focuses on infrastructure. Faster feedback loops."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Visibility & Monitoring",
+     "lvl": "h3",
+     "p": [
+      "Real-time application and infrastructure metrics. Proactive issue detection."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security & Compliance",
+     "lvl": "h3",
+     "p": [
+      "Shift-left security. Automated compliance checks. Audit trails for every deployment."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our Services",
+   "h1": "",
+   "h2": "Full-stack DevOps transformation",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "CI/CD Pipeline Architecture",
+     "lvl": "h3",
+     "p": [
+      "GitLab CI, GitHub Actions, Jenkins, or GitOps pipelines. Automated testing and deployment."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Containerisation & Kubernetes",
+     "lvl": "h3",
+     "p": [
+      "Docker image building. Kubernetes cluster setup. Container orchestration at scale."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Infrastructure-as-Code",
+     "lvl": "h3",
+     "p": [
+      "Terraform, CloudFormation, or Ansible. Reproducible, version-controlled infrastructure."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Monitoring & Observability",
+     "lvl": "h3",
+     "p": [
+      "Prometheus, ELK, Datadog. Real-time metrics, logs, and traces for full visibility."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Microservices Architecture",
+     "lvl": "h3",
+     "p": [
+      "Monolith to microservices migration. Service mesh (Istio). Independent deployments."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Incident Response & On-Call",
+     "lvl": "h3",
+     "p": [
+      "24/7 on-call rotations. PagerDuty integration. Post-incident reviews and automation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Expertise",
+   "h1": "",
+   "h2": "Tools and platforms we master",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "CI/CD",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Jenkins",
+      "GitLab CI",
+      "GitHub Actions"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Container",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Docker",
+      "Podman",
+      "Container Registry"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Orchestration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Kubernetes (EKS/AKS/GKE)",
+      "Docker Swarm"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "IaC",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Terraform",
+      "CloudFormation",
+      "Ansible"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Monitoring",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Prometheus",
+      "Grafana",
+      "Datadog",
+      "New Relic"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Logging",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "ELK Stack",
+      "Splunk",
+      "Loki"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Git",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "AWS",
+      "Azure",
+      "GCP"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Databases",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "DynamoDB"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Engagement Model",
+   "h1": "",
+   "h2": "How we work with your teams",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Assessment & Strategy",
+     "lvl": "h3",
+     "p": [
+      "Current state analysis. Identify bottlenecks. Design DevOps roadmap."
+     ],
+     "tags": [],
+     "li": [
+      "2-4 weeks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Quick Wins",
+     "lvl": "h3",
+     "p": [
+      "Implement first CI/CD pipeline. Automate common deployments. Early wins for momentum."
+     ],
+     "tags": [],
+     "li": [
+      "4-8 weeks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Platform Development",
+     "lvl": "h3",
+     "p": [
+      "Build self-service platform. Containerisation. Kubernetes setup. Monitoring infrastructure."
+     ],
+     "tags": [],
+     "li": [
+      "8-12 weeks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Knowledge Transfer",
+     "lvl": "h3",
+     "p": [
+      "Train ops and dev teams. Documentation. Pair programming. Gradual team independence."
+     ],
+     "tags": [],
+     "li": [
+      "Ongoing"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

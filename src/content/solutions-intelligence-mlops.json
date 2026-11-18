@@ -1,0 +1,145 @@
+{
+ "sections": [
+  {
+   "eyebrow": "MLOps & ML Engineering",
+   "h1": "Models in Production. At Scale.",
+   "h2": "",
+   "lead": [
+    "Model lifecycle management. Monitoring, drift detection, automated retraining. ML infrastructure that runs 24/7.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Core MLOps Services",
+   "h1": "",
+   "h2": "Full ML Lifecycle",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "1. Development",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Feature engineering",
+      "Model training",
+      "Hyperparameter tuning",
+      "Cross-validation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "2. Deployment",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Model serving",
+      "A/B testing",
+      "Canary rollouts",
+      "API management"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3. Monitoring",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Performance tracking",
+      "Drift detection",
+      "Error analysis",
+      "Automated alerts"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Use Cases",
+   "h1": "",
+   "h2": "ML Models in Production",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Fraud Detection",
+     "lvl": "h3",
+     "p": [
+      "Real-time transaction scoring. 99.2% accuracy. < 100ms latency."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Churn Prediction",
+     "lvl": "h3",
+     "p": [
+      "Predict at-risk customers. 3-month forward window. Drive retention campaigns."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Demand Forecasting",
+     "lvl": "h3",
+     "p": [
+      "Forecast sales, inventory demand. 15% better accuracy than statistical models."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Predictive Maintenance",
+     "lvl": "h3",
+     "p": [
+      "Equipment failure prediction. Reduce downtime 40%. Optimise service schedules."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

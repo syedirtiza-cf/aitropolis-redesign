@@ -1,0 +1,58 @@
+{
+ "sections": [
+  {
+   "eyebrow": "AI Infrastructure",
+   "h1": "B200 vs H100: GPU Inference",
+   "h2": "",
+   "lead": [
+    "Performance, cost-per-token, and deployment patterns for enterprise AI.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Insights",
+     "/insights"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "August 14, 2026",
+    "•",
+    "10 min read"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Short Answer",
+   "lead": [
+    "B200 wins on throughput and cost. For enterprise inference at scale, B200 is the clear choice."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Key Differences",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "B200: 20 PFLOPs, 960 GB/s, $0.0008 per token",
+    "H100: 15 PFLOPs, 850 GB/s, $0.0013 per token",
+    "B200 best for inference; H100 for training"
+   ],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,591 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Solutions",
+   "h1": "Immersion District",
+   "h2": "",
+   "lead": [
+    "AR/VR, AV & Experiences",
+    "Immersive technologies that redefine customer and employee experiences. AR/VR, smart meeting rooms, and interactive installations.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Future of Experience",
+   "h1": "",
+   "h2": "Immersive isn't science fiction. It's enterprise now.",
+   "lead": [
+    "AR/VR, smart meeting rooms, and interactive installations aren't novelties, they're productivity tools. Training happens faster in VR. Meetings are more engaging with immersive tech. Customer experiences are more memorable with AR."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Immersive Spectrum",
+   "h1": "",
+   "h2": "From augmented to fully immersive",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Mobile AR",
+     "lvl": "h3",
+     "p": [
+      "Smartphone-based augmented reality for consumers and field teams."
+     ],
+     "tags": [],
+     "li": [
+      "Product visualisation",
+      "Navigation",
+      "Repair guidance"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Mixed Reality",
+     "lvl": "h3",
+     "p": [
+      "Blended digital and physical worlds for collaboration and design."
+     ],
+     "tags": [],
+     "li": [
+      "Hologram calls",
+      "Design review",
+      "Training"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Virtual Reality",
+     "lvl": "h3",
+     "p": [
+      "Fully immersive 3D environments for training and simulation."
+     ],
+     "tags": [],
+     "li": [
+      "Safety training",
+      "Equipment simulation",
+      "Soft skills"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Metaverse Apps",
+     "lvl": "h3",
+     "p": [
+      "Social and commercial experiences in persistent virtual worlds."
+     ],
+     "tags": [],
+     "li": [
+      "Brand presence",
+      "Virtual showrooms",
+      "Communities"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Capabilities",
+   "h1": "",
+   "h2": "Full immersive spectrum",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "AR/VR Experiences",
+     "lvl": "h3",
+     "p": [
+      "Immersive applications for training, sales, and engagement. Product visualisation, interactive training, and metaverse presence."
+     ],
+     "tags": [
+      "VR Training Simulations",
+      "AR Product Visualisation",
+      "XR Showrooms",
+      "Metaverse Apps"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Smart Meeting Rooms",
+     "lvl": "h3",
+     "p": [
+      "Enterprise video conferencing infrastructure with AI-powered features, spatial audio, and hybrid work capabilities."
+     ],
+     "tags": [
+      "Zoom Rooms",
+      "Teams Integration",
+      "Hybrid Meetings",
+      "Analytics"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Museum & Public-Space AV",
+     "lvl": "h3",
+     "p": [
+      "AV integration for museums, cultural institutions, and public spaces. Interactive touchscreens, wayfinding, digital signage, and immersive exhibits."
+     ],
+     "tags": [
+      "Museum Installations",
+      "Interactive Kiosks",
+      "Public-Space AV",
+      "Retail Displays",
+      "Event Tech"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Scenography & Technical Lighting",
+     "lvl": "h3",
+     "p": [
+      "Scenography, technical lighting, and automation for exhibitions and venues, plus professional AV infrastructure for studios, boardrooms, and auditoriums."
+     ],
+     "tags": [
+      "Scenography",
+      "Technical Lighting",
+      "Show Control & Automation",
+      "Audio Mixing",
+      "Broadcast Equipment"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3D & Gaming Development",
+     "lvl": "h3",
+     "p": [
+      "Custom game development, 3D asset creation, and gaming infrastructure for enterprise and consumer applications."
+     ],
+     "tags": [
+      "Game Development",
+      "3D Modeling",
+      "Engine Development",
+      "Asset Creation"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Collaboration Experiences",
+     "lvl": "h3",
+     "p": [
+      "Immersive collaboration platforms for remote teams, virtual conferences, and global engagement."
+     ],
+     "tags": [
+      "Virtual Events",
+      "Webinars",
+      "Online Conferences",
+      "Community Platforms"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Development Process",
+   "h1": "",
+   "h2": "How we build immersive experiences",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Concept",
+     "lvl": "h3",
+     "p": [
+      "Define experience goals, target users, platforms, and ROI metrics."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [
+      "UX design, 3D mockups, storyboarding, and user research."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Develop",
+     "lvl": "h3",
+     "p": [
+      "Asset creation, game engine development, and feature implementation."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Test",
+     "lvl": "h3",
+     "p": [
+      "User testing, performance optimisation, and platform compatibility."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Deploy",
+     "lvl": "h3",
+     "p": [
+      "App store release, analytics setup, and user support."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Industries We Serve",
+   "h1": "",
+   "h2": "Immersive applications across sectors",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01",
+    "Education",
+    "02",
+    "Retail & Luxury",
+    "03",
+    "Manufacturing",
+    "04",
+    "Healthcare",
+    "05",
+    "Entertainment",
+    "06",
+    "Corporate"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Real-World Applications",
+   "h1": "",
+   "h2": "What immersive enables",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Employee Training",
+     "lvl": "h3",
+     "p": [
+      "VR simulations for safety training, equipment operation, and skill development in realistic scenarios."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Product Visualisation",
+     "lvl": "h3",
+     "p": [
+      "AR apps that let customers visualise products in their space before purchase."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Real Estate Experience",
+     "lvl": "h3",
+     "p": [
+      "Virtual property tours and AR renovation previews for prospective buyers."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Surgical Planning",
+     "lvl": "h3",
+     "p": [
+      "3D visualisation of patient anatomy for surgical planning and medical education."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Museum & Heritage",
+     "lvl": "h3",
+     "p": [
+      "Interactive exhibits, AR restoration of historical artifacts, and immersive storytelling."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Virtual Events",
+     "lvl": "h3",
+     "p": [
+      "Large-scale virtual conferences, trade shows, and community events with engagement analytics."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Dive Deeper",
+   "h1": "",
+   "h2": "Service detail pages",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/immersion/ar-vr",
+     "n": "",
+     "h": "AR/VR Experiences",
+     "lvl": "h3",
+     "p": [
+      "XR, metaverse, interactive installations"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/immersion/smart-meetings",
+     "n": "",
+     "h": "Smart Meeting Rooms",
+     "lvl": "h3",
+     "p": [
+      "Control systems, room automation"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/immersion/av-integration",
+     "n": "",
+     "h": "Museum & Public-Space AV",
+     "lvl": "h3",
+     "p": [
+      "Interactive installations, kiosks, exhibits"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Why Aitropolis",
+   "h1": "",
+   "h2": "Why we stand out in immersive tech",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Full-Stack Development",
+     "lvl": "h3",
+     "p": [
+      "From 3D design to app store release. We handle the entire pipeline."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Multi-Platform",
+     "lvl": "h3",
+     "p": [
+      "Desktop, mobile, VR headsets, and web. One experience across devices."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Performance Obsessed",
+     "lvl": "h3",
+     "p": [
+      "Immersive apps must be smooth. We optimise for every platform."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise-Grade",
+     "lvl": "h3",
+     "p": [
+      "Security, analytics, support, and deployment at enterprise scale."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Accessibility First",
+     "lvl": "h3",
+     "p": [
+      "Immersive tech for everyone. Inclusive design and accessibility built-in."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Ongoing Support",
+     "lvl": "h3",
+     "p": [
+      "From launch through iteration. Analytics, feedback, and continuous improvement."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

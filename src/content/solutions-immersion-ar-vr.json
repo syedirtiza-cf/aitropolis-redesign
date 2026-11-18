@@ -1,0 +1,145 @@
+{
+ "sections": [
+  {
+   "eyebrow": "AR/VR & Immersive Tech",
+   "h1": "Step Into the Future.",
+   "h2": "",
+   "lead": [
+    "Augmented and virtual reality. Enterprise training. Product visualisation. Remote collaboration. Immersive experiences at scale.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our Expertise",
+   "h1": "",
+   "h2": "AR & VR Solutions",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Augmented Reality",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "◆ Product visualisation",
+      "◆ Field service support",
+      "◆ Navigation/wayfinding",
+      "◆ Training overlays"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Virtual Reality",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "◆ Immersive training",
+      "◆ Remote collaboration",
+      "◆ Simulation & practice",
+      "◆ Virtual showrooms"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Mixed Reality",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "◆ Hybrid workspaces",
+      "◆ Real-time annotation",
+      "◆ Spatial collaboration",
+      "◆ Industrial design"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Use Cases",
+   "h1": "",
+   "h2": "Enterprise AR/VR Applications",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Training & Onboarding",
+     "lvl": "h3",
+     "p": [
+      "Immersive simulations. Reduce training time. Improve retention."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Product Visualisation",
+     "lvl": "h3",
+     "p": [
+      "3D product explorers. Configuration tools. Interactive demos."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Remote Assistance",
+     "lvl": "h3",
+     "p": [
+      "Expert guidance at the edge. Real-time annotations. Reduced travel."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Maintenance & Repairs",
+     "lvl": "h3",
+     "p": [
+      "Step-by-step instructions. Hands-free support. AR overlays."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Accessibility",
+   "h1": "Accessibility statement",
+   "h2": "",
+   "lead": [
+    "Last updated 15 September 2026"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "What we do",
+   "lead": [
+    "We want everyone to be able to use this website, including people who use a screen reader, a keyboard, magnification or voice control. We design and test against the Web Content Accessibility Guidelines (WCAG) 2.1 AA."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Semantic HTML with one h1 per page, landmarks, and a “skip to content” link.",
+    "Every interactive element is reachable and operable by keyboard and shows a designed, high-contrast focus ring.",
+    "Touch targets are at least 44 by 44 CSS pixels.",
+    "Text and interface colours meet the contrast ratios below. An automated check runs before every release and fails the build if any pair drops below its threshold.",
+    "Icons are decorative and hidden from assistive technology, or carry a text label.",
+    "Motion is limited to short transitions and stops if you have asked your device to reduce motion.",
+    "Content, figures and times are rendered on the server, so they are present without JavaScript.",
+    "Form fields have visible labels, and errors are described in text, not colour alone."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Contrast pairs",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Use",
+    "Ratio",
+    "Required",
+    "Body text on the page",
+    "18.0:1",
+    "4.5:1",
+    "Body text on cards",
+    "18.8:1",
+    "4.5:1",
+    "Secondary text on the page",
+    "8.6:1",
+    "4.5:1",
+    "Secondary text on the alternate surface",
+    "7.8:1",
+    "4.5:1",
+    "Primary button label",
+    "9.3:1",
+    "4.5:1",
+    "Link hover and focus ring on the page",
+    "8.8:1",
+    "3:1",
+    "Text in dark bands",
+    "18.0:1",
+    "4.5:1",
+    "Secondary text in dark bands",
+    "7.9:1",
+    "4.5:1",
+    "Buttons, links and focus ring in dark bands",
+    "6.0:1",
+    "4.5:1",
+    "Form field borders",
+    "9.0:1",
+    "3:1"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Known limitations",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Some older case-study pages contain dense figure tables that are being restructured for easier reading with a screen reader.",
+    "The booking page is provided by a third party. We have asked them to confirm its conformance, and you can always contact us to book instead."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Report a barrier",
+   "lead": [
+    "If something on the site does not work for you, email uk@aitropolis.co.uk with the page address and what happened. We will reply within 5 working days and, where we can, provide the information in another format.",
+    "Questions about this page? Contact us."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

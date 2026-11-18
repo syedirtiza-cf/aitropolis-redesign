@@ -1,0 +1,970 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Signal Intelligence",
+   "h1": "Signal District",
+   "h2": "Turn market signals into growth you can measure.",
+   "lead": [
+    "AI-Powered GTM & Growth",
+    "Aitropolis Signal combines AI, go-to-market strategy, digital marketing and experimentation to help you find the right audience, launch with precision and scale what actually works.",
+    "Illustrative example",
+    "AI Recommendation",
+    "A closed-loop system reads market, product and campaign signals together, then recommends where to shift budget and creative next — instead of waiting on a quarterly report."
+   ],
+   "links": [
+    [
+     "Book a 15-minute assessment",
+     "https://koalendar.com/e/meet-with-AitropolisTechnologies"
+    ],
+    [
+     "See How Signal Works",
+     "#capabilities"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Market demand",
+     "↑"
+    ],
+    [
+     "High-intent accounts",
+     "tracked"
+    ],
+    [
+     "Conversion opportunity",
+     "flagged"
+    ],
+    [
+     "CAC",
+     "↓"
+    ],
+    [
+     "Content gap",
+     "mapped"
+    ],
+    [
+     "Experiments running",
+     "live"
+    ]
+   ],
+   "bullets": [
+    "Market",
+    "GTM",
+    "Demand",
+    "Conversion",
+    "Retention",
+    "Growth"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Why AI, Why Now",
+   "h1": "",
+   "h2": "AI doesn't replace growth teams. It gives them a better signal.",
+   "lead": [
+    "We use AI across the growth lifecycle — from market and customer intelligence to content generation, campaign optimisation, experimentation, lead scoring and revenue analytics. The result is a growth system that learns continuously instead of relying on quarterly guesses."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Funnel",
+   "h1": "",
+   "h2": "A growth loop, not a funnel that ends",
+   "lead": [
+    "Customer behaviour creates new signals. Every stage feeds the next — and the last stage feeds back into the first."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Discover",
+     "lvl": "h3",
+     "p": [
+      "Find the market, audience and problem worth solving."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Attract",
+     "lvl": "h3",
+     "p": [
+      "Earn attention through SEO, content, paid and social."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Activate",
+     "lvl": "h3",
+     "p": [
+      "Turn attention into trials, sign-ups and first value."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Convert",
+     "lvl": "h3",
+     "p": [
+      "Turn intent into revenue with sales-ready pipeline."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Retain",
+     "lvl": "h3",
+     "p": [
+      "Keep customers engaged and reduce churn."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Expand",
+     "lvl": "h3",
+     "p": [
+      "Grow account value through upsell and advocacy."
+     ],
+     "tags": [],
+     "li": [
+      "6"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Learn",
+     "lvl": "h3",
+     "p": [
+      "Feed customer and market signals back into discovery."
+     ],
+     "tags": [],
+     "li": [
+      "7",
+      "Signals from Learn feed directly back into Discover."
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Capabilities",
+   "h1": "",
+   "h2": "Growth capabilities",
+   "lead": [
+    "Signal sits at the intersection of go-to-market, demand and intelligence — connected by AI and data, not run as three separate teams."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Go-to-Market",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Market Intelligence",
+      "Positioning & Messaging",
+      "GTM Strategy",
+      "Customer Journey Mapping",
+      "Launch Strategy",
+      "Sales Enablement",
+      "02"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Demand",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "SEO & Content",
+      "Paid Media",
+      "Social & Influencer",
+      "Account-Based Marketing",
+      "Lead Generation",
+      "03"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "AI Analytics",
+      "Attribution Modeling",
+      "Experimentation",
+      "Customer Intelligence",
+      "Marketing Automation"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "No Guesswork",
+   "h1": "",
+   "h2": "What we actually deliver",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Go-to-Market",
+     "lvl": "h3",
+     "p": [
+      "Deliverables"
+     ],
+     "tags": [
+      "ICP definition",
+      "Positioning",
+      "Messaging architecture",
+      "Pricing strategy input",
+      "Channel strategy",
+      "Launch plan"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Growth",
+     "lvl": "h3",
+     "p": [
+      "Deliverables"
+     ],
+     "tags": [
+      "Acquisition strategy",
+      "Funnel design",
+      "Experiment backlog",
+      "Analytics & reporting",
+      "Campaigns",
+      "Growth dashboard"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Who Is This For",
+   "h1": "",
+   "h2": "Signal is built for",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Founders",
+     "lvl": "h3",
+     "p": [
+      "You have a product but need market traction."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "CMOs",
+     "lvl": "h3",
+     "p": [
+      "You need marketing tied to pipeline and revenue."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "CEOs",
+     "lvl": "h3",
+     "p": [
+      "You need a measurable growth engine, not disconnected agencies."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise Teams",
+     "lvl": "h3",
+     "p": [
+      "You need AI, data and automation embedded into the commercial operation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "After",
+   "h1": "",
+   "h2": "Before Signal, after Signal",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Disconnected channels",
+    "Manual reporting",
+    "Generic campaigns",
+    "Slow experimentation",
+    "Limited customer intelligence",
+    "Signal",
+    "Unified growth model",
+    "Continuous experimentation",
+    "Real-time intelligence",
+    "Better conversion",
+    "Measurable revenue impact"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "AI-Native Growth",
+   "h1": "",
+   "h2": "AI across the growth stack",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "AI Market Intelligence",
+     "lvl": "h3",
+     "p": [
+      "Understand markets, competitors, customers and emerging demand before you spend a dollar."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI Content Engine",
+     "lvl": "h3",
+     "p": [
+      "Create, test and optimise content across the customer journey, at the pace the funnel needs."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI Campaign Optimisation",
+     "lvl": "h3",
+     "p": [
+      "Continuously optimise audiences, spend, creative and channels instead of quarterly guesses."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI Customer Intelligence",
+     "lvl": "h3",
+     "p": [
+      "Identify intent, behaviour, churn risk and expansion opportunity as it happens."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI Growth Analytics",
+     "lvl": "h3",
+     "p": [
+      "Connect marketing, product and revenue data into one decision layer."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our Process",
+   "h1": "",
+   "h2": "How we build growth",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Diagnose",
+     "lvl": "h3",
+     "p": [
+      "Understand the product, market, customers, funnel and unit economics."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Discover",
+     "lvl": "h3",
+     "p": [
+      "Use data and AI to surface opportunities, gaps and growth constraints."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [
+      "Build the positioning, messaging and go-to-market strategy."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Launch",
+     "lvl": "h3",
+     "p": [
+      "Execute campaigns, channels, content and sales enablement."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Experiment",
+     "lvl": "h3",
+     "p": [
+      "Test continuously — A/B, multivariate, and channel experiments."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Scale",
+     "lvl": "h3",
+     "p": [
+      "Invest behind what the data proves, and cut what it doesn't."
+     ],
+     "tags": [],
+     "li": [
+      "6"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Industries We Serve",
+   "h1": "",
+   "h2": "Growth expertise across sectors",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01",
+    "SaaS & Technology",
+    "02",
+    "E-Commerce",
+    "03",
+    "Financial Services",
+    "04",
+    "Healthcare",
+    "05",
+    "Real Estate",
+    "06",
+    "B2B"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "What We Enable",
+   "h1": "",
+   "h2": "Growth goals we deliver",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Lead Generation",
+     "lvl": "h3",
+     "p": [
+      "Build qualified lead pipelines across paid and organic channels."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "E-Commerce Growth",
+     "lvl": "h3",
+     "p": [
+      "Increase online sales through SEO, paid search, and social commerce."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Brand Awareness",
+     "lvl": "h3",
+     "p": [
+      "Build recognition and authority in your market with content and PR."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Customer Retention",
+     "lvl": "h3",
+     "p": [
+      "Maximise lifetime value through email, loyalty, and community programs."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Market Expansion",
+     "lvl": "h3",
+     "p": [
+      "Launch into new geographies and customer segments with localised campaigns."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Product Launch",
+     "lvl": "h3",
+     "p": [
+      "Go-to-market strategy and coordinated campaigns for new product releases."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Your Story Here",
+   "h1": "",
+   "h2": "Success stories from the Signal district",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/case-studies/velaarc-realestate",
+     "n": "",
+     "h": "Velaarc Real Estate LLC",
+     "lvl": "h3",
+     "p": [
+      "Premium Digital Transformation",
+      "Website and social media transformation for luxury real estate in the Dubai market.",
+      "ChallengeLimited digital visibility and fragmented social strategy",
+      "ApproachLuxury-focused website, virtual tours, and multi-platform social strategy"
+     ],
+     "tags": [],
+     "li": [
+      "Read the case study"
+     ],
+     "kv": [
+      [
+       "Lead growth",
+       "280%"
+      ],
+      [
+       "Impressions",
+       "4.8M"
+      ],
+      [
+       "Conversion",
+       "42%"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "/case-studies/sasmep-uae",
+     "n": "",
+     "h": "SASMEP UAE",
+     "lvl": "h3",
+     "p": [
+      "SME Digital Marketing Platform",
+      "Comprehensive digital branding and marketing platform for SMEs across the UAE.",
+      "ChallengeSMEs invisible online, priced out of larger agencies",
+      "ApproachAll-in-one platform: websites, email marketing, social scheduling, analytics"
+     ],
+     "tags": [],
+     "li": [
+      "Read the case study"
+     ],
+     "kv": [
+      [
+       "SMEs served",
+       "500+"
+      ],
+      [
+       "Lead growth",
+       "150%"
+      ],
+      [
+       "ROI",
+       "3.5x"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "/case-studies/nshield-io",
+     "n": "",
+     "h": "NShield.io",
+     "lvl": "h3",
+     "p": [
+      "Cybersecurity Brand Positioning",
+      "Complete brand positioning and go-to-market strategy for a cybersecurity SaaS platform.",
+      "ChallengeUnclear value proposition in an oversaturated market",
+      "ApproachDistinctive brand identity, thought leadership, multi-channel campaigns"
+     ],
+     "tags": [],
+     "li": [
+      "Read the case study"
+     ],
+     "kv": [
+      [
+       "Lead growth",
+       "250%"
+      ],
+      [
+       "Trials",
+       "180"
+      ],
+      [
+       "Conversion",
+       "32%"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "/case-studies/aicenna",
+     "n": "",
+     "h": "AICenna.com",
+     "lvl": "h3",
+     "p": [
+      "Healthcare AI Platform",
+      "Healthcare AI platform brand launch with a patient-centric digital experience.",
+      "ChallengeNew entrant needing instant trust in a regulated industry",
+      "ApproachPatient-first brand platform with dual-audience messaging"
+     ],
+     "tags": [],
+     "li": [
+      "Read the case study"
+     ],
+     "kv": [
+      [
+       "Visitors",
+       "12M+"
+      ],
+      [
+       "Rating",
+       "8.5 / 10"
+      ],
+      [
+       "Adoption",
+       "65%"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "/case-studies/trustedpof-fintech",
+     "n": "",
+     "h": "TrustedPoF",
+     "lvl": "h3",
+     "p": [
+      "Fintech Brand & Digital Presence",
+      "Brand identity, website design, and SEO built alongside the fintech's fraud detection platform.",
+      "ChallengeNeeded a market-ready face to match serious engineering",
+      "ApproachBrand identity, marketing site, and SEO for enterprise buyers"
+     ],
+     "tags": [
+      "Brand Identity",
+      "Website",
+      "SEO"
+     ],
+     "li": [
+      "Read the case study"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "https://koalendar.com/e/meet-with-AitropolisTechnologies",
+     "n": "",
+     "h": "Want to be our next success story?",
+     "lvl": "h3",
+     "p": [
+      "Tell us your growth goals and we'll map the channel strategy to get there."
+     ],
+     "tags": [],
+     "li": [
+      "Start a conversation"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Dive Deeper",
+   "h1": "",
+   "h2": "Service detail pages",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/signal/seo",
+     "n": "",
+     "h": "SEO & Content",
+     "lvl": "h3",
+     "p": [
+      "Search, organic growth, content marketing"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/signal/paid-media",
+     "n": "",
+     "h": "Paid Media",
+     "lvl": "h3",
+     "p": [
+      "Google, Meta, LinkedIn advertising"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/signal/marketing-automation",
+     "n": "",
+     "h": "Marketing Automation",
+     "lvl": "h3",
+     "p": [
+      "Journeys, nurture, CRM-connected campaigns"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/signal/social-media-marketing",
+     "n": "",
+     "h": "Social Media Marketing",
+     "lvl": "h3",
+     "p": [
+      "Multi-platform strategy, community management, influencer"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/signal/brand-analytics",
+     "n": "",
+     "h": "Brand & Analytics",
+     "lvl": "h3",
+     "p": [
+      "Brand strategy, performance tracking"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

@@ -1,0 +1,483 @@
+{
+ "ai": {
+  "title": "Enterprise AI and GPU Infrastructure",
+  "desc": "Generative AI, machine learning and managed NVIDIA GPU infrastructure from the Intelligence district, built around your business logic.",
+  "active": "solutions",
+  "icon": "brain",
+  "pill": "Intelligence district",
+  "stat": "Sections on this page"
+ },
+ "accessibility": {
+  "title": "Accessibility Statement",
+  "desc": "The Aitropolis Technologies accessibility statement: how we make this website usable for everyone, the WCAG standard we test against, how to report a barrier.",
+  "active": "",
+  "icon": "eye"
+ },
+ "ai-gpu": {
+  "title": "GPU Servers: H200, B200, B300 & AI Clusters",
+  "desc": "NVIDIA H200, B200 and B300 GPU servers and AI clusters, sized to your workload, sourced, deployed and operated by one team across the UAE, UK and Gulf.",
+  "active": "solutions",
+  "icon": "brain"
+ },
+ "case-studies-aicenna": {
+  "title": "AICenna: Healthcare AI Brand Launch",
+  "desc": "AICenna case study: brand launch, website design and digital go-to-market for a healthcare AI platform, positioning a health-tech SaaS product for patients.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-arib-fintech-cloud-acceleration": {
+  "title": "ARIB: Fintech Cloud Deployment in KSA",
+  "desc": "Fintech cloud deployment for ARIB in Saudi Arabia: rapid cloud infrastructure and offshore DBA, OS and cloud administration that shortened time to market.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-australia-telecom-post-acquisition": {
+  "title": "Telecom Managed Services After Acquisition",
+  "desc": "Telecom managed services after an acquisition in Australia: database support, logging and analytics offload, and managed operations that lowered running costs.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-dell-technologies-uae": {
+  "title": "Dell Technologies UAE Transformation",
+  "desc": "Dell Technologies UAE case study: supporting GBM and Dell with customer digital transformation across multiple sectors, from assessment through to adoption.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-dubai-municipality-ai-frames": {
+  "title": "Dubai Municipality AI Digital Signage",
+  "desc": "AI digital signage for Dubai Municipality: networked AI frames across the city delivering civic information, and how the platform was deployed at scale.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-erp-transformation": {
+  "title": "ERP Transformation Case Study",
+  "desc": "ERP transformation case study: a multi-million-dollar, enterprise-wide ERP implementation for thousands of users, and how it was delivered on schedule.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-gms-telecom-us": {
+  "title": "GMS US: A2P SMS Platform for Enterprise",
+  "desc": "GMS case study: an enterprise A2P SMS platform for high-volume delivery, carrier compliance and global reach, built for a US telecom messaging provider.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-gpu-ai-solutions": {
+  "title": "GPU AI Servers: NVIDIA B200 Deployment",
+  "desc": "GPU AI servers case study: NVIDIA Blackwell B200 servers sourced, delivered and deployed for customers in the UAE, Singapore and the Gulf region.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-healthcare-ai-twin": {
+  "title": "Healthcare AI Digital Twin Case Study",
+  "desc": "Healthcare AI digital twin case study: a multi-cloud AI digital twin on AWS, Azure and Vertex AI, with the accuracy and response-time targets it had to meet.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-nshield-io": {
+  "title": "NShield.io: Cybersecurity Marketing & Brand",
+  "desc": "NShield.io case study: brand positioning, a digital platform and lead generation for a cybersecurity company, and the B2B SaaS growth strategy behind them.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-pakistan-telecom-oracle-coe": {
+  "title": "Oracle Database Centre of Excellence",
+  "desc": "Oracle database centre of excellence for a Pakistan telecom operator: multi-platform database operations unified under one team, with measurable cost savings.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-quikcard-oracle-cloud-migration": {
+  "title": "Quikcard: Oracle Cloud Migration",
+  "desc": "Oracle Cloud migration case study: Quikcard's full workload moved to Oracle Cloud Infrastructure, meeting security, disaster recovery and flexibility needs.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-riskcalm-finops-oracle-cloud": {
+  "title": "RiskCalm: FinOps on Oracle Cloud",
+  "desc": "FinOps on Oracle Cloud for RiskCalm, a US fintech: audit-aligned cloud finance and cost governance that cut its annual Oracle Cloud spend.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-riyadh-pharma-erp-modernization": {
+  "title": "Riyadh Pharma: ERP Modernisation in KSA",
+  "desc": "ERP modernisation for a Saudi pharmaceutical manufacturer: end-of-life infrastructure, OS, database and ERP upgraded together, at a lower support cost.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-rta-iot-museum": {
+  "title": "RTA Dubai: Museum AV Integration & IoT",
+  "desc": "RTA museum case study: an end-to-end IoT and audio-visual integration for an RTA museum in Dubai, with interactive exhibits built for a high visitor count.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-sasmep-uae": {
+  "title": "SASMEP UAE: SME Digital Transformation",
+  "desc": "SASMEP UAE case study: digital branding, a B2B platform and lead generation that moved a UAE SME network online and gave its members a digital presence.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-saudi-contracting-ebs-optimization": {
+  "title": "Oracle EBS Optimisation: Project Accounting",
+  "desc": "Oracle EBS optimisation for a Saudi contracting firm: project accounting reworked for a faster financial close and fewer reporting errors.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-tmt-analytics-uk": {
+  "title": "TMT Analytics UK: Data Intelligence Platform",
+  "desc": "TMT Analytics UK case study: an enterprise data intelligence platform with predictive analytics and market intelligence, built on advanced data processing.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-trustedpof-fintech": {
+  "title": "TrustedPoF: Fintech Fraud Detection",
+  "desc": "TrustedPoF case study: a real-time fintech fraud detection platform using machine learning to validate transactions and protect payment processing at scale.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-uae-public-sector-cloud-compliance": {
+  "title": "UAE Government Cloud Compliance (IAR)",
+  "desc": "UAE government cloud compliance case study: meeting UAE IAR information security via Oracle Cloud migration, plus SLA-based managed services for a Dubai entity.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "case-studies-velaarc-realestate": {
+  "title": "Velaarc: Dubai Real Estate Digital Marketing",
+  "desc": "Velaarc case study: website development and social media management for a premium Dubai real estate company, built for lead generation and positioning.",
+  "active": "cases",
+  "icon": "briefcase"
+ },
+ "digital-growth-partner": {
+  "title": "Digital Growth Partner: Web, Marketing & AI",
+  "desc": "One digital growth partner for web development, digital marketing and AI lead qualification: conversion-ready sites and paid and organic growth, no handoffs.",
+  "active": "solutions",
+  "icon": "rocket"
+ },
+ "insights-ai-adoption-roadmap": {
+  "title": "Enterprise AI Roadmap: Pilot to Production",
+  "desc": "An enterprise AI roadmap from pilot to production: the data foundation, governance, deployment model and organisational readiness that AI at scale depends on.",
+  "active": "insights",
+  "icon": "lamp-ceiling"
+ },
+ "insights-ai-in-oracle-ebs": {
+  "title": "AI in Oracle EBS: Where It Fits",
+  "desc": "Where AI fits around Oracle E-Business Suite: read-only data access, models outside the core, results through existing workflows. AI in Oracle EBS by module.",
+  "active": "insights",
+  "icon": "lamp-ceiling"
+ },
+ "insights-b200-vs-h100-inference": {
+  "title": "NVIDIA B200 vs H100 for AI Inference",
+  "desc": "NVIDIA B200 vs H100 for enterprise AI inference: how the two GPUs compare on throughput, cost per token and deployment patterns, and when each is the right buy.",
+  "active": "insights",
+  "icon": "lamp-ceiling"
+ },
+ "insights-blockchain-enterprise-use-cases": {
+  "title": "Enterprise Blockchain Use Cases and ROI",
+  "desc": "Enterprise blockchain use cases beyond crypto: supply chain traceability, asset tokenisation and smart contracts that solve real problems with clear ROI.",
+  "active": "insights",
+  "icon": "lamp-ceiling"
+ },
+ "insights-cloud-cost-governance": {
+  "title": "Cloud Cost Governance: FinOps Patterns",
+  "desc": "Cloud cost governance without slowing teams down: five FinOps patterns for tagging, ownership, rightsizing and commitments that cut cloud waste.",
+  "active": "insights",
+  "icon": "lamp-ceiling"
+ },
+ "insights-erp-migration-timeline": {
+  "title": "How Long Does an ERP Migration Take?",
+  "desc": "A realistic ERP migration timeline for Oracle, Dynamics 365 and SAP: how long each phase takes from assessment to go-live, and five factors that drive it.",
+  "active": "insights",
+  "icon": "lamp-ceiling"
+ },
+ "insights-social-media-roi": {
+  "title": "Social Media ROI: Attribution & Budget",
+  "desc": "Why social media spend underperforms, and how to fix social media ROI with attribution, audience segmentation and a platform strategy matched to your buyers.",
+  "active": "insights",
+  "icon": "lamp-ceiling"
+ },
+ "privacy": {
+  "title": "Privacy Policy",
+  "desc": "How Aitropolis Technologies collects, uses and protects personal data on this website, including analytics cookies, contact form data and your rights.",
+  "active": "",
+  "icon": "lock"
+ },
+ "solutions-exchange-defi": {
+  "title": "DeFi Development: Lending, Swaps, Yield",
+  "desc": "DeFi development for lending protocols, AMM swaps and yield products: multi-chain decentralised finance infrastructure, audited and built for real liquidity.",
+  "active": "solutions",
+  "icon": "hexagon"
+ },
+ "solutions-exchange-smart-contracts": {
+  "title": "Smart Contract Development & Auditing",
+  "desc": "Smart contract development and auditing in Solidity, Move and Rust: design, testing, security review and mainnet deployment for enterprise blockchain apps.",
+  "active": "solutions",
+  "icon": "hexagon"
+ },
+ "solutions-exchange-tokenization": {
+  "title": "Asset Tokenisation: RWA & Security Tokens",
+  "desc": "Asset tokenisation for real-world assets and security tokens: compliant, audited digital asset issuance for enterprises, built production-ready from day one.",
+  "active": "solutions",
+  "icon": "hexagon"
+ },
+ "solutions-exchange": {
+  "title": "Blockchain Development & Fintech Services",
+  "desc": "Blockchain development and fintech services: smart contracts, DeFi protocols, asset tokenisation, Web3 applications and enterprise blockchain integration.",
+  "active": "solutions",
+  "icon": "hexagon"
+ },
+ "solutions-foundations-cloud-virtualization": {
+  "title": "Cloud & Virtualisation: Private & Hybrid Cloud",
+  "desc": "Cloud and virtualisation services: VMware and OpenShift private cloud, AWS, Azure and Google public cloud, and hybrid infrastructure for regulated workloads.",
+  "active": "solutions",
+  "icon": "layers"
+ },
+ "solutions-foundations-cloud": {
+  "title": "Cloud Migration: AWS, Azure, VMware, OpenShift",
+  "desc": "Cloud migration to AWS, Azure and Google Cloud, VMware Cloud Foundation private cloud and Red Hat OpenShift: zero-downtime moves and managed operations.",
+  "active": "solutions",
+  "icon": "layers"
+ },
+ "solutions-foundations-devops": {
+  "title": "DevOps Consulting: CI/CD, Kubernetes, Terraform",
+  "desc": "DevOps consulting and automation: CI/CD pipelines, Docker and Kubernetes, Terraform infrastructure as code and monitoring, so you ship daily and fail safely.",
+  "active": "solutions",
+  "icon": "layers"
+ },
+ "solutions-foundations-finops": {
+  "title": "FinOps & Cloud Cost Optimisation",
+  "desc": "FinOps and cloud cost optimisation: tagging, right-sizing, reserved and spot capacity, and governance that keeps AWS, Azure and Oracle Cloud spend explainable.",
+  "active": "solutions",
+  "icon": "layers"
+ },
+ "solutions-foundations-managed-services": {
+  "title": "Managed IT Services & 24/7 Cloud Operations",
+  "desc": "Managed IT services with 24/7 cloud operations: L1 to L3 support, proactive monitoring and SLA-backed follow-the-sun cover from Dubai, London and Islamabad.",
+  "active": "solutions",
+  "icon": "layers"
+ },
+ "solutions-foundations": {
+  "title": "Cloud Infrastructure Services: AWS, Azure, GCP",
+  "desc": "Cloud infrastructure services on AWS, Azure and Google Cloud: migration, infrastructure as code, DevOps, Kubernetes, FinOps and 24/7 managed operations.",
+  "active": "solutions",
+  "icon": "layers"
+ },
+ "solutions-immersion-ar-vr": {
+  "title": "AR/VR Development & Enterprise XR",
+  "desc": "AR and VR development for the enterprise: immersive training, product visualisation and remote collaboration, built as XR apps your teams will actually use.",
+  "active": "solutions",
+  "icon": "glasses"
+ },
+ "solutions-immersion-av-integration": {
+  "title": "AV Integration for Museums & Public Spaces",
+  "desc": "AV integration for museums, galleries, public spaces and control rooms: interactive displays, immersive installations, architectural lighting and DMX control.",
+  "active": "solutions",
+  "icon": "glasses"
+ },
+ "solutions-immersion-smart-meetings": {
+  "title": "Smart Meeting Rooms & Video Conferencing",
+  "desc": "Smart meeting rooms for hybrid work: video conferencing, AV systems and smart room controls, designed so every hybrid meeting starts on time without calling IT.",
+  "active": "solutions",
+  "icon": "glasses"
+ },
+ "solutions-immersion": {
+  "title": "AV Integration, AR/VR & Immersive Technology",
+  "desc": "Immersive technology services: AV integration for museums and control rooms, AR and VR applications, smart meeting rooms and interactive installations.",
+  "active": "solutions",
+  "icon": "glasses"
+ },
+ "solutions-intelligence-custom-software": {
+  "title": "Custom Software Development with AI Built In",
+  "desc": "Custom software development with AI built in: core banking, digital wallets, payment gateways and telecom OSS/BSS, on Google Vertex AI, AWS and Azure AI.",
+  "active": "solutions",
+  "icon": "brain"
+ },
+ "solutions-intelligence-data-engineering": {
+  "title": "Data Engineering: Pipelines & Lakehouses",
+  "desc": "Data engineering services: ETL and ELT pipelines, data warehouses and lakehouses on Snowflake, BigQuery and Redshift, for real-time and batch workloads.",
+  "active": "solutions",
+  "icon": "brain"
+ },
+ "solutions-intelligence-generative-ai": {
+  "title": "Generative AI Development & LLM Services",
+  "desc": "Generative AI and LLM development: RAG systems, AI agents, copilots and document automation on GPT, Claude and Llama, deployed with evaluation and guardrails.",
+  "active": "solutions",
+  "icon": "brain"
+ },
+ "solutions-intelligence-mlops": {
+  "title": "MLOps Services: Machine Learning in Production",
+  "desc": "MLOps services for machine learning in production: model lifecycle management, CI/CD for ML, monitoring and drift detection, at enterprise scale.",
+  "active": "solutions",
+  "icon": "brain"
+ },
+ "solutions-intelligence-telecom-platforms": {
+  "title": "Telecom OSS/BSS & VAS Platforms",
+  "desc": "Telecom OSS/BSS and VAS platforms for carriers and MVNOs: order management, provisioning, billing, CRBT, USSD and SMPP services, IoT and operator integration.",
+  "active": "solutions",
+  "icon": "brain"
+ },
+ "solutions-intelligence": {
+  "title": "AI, Machine Learning & Data Engineering",
+  "desc": "AI and machine learning services: generative AI and LLMs, custom ML models, MLOps and data engineering, built for production rather than for the demo.",
+  "active": "solutions",
+  "icon": "brain"
+ },
+ "solutions-iso-bpm": {
+  "title": "ISO 27001 Consulting, ISO 9001 & BPM",
+  "desc": "ISO 27001 consulting, ISO 9001 and ISO 20000 certification advisory with business process management: process mapping, automation and audit preparation.",
+  "active": "solutions",
+  "icon": "sparkles"
+ },
+ "solutions-offshore-it-teams": {
+  "title": "Offshore IT Teams & Dedicated Developers",
+  "desc": "Offshore IT teams from our Islamabad and Singapore delivery centres: vetted developers, architects and QA engineers embedded in your workflow, fully managed.",
+  "active": "solutions",
+  "icon": "sparkles"
+ },
+ "solutions-signal-brand-analytics": {
+  "title": "Brand Analytics & Marketing Intelligence",
+  "desc": "Brand analytics and marketing intelligence: sentiment analysis, brand tracking, competitive positioning and attribution that shows what your spend returns.",
+  "active": "solutions",
+  "icon": "radar"
+ },
+ "solutions-signal-marketing-automation": {
+  "title": "Marketing Automation: HubSpot & Marketo",
+  "desc": "Marketing automation on HubSpot, Marketo and Klaviyo: lead nurturing, email programmes, lead scoring and CRM integration that moves leads through to revenue.",
+  "active": "solutions",
+  "icon": "radar"
+ },
+ "solutions-signal-paid-media": {
+  "title": "Paid Media Management: Google, Meta, LinkedIn",
+  "desc": "Paid media management across Google Ads, Meta, LinkedIn and YouTube: campaign structure, audience targeting and bid optimisation measured on revenue.",
+  "active": "solutions",
+  "icon": "radar"
+ },
+ "solutions-signal-seo": {
+  "title": "Enterprise SEO Services & Technical SEO",
+  "desc": "Enterprise SEO services: technical SEO, content strategy and link building for multi-language, multi-region brands that need sustainable organic ranking growth.",
+  "active": "solutions",
+  "icon": "radar"
+ },
+ "solutions-signal-social-media-marketing": {
+  "title": "Social Media Marketing & Management",
+  "desc": "Social media marketing and management for enterprise brands: content, community, influencer partnerships and social commerce on Meta, LinkedIn and TikTok.",
+  "active": "solutions",
+  "icon": "radar"
+ },
+ "solutions-signal": {
+  "title": "Digital Marketing Services & Go-to-Market",
+  "desc": "AI-led digital marketing services and go-to-market strategy: SEO, paid media, marketing automation and growth analytics for B2B brands in the UK and Gulf.",
+  "active": "solutions",
+  "icon": "radar"
+ },
+ "solutions-systems-application-modernization": {
+  "title": "Application Modernisation & Legacy Migration",
+  "desc": "Application modernisation for legacy enterprise systems: refactor, re-architect and migrate to cloud-native microservices, keeping the business rules intact.",
+  "active": "solutions",
+  "icon": "blocks"
+ },
+ "solutions-systems-bi": {
+  "title": "BI Consulting: Power BI & Oracle Analytics",
+  "desc": "Business intelligence consulting with Power BI, Tableau and Oracle Analytics: real-time dashboards, data warehousing and reporting that turn data into action.",
+  "active": "solutions",
+  "icon": "blocks"
+ },
+ "solutions-systems-crm": {
+  "title": "CRM Implementation: Salesforce & Dynamics 365",
+  "desc": "CRM implementation and modernisation on Salesforce, Microsoft Dynamics 365, Oracle Siebel and Oracle CX Cloud, joining sales, service and marketing on one view.",
+  "active": "solutions",
+  "icon": "blocks"
+ },
+ "solutions-systems-erp": {
+  "title": "ERP Implementation: Oracle EBS, SAP, D365",
+  "desc": "ERP implementation and migration for Oracle E-Business Suite, Oracle Fusion Cloud, SAP S/4HANA, Microsoft Dynamics 365 and Odoo, across the UAE, KSA and UK.",
+  "active": "solutions",
+  "icon": "blocks"
+ },
+ "solutions-systems": {
+  "title": "ERP, CRM & Business Intelligence Services",
+  "desc": "ERP services, CRM and business intelligence: Oracle E-Business Suite, Oracle Cloud, SAP, Dynamics 365 and Odoo implementations, from strategy to operations.",
+  "active": "solutions",
+  "icon": "blocks"
+ },
+ "terms": {
+  "title": "Terms of Use",
+  "desc": "The terms of use that apply when you visit the Aitropolis Technologies website: permitted use, intellectual property, liability and governing law.",
+  "active": "",
+  "icon": "scale"
+ },
+ "solutions-exchange-blockchain-consulting": {
+  "title": "Blockchain Consulting & Integration",
+  "desc": "Before a ledger earns a place in your architecture, someone has to ask what a database cannot do here. We start with that question, and sometimes the answe",
+  "active": "solutions",
+  "pill": "Exchange district",
+  "cta": {
+   "h": "Get a straight answer on the ledger question",
+   "p": "Book an assessment and describe the process. An engineer will tell you whether a blockchain belongs in it."
+  },
+  "icon": "hexagon"
+ },
+ "solutions-exchange-wallets-exchanges": {
+  "title": "Wallets & Exchanges",
+  "desc": "A wallet that loses keys or an exchange that mis-settles a trade does not get a second launch. The architecture has to be right before any customer value m",
+  "active": "solutions",
+  "pill": "Exchange district",
+  "cta": {
+   "h": "Settle the key-handling design first",
+   "p": "Book an assessment to review your custody or settlement design before you build on it."
+  },
+  "icon": "hexagon"
+ },
+ "solutions-foundations-private-cloud": {
+  "title": "Private Cloud",
+  "desc": "Regulation, data residency, latency or plain cost can rule out the public cloud for a system. A private cloud gives those workloads self-service and automa",
+  "active": "solutions",
+  "pill": "Foundations district",
+  "cta": {
+   "h": "Keep regulated workloads where they must stay",
+   "p": "Book an assessment to test whether private, public or hybrid fits your hardest workload."
+  },
+  "icon": "layers"
+ },
+ "solutions-immersion-scenography": {
+  "title": "Scenography & Lighting",
+  "desc": "Screens, projection and sound get the budget, and lighting is left to the electrician. The space then looks flat, glares on glass or fights the content. Li",
+  "active": "solutions",
+  "pill": "Immersion district",
+  "cta": {
+   "h": "Light the space before you finish the content",
+   "p": "Book an assessment and describe the venue. An engineer will say how lighting and AV should be planned together."
+  },
+  "icon": "glasses"
+ },
+ "solutions-signal-social-influencer": {
+  "title": "Influencer Marketing & Social Management",
+  "desc": "A creator with a large audience can still send you nobody who buys. We pick creators for fit with your buyers, brief them properly and measure what they br",
+  "active": "solutions",
+  "pill": "Signal district",
+  "cta": {
+   "h": "Pay creators for results you can trace",
+   "p": "Book an assessment and share the buyer you want to reach. An engineer will outline how a tracked programme would work."
+  },
+  "icon": "radar"
+ },
+ "solutions-systems-assessments": {
+  "title": "ERP Assessments & Upgrades",
+  "desc": "Upgrade quotes arrive without anyone having read your customisations, interfaces or data. An assessment replaces that guess with a written finding on what ",
+  "active": "solutions",
+  "pill": "Systems district",
+  "cta": {
+   "h": "Decide the upgrade on evidence",
+   "p": "Book an assessment and an engineer will tell you whether a full assessment, or something smaller, is the right first step."
+  },
+  "icon": "blocks"
+ },
+ "solutions-systems-database": {
+  "title": "Database Management",
+  "desc": "When month-end drags or a batch job overruns, the application gets the blame. Most of the time the cause sits lower down, in the database, and nobody is as",
+  "active": "solutions",
+  "pill": "Systems district",
+  "cta": {
+   "h": "Find the real cause of the slow job",
+   "p": "Book an assessment and bring the report, batch or system that hurts most. An engineer will say where to look first."
+  },
+  "icon": "blocks"
+ }
+}

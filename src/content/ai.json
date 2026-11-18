@@ -1,0 +1,1065 @@
+{
+ "sections": [
+  {
+   "eyebrow": "INTELLIGENCE DISTRICT",
+   "h1": "Enterprise AI & AI Infrastructure",
+   "h2": "",
+   "lead": [
+    "Generative AI, machine learning, and intelligent automation purpose-built for your enterprise. Custom LLMs, AI agents, predictive models - not templates."
+   ],
+   "links": [
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ],
+    [
+     "See AI in Action",
+     "/case-studies"
+    ]
+   ],
+   "cards": [
+    {
+     "href": "#implementation",
+     "n": "",
+     "h": "AI Strategy",
+     "lvl": "h3",
+     "p": [
+      "AI roadmap, use-case discovery, governance and architecture."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/generative-ai",
+     "n": "",
+     "h": "Generative AI",
+     "lvl": "h3",
+     "p": [
+      "LLMs, RAG, AI agents, copilots and enterprise knowledge systems."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/mlops",
+     "n": "",
+     "h": "AI Engineering",
+     "lvl": "h3",
+     "p": [
+      "MLOps, model deployment, data pipelines and custom AI applications."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "#gpu-infrastructure",
+     "n": "",
+     "h": "AI Infrastructure",
+     "lvl": "h3",
+     "p": [
+      "GPU infrastructure, NVIDIA platforms, private AI, cloud AI and managed AI environments."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "GPU Infrastructure",
+   "h1": "",
+   "h2": "NVIDIA B200 power, managed for you",
+   "lead": [
+    "AI is only as fast as the hardware it runs on. We design, deploy, and operate NVIDIA Blackwell B200 GPU clusters for training and inference, on your premises, in your datacenter, or in the cloud."
+   ],
+   "links": [
+    [
+     "Read the GPU case study",
+     "/case-studies/gpu-ai-solutions"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "B200",
+     "NVIDIA Blackwell GPUs"
+    ],
+    [
+     "Several",
+     "GPU servers delivered & deployed"
+    ],
+    [
+     "Regions: UAE, Singapore, Gulf",
+     "3"
+    ],
+    [
+     "Availability SLA",
+     "99.99%"
+    ]
+   ],
+   "bullets": [
+    "Several GPU servers delivered and deployed across UAE, Singapore, and the Gulf",
+    "10x faster model training vs. previous-generation hardware",
+    "99.99% availability with 24/7 managed operations",
+    "Sized and tuned for your workload, not a generic template"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "AI Software Development",
+   "h1": "",
+   "h2": "Production AI systems that learn and adapt",
+   "lead": [
+    "Custom enterprise software built with AI from the ground up: core banking platforms, digital wallets, payment gateways, and telecom systems that improve with every transaction."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Core Banking & Fintech",
+     "lvl": "h3",
+     "p": [
+      "AI-powered transaction processing, fraud detection, credit risk modeling, and customer intelligence built into banking applications."
+     ],
+     "tags": [
+      "Python/Java",
+      "Real-time ML",
+      "Fraud Models",
+      "Risk Scoring"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Digital Wallets & Payments",
+     "lvl": "h3",
+     "p": [
+      "Intelligent payment routing, anomaly detection, churn prediction, and personalised offer engines embedded in wallet applications."
+     ],
+     "tags": [
+      "FastAPI",
+      "PyTorch",
+      "Real-time Inference",
+      "Feature Stores"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Telecom Platforms (OSS/BSS)",
+     "lvl": "h3",
+     "p": [
+      "AI-driven customer service, churn prevention, predictive maintenance, and network optimisation for telecom infrastructure."
+     ],
+     "tags": [
+      "Kubernetes",
+      "Ray",
+      "Time Series",
+      "NLP"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Custom LLM Integration",
+     "lvl": "h3",
+     "p": [
+      "Retrieval-augmented generation (RAG) for enterprise knowledge, document understanding, and intelligent chatbots trained on your data."
+     ],
+     "tags": [
+      "LangChain",
+      "Vector DBs",
+      "Prompt Engineering",
+      "Fine-tuning"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Real-time ML Features",
+     "lvl": "h3",
+     "p": [
+      "Feature engineering pipelines, online learning, and model serving at sub-10ms latency for high-frequency decisions."
+     ],
+     "tags": [
+      "Feature Stores",
+      "vLLM",
+      "NVIDIA Triton",
+      "Redis/Cassandra"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Pipelines for AI",
+     "lvl": "h3",
+     "p": [
+      "ETL, data quality, feature engineering, and monitoring that feeds your models with clean, current data at scale."
+     ],
+     "tags": [
+      "Spark",
+      "Airflow",
+      "dbt",
+      "Great Expectations"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Infrastructure Deep Dive",
+   "h1": "",
+   "h2": "NVIDIA Blackwell & AI-optimised networks",
+   "lead": [
+    "Enterprise-grade GPU infrastructure with ultra-low-latency networking for model training, inference, and distributed AI workloads."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "NVIDIA Blackwell B200 Specifications",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "GPU Memory",
+       "192 GB HBM3E"
+      ],
+      [
+       "Peak Performance",
+       "20 PFLOPs (FP8)"
+      ],
+      [
+       "Memory Bandwidth",
+       "960 GB/s"
+      ],
+      [
+       "Tensor Cores",
+       "21,120 per GPU"
+      ],
+      [
+       "PCIe Gen 5",
+       "256 GB/s host bandwidth"
+      ],
+      [
+       "TDP",
+       "700W per GPU"
+      ],
+      [
+       "Architecture",
+       "3nm (TSMC)"
+      ],
+      [
+       "Interconnect",
+       "NVIDIA Blackwell-to-Blackwell 576 GB/s"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Mellanox & AI Networking",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "InfiniBand (IB)",
+       "NDR 400 Gbps per port"
+      ],
+      [
+       "Protocol",
+       "NVIDIA CUDA IPC + OpenSHMEM"
+      ],
+      [
+       "Latency",
+       "<200ns GPU-to-GPU"
+      ],
+      [
+       "Topology",
+       "Fat-tree, 2:1 oversubscription"
+      ],
+      [
+       "RoCE (RDMA)",
+       "400 Gbps Ethernet alternative"
+      ],
+      [
+       "Switch Bandwidth",
+       "51.2 Tbps aggregate"
+      ],
+      [
+       "Congestion Control",
+       "NVIDIA GDRCopy + Adaptive Routing"
+      ],
+      [
+       "Collective Optimisation",
+       "All-Reduce, All-Gather, Reduce-Scatter"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI Compute Clusters",
+     "lvl": "h4",
+     "p": [],
+     "tags": [],
+     "li": [
+      "8x-16x B200 GPUs per node",
+      "400 Gbps IB or RoCE internode",
+      "GPU-optimised CPU (AMD EPYC or Intel Xeon)",
+      "NVMe SSD for checkpoint/model storage",
+      "High-speed storage (Ceph, MinIO) with 10 Gbps+ throughput",
+      "Out-of-band management network (Redfish/BMC)"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "GPU Acceleration Techniques",
+     "lvl": "h4",
+     "p": [],
+     "tags": [],
+     "li": [
+      "NVIDIA CUDA + cuDNN for deep learning",
+      "Tensor Parallelism (TP) for large models",
+      "Pipeline Parallelism (PP) for memory efficiency",
+      "Distributed Data Parallel (DDP) training",
+      "Gradient checkpointing for 3-4x larger batch sizes",
+      "Mixed-Precision (FP8/TF32) for speed without accuracy loss"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "AI at Every Layer",
+   "h1": "",
+   "h2": "Intelligent systems, cross-district",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Generative AI",
+     "lvl": "h3",
+     "p": [
+      "Custom LLMs, RAG systems, and AI agents trained on your business logic."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Predictive Analytics",
+     "lvl": "h3",
+     "p": [
+      "Machine learning models forecasting outcomes, risks, and opportunities."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Intelligent Automation",
+     "lvl": "h3",
+     "p": [
+      "AI-powered workflows automating complex business processes."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Computer Vision",
+     "lvl": "h3",
+     "p": [
+      "Image recognition, object detection, and visual understanding systems."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "NLP & Semantics",
+     "lvl": "h3",
+     "p": [
+      "Natural language processing for understanding and generating human language."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Recommendation Engines",
+     "lvl": "h3",
+     "p": [
+      "Personalisation systems that adapt to every user and context."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platform Partnership",
+   "h1": "",
+   "h2": "BytePlus AI product suite",
+   "lead": [
+    "Beyond custom builds, we integrate best-in-class AI products from BytePlus into your stack - production-grade generative media, LLM orchestration, and personalisation, deployed and tuned for your workflows."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Seedream API",
+     "lvl": "h3",
+     "p": [
+      "Text-to-image and text-to-video generation with style transfer and artistic effects, integrated into content and marketing pipelines."
+     ],
+     "tags": [
+      "Text-to-Image",
+      "Text-to-Video",
+      "Style Transfer",
+      "Batch Processing"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Seedance",
+     "lvl": "h3",
+     "p": [
+      "AI-powered avatar creation with natural expressions, realistic lip-sync, and multi-language support for training, marketing, and support content."
+     ],
+     "tags": [
+      "AI Avatars",
+      "Lip-Sync",
+      "Multi-Language",
+      "Expression Modeling"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "ModelArk",
+     "lvl": "h3",
+     "p": [
+      "Unified API access to multiple large language models, with fine-tuning and custom model development under enterprise security and compliance controls."
+     ],
+     "tags": [
+      "Unified LLM API",
+      "Fine-Tuning",
+      "Multi-Model",
+      "Enterprise Security"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Recommend Engine",
+     "lvl": "h3",
+     "p": [
+      "The personalisation algorithm class powering large-scale content discovery, with real-time personalisation, collaborative filtering, and A/B testing built in."
+     ],
+     "tags": [
+      "Real-time Personalisation",
+      "Collaborative Filtering",
+      "A/B Testing",
+      "Ranking"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Media Processing",
+     "lvl": "h3",
+     "p": [
+      "Video transcoding, adaptive streaming, AI-powered enhancement and upscaling, plus content moderation and analysis at scale."
+     ],
+     "tags": [
+      "Transcoding",
+      "Adaptive Streaming",
+      "AI Upscaling",
+      "Content Moderation"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Engagement tiers",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Starter",
+     "lvl": "h4",
+     "p": [
+      "A single BytePlus product with basic integration into one workflow, the fastest way to prove value."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Professional",
+     "lvl": "h4",
+     "p": [
+      "Up to three products with custom workflows across teams, plus monitoring and iteration support."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise",
+     "lvl": "h4",
+     "p": [
+      "The full BytePlus suite, deep integration across your stack, and a dedicated delivery manager."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Custom",
+     "lvl": "h4",
+     "p": [
+      "Multi-region deployment, white-label options, and bespoke SLAs for complex enterprise environments."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "AI Across Districts",
+   "h1": "",
+   "h2": "Intelligence applied everywhere",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Systems",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "ERP data intelligence & insights",
+      "Predictive financial modeling",
+      "Supply chain optimisation",
+      "Demand forecasting"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Foundations",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Cloud cost optimisation AI",
+      "Security threat detection",
+      "Infrastructure automation",
+      "Performance optimisation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Exchange",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Smart contract optimisation",
+      "Fraud detection systems",
+      "Risk assessment models",
+      "Portfolio management AI"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Signal",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Content personalisation",
+      "Campaign optimisation",
+      "Customer churn prediction",
+      "Sentiment analysis at scale"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Immersion",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Computer vision experiences",
+      "AR/VR content generation",
+      "Audience behaviour analysis",
+      "Interactive AI agents"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Custom LLM deployment",
+      "Multi-modal AI models",
+      "Real-time inference",
+      "Continuous learning systems"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Enterprise AI Infrastructure",
+   "h1": "",
+   "h2": "Built on production-grade foundations",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Foundation Models",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "OpenAI GPT-4 & o1",
+      "Anthropic Claude",
+      "Google Vertex AI",
+      "Open-source LLMs"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "ML Platforms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "AWS SageMaker",
+      "Google Vertex AI",
+      "Azure ML",
+      "MLflow & Kubeflow"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Inference & Serving",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "vLLM & Ollama",
+      "NVIDIA Triton",
+      "Ray Serve",
+      "KServe"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data & Embeddings",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Vector databases (Pinecone, Weaviate)",
+      "Data warehousing (Snowflake, BigQuery)",
+      "Feature stores",
+      "Real-time data pipelines"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How We Build",
+   "h1": "",
+   "h2": "AI implementation, the right way",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Discovery & Strategy",
+     "lvl": "h4",
+     "p": [
+      "Understand your data, business goals, and constraints. Map high-impact AI opportunities."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "Data Foundation",
+     "lvl": "h4",
+     "p": [
+      "Build data pipelines, feature engineering, and data quality frameworks for AI."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "Model Development",
+     "lvl": "h4",
+     "p": [
+      "Develop, train, and validate models specific to your business logic and data."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Production Deployment",
+     "lvl": "h4",
+     "p": [
+      "Containerise, scale, and deploy models with monitoring, logging, and governance."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "Continuous Learning",
+     "lvl": "h4",
+     "p": [
+      "Monitor performance, gather feedback, and continuously improve models over time."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "06",
+     "h": "Change Management",
+     "lvl": "h4",
+     "p": [
+      "Train teams, build adoption, and embed AI into business processes and culture."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Responsible AI",
+   "h1": "",
+   "h2": "Ethics & governance built in",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Privacy",
+     "lvl": "h3",
+     "p": [
+      "GDPR, data protection, and privacy-first architecture."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Fairness & Bias",
+     "lvl": "h3",
+     "p": [
+      "Regular audits, bias detection, and fairness testing."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Transparency",
+     "lvl": "h3",
+     "p": [
+      "Explainable AI and interpretable model decisions."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security",
+     "lvl": "h3",
+     "p": [
+      "Model security, adversarial testing, and threat modeling."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Governance",
+     "lvl": "h3",
+     "p": [
+      "Model versioning, audit trails, and regulatory compliance."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Human-in-Loop",
+     "lvl": "h3",
+     "p": [
+      "Human oversight, escalation paths, and controlled autonomy."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "AI services, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "What AI services does Aitropolis offer?",
+     "a": [
+      "Aitropolis designs and implements complete AI solutions: generative AI (custom LLMs, RAG systems, AI agents), machine learning and MLOps, predictive analytics, computer vision, NLP, and AI-based custom software such as core banking platforms, digital wallets, payment gateways, and telecom platforms (OSS/BSS). Every solution is built from the ground up for your business logic, not adapted from templates."
+     ]
+    },
+    {
+     "q": "What is NVIDIA Blackwell B200 and why does it matter for AI?",
+     "a": [
+      "NVIDIA Blackwell (B200) is the latest-generation enterprise GPU with 192 GB HBM3E memory, 20 PFLOPs peak performance, and 960 GB/s memory bandwidth. For AI, this means 3-4x faster training, lower cost-per-token for inference, and support for larger models and context windows. Aitropolis deploys B200 clusters with Mellanox 400 Gbps InfiniBand for ultra-low-latency GPU-to-GPU communication."
+     ]
+    },
+    {
+     "q": "Does Aitropolis provide GPU infrastructure for AI?",
+     "a": [
+      "Yes. Aitropolis deploys and manages NVIDIA Blackwell B200 GPU servers for AI training and inference, with several GPU servers delivered and deployed across the UAE, Singapore, and the Gulf region. All deployments include 400 Gbps Mellanox InfiniBand networking, NVMe storage, and 24/7 managed operations with 99.99% availability SLA."
+     ]
+    },
+    {
+     "q": "How does Mellanox networking improve AI training?",
+     "a": [
+      "Mellanox NDR 400 Gbps InfiniBand provides <200ns GPU-to-GPU latency and supports NVIDIA Collective Communications (NCCL) optimisation. This is critical for distributed training: large models train 8-10x faster on multi-GPU clusters with Mellanox fabric vs. standard Ethernet. Aitropolis configures fat-tree topologies with adaptive routing to prevent congestion."
+     ]
+    },
+    {
+     "q": "Which cloud platforms does Aitropolis use for AI workloads?",
+     "a": [
+      "Aitropolis builds AI systems on AWS (SageMaker, Bedrock), Microsoft Azure (Azure ML), and Google Cloud (Vertex AI), as well as private cloud on VMware and Red Hat OpenShift AI, choosing the platform that fits each client's data residency and cost requirements."
+     ]
+    },
+    {
+     "q": "How long does an enterprise AI implementation take?",
+     "a": [
+      "A focused first use case typically reaches production in 8-16 weeks: discovery and data foundation first, then model development, production deployment, and continuous improvement. Aitropolis delivers into production, not proof-of-concept."
+     ]
+    },
+    {
+     "q": "Does Aitropolis follow responsible AI practices?",
+     "a": [
+      "Yes. Every engagement includes data privacy (GDPR-aligned), bias and fairness testing, model explainability, security review, governance with audit trails, and human-in-the-loop controls where decisions carry risk."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

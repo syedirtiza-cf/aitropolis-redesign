@@ -1,0 +1,60 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Cloud Operations",
+   "h1": "FinOps: Cut Cloud Waste",
+   "h2": "",
+   "lead": [
+    "5 proven patterns for cost governance without sacrificing agility.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Insights",
+     "/insights"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "August 13, 2026",
+    "•",
+    "7 min read"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Problem",
+   "lead": [
+    "Average enterprise wastes 40% of cloud spend on idle resources and oversized instances. The fix is visibility and automation."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "5 FinOps Patterns",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "1. Cost Allocation Tags · visibility kills waste",
+    "2. Reserved Instance Pools · jump utilisation to 75%",
+    "3. Spot Automation · 60-80% cheaper for non-critical",
+    "4. Right-Sizing · save 25-40% without impact",
+    "5. Commitment Discounts · lock 40% savings"
+   ],
+   "tags": []
+  }
+ ]
+}

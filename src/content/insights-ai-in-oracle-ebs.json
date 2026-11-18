@@ -1,0 +1,354 @@
+{
+ "sections": [
+  {
+   "eyebrow": "ERP Strategy",
+   "h1": "What Role Does AI Play in Oracle EBS?",
+   "h2": "",
+   "lead": [
+    "Your finance, supply chain and HR already run on E-Business Suite. The question is not whether to replace it, but what AI can do with the data it has been collecting for years.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Insights",
+     "/insights"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "September 18, 2026",
+    "•",
+    "7 min read"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The Short Answer",
+   "lead": [
+    "AI does not live inside Oracle EBS. It sits beside it: it reads EBS data, finds what a person would miss, and puts the result back into the screens, alerts and approval flows your users already work in. Done that way, it needs no change to the EBS core and survives the next patch cycle.",
+    "That matters because EBS is not going away. Oracle has committed Premier Support for release 12.2 through at least 2037, and many governments, banks, telecom operators and trading groups across the Gulf, Asia and Europe will run it for years yet."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Why EBS Data Suits AI",
+   "lead": [
+    "Models need history, structure and context. A mature EBS estate has all three: years of invoices, receipts, purchase orders and stock movements in one database; approval hierarchies that say who decides what; and supplier, customer and item master data that ties it together.",
+    "The honest limitation: this only holds if the master data is looked after. Duplicate suppliers, retired items still active, and cost centres nobody closed will teach a model the wrong lessons. A data quality pass is usually the first piece of real work."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "How AI Connects Without Touching the Core",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "1. Read from a copy, not from production",
+     "lvl": "h3",
+     "p": [
+      "Replicate the tables you need to a reporting database or a read-only standby, so model workloads never compete with month-end close for the production database."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "2. Run the models outside EBS",
+     "lvl": "h3",
+     "p": [
+      "Train and serve them on the platform you already use, whether that is OCI, Azure or AWS. EBS neither knows nor cares where the model runs."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3. Write back only through supported routes",
+     "lvl": "h3",
+     "p": [
+      "Results come back as dashboard tiles, workflow notifications or records loaded through Oracle's public APIs and open interfaces. Never by inserting into base tables."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "4. Keep a person on the decision",
+     "lvl": "h3",
+     "p": [
+      "The model flags and ranks; the approver approves. That keeps segregation of duties intact and gives auditors a trail they recognise."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Where It Pays, Module by Module",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Payables",
+     "lvl": "h3",
+     "p": [
+      "Flag duplicate invoices, invoices split to stay under approval limits, and suppliers whose bank details changed just before a payment run. Findings go to the approver who already owns the invoice."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Receivables and cash management",
+     "lvl": "h3",
+     "p": [
+      "Score open invoices for late-payment risk from each customer's own history, and forecast cash from receipts and payment runs rather than from a spreadsheet rebuilt every Monday."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Inventory and purchasing",
+     "lvl": "h3",
+     "p": [
+      "Forecast demand per item and location, suggest reorder points that move with the season, and surface slow-moving stock before it becomes a write-off."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "General Ledger and close",
+     "lvl": "h3",
+     "p": [
+      "Look for journals that do not fit the pattern: an unusual account combination, a manual entry at an odd hour, a reversal that never came. The controller reviews exceptions instead of samples."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Support and documentation",
+     "lvl": "h3",
+     "p": [
+      "A generative assistant grounded in your own setup documents, SOPs and past service requests answers \"how do we do this here\" questions. It reads; it does not transact."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "AI Instead of Another Customisation",
+   "lead": [
+    "For years the answer to a new reporting or control need in EBS was a custom report, a custom form or a trigger. Each one adds weight to every upgrade, and on 12.2 every customisation has to respect the online patching rules as well.",
+    "An outside model that reads data and raises exceptions carries none of that weight. When the need changes, you retrain the model; you do not re-test a customisation against the next patch set."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Compliance in the Gulf",
+   "lead": [
+    "In Saudi Arabia and the UAE, VAT and e-invoicing requirements sit on top of EBS through localisations and integrations. AI does not replace those; you still need the right patches and the right e-invoicing connector. What it adds is watchfulness: tax codes applied inconsistently across similar invoices, credit notes without a matching original, reporting periods that drift out of line after a patch."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "What AI Will Not Do",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Fix master data. It will find the problems faster; people still have to decide which supplier record survives.",
+    "Replace functional consultants. Someone has to know why the approval hierarchy is the way it is before a model is allowed to route around it.",
+    "Replace patching or support. An unsupported release stays unsupported, however clever the layer on top.",
+    "Decide EBS versus Fusion for you. It changes the arithmetic, not the question."
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "EBS or Fusion?",
+   "lead": [
+    "Fusion Cloud ERP ships AI features that Oracle maintains for you, and that is a real advantage. EBS gives you control, your customisations and a support runway. If the business case for moving to Fusion is not ready, AI around EBS is not a delay tactic; it is how you get value from the data now, and the same data pipelines serve the migration when it comes."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Where to Start",
+   "lead": [
+    "Pick one process with a pain someone already measures, typically duplicate invoices, late receivables or excess stock. Confirm read access to the data. Run a pilot against a copy, compare the findings with what the team caught by hand, and only then wire the result into the live workflow."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "Frequently Asked Questions",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Does Oracle EBS have AI built in?",
+     "lvl": "h3",
+     "p": [
+      "Not in the sense most people mean. Enterprise Command Centers add search and dashboards to EBS, but predictive models and generative AI run outside the application and read its data."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Can we use AI with Oracle EBS without moving to Fusion?",
+     "lvl": "h3",
+     "p": [
+      "Yes. The models sit beside EBS, not inside it. Release 12.2 is on Oracle's Premier Support through at least 2037, so there is time to get value from the data you already have."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Will AI require customising the EBS core?",
+     "lvl": "h3",
+     "p": [
+      "It should not. Read from a replica or reporting copy, run the models outside, and write back only through Oracle's public APIs and open interfaces. Direct table inserts are the fastest way to lose Oracle support."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "What is a sensible first AI use case in EBS?",
+     "lvl": "h3",
+     "p": [
+      "Duplicate and split-invoice detection in Payables. The data is clean, the rules are well understood, the result lands in an existing approval flow, and the saving is easy to measure."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "We are still on EBS 12.1. Does AI change anything?",
+     "lvl": "h3",
+     "p": [
+      "No. 12.1 is in Sustaining Support, which means no new fixes. Plan the move to 12.2 or to Fusion first; AI on an unsupported platform adds risk to a platform that already carries it.",
+      "See it in practice: Oracle EBS optimisation for a Saudi contractor, and our ERP services."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

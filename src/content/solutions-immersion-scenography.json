@@ -1,0 +1,307 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Scenography and lighting",
+   "h1": "A good exhibit can be ruined by its lighting",
+   "h2": "",
+   "lead": [
+    "Screens, projection and sound get the budget, and lighting is left to the electrician. The space then looks flat, glares on glass or fights the content. Lighting and staging work best designed with the AV, not after it."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we do",
+   "h1": "",
+   "h2": "Scenography & Lighting: what is included",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Lighting design",
+     "lvl": "h3",
+     "p": [
+      "Layouts for galleries, museums, venues and public spaces, planned around the objects, the sightlines and the content on screen."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Scenography",
+     "lvl": "h3",
+     "p": [
+      "Spatial and staging design for exhibitions and installations, coordinated with the architecture and the visitor route."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "DMX and control",
+     "lvl": "h3",
+     "p": [
+      "Lighting control over DMX and networked protocols, with presets that staff can run without a specialist."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Show automation",
+     "lvl": "h3",
+     "p": [
+      "Cues that link lighting, video, audio and interactive elements into one timed sequence."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AV integration",
+     "lvl": "h3",
+     "p": [
+      "Lighting tied into the same control system as displays and sound, so one trigger runs the scene."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Commissioning and handover",
+     "lvl": "h3",
+     "p": [
+      "Programming, focus, testing and training before the space opens, with documentation for the operators."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How it runs",
+   "h1": "",
+   "h2": "From first call to hand-over",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Brief",
+     "lvl": "h3",
+     "p": [
+      "Understand the space, the content, the audience and who will operate it daily."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [
+      "Develop lighting and staging concepts with the AV design, and agree them with the client."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "Specify",
+     "lvl": "h3",
+     "p": [
+      "Produce equipment lists, control architecture and installation drawings."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Install and programme",
+     "lvl": "h3",
+     "p": [
+      "Coordinate with the site team, then focus, programme and test each scene."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "Hand over",
+     "lvl": "h3",
+     "p": [
+      "Train operators and leave documentation, so the space can be run without us."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Limits",
+   "h1": "",
+   "h2": "Where this service stops",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Heritage and architecture set the limits",
+     "lvl": "h3",
+     "p": [
+      "Listed buildings, conservation rules and existing structure restrict where fittings can go. We work to those limits and flag early where they constrain the design."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Related",
+   "h1": "",
+   "h2": "Read next",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/immersion/av-integration",
+     "n": "",
+     "h": "Museum and public-space AV",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/immersion/smart-meetings",
+     "n": "",
+     "h": "Smart meeting rooms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/rta-iot-museum",
+     "n": "",
+     "h": "RTA museum AV integration and IoT",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/immersion",
+     "n": "",
+     "h": "Immersion district",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Scenography & Lighting, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Do you design lighting or only install it?",
+     "a": [
+      "Both. We can design, specify, install and programme, or take on one of those stages where another party handles the rest."
+     ]
+    },
+    {
+     "q": "What is DMX?",
+     "a": [
+      "A standard control protocol for stage and architectural lighting. It lets one console or control system run many fixtures from a single set of cues."
+     ]
+    },
+    {
+     "q": "Can lighting be controlled with the AV system?",
+     "a": [
+      "Yes. Integrating both in one control system lets a single trigger set the lights, screens and sound together."
+     ]
+    },
+    {
+     "q": "Do you train the operating staff?",
+     "a": [
+      "Yes. Handover includes operator training and written documentation."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

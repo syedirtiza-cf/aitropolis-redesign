@@ -1,0 +1,307 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Wallets and exchanges",
+   "h1": "Custody and trading fail in public, and once",
+   "h2": "",
+   "lead": [
+    "A wallet that loses keys or an exchange that mis-settles a trade does not get a second launch. The architecture has to be right before any customer value moves through it."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we do",
+   "h1": "",
+   "h2": "Wallets & Exchanges: what is included",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Wallet development",
+     "lvl": "h3",
+     "p": [
+      "Custodial and non-custodial wallets for web and mobile, with key management designed around who can sign what."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Custody architecture",
+     "lvl": "h3",
+     "p": [
+      "Hot and cold storage separation, approval workflows, and recovery procedures that are written down and tested."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Exchange and trading platforms",
+     "lvl": "h3",
+     "p": [
+      "Order books, matching and settlement engines, and the admin and reporting tools around them."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Payments and on-ramps",
+     "lvl": "h3",
+     "p": [
+      "Integration with payment gateways and banking rails so users can move between fiat and digital assets."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security review",
+     "lvl": "h3",
+     "p": [
+      "Threat modelling and code review before launch, and independent audit where the risk justifies it."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Chains and standards",
+     "lvl": "h3",
+     "p": [
+      "EVM chains and others as the product needs. We choose per use case rather than by habit."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How it runs",
+   "h1": "",
+   "h2": "From first call to hand-over",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Model the risk",
+     "lvl": "h3",
+     "p": [
+      "Agree what is held, who can move it and what the worst credible failure looks like."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "Architect",
+     "lvl": "h3",
+     "p": [
+      "Design key handling, settlement flow and failure modes before any feature work."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "Build",
+     "lvl": "h3",
+     "p": [
+      "Develop in small releases, each with tests against the failure modes already listed."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Review",
+     "lvl": "h3",
+     "p": [
+      "Internal review and, where appropriate, external audit before real value is at stake."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "Launch carefully",
+     "lvl": "h3",
+     "p": [
+      "Staged release with limits, monitoring and a rehearsed incident procedure."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Limits",
+   "h1": "",
+   "h2": "Where this service stops",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Regulation sits outside the code",
+     "lvl": "h3",
+     "p": [
+      "Licensing and compliance for custody or trading depend on the jurisdiction and are your responsibility to settle with counsel and the regulator. We build to the requirements you confirm."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Related",
+   "h1": "",
+   "h2": "Read next",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/exchange/smart-contracts",
+     "n": "",
+     "h": "Smart contracts",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/exchange/tokenization",
+     "n": "",
+     "h": "Tokenisation and NFT",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/custom-software",
+     "n": "",
+     "h": "Custom software, including wallets and gateways",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/trustedpof-fintech",
+     "n": "",
+     "h": "TrustedPoF fraud detection",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Wallets & Exchanges, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Do you build custodial or non-custodial wallets?",
+     "a": [
+      "Either. The choice depends on who should hold the keys, what regulation applies and how users expect to recover access."
+     ]
+    },
+    {
+     "q": "Can you build a full exchange?",
+     "a": [
+      "We build the trading, matching and settlement components and the tooling around them. Licensing and market operations remain with you."
+     ]
+    },
+    {
+     "q": "Do you audit your own contracts?",
+     "a": [
+      "We review our own work internally. For higher-value systems we recommend an independent audit as well."
+     ]
+    },
+    {
+     "q": "Which blockchains do you work with?",
+     "a": [
+      "We work across EVM-compatible chains and others where the product needs them. The choice is made per project."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

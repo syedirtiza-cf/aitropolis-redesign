@@ -1,0 +1,188 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Audio-Visual Systems",
+   "h1": "AV integration for immersive spaces",
+   "h2": "",
+   "lead": [
+    "Museums, galleries, corporate spaces. Interactive displays, immersive installations, visitor analytics, and centralised control."
+   ],
+   "links": [
+    [
+     "Immersion District",
+     "/solutions/immersion"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "End-to-end AV systems",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Interactive Displays",
+     "lvl": "h3",
+     "p": [
+      "Touch screens, gesture control, multi-touch tables for engaging visitor experiences."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Digital Signage",
+     "lvl": "h3",
+     "p": [
+      "Dynamic content distribution, wayfinding systems, advertising displays with remote management."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Immersive Installations",
+     "lvl": "h3",
+     "p": [
+      "Projection mapping, surround sound, choreographed multi-screen experiences."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Visitor Analytics",
+     "lvl": "h3",
+     "p": [
+      "Heat maps, dwell time tracking, audience measurement, and behavioral insights."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Access Control",
+     "lvl": "h3",
+     "p": [
+      "Integrated ticketing, RFID/QR scanning, multi-zone access management."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Central Management",
+     "lvl": "h3",
+     "p": [
+      "Single pane of glass for all AV systems, scheduling, monitoring, and troubleshooting."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AV Control Rooms",
+     "lvl": "h3",
+     "p": [
+      "Control-room design and build: video walls, touch-panel GUIs, control networks and operator workstations."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Architectural & Dynamic Lighting",
+     "lvl": "h3",
+     "p": [
+      "Lighting design for exhibitions, stages and public buildings, programmed over DMX and tied into the AV show control."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Survey & Design",
+     "lvl": "h3",
+     "p": [
+      "Site surveys and reports, AutoCAD layouts, equipment schedules, and a quality checklist signed off at installation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "AV Integration · Answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "What's included in AV integration services?",
+     "a": [
+      "Design, installation, and programming of audio-visual systems: interactive displays, digital signage, immersive installations, access control, visitor tracking, and central management. We handle the full stack: hardware, software, networking, and support."
+     ]
+    },
+    {
+     "q": "Can you integrate with existing museum systems?",
+     "a": [
+      "Yes. We integrate with legacy AV, building management systems, visitor databases, and ticketing platforms. Our modular approach allows phased deployment without disrupting current operations."
+     ]
+    },
+    {
+     "q": "Do you provide ongoing support?",
+     "a": [
+      "Yes. 24/7 monitoring, preventive maintenance, remote troubleshooting, and on-site support. Our service model ensures uptime and visitor experience continuity."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

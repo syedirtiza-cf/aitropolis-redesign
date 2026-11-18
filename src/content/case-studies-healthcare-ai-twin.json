@@ -1,0 +1,273 @@
+{
+ "sections": [
+  {
+   "eyebrow": "INTELLIGENCE DISTRICT",
+   "h1": "Healthcare AI Digital Twin",
+   "h2": "",
+   "lead": [
+    "Complete AI digital twin for healthcare transforming patient care, operations, and outcomes across multi-cloud infrastructure.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "25%",
+    "Fewer readmissions through predictive intervention",
+    "Patient data sat fragmented across hospitals, clinics and research facilities, with no predictive analytics for outcomes and operational planning done by hand."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "AI Accuracy",
+     "96%"
+    ],
+    [
+     "Response Time",
+     "<100ms"
+    ],
+    [
+     "Cloud Platforms",
+     "3"
+    ],
+    [
+     "Real-time",
+     "Patient Insights"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Healthcare operations at scale",
+   "lead": [
+    "Major healthcare provider managing multiple hospitals, clinics, and research facilities couldn't leverage data effectively. Patient outcomes, operational efficiency, and predictive care were siloed across systems."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Fragmented patient data across systems",
+    "No predictive analytics for outcomes",
+    "Manual operational planning",
+    "Limited interoperability between providers"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "AI-powered care delivery",
+   "lead": [
+    "AI digital twin integrating patient data, clinical workflows, and operational metrics across AWS, Azure, and Vertex AI for unified intelligence."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Unified patient profiles",
+    "Predictive clinical outcomes",
+    "Real-time resource optimisation",
+    "AI-driven decision support"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Better care, better outcomes",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Prediction Accuracy",
+     "lvl": "h3",
+     "p": [
+      "Clinical outcome prediction"
+     ],
+     "tags": [],
+     "li": [
+      "96%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Reduction",
+     "lvl": "h3",
+     "p": [
+      "Operational efficiency gains"
+     ],
+     "tags": [],
+     "li": [
+      "30%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Readmission Drop",
+     "lvl": "h3",
+     "p": [
+      "Through predictive intervention"
+     ],
+     "tags": [],
+     "li": [
+      "25%"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Response Time",
+     "lvl": "h3",
+     "p": [
+      "Real-time clinical insights"
+     ],
+     "tags": [],
+     "li": [
+      "<100ms"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology Stack",
+   "h1": "",
+   "h2": "Enterprise AI architecture",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Multi-Cloud",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "AWS (Primary)",
+      "Azure (Integration)",
+      "Vertex AI (ML)"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "AI/ML",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Predictive Models",
+      "NLP for Clinical Notes",
+      "Computer Vision"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Pipeline",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Real-time Ingestion",
+      "Data Lake",
+      "Analytics Engine"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Healthcare",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "HIPAA Compliance",
+      "EHR Integration",
+      "Clinical APIs"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Intelligence",
+    "AI & Software",
+    "Healthcare",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

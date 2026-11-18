@@ -1,0 +1,511 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Solutions",
+   "h1": "Exchange District",
+   "h2": "",
+   "lead": [
+    "Blockchain & Fintech",
+    "Distributed systems and blockchain that enable trust in digital economies. Smart contracts, DeFi protocols, and enterprise blockchain integration.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Future of Trust",
+   "h1": "",
+   "h2": "Blockchain isn't speculative. It's infrastructure.",
+   "lead": [
+    "Beyond cryptocurrencies, blockchain enables transparent, auditable, and automated transactions for supply chain, finance, healthcare, and government. We build production-grade blockchain systems that enterprises trust."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Enterprise Blockchain",
+   "h1": "",
+   "h2": "Why blockchain matters to enterprise",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Immutability",
+     "lvl": "h3",
+     "p": [
+      "Once recorded, data cannot be altered. Audit trails are permanent and verifiable."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Transparency",
+     "lvl": "h3",
+     "p": [
+      "All participants see the same ledger. No hidden transactions or disputes."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Smart Contracts",
+     "lvl": "h3",
+     "p": [
+      "Automate complex business logic. Contracts execute when conditions are met."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Decentralization",
+     "lvl": "h3",
+     "p": [
+      "No single point of failure. Consensus-based decisions, not centralised control."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Interoperability",
+     "lvl": "h3",
+     "p": [
+      "Blockchains can communicate with legacy systems and other chains."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Compliance",
+     "lvl": "h3",
+     "p": [
+      "Built-in audit trails satisfy regulatory requirements. Permissions and access control."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Capabilities",
+   "h1": "",
+   "h2": "Full blockchain spectrum",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Blockchain Development",
+     "lvl": "h3",
+     "p": [
+      "End-to-end blockchain solutions from architecture to smart contract deployment. Ethereum, Solana, Hyperledger, and custom chains."
+     ],
+     "tags": [
+      "Smart Contracts",
+      "Solidity Development",
+      "Custom Blockchains",
+      "Protocol Development"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "DeFi Protocols",
+     "lvl": "h3",
+     "p": [
+      "Decentralized finance protocols with full auditing, testing, and deployment. Secure by default, optimised for gas efficiency."
+     ],
+     "tags": [
+      "AMM / DEX",
+      "Lending Protocols",
+      "Yield Farming",
+      "Staking Systems"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Tokenisation",
+     "lvl": "h3",
+     "p": [
+      "Tokenise real-world and digital assets. From simple ERC-20 tokens to complex NFT platforms and security token offerings."
+     ],
+     "tags": [
+      "Token Standards (ERC-20, ERC-721)",
+      "NFT Marketplaces",
+      "Asset Tokenisation",
+      "Security Tokens",
+      "Stablecoin Development",
+      "IDO Launchpads"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Fintech Solutions",
+     "lvl": "h3",
+     "p": [
+      "Modern fintech applications with regulatory compliance, real-time settlement, and enterprise-grade security."
+     ],
+     "tags": [
+      "Payment Systems",
+      "Digital Wallets",
+      "Crypto Exchanges",
+      "Settlement",
+      "KYC/AML Compliance"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise Blockchain",
+     "lvl": "h3",
+     "p": [
+      "Enterprise-grade blockchain for supply chain, healthcare, finance, and government. Permissioned, auditable, compliant."
+     ],
+     "tags": [
+      "Hyperledger Fabric",
+      "Corda",
+      "Private Blockchains",
+      "Integration & Consulting"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Web3 Integration",
+     "lvl": "h3",
+     "p": [
+      "Web3-ready applications with wallet connectivity, decentralized identity, and seamless blockchain interaction."
+     ],
+     "tags": [
+      "Wallet Integration",
+      "dApp Development",
+      "RPC Infrastructure",
+      "Metaverse Development"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Development Process",
+   "h1": "",
+   "h2": "How we build blockchain",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Design",
+     "lvl": "h3",
+     "p": [
+      "Architecture, consensus mechanism, tokenomics, and governance model."
+     ],
+     "tags": [],
+     "li": [
+      "1"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Develop",
+     "lvl": "h3",
+     "p": [
+      "Smart contracts, protocols, and backend infrastructure development."
+     ],
+     "tags": [],
+     "li": [
+      "2"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Audit",
+     "lvl": "h3",
+     "p": [
+      "Security audits, code review, penetration testing, and vulnerability assessment."
+     ],
+     "tags": [],
+     "li": [
+      "3"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Deploy",
+     "lvl": "h3",
+     "p": [
+      "Testnet deployment, monitoring setup, and mainnet launch."
+     ],
+     "tags": [],
+     "li": [
+      "4"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operate",
+     "lvl": "h3",
+     "p": [
+      "24/7 monitoring, upgrades, security patching, and community support."
+     ],
+     "tags": [],
+     "li": [
+      "5"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Industries We Serve",
+   "h1": "",
+   "h2": "Blockchain across sectors",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "01",
+    "Banking & Finance",
+    "02",
+    "Insurance",
+    "03",
+    "Supply Chain",
+    "04",
+    "Healthcare",
+    "05",
+    "Real Estate",
+    "06",
+    "Government"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Real-World Applications",
+   "h1": "",
+   "h2": "What blockchain enables",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Supply Chain Transparency",
+     "lvl": "h3",
+     "p": [
+      "Track product provenance from manufacturer to consumer with immutable ledger."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cross-Border Payments",
+     "lvl": "h3",
+     "p": [
+      "Instant, low-cost international transfers with blockchain settlement."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Digital Identity",
+     "lvl": "h3",
+     "p": [
+      "Self-sovereign identity, credentials verification, and decentralized authentication."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Insurance Claims",
+     "lvl": "h3",
+     "p": [
+      "Automated claims processing with smart contracts and real-time settlement."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Real Estate & Property Rights",
+     "lvl": "h3",
+     "p": [
+      "Property title management, fractional ownership, and tokenised real estate."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Healthcare Records",
+     "lvl": "h3",
+     "p": [
+      "Patient-controlled medical records with provider access and audit trails."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Dive Deeper",
+   "h1": "",
+   "h2": "Service detail pages",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/exchange/smart-contracts",
+     "n": "",
+     "h": "Smart Contracts",
+     "lvl": "h3",
+     "p": [
+      "Contract development, audits, Web3"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/exchange/defi",
+     "n": "",
+     "h": "DeFi Protocols",
+     "lvl": "h3",
+     "p": [
+      "Lending, staking, liquidity systems"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/exchange/tokenization",
+     "n": "",
+     "h": "Tokenisation & NFT",
+     "lvl": "h3",
+     "p": [
+      "Asset tokenisation, NFT marketplaces"
+     ],
+     "tags": [],
+     "li": [
+      "Explore"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

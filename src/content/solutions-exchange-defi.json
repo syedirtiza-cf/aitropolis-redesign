@@ -1,0 +1,145 @@
+{
+ "sections": [
+  {
+   "eyebrow": "DeFi & Decentralized Finance",
+   "h1": "DeFi at Scale. Audited. Liquid.",
+   "h2": "",
+   "lead": [
+    "Build DeFi protocols that work. AMM swaps, lending, yield farming. Multi-chain support. Professional-grade infrastructure.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "DeFi Protocols We Build",
+   "h1": "",
+   "h2": "Core DeFi Models",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Automated Market Makers",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Constant product formula",
+      "Liquidity pools",
+      "Slippage protection",
+      "Fee mechanisms"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Lending Protocols",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Collateral management",
+      "Interest rates",
+      "Liquidation mechanics",
+      "Flash loans"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Yield Farming",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Reward distribution",
+      "Staking mechanisms",
+      "Governance tokens",
+      "Incentive design"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Our DeFi Expertise",
+   "h1": "",
+   "h2": "Multi-Chain DeFi Services",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Protocol Design",
+     "lvl": "h3",
+     "p": [
+      "Economic modeling, token mechanics, sustainability analysis."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Smart Contract Dev",
+     "lvl": "h3",
+     "p": [
+      "Production-grade code, security-first development, testing."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Liquidity Management",
+     "lvl": "h3",
+     "p": [
+      "Pool setup, LP incentives, market making strategies."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security & Audit",
+     "lvl": "h3",
+     "p": [
+      "Code review, formal verification, penetration testing."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

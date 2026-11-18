@@ -1,0 +1,213 @@
+{
+ "sections": [
+  {
+   "eyebrow": "FOUNDATIONS + SYSTEMS",
+   "h1": "Quikcard Oracle Cloud Migration",
+   "h2": "",
+   "lead": [
+    "Quikcard, a Canadian payments provider, needed to migrate its full workload to the cloud while meeting strict security, disaster recovery, and infrastructure flexibility requirements.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "30%+",
+    "Total cost of ownership savings after migration",
+    "A Canadian payments provider had to move its entire workload to the cloud while satisfying payments-grade security, disaster recovery obligations and on-demand scaling all at once."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "TCO Savings",
+     "30%+"
+    ],
+    [
+     "Canada",
+     "Payments Sector"
+    ],
+    [
+     "Full",
+     "Workload Migration"
+    ],
+    [
+     "DR-Ready",
+     "Disaster Recovery"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Security, DR, and flexibility at once",
+   "lead": [
+    "Quikcard needed a cloud migration that simultaneously satisfied payments-grade security requirements, disaster recovery obligations, and the flexibility to scale infrastructure on demand."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Payments-grade security requirements",
+    "Disaster recovery obligations",
+    "Need for infrastructure flexibility",
+    "Full workload migration complexity"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Complete workload migration to Oracle Cloud",
+   "lead": [
+    "Aitropolis migrated Quikcard's entire workload to Oracle Cloud, architecting for security, disaster recovery, and on-demand infrastructure flexibility."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Full workload migration to Oracle Cloud",
+    "Security-compliant architecture",
+    "Disaster recovery built in",
+    "Flexible, on-demand infrastructure"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Lower TCO, stronger resilience",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "TCO Savings",
+     "lvl": "h3",
+     "p": [
+      "Total cost of ownership reduction post-migration"
+     ],
+     "tags": [],
+     "li": [
+      "30%+"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Disaster Recovery",
+     "lvl": "h3",
+     "p": [
+      "Resilience requirements met on Oracle Cloud"
+     ],
+     "tags": [],
+     "li": [
+      "DR-Ready"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "Platforms & stack",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Cloud",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Oracle Cloud (full workload)",
+      "Disaster recovery architecture"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Security",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Payments-grade security controls",
+      "Infrastructure flexibility"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Foundations",
+    "Cloud & Virtualisation",
+    "Systems",
+    "ERP / CRM & BI",
+    "Banking & Financial Services",
+    "Industry"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

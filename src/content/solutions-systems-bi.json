@@ -1,0 +1,618 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Business Intelligence & Analytics",
+   "h1": "Data Into Decisions. Real-Time.",
+   "h2": "",
+   "lead": [
+    "Real-time dashboards that drive decisions. Self-service analytics that empower teams. Data governance that scales. From data warehouse to executive insights.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Business Impact",
+   "h1": "",
+   "h2": "What modern BI delivers",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Faster Decision-Making",
+     "lvl": "h3",
+     "p": [
+      "Real-time dashboards. No waiting for reports. Executives have data at their fingertips."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Self-Service Analytics",
+     "lvl": "h3",
+     "p": [
+      "Business users query data without IT. Reduce bottlenecks. Democratize insights."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operational Excellence",
+     "lvl": "h3",
+     "p": [
+      "Monitor KPIs in real-time. Identify inefficiencies. Optimise processes across functions."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Revenue Growth",
+     "lvl": "h3",
+     "p": [
+      "Customer analytics reveal upsell opportunities. Sales forecasting improves accuracy."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Cost Reduction",
+     "lvl": "h3",
+     "p": [
+      "Identify waste. Optimise resource allocation. Track spending by cost center."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Compliance & Governance",
+     "lvl": "h3",
+     "p": [
+      "Audit trails. Data lineage. Regulatory reporting automated. Reduce manual errors."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "BI Platform Selection",
+   "h1": "",
+   "h2": "Choose the right analytics platform",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Microsoft Power BI",
+     "lvl": "h3",
+     "p": [
+      "Microsoft Ecosystem Integration",
+      "Seamless Excel, Azure, Teams integration. Fastest deployment in Microsoft environments.",
+      "Best For",
+      "Corporate enterprises using Microsoft stack. Finance and operations dashboards.",
+      "Aitropolis",
+      "Power BI Implementation Partner. 50+ successful enterprise deployments."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Tableau",
+     "lvl": "h3",
+     "p": [
+      "Enterprise Scalability & Design",
+      "Industry-leading visualisation. Handles massive datasets. Beautiful dashboards by default.",
+      "Best For",
+      "Fortune 500 enterprises. Complex analytical requirements. Data-driven cultures.",
+      "Aitropolis",
+      "Tableau consulting partner. Proven implementation expertise."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Oracle Analytics Cloud",
+     "lvl": "h3",
+     "p": [
+      "Oracle ERP Integration",
+      "Native integration with Oracle EBS/Fusion. One platform for ERP + BI.",
+      "Best For",
+      "Oracle ERP customers. Integrated financial/operational reporting.",
+      "Aitropolis",
+      "Oracle Analytics expertise. ERP + BI end-to-end delivery."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What We Deliver",
+   "h1": "",
+   "h2": "Full-spectrum BI services",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Warehouse & Lake Design",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Dimensional modeling (star schema)",
+      "ETL pipeline architecture",
+      "Data governance framework",
+      "Performance optimisation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Dashboard & Reporting",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Executive dashboards (C-suite KPIs)",
+      "Operational dashboards (real-time metrics)",
+      "Departmental reporting (function-specific)",
+      "Mobile dashboards (on-the-go)"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Advanced Analytics",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Predictive modeling",
+      "Statistical analysis",
+      "Forecasting algorithms",
+      "Prescriptive analytics"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Self-Service BI",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Semantic layers (data prep)",
+      "User training and adoption",
+      "Governance policies",
+      "Performance monitoring"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Integration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Source system connectors",
+      "Real-time vs batch decisions",
+      "API integrations",
+      "Data quality validation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Support & Optimisation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "24/7 dashboard monitoring",
+      "Performance tuning",
+      "New metric development",
+      "Continuous improvement cycles"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Implementation Methodology",
+   "h1": "",
+   "h2": "5 phases to analytics success",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "1. Assessment & Design",
+     "lvl": "h3",
+     "p": [
+      "Audit current reporting landscape. Define KPIs. Design data warehouse. Select platforms."
+     ],
+     "tags": [],
+     "li": [
+      "2-4 weeks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "2. Data Preparation",
+     "lvl": "h3",
+     "p": [
+      "Build ETL pipelines. Integrate data sources. Implement data quality checks. Create semantic layer."
+     ],
+     "tags": [],
+     "li": [
+      "4-8 weeks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3. Dashboard Development",
+     "lvl": "h3",
+     "p": [
+      "Build executive, operational, and departmental dashboards. User testing. Iterative refinement."
+     ],
+     "tags": [],
+     "li": [
+      "4-6 weeks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "4. Rollout & Training",
+     "lvl": "h3",
+     "p": [
+      "User training (50-500 users). Change management. Adoption campaigns. FAQ documentation."
+     ],
+     "tags": [],
+     "li": [
+      "2-4 weeks"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "5. Optimisation & Support",
+     "lvl": "h3",
+     "p": [
+      "Monitor performance. Optimise queries. Add new metrics based on feedback. 24/7 support."
+     ],
+     "tags": [],
+     "li": [
+      "Ongoing"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Success Stories",
+   "h1": "",
+   "h2": "Real BI transformations",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Regional Bank · Real-Time Dashboard Rollout",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Executive team waiting 24 hours for daily reports. No real-time visibility into liquidity, credit exposure, or trading positions.",
+      "Solution",
+      "Power BI dashboards pulling from core banking system (T24). Real-time feeds for trading desk, 30-min refresh for credit metrics. Mobile dashboards for executives.",
+      "Results",
+      "30-min to real-time decision visibility. 40% faster risk identification. CFO can make pricing decisions with up-to-the-minute data."
+     ],
+     "tags": [
+      "Banking & Finance"
+     ],
+     "li": [
+      "12 weeks, 15 FTE"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Omnichannel Retailer · Unified Analytics Platform",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "100+ stores with disconnected POS, e-commerce, and ERP systems. Store managers couldn't see inventory or sales trends across channels.",
+      "Solution",
+      "Tableau data warehouse integrating all sources. Store-level dashboards (inventory, sales, staffing). Headquarters dashboards (region, category, trend analysis).",
+      "Results",
+      "Inventory shrinkage reduced 15%. Store profitability visibility improved. Same-store sales growth 8% YoY from better inventory management."
+     ],
+     "tags": [
+      "Retail & E-Commerce"
+     ],
+     "li": [
+      "16 weeks, 25 FTE"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Heavy Equipment Manufacturer · Operational Excellence Dashboard",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Factory floor managers using paper logs. No real-time OEE (Overall Equipment Effectiveness) tracking. Quality issues caught days after production.",
+      "Solution",
+      "Real-time OEE dashboards pulling from PLCs and MES. Quality dashboards alerting to defect trends in real-time. Supervisor mobile dashboards on shop floor.",
+      "Results",
+      "OEE improved from 62% to 75%. Defect detection time reduced from days to minutes. Production downtime reduced 20%."
+     ],
+     "tags": [
+      "Manufacturing"
+     ],
+     "li": [
+      "10 weeks, 20 FTE"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Mobile Operator · Customer Analytics Platform",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Unable to identify high-value vs churn-risk customers. Marketing spending not optimised by segment. No churn prediction capability.",
+      "Solution",
+      "Oracle Analytics integrating billing, usage, CRM data. Customer segmentation (RFM, churn risk). Lifetime value modeling. Predictive churn models feeding CRM automation.",
+      "Results",
+      "Churn reduced 12% through targeted interventions. Marketing ROI improved 35% from better segment targeting. $5M annual revenue recovery."
+     ],
+     "tags": [
+      "Telecom"
+     ],
+     "li": [
+      "14 weeks, 18 FTE"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Hospital Network · Clinical & Financial Dashboards",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "CFO unable to track profitability by department/procedure. Clinical teams lacked visibility into patient outcomes by doctor/protocol.",
+      "Solution",
+      "Integrated EHR, billing, and operational data. Clinical dashboards (readmission rates, length of stay, mortality). Financial dashboards (revenue per department, supply costs).",
+      "Results",
+      "Identified $8M in billing leakage. Readmission rates improved 18% from clinical transparency. Supply cost optimisation saved $2.4M annually."
+     ],
+     "tags": [
+      "Healthcare"
+     ],
+     "li": [
+      "18 weeks, 28 FTE"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "B2B SaaS Company · Startup Analytics Stack",
+     "lvl": "h3",
+     "p": [
+      "Challenge",
+      "Startup with 200 employees needing sales, customer, and operational dashboards. Limited analytics team (1 data analyst).",
+      "Solution",
+      "Power BI + Dataflows for self-service data prep. Sales dashboards (pipeline, win rate, forecast). Customer dashboards (NRR, churn, support tickets). Operational dashboards (hiring, burn rate).",
+      "Results",
+      "Sales team now owns their dashboards (self-service). 40% faster insights. Identified $3M opportunity pipeline expansion."
+     ],
+     "tags": [
+      "Technology/SaaS"
+     ],
+     "li": [
+      "8 weeks, 10 FTE"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Analytics Maturity",
+   "h1": "",
+   "h2": "The four levels of BI maturity",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Level 1: Reporting",
+     "lvl": "h3",
+     "p": [
+      "Basic reports and dashboards. Historical data. Reactive insights.",
+      "Typical Timeline: Immediate"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Level 2: Analytics",
+     "lvl": "h3",
+     "p": [
+      "Self-service dashboards. Real-time data. Drill-down capabilities.",
+      "Typical Timeline: 2-3 months"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Level 3: Predictive",
+     "lvl": "h3",
+     "p": [
+      "ML models. Forecasting. Churn prediction. Anomaly detection.",
+      "Typical Timeline: 4-6 months"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Level 4: Prescriptive",
+     "lvl": "h3",
+     "p": [
+      "AI recommendations. Automated decisions. Optimisation models.",
+      "Typical Timeline: 6-12 months"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The work behind it",
+   "h1": "",
+   "h2": "Analytics platforms in production.",
+   "lead": [
+    "200M",
+    "data points a month",
+    "TMT Analytics UK",
+    "Analytics and market-intelligence platform, UK",
+    "65%",
+    "local resource savings",
+    "Australia Telecom",
+    "Managed database and analytics after an acquisition, with 55% lower analytics cost"
+   ],
+   "links": [
+    [
+     "Read the case",
+     "/case-studies/tmt-analytics-uk"
+    ],
+    [
+     "Read the case",
+     "/case-studies/australia-telecom-post-acquisition"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

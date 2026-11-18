@@ -1,0 +1,111 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Blockchain",
+   "h1": "Beyond Crypto: Enterprise Blockchain",
+   "h2": "",
+   "lead": [
+    "4 use cases that deliver real ROI: supply chain, assets, contracts, and compliance.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "← Back to Insights",
+     "/insights"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "August 11, 2026",
+    "•",
+    "9 min read"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "The 4 Use Cases",
+   "lead": [
+    "Blockchain solves specific problems where the value is in provenance, immutability, or decentralization."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "1. Supply Chain Provenance",
+     "lvl": "h3",
+     "p": [
+      "Track goods from manufacture to end customer. Prevents counterfeits. Luxury, pharma, and high-value manufacturing save 15-30% on fraud."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "2. Asset Tokenisation",
+     "lvl": "h3",
+     "p": [
+      "Represent real assets (art, real estate, securities) as digital tokens. Unlocks fractional ownership and faster settlement."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "3. Smart Contract Automation",
+     "lvl": "h3",
+     "p": [
+      "Multi-party contracts (insurance claims, vendor payments, warranty fulfillment) execute automatically when conditions met. No intermediary, faster settlement."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "4. Compliance & Audit Trails",
+     "lvl": "h3",
+     "p": [
+      "Immutable records for regulated industries (banking, healthcare, government). Reduces audit cost by 20-40%."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "When NOT to Use Blockchain",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "- Payment processing (use traditional rails)",
+    "- High-frequency trading (too slow)",
+    "- Public data that doesn't need permanence"
+   ],
+   "tags": []
+  }
+ ]
+}

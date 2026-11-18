@@ -1,0 +1,307 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Database management",
+   "h1": "The slow report is usually a database problem",
+   "h2": "",
+   "lead": [
+    "When month-end drags or a batch job overruns, the application gets the blame. Most of the time the cause sits lower down, in the database, and nobody is assigned to look."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we do",
+   "h1": "",
+   "h2": "Database Management: what is included",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Administration",
+     "lvl": "h3",
+     "p": [
+      "Installation, patching, user and storage management, and routine health checks, run to a written schedule."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Performance tuning",
+     "lvl": "h3",
+     "p": [
+      "We trace slow queries and batch jobs to their cause, then change indexes, statistics, parameters or SQL, and measure before and after."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Backup and recovery",
+     "lvl": "h3",
+     "p": [
+      "Backup design, restore testing and recovery procedures that have actually been rehearsed."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "High availability and disaster recovery",
+     "lvl": "h3",
+     "p": [
+      "Replication, standby and failover set-ups matched to the recovery time and data loss your business can accept."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Migration and upgrade",
+     "lvl": "h3",
+     "p": [
+      "Moves between versions, platforms and clouds, including Oracle Cloud Infrastructure, with a tested fallback."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Onshore and offshore cover",
+     "lvl": "h3",
+     "p": [
+      "DBA support from our delivery centres under an agreed service level, as a managed service or as extra hands for your team."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How it runs",
+   "h1": "",
+   "h2": "From first call to hand-over",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Baseline",
+     "lvl": "h3",
+     "p": [
+      "Capture current performance, capacity, backup state and open risks."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "Stabilise",
+     "lvl": "h3",
+     "p": [
+      "Fix what is unsafe first: failed backups, missing patches, single points of failure."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "Tune",
+     "lvl": "h3",
+     "p": [
+      "Work through the slowest and most business-critical workloads and record each change."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Operate",
+     "lvl": "h3",
+     "p": [
+      "Monitoring, alerting and regular reporting under the service level you choose."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "Review",
+     "lvl": "h3",
+     "p": [
+      "A recurring review of capacity, cost and risk so problems surface before users find them."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Limits",
+   "h1": "",
+   "h2": "Where this service stops",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Tuning has a ceiling",
+     "lvl": "h3",
+     "p": [
+      "Where the slowness comes from application design or undersized hardware, database work will only get you part of the way. We say so, and point to the real fix."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Related",
+   "h1": "",
+   "h2": "Read next",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/foundations/managed-services",
+     "n": "",
+     "h": "Managed services",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/pakistan-telecom-oracle-coe",
+     "n": "",
+     "h": "Oracle database centre of excellence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/arib-fintech-cloud-acceleration",
+     "n": "",
+     "h": "ARIB, cloud and offshore DBA",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/quikcard-oracle-cloud-migration",
+     "n": "",
+     "h": "Quikcard Oracle Cloud migration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Database Management, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Which databases do you support?",
+     "a": [
+      "Our published work is centred on Oracle, including Oracle Cloud Infrastructure. Tell us what else you run and we will say plainly whether we have the depth for it."
+     ]
+    },
+    {
+     "q": "Can you work alongside our own DBAs?",
+     "a": [
+      "Yes. Some clients use us for out-of-hours cover or for a specific project, and keep day-to-day administration in house."
+     ]
+    },
+    {
+     "q": "How do you prove a tuning change worked?",
+     "a": [
+      "We record the same measurements before and after the change, on the same workload, and share them."
+     ]
+    },
+    {
+     "q": "Do you offer 24/7 cover?",
+     "a": [
+      "Support hours are set in the service level. Round-the-clock cover is possible because we work from Dubai, London, Islamabad and Singapore."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

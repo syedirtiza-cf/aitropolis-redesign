@@ -1,0 +1,277 @@
+{
+ "sections": [
+  {
+   "eyebrow": "INTELLIGENCE DISTRICT · DATA ANALYTICS",
+   "h1": "TMT Analytics UK Enterprise Intelligence",
+   "h2": "",
+   "lead": [
+    "Advanced business intelligence platform delivering real-time analytics, predictive insights, and market intelligence for telecommunications and enterprise clients across UK and Europe.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [
+    [
+     "Back to Case Studies",
+     "/case-studies"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [
+    "12x",
+    "Faster query response than the legacy systems",
+    "Enterprise clients waited days, not hours, for reports from fragmented legacy systems that could not process data in real time."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "⋯",
+    "∴"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "",
+   "h1": "",
+   "h2": "",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [
+    [
+     "Data Points/Month",
+     "200M"
+    ],
+    [
+     "Uptime SLA",
+     "98%"
+    ],
+    [
+     "Enterprise Clients",
+     "35"
+    ],
+    [
+     "Faster Processing",
+     "12x"
+    ]
+   ],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Challenge",
+   "h1": "",
+   "h2": "Data complexity at scale",
+   "lead": [
+    "Enterprise clients struggled with massive data volumes, complex analytics requirements, and slow reporting cycles. Legacy systems couldn't handle real-time processing or predictive analytics."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Legacy infrastructure bottlenecks",
+    "Slow reporting cycles (days, not hours)",
+    "No real-time analytics",
+    "Limited predictive capabilities",
+    "Fragmented data sources"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Solution",
+   "h1": "",
+   "h2": "Modern data platform",
+   "lead": [
+    "Cloud-native analytics platform built on AWS and Spark, delivering real-time processing, advanced ML models, and automated intelligence delivery to enterprise stakeholders."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Real-time data processing",
+    "Advanced ML/AI models",
+    "Automated reporting",
+    "Predictive analytics",
+    "Interactive dashboards"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "The Results",
+   "h1": "",
+   "h2": "Business transformation",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Points Monthly",
+     "lvl": "h3",
+     "p": [
+      "Processing capacity with reliable throughput"
+     ],
+     "tags": [],
+     "li": [
+      "200M"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Performance Gain",
+     "lvl": "h3",
+     "p": [
+      "Faster query response vs legacy systems"
+     ],
+     "tags": [],
+     "li": [
+      "12x"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise Clients",
+     "lvl": "h3",
+     "p": [
+      "SaaS and managed service customers"
+     ],
+     "tags": [],
+     "li": [
+      "35"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Client Revenue",
+     "lvl": "h3",
+     "p": [
+      "Generated through platform insights annually"
+     ],
+     "tags": [],
+     "li": [
+      "£8M"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platform Capabilities",
+   "h1": "",
+   "h2": "Enterprise-grade intelligence",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Processing",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "AWS Spark architecture",
+      "Real-time streaming",
+      "Batch processing",
+      "Data warehousing"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Analytics Engine",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Predictive ML models",
+      "Anomaly detection",
+      "Trend analysis",
+      "Segmentation"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Intelligence Delivery",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Interactive dashboards",
+      "Automated reports",
+      "API integrations",
+      "Mobile access"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Enterprise Features",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Multi-tenant SaaS",
+      "Role-based security",
+      "Compliance (GDPR, etc)",
+      "99.9% SLA"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "This project connects",
+   "h1": "",
+   "h2": "One connected technology ecosystem.",
+   "lead": [
+    "Intelligence",
+    "AI & Software"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

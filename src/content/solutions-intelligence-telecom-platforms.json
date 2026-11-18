@@ -1,0 +1,324 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Telecom Systems",
+   "h1": "Telecom platforms for carriers & MVNOs",
+   "h2": "",
+   "lead": [
+    "OSS/BSS systems that scale from thousands to millions of subscribers. Order management, provisioning, billing, and network optimisation with AI-driven churn prevention and revenue assurance."
+   ],
+   "links": [
+    [
+     "Intelligence District",
+     "/solutions/intelligence"
+    ],
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platform Modules",
+   "h1": "",
+   "h2": "End-to-end telecom operations",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Order Management (OMS)",
+     "lvl": "h3",
+     "p": [
+      "Capture, validate, and fulfil orders. Multi-product bundling, service configuration, provisioning orchestration."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Service Provisioning",
+     "lvl": "h3",
+     "p": [
+      "Automate subscriber activation, SIM allocation, network configuration. API-driven integration with RAN and core networks."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Billing & Revenue",
+     "lvl": "h3",
+     "p": [
+      "Real-time usage collection, rating, invoicing, and settlement. Multi-tenant, multi-currency, multi-language."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Network Optimisation",
+     "lvl": "h3",
+     "p": [
+      "Real-time traffic analysis, congestion prediction, load balancing. ML-powered capacity planning."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Customer Analytics",
+     "lvl": "h3",
+     "p": [
+      "Churn prediction, lifetime value modeling, propensity scoring for cross-sell/upsell."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Fraud Detection",
+     "lvl": "h3",
+     "p": [
+      "SIM swap detection, roaming fraud, ICCID cloning prevention. Real-time flagging and escalation."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Deployment Models",
+   "h1": "",
+   "h2": "Scale from MVP to millions of subscribers",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Carrier Platforms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Full network stack integration",
+      "Multi-technology support (2G/3G/4G/5G)",
+      "Wholesale and retail subscribers",
+      "Revenue assurance & RA systems",
+      "Real-time charging engine",
+      "99.99% uptime SLA"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "MVNO Platforms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "White-label subscriber management",
+      "Host carrier API integration",
+      "Flexible rating & billing",
+      "Branded self-care portal",
+      "IVR/USSD for basic subscribers",
+      "Fast time-to-market"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "VAS, IoT & Operator Integration",
+   "h1": "",
+   "h2": "Value-added services, wired into the operator's network",
+   "lead": [
+    "A VAS product only earns once it is integrated with the operator's charging, provisioning and signalling nodes. We build the platforms and do that integration, across the major network vendors, and carry the same work out to IoT, edge and smart-city deployments."
+   ],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "VAS platforms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "CRBT (caller ring-back tone)",
+      "USSD gateway",
+      "SMPP gateway and SMS aggregation",
+      "Missed-call alert, notify-me, collect call",
+      "GPS tracking platforms"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Operator integration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Pre-paid charging, multiple protocols",
+      "Post-paid billing",
+      "Provisioning and activation systems",
+      "RADIUS / AAA service integration",
+      "Custom telecom software and turnkey delivery"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Network vendor nodes",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Ericsson: charging system, BSCS, HLR, ECE",
+      "Huawei: OCS, CBS, HLR, RBT",
+      "Nokia (NSN): charging system and gateway",
+      "ZTE: CRBT, charging system",
+      "Acision SMS-C / MMS-C, Oracle SOA Suite"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "IoT, edge & 5G readiness",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "IoT platforms and device connectivity",
+      "Edge computing at operator and enterprise sites",
+      "5G readiness across OSS/BSS, charging and provisioning",
+      "Smart-city integration: civic IoT, signage and control rooms"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Telecom Platforms · Answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "What's the difference between OSS and BSS?",
+     "a": [
+      "OSS (Operations Support Systems) manages the network: provisioning, configuration, fault management, and optimisation. BSS (Business Support Systems) manages the customer: billing, orders, customer care, and revenue. We build both, integrated into one platform."
+     ]
+    },
+    {
+     "q": "Can you migrate from legacy telecom systems?",
+     "a": [
+      "Yes. We've migrated carriers from Amdocs, Openet, and home-grown systems to cloud-native platforms with zero downtime. Typical migration window: 3-6 months with parallel running and gradual cutover."
+     ]
+    },
+    {
+     "q": "Do you support MVNO use cases?",
+     "a": [
+      "Yes. We build white-label MVNO platforms: subscriber management, rating & billing, IVR systems, and self-care portals. API-first architecture allows easy integration with host carrier systems."
+     ]
+    },
+    {
+     "q": "How does AI improve telecom platforms?",
+     "a": [
+      "Churn prediction to proactively retain customers. Revenue assurance to detect leakage. Network optimisation to reduce congestion. Fraud detection to prevent SIM swaps and unauthorized roaming. Self-care optimisation to reduce customer support load."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "The work behind it",
+   "h1": "",
+   "h2": "Telecom is where our evidence runs deepest.",
+   "lead": [
+    "1.8B",
+    "messages a month",
+    "GMS Global Message System",
+    "Enterprise A2P messaging platform, US, reaching 140+ countries",
+    "45%",
+    "cost savings",
+    "Pakistan Telecom",
+    "Oracle Database Centre of Excellence for a telecom operator",
+    "65%",
+    "local resource savings",
+    "Australia Telecom",
+    "Managed database and analytics after an acquisition, with 55% lower analytics cost"
+   ],
+   "links": [
+    [
+     "Read the case",
+     "/case-studies/gms-telecom-us"
+    ],
+    [
+     "Read the case",
+     "/case-studies/pakistan-telecom-oracle-coe"
+    ],
+    [
+     "Read the case",
+     "/case-studies/australia-telecom-post-acquisition"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

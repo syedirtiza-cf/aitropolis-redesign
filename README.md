@@ -12,6 +12,10 @@ Standalone HTML prototypes of the redesigned site. They are a design test for th
 | Partners | `partners.html` (generated) |
 | About | `about.html` (generated) |
 | Contact | `contact.html` (generated) |
+| AI, GPU, Growth Partner, offshore teams, ISO and BPM | `ai.html`, `ai-gpu.html`, `digital-growth-partner.html`, `solutions-offshore-it-teams.html`, `solutions-iso-bpm.html` (generated) |
+| Six districts and 32 service pages | `solutions-<district>.html`, `solutions-<district>-<service>.html` (generated) |
+| 21 case studies, 7 insight articles | `case-studies-<slug>.html`, `insights-<slug>.html` (generated) |
+| Privacy, terms, accessibility | `privacy.html`, `terms.html`, `accessibility.html` (generated) |
 
 Shared code lives in `assets/site.css` and `assets/site.js`. `assets/icons.js` is the inline Lucide icon sprite (ISC licence, see `assets/LICENSE-lucide.txt`). Each page adds its own markup and a small page script. `assets/` also holds the logo files and the favicon set (`icon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`), all the electric blue symbol. The Solutions mega menu and the district data are in `assets/site.js`.
 
@@ -24,6 +28,17 @@ python3 tools/build.py
 ```
 
 The build also stamps every page's script and stylesheet links with a version, so browsers never serve a stale file after a deploy.
+
+## Content pages (74 pages)
+
+Every other page is written as data and rendered by one template, so the whole site stays consistent.
+
+- `src/pages.json` lists the pages: title, description, nav state, icon and an optional closing-block override.
+- `src/content/<name>.json` holds the sections of each page. `tools/import_live.py` builds these from saved copies of the current site (`tools/extract.py` does the parsing); `tools/import_source.py` reads the seven service pages that exist only in the Next.js source.
+- `tools/pagegen.py` turns a content file into the page: hero with a stat card (the chart plots how many items each section lists, nothing invented), card grids, numbered steps, spec lists, stat tiles, checklists, FAQ and the closing block.
+- A route like `/solutions/systems/erp` is the flat file `solutions-systems-erp.html`. `assets/site.js` rewrites `/a/b` links to that name at load, so menu and card links resolve on a static host.
+
+To change a page, edit its JSON (or `src/pages.json`), run `python3 tools/build.py` and commit the output. Re-running an import overwrites hand edits to the JSON for that page, so edit the JSON and do not re-import once you have.
 
 ## Run it
 
@@ -61,6 +76,12 @@ No build step: the folder is plain static files, so any static host works. `robo
 - **Reduced motion:** the pages render their static design with no entrances, preloader or canvases except the line flows as a still frame.
 - **Preview limitation:** the in-app browser throttles animation frames, so check motion timing in a normal browser.
 
+## Imported copy
+
+- **Text comes from the current site.** The 67 inner pages carry the published wording, converted to UK spelling by `tools/extract.py`. It has not had an editorial pass.
+- **Claims and figures need sign-off before publishing**, in the same way as the case-study metrics: for example the GPU specifications, "10x faster model training", "99.99% availability", "50+ EBS deployments" and the monthly message and delivery-rate figures on the GMS case study.
+- **Section order inside long articles follows the extractor.** Headings, paragraphs, lists, tables and callouts are kept, but a few layouts (side-by-side comparisons, quotes) fall back to plain cards or paragraphs. Read each article against the live page before porting.
+
 ## Open items
 
-Rules: `DESIGN-SYSTEM.md` (v3). The next steps are porting both pages into the Next.js site, redesigning the inner pages, and swapping DM Sans for Cosmica once the font files are licensed.
+Rules: `DESIGN-SYSTEM.md` (v3). The next steps are porting the pages into the Next.js site and swapping DM Sans for Cosmica once the font files are licensed.

@@ -1,0 +1,161 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Paid Media & Performance Marketing",
+   "h1": "Revenue from Your Ads. Optimised.",
+   "h2": "",
+   "lead": [
+    "Google Ads. Meta. LinkedIn. YouTube. Multi-channel paid strategies. Laser-focused on ROAS and CAC optimisation.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platforms",
+   "h1": "",
+   "h2": "Multi-Channel Paid Strategy",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Google Ads",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Search campaigns",
+      "Display networks",
+      "Shopping feeds",
+      "Performance Max"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Meta (Facebook/Instagram)",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Feed & Reels ads",
+      "Audience targeting",
+      "Dynamic creative",
+      "Conversion tracking"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "LinkedIn",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "B2B campaigns",
+      "Account-based marketing",
+      "Lead generation",
+      "Sponsored content"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "YouTube",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "In-stream ads",
+      "Bumper ads",
+      "Discovery ads",
+      "Audience lists"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "Performance-Driven Campaigns",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Campaign Strategy",
+     "lvl": "h3",
+     "p": [
+      "Goals, audience, budgets, channel mix. Data-driven planning."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Creative Optimisation",
+     "lvl": "h3",
+     "p": [
+      "A/B testing, creative variations, design, copy testing."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Audience Targeting",
+     "lvl": "h3",
+     "p": [
+      "Segmentation, lookalike audiences, retargeting, intent signals."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Analytics & Reporting",
+     "lvl": "h3",
+     "p": [
+      "ROAS, CAC, LTV, attribution, dashboard reporting."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

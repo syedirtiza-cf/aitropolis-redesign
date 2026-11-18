@@ -1,0 +1,154 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Data Engineering",
+   "h1": "Data That Flows. Pipelines That Scale.",
+   "h2": "",
+   "lead": [
+    "Enterprise data architecture. ETL/ELT pipelines. Data lakes and warehouses. Real-time streaming. Data quality frameworks.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Data Architecture Patterns",
+   "h1": "",
+   "h2": "Modern data stacks",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Lake",
+     "lvl": "h3",
+     "p": [
+      "Technologies",
+      "Raw data storage, exploration, experimentation"
+     ],
+     "tags": [
+      "Snowflake",
+      "S3/GCS",
+      "Delta Lake",
+      "Iceberg"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Warehouse",
+     "lvl": "h3",
+     "p": [
+      "Technologies",
+      "Structured analytics, BI, reporting"
+     ],
+     "tags": [
+      "Snowflake",
+      "BigQuery",
+      "Redshift",
+      "dbt"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Real-Time Streaming",
+     "lvl": "h3",
+     "p": [
+      "Technologies",
+      "Event processing, real-time analytics, alerting"
+     ],
+     "tags": [
+      "Kafka",
+      "Apache Flink",
+      "Spark Streaming",
+      "Kinesis"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "End-to-End Data Solutions",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Integration",
+     "lvl": "h3",
+     "p": [
+      "Connect 50+ data sources. CDC-based pipelines. Real-time sync."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Data Quality",
+     "lvl": "h3",
+     "p": [
+      "Schema validation, anomaly detection, reconciliation. Data governance."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Semantic Layer",
+     "lvl": "h3",
+     "p": [
+      "dbt models. Self-service analytics. Dimension tables and metrics."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Observability",
+     "lvl": "h3",
+     "p": [
+      "Pipeline monitoring, SLAs, alerting. Data freshness guarantees."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

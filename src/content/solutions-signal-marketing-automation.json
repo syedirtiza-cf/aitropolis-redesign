@@ -1,0 +1,164 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Marketing Automation",
+   "h1": "Leads to Revenue. Automatically.",
+   "h2": "",
+   "lead": [
+    "HubSpot. Marketo. Klaviyo. Email automation. Lead scoring. CRM integration. Nurture sequences that convert.",
+    "Book a 15-minute assessment"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Core Capabilities",
+   "h1": "",
+   "h2": "Automation That Works",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Email Workflows",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Trigger-based sequences",
+      "A/B testing",
+      "Personalisation",
+      "Deliverability"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Lead Management",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Lead scoring",
+      "Lead qualification",
+      "MQL/SQL handoff",
+      "Lead enrichment"
+     ],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "CRM Integration",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [
+      "Salesforce sync",
+      "Data sync",
+      "Pipeline visibility",
+      "Closed-loop reporting"
+     ],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Use Cases",
+   "h1": "",
+   "h2": "Real-World Workflows",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Lead Nurturing",
+     "lvl": "h3",
+     "p": [
+      "Multi-touch campaigns nurture leads from awareness to decision."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Customer Onboarding",
+     "lvl": "h3",
+     "p": [
+      "Welcome sequences. Training materials. Success tracking."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Re-engagement Campaigns",
+     "lvl": "h3",
+     "p": [
+      "Win-back sequences for inactive customers. Retention focus."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Event Marketing",
+     "lvl": "h3",
+     "p": [
+      "Registration sequences. Attendance reminders. Post-event follow-up."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Platforms",
+   "h1": "",
+   "h2": "Leading Automation Platforms",
+   "lead": [
+    "HubSpot",
+    "All-in-one CRM + marketing",
+    "Marketo",
+    "Enterprise B2B automation",
+    "Klaviyo",
+    "E-commerce & SMS focus"
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}
