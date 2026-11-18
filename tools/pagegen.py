@@ -171,7 +171,7 @@ def related(cfg):
     cards = "".join(
         f'<article class="card gcard" data-r style="--d:{i * 90}ms"><span class="glogo gi">{ic(r["icon"])}</span><h3 class="t-tm">{E(r["title"])}</h3><p class="t-bm muted">{E(r["desc"])}</p><a class="open-d lnk" href="{E(r["href"])}" aria-label="{link_label(r["href"])}: {E(r["title"])}">{link_label(r["href"])}</a></article>'
         for i, r in enumerate(rel))
-    return f'''<section class="sec px" id="related">
+    return f'''<section class="sec px" id="keep-exploring">
   <div class="shead dash-t"><div><span class="pill pill-line"><i>{ic("compass")}</i>Keep exploring</span></div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">{E(cfg.get("related_h", "More from this part of the site."))}</h2></div></div>
   <div class="ggrid g3">{cards}</div>
 </section>'''
@@ -244,7 +244,8 @@ def srows(cards, ids, icon):
 def section(s, ids, icon, k=0, name="", tot=0, rows=False, bare=False):
     s = clean(s)
     sid = slug(s["eyebrow"] or s["h2"])
-    out = [f'<section class="{"ssec" if bare else "sec px"}" id="{sid}">']
+    ida = f' id="{sid}"' if sid else ""
+    out = [f'<section class="{"ssec" if bare else "sec px"}"{ida}>']
     if not s["h2"] and not s["faq"] and not s["cards"]:
         if s["kv"] and len(s["kv"]) <= 6:
             out.append(stats(s["kv"]))
@@ -266,7 +267,7 @@ def section(s, ids, icon, k=0, name="", tot=0, rows=False, bare=False):
         out.append(head(s, icon, s["lead"], f'<p class="idx" aria-hidden="true">{k + 1:02d} / {tot:02d}</p>' if tot > 2 else ""))
         cards = [prep(c) for c in s["cards"]]
         if cards and sum(1 for c in cards if c["n"]) >= max(2, len(cards) - 1) and all(c["h"] for c in cards):
-            out[0] = f'<section class="{"ssec" if bare else "sec px"}" id="{sid}"><div class="gband" data-r>'
+            out[0] = f'<section class="{"ssec" if bare else "sec px"}"{ida}><div class="gband" data-r>'
             out.append(steps(cards))
             out.append("</div>")
             band = True
@@ -339,7 +340,7 @@ def platforms(secs, raw=False):
     if len(found) < 2:
         return ""
     cells = "".join(f'<div class="gcell">{mark(f)}<small>{E(n)}</small></div>' for _, f, n in found[:12])
-    return f'''<section class="sec px" id="platforms">
+    return f'''<section class="sec px" id="platform-wall">
   <div class="shead dash-t"><div><span class="pill pill-line"><i>{ic("layers")}</i>Platforms</span></div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Platforms named on this page.</h2></div></div>
   <div class="gwall" data-r>{cells}</div>
   <p class="t-bs muted gfine" data-r>Product and platform names belong to their owners. A mark identifies the platform we work on and implies no endorsement.</p>

@@ -100,6 +100,15 @@ Required states on every interactive element: default, hover, active, focus-visi
 
 - **Wayfinding on content pages:** a mono breadcrumb above the hero pill, a mono section counter ("03 / 07") under each section label, and a "Keep exploring" row of three sibling pages before the closing block. Mono labels use DM Mono at 13 to 14px; it is for labels, counters, spec names and tags only, never body copy. Headless stat rows sit on the dark steps gradient with the figures in lime.
 
+## 5d / Rules learned from the page review
+
+- Numbers that only mark order (steps, "01") are replaced by an icon in the tile; the order is carried by the list and a visually hidden "Step n".
+- A count shown twice on a page (hero card and side rail) must come from the same source.
+- Chart labels are trimmed at a word boundary with an ellipsis, never mid-word.
+- Section ids come from the section title, are omitted when empty, and generated blocks use their own names.
+- Card links say what they open ("See the service", "Read the 3-minute case", "Read the article"), and the accessible name starts with the visible text.
+- Vendor marks show only for platforms the page names; a page that names fewer than two gets no wall.
+
 ## 6 / Motion
 
 Calm and precise, no bounce. Critically damped feel: `cubic-bezier(.2, 0, 0, 1)`, 0.9 to 1.4s for entrances, 150 to 400ms for hover. One shared animation ticker; per-frame values scale by real frame time. Heading lines rise out of masks. Content blocks rise 48px and fade once, siblings 90ms apart. Numbers count up once in view. Three canvas effects run only while on screen: the hero halftone, the line flows, the cursor dot trail.

@@ -76,6 +76,17 @@ No build step: the folder is plain static files, so any static host works. `robo
 - **Reduced motion:** the pages render their static design with no entrances, preloader or canvases except the line flows as a still frame.
 - **Preview limitation:** the in-app browser throttles animation frames, so check motion timing in a normal browser.
 
+## Checking the pages
+
+`tools/audit.js` is a paste-in console script. Serve the folder, open any page, paste it, and it checks every page for overflow at 390, h1 count, title and description length, missing alt text, missing icons, empty sections, duplicate ids, broken internal links and stray "undefined" text. Run it after every build. The last run (82 pages) found only duplicate ids, which are fixed.
+
+Lessons from reviewing the pages (also in `DESIGN-SYSTEM.md` section 5d):
+- Reading the live site's markup is not enough to get structure right. Numbers drawn as separate elements (step numbers, "01" counters) arrive as stray bullets or attach to the wrong card. Always run a scan for number-only items after an import.
+- A generator needs one id rule: derive from the section title, omit it when empty, and give generated blocks their own names (`keep-exploring`, `platform-wall`) so they cannot collide with imported sections.
+- Check by eye as well as by script. The script cannot see a truncated chart label or a hero count that disagrees with the side rail; a screenshot can.
+- Chrome will not go narrower than about 606px, so true phone width is checked with the audit script's 390px iframes, not by resizing the window.
+- Roll a new layout out on one page first, review it, then widen it (`SERVICE_LAYOUT` in `tools/build.py` is the switch).
+
 ## Imported copy
 
 - **Text comes from the current site.** The 67 inner pages carry the published wording, converted to UK spelling by `tools/extract.py`. It has not had an editorial pass.
