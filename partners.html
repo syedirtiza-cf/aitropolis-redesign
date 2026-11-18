@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#020b1e">
+<meta name="robots" content="noindex, nofollow">
+<title>Technology Partners: Oracle, AWS, Azure, Red Hat | Aitropolis</title>
+<meta name="description" content="The technology partners behind our delivery: Oracle, AWS, Microsoft Azure, Google Cloud, Red Hat, VMware, SAP, IBM and more, and the work we do on each.">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<script>try{if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("js")}catch(e){}</script>
+<link rel="stylesheet" href="assets/site.css?v=202611181521">
+</head>
+<body>
+<div class="cover" id="cover">
+<main>
+<canvas class="trail" id="trail" aria-hidden="true"></canvas>
+<section id="top" class="hero px">
+  <div class="ht" aria-hidden="true"><div data-par=".35" style="position:absolute;inset:0"><canvas id="ht"></canvas></div></div>
+  <div class="hero-in">
+    <header class="hdr" data-h style="--d:0ms">
+      <a class="logo" href="index.html"><img src="assets/aitropolis-pearl-white.svg" alt="Aitropolis"></a>
+      <nav aria-label="Main"><button class="nav-sol" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="mega-sol">Solutions<svg class="ic chev" aria-hidden="true"><use href="#i-chevron-down"/></svg></button><a href="industries.html">Industries</a><a href="case-studies.html">Case studies</a><a class="on" aria-current="page" href="partners.html">Partners</a><a href="about.html">About</a></nav>
+      <div class="hdr-r">
+        <a class="login" href="contact.html">Contact</a>
+        <a class="btn btn-o" href="#" data-book>Book a call</a>
+        <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg></button>
+      </div>
+    </header>
+
+    <div class="hero-copy">
+      <div data-h style="--d:0ms"><span class="pill pill-glass"><i><svg class="ic" aria-hidden="true"><use href="#i-handshake"/></svg></i>Partners</span></div>
+      <h1 class="h1" data-mask="hero">Eleven vendors. One team that knows how they fit together.</h1>
+      <p class="lead t-bl" data-h style="--d:420ms">Aitropolis holds active partnerships with leading technology vendors, so you get deep expertise and early access to what they ship, without managing a different supplier for each layer.</p>
+      <div class="acts" data-h style="--d:520ms">
+        <a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        <a class="btn btn-o" href="#directory">Browse the partners</a>
+      </div>
+    </div>
+    <div class="dash-wrap" data-par=".15"><div data-hd>
+      <div class="dash dash-sol" id="dash">
+        <div class="dash-l">
+          <div>
+            <p class="t-bs" style="color:var(--on-soft)">Vendor relationships</p>
+            <p class="num-l" data-count id="ptotal">11</p>
+            <div style="padding-top:1rem"><span class="stat-pill"><svg class="ic" aria-hidden="true"><use href="#i-arrow-up-right"/></svg><span>One accountable delivery team</span></span></div>
+          </div>
+          <dl class="rows">
+            <div class="dash-t d" style="padding-top:1rem"><dt>Regions served</dt><dd>Middle East, UK, Asia-Pacific</dd></div>
+            <div class="dash-t d"><dt>Delivery</dt><dd data-canon="deployments">200+</dd></div>
+            <div class="dash-t d"><dt>Experience</dt><dd>Oracle for <span id="oyrs">16</span> years</dd></div>
+          </dl>
+        </div>
+        <div class="dash-r">
+          <div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Partners by kind</p></div>
+          <div class="bars" id="bars" data-stage></div>
+          <div class="legend"><span><i></i>Vendor relationships in the group</span><span><i class="l"></i>Largest group</span></div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<section class="sec px" id="directory">
+  <div class="shead dash-t">
+    <div><span class="pill pill-line"><i><svg class="ic" aria-hidden="true"><use href="#i-layers"/></svg></i>The stack</span></div>
+    <div class="hd" data-r="fade"><h2 class="h2" data-mask="h">The stack behind every engagement.</h2><p class="t-bm muted">Cloud, ERP, infrastructure, AI and collaboration. For each vendor you can see what we do on it and which of our services it supports.</p></div>
+  </div>
+  <div class="cfilter" data-r><div class="chipbar" id="chipbar" role="group" aria-label="Filter by kind of partner"></div></div>
+  <p class="t-bs muted cnt" id="cnt" aria-live="polite"></p>
+  <div class="prgrid" id="prgrid"></div>
+</section>
+
+<section class="sec px" id="map">
+  <div class="steps-wrap" id="stepsWrap" style="padding-bottom:3rem">
+    <canvas id="flow2" aria-hidden="true"></canvas>
+    <div class="steps-top" data-r style="align-items:flex-start;padding-bottom:2rem"><span class="pill pill-glass"><i><svg class="ic" aria-hidden="true"><use href="#i-network"/></svg></i>Where they fit</span>
+      <h2 class="h2" data-mask="h" style="text-align:left;width:44rem">Which vendors sit behind which district.</h2></div>
+    <div class="dmap" id="dmap"></div>
+  </div>
+</section>
+
+<section class="sec px" id="start">
+  <div class="close" data-r>
+    <canvas id="flow3" aria-hidden="true"></canvas>
+    <div class="in">
+      <img class="th-logo" src="assets/aitropolis-symbol-pearl-white.svg" alt="" width="72" height="66" aria-hidden="true">
+      <h2 class="h2">Tell us the stack you run. We will tell you where we fit.</h2>
+      <p class="t-bl">Bring your platforms and the problem. An engineer will say which of our vendor practices applies.</p>
+      <div class="acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a><a class="btn btn-o" href="contact.html">Write to us</a></div>
+    </div>
+  </div>
+</section>
+
+</main>
+<span id="mainEnd" style="display:block;height:1px;margin-bottom:-1px"></span>
+</div>
+
+<div class="under" id="under"><footer id="footer">
+  <div class="px">
+    <div class="f-top">
+      <div><p class="t-tl" style="width:21rem;max-width:100%">The metropolis behind the modern enterprise</p>
+        <div class="f-soc"><a class="btn btn-o" href="#">LinkedIn</a><a class="btn btn-o" href="#">X</a></div></div>
+      <nav aria-label="Solutions"><p class="cap">Solutions</p><ul class="t-bm"><li><a class="lnk" href="/solutions/systems">Systems</a></li><li><a class="lnk" href="/solutions/foundations">Foundations</a></li><li><a class="lnk" href="/solutions/intelligence">Intelligence</a></li><li><a class="lnk" href="/solutions/exchange">Exchange</a></li><li><a class="lnk" href="/solutions/signal">Signal</a></li><li><a class="lnk" href="/solutions/immersion">Immersion</a></li></ul></nav>
+      <nav aria-label="Company"><p class="cap">Company</p><ul class="t-bm"><li><a class="lnk" href="about.html">About</a></li><li><a class="lnk" href="industries.html">Industries</a></li><li><a class="lnk" href="case-studies.html">Case studies</a></li><li><a class="lnk" href="partners.html">Partners</a></li><li><a class="lnk" href="contact.html">Contact</a></li></ul></nav>
+      <nav aria-label="Legal"><p class="cap">Legal</p><ul class="t-bm"><li><a class="lnk" href="#">Privacy</a></li><li><a class="lnk" href="#">Terms</a></li><li><a class="lnk" href="#">Accessibility</a></li></ul></nav>
+    </div>
+    <div class="f-bot dash-t d"><p style="max-width:34.7rem">Aitropolis Technologies Ltd. Product and platform names belong to their owners.</p><div><p>Founded <span data-canon="founded">2010</span> · Head office DIFC, Dubai</p><p>© 2026 Aitropolis · <a class="lnk" href="#top" id="toTop">Back to top ↑</a></p></div></div>
+  </div>
+  <div class="px" aria-hidden="true"><div class="mega-box"><p class="mega" id="mega"></p></div></div>
+</footer></div>
+
+<div class="bar" id="bar" aria-hidden="true"><div class="in"><a class="logo" href="index.html"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"></a><nav aria-label="Main"><button class="nav-sol" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="mega-sol">Solutions<svg class="ic chev" aria-hidden="true"><use href="#i-chevron-down"/></svg></button><a href="industries.html">Industries</a><a href="case-studies.html">Case studies</a><a class="on" aria-current="page" href="partners.html">Partners</a><a href="about.html">About</a></nav><div class="r"><a class="login" href="contact.html">Contact</a><a class="btn btn-oi btn-sm" href="#" data-book>Book a call</a><button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><svg class="ic" aria-hidden="true"><use href="#i-menu"/></svg></button></div></div></div>
+<div class="dim" id="dim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Menu"><div class="top"><img src="assets/aitropolis-electric-blue.svg" alt="Aitropolis"><button class="xb" type="button" aria-label="Close menu" id="xb"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div>
+  <nav class="dash-t"><a class="dash-b" data-sol-link href="solutions.html">Solutions</a><a class="dash-b" href="industries.html">Industries</a><a class="dash-b" href="case-studies.html">Case studies</a><a class="dash-b" href="partners.html">Partners</a><a class="dash-b" href="about.html">About</a></nav>
+  <div class="acts"><a class="btn btn-oi" href="contact.html">Contact</a><a class="btn btn-p" href="#" data-book>Book a call</a></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
+<script src="assets/icons.js?v=202611181521"></script>
+<script src="assets/site.js?v=202611181521"></script>
+<script>
+(()=>{
+const {mk,inView,REDUCED,ic}=window.AIT;
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+$("#oyrs").textContent=new Date().getFullYear()-2010;
+/* Partner copy is the published Partners page. Certification lists are left out until the team confirms which are held. */
+const KIND={cloud:"Cloud",erp:"ERP & data",infra:"Infrastructure",ai:"AI & collaboration"};
+const SV={cloud:["Cloud transformation","/solutions/foundations/cloud"],pcloud:["Private cloud","/solutions/foundations/private-cloud"],erp:["ERP implementation","/solutions/systems/erp"],db:["Database management","/solutions/systems/database"],bi:["Business intelligence","/solutions/systems/bi"],genai:["Generative AI","/solutions/intelligence/generative-ai"],mlops:["ML & MLOps","/solutions/intelligence/mlops"],meet:["Smart meeting rooms","/solutions/immersion/smart-meetings"],dev:["DevOps & automation","/solutions/foundations/devops"],finops:["FinOps","/solutions/foundations/finops"]};
+const P=[
+ {n:"Amazon Web Services (AWS)",s:"AWS",k:"cloud",tier:"Cloud Partner",d:"Cloud migration, infrastructure as code, serverless architectures, managed services and cost optimisation across the AWS ecosystem. Our architects design and operate mission-critical workloads on AWS for clients in the Middle East, the UK and Asia-Pacific.",c:["EC2 & ECS/EKS","RDS & DynamoDB","Lambda & Serverless","CloudFormation / CDK","Security & Compliance","Cost Optimization"],sv:["cloud","dev","finops"],g:"a"},
+ {n:"Microsoft Azure",s:"Azure",k:"cloud",tier:"Cloud Partner",d:"Identity and access management, data and AI services, Azure DevOps and enterprise integrations with Microsoft 365 and Dynamics 365. We migrate on-premises workloads, build cloud-native applications and manage Azure environments at scale.",c:["Azure VMs & AKS","Azure SQL & Cosmos DB","Azure AD & Entra ID","Azure DevOps","Power Platform","Azure OpenAI"],sv:["cloud","dev","genai"],g:"b"},
+ {n:"Google Cloud Platform",s:"GCP",k:"cloud",tier:"Cloud Partner",d:"Data analytics, BigQuery, Vertex AI and cloud-native application development. We help enterprises use Google's ML and AI services and build scalable, data-first architectures.",c:["Compute Engine & GKE","BigQuery & Looker","Vertex AI / AutoML","Cloud Run","Firebase","Cloud SQL"],sv:["cloud","mlops","bi"],g:"c"},
+ {n:"BytePlus",s:"BytePlus",k:"cloud",tier:"Official Partner · Cloud & AI Infrastructure",d:"Aitropolis is an official BytePlus partner, with client business already delivered on the platform. We use its cloud computing and AI infrastructure for high-performance compute, content delivery and AI/ML inference across Asia-Pacific and emerging markets.",c:["Elastic Compute","AI/ML Inference","Content Delivery Network","Real-Time Communication","Media Processing","Global Edge Network"],sv:["cloud"],g:"a"},
+ {n:"Oracle",s:"Oracle",k:"erp",tier:"ERP & Database Partner",d:`${new Date().getFullYear()-2010} years of Oracle expertise: Oracle E-Business Suite, Oracle Cloud (Fusion), Oracle Database and Oracle Analytics for large enterprises and government bodies.`,c:["Oracle EBS","Oracle Cloud (Fusion)","Oracle Database","Oracle Analytics Cloud","Oracle Integration Cloud","APEX Development"],sv:["erp","db","bi"],g:"b"},
+ {n:"SAP",s:"SAP",k:"erp",tier:"ERP Partner",d:"ERP implementations, S/4HANA migrations and SAP integration projects. We work with SAP-run organisations to modernise core processes, move to the cloud and extend SAP with custom development.",c:["SAP S/4HANA","SAP FICO / SD / MM","SAP BTP","SAP Analytics Cloud","SAP Integration Suite","ABAP Development"],sv:["erp","bi"],g:"c"},
+ {n:"Odoo",s:"Odoo",k:"erp",tier:"ERP Partner",d:"Full-lifecycle Odoo deployments, from needs analysis and configuration to custom modules, integration, training and support, for SMEs and growing enterprises across the MENA region.",c:["Odoo ERP","Odoo CRM","Custom Module Development","Odoo.sh Hosting","API Integration","Training & Support"],sv:["erp"],g:"a"},
+ {n:"Red Hat OpenShift",s:"Red Hat",k:"infra",tier:"Infrastructure Partner",d:"OpenShift container platforms for enterprises that need on-premises or hybrid Kubernetes. Our engineers support Linux infrastructure, Ansible automation and OpenShift application delivery pipelines.",c:["OpenShift Platform","RHEL Administration","Ansible Automation","OpenShift Virtualization","Operators","CI/CD on OpenShift"],sv:["pcloud","dev","mlops"],g:"b"},
+ {n:"VMware",s:"VMware",k:"infra",tier:"Infrastructure Partner",d:"vSphere, NSX, vSAN and Workspace ONE, supporting data centre virtualisation, network security and end-user computing for enterprise clients across the UAE, the UK and Pakistan.",c:["vSphere & ESXi","NSX-T Networking","vSAN Storage","Workspace ONE","VMware Cloud","VDI Solutions"],sv:["pcloud","cloud"],g:"c"},
+ {n:"IBM",s:"IBM",k:"ai",tier:"Enterprise AI Partner",d:"Enterprise AI with Watson, IT infrastructure modernisation, IBM MQ middleware and Maximo asset management, with consultants experienced in large-scale enterprise environments.",c:["IBM Watson AI","IBM MQ & Integration","Maximo Asset Management","IBM Cloud","IBM Power Systems","OpenPages GRC"],sv:["genai","mlops"],g:"a"},
+ {n:"Zoom",s:"Zoom",k:"ai",tier:"Collaboration Partner",d:"Zoom-powered collaboration: enterprise Zoom Phone rollouts, Zoom Rooms for smart meeting environments, and Zoom Webinars for large virtual events and hybrid workplaces.",c:["Zoom Phone","Zoom Rooms","Zoom Webinars","Zoom Contact Centre","Zoom API Integrations","Training & Adoption"],sv:["meet"],g:"b"}
+];
+$("#ptotal").textContent=P.length;
+/* hero bars */
+(()=>{const host=$("#bars");const counts=Object.keys(KIND).map(k=>[k,P.filter(p=>p.k===k).length]).sort((a,b)=>b[1]-a[1]);const max=counts[0][1];
+  counts.forEach(([k,n],r)=>{const row=mk("div","brow"+(n===max?" hot":""));row.innerHTML=`<b>${KIND[k]}</b><div class="track"><span class="fill" style="--d:${900+r*80}ms;--g:0;width:${n/max*100}%"></span></div><em>${n}</em>`;host.append(row)});
+  const run=()=>$$(".fill",host).forEach(f=>f.style.setProperty("--g",1));
+  if(REDUCED)run();else inView($("#dash"),run,"0px")})();
+/* directory */
+const grid=$("#prgrid"),arrow=ic("arrow-right");
+P.forEach((p,i)=>{const a=mk("article","card prt");a.dataset.k=p.k;a.dataset.r="";a.style.setProperty("--d",`${(i%2)*90}ms`);
+  const ini=p.s.replace(/[^A-Za-z0-9]/g,"").slice(0,2).toUpperCase();
+  a.innerHTML=`<div class="prt-h"><span class="mono-tile ${p.g}" aria-hidden="true">${ini}</span><div><h3 class="t-tl">${p.n}</h3><p class="tier">${p.tier}</p></div></div><p class="t-bm muted">${p.d}</p><p class="eb">Where we work on it</p><ul class="tags">${p.c.map(x=>`<li>${x}</li>`).join("")}</ul><p class="eb">Services it supports</p><ul class="prt-sv">${p.sv.map(k=>`<li><a href="${SV[k][1]}"><span>${SV[k][0]}</span>${arrow}</a></li>`).join("")}</ul>`;
+  grid.append(a);if(!REDUCED)new IntersectionObserver(([e],io)=>{if(e.isIntersecting){a.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(a)});
+const bar=$("#chipbar");let kind="all";
+const chip=(k,l)=>{const b=mk("button","chip");b.type="button";b.dataset.k=k;b.setAttribute("aria-pressed",String(k==="all"));b.textContent=l;b.addEventListener("click",()=>{kind=k;$$(".chip",bar).forEach(x=>x.setAttribute("aria-pressed",String(x===b)));apply()});bar.append(b)};
+chip("all","All partners");Object.entries(KIND).forEach(([k,l])=>chip(k,l));
+function apply(){let n=0;$$(".prt",grid).forEach(a=>{const show=kind==="all"||a.dataset.k===kind;if(show){n++;if(a.hidden){a.hidden=false;requestAnimationFrame(()=>a.classList.remove("out"))}else a.classList.remove("out")}else if(!a.hidden){a.classList.add("out");setTimeout(()=>{if(a.classList.contains("out"))a.hidden=true},260)}});$("#cnt").textContent=`Showing ${n} of ${P.length} partners`}
+apply();
+/* district map */
+const DM=[["systems","Systems","blocks",["Oracle","SAP","Odoo"]],["foundations","Foundations","layers",["AWS","Azure","GCP","BytePlus","Red Hat","VMware"]],["intelligence","Intelligence","brain",["IBM","GCP","Azure","Red Hat"]],["immersion","Immersion","glasses",["Zoom"]]];
+const dm=$("#dmap");
+DM.forEach(([slug,t,icn,v],i)=>{const r=mk("a","dmrow");r.href=`/solutions/${slug}`;r.dataset.r="";r.style.setProperty("--d",`${i*70}ms`);
+  r.innerHTML=`<span class="mico lg">${ic(icn)}</span><span class="dmt"><b>${t}</b><small>District</small></span><ul class="dmv">${v.map(x=>`<li>${x}</li>`).join("")}</ul>${arrow}`;dm.append(r);if(!REDUCED)new IntersectionObserver(([e],io)=>{if(e.isIntersecting){r.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(r)});
+})();
+
+</script>
+</body>
+</html>
