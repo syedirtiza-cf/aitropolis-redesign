@@ -42,6 +42,7 @@ def main():
     manifest = json.loads((SRC / "pages.json").read_text()) if (SRC / "pages.json").exists() else {}
     for name, cfg in manifest.items():
         data = json.loads((SRC / "content" / f"{name}.json").read_text())
+        cfg = {**cfg, "name": name, "prose": name.startswith("insights-") or name in ("privacy", "terms", "accessibility")}
         body = pagegen.build(data, cfg)
         ctx = {"v": VERSION, "nav": nav(cfg.get("active", "")), "on_contact": ""}
         ctx["header"] = render(header, ctx)

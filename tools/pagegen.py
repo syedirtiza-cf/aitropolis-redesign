@@ -110,6 +110,17 @@ def icon_for(title, href="", fallback="check"):
 def mark(f, cls="brand"):
     return f'<i class="{cls}" aria-hidden="true" style="--m:url(brands/{f}.svg)"></i>'
 
+KINDS = ["blocks", "slabs", "burst", "hex", "waves", "gem"]
+GRADS = ["a", "b", "c"]
+
+def art(name, k):
+    h = sum(ord(c) for c in name) + k * 7
+    return KINDS[h % 6], GRADS[(h // 6 + k) % 3]
+
+def tile(name, k, cls=""):
+    kind, g = art(name, k)
+    return f'<div class="dtile {g} {cls}" data-pix="{kind}" aria-hidden="true"></div>'
+
 def title_case(t):
     return t if not t.isupper() else t.capitalize()
 
@@ -163,7 +174,7 @@ def clean(s):
 def stats(kv):
     return '<div class="gstats">' + "".join(f'<div class="card" data-r style="--d:{i * 90}ms"><p class="num-m">{E(v)}</p><p class="t-bm muted">{E(k)}</p></div>' for i, (k, v) in enumerate(kv)) + "</div>"
 
-def section(s, ids, icon):
+def section(s, ids, icon, k=0, name=""):
     s = clean(s)
     sid = slug(s["eyebrow"] or s["h2"])
     out = [f'<section class="sec px" id="{sid}">']
@@ -188,19 +199,56 @@ def section(s, ids, icon):
         out.append(head(s, icon, s["lead"]))
         cards = [prep(c) for c in s["cards"]]
         if cards and sum(1 for c in cards if c["n"]) >= max(2, len(cards) - 1) and all(c["h"] for c in cards):
+            out[0] = f'<section class="sec px" id="{sid}"><div class="gband" data-r>'
             out.append(steps(cards))
+            out.append("</div>")
+            band = True
         elif cards:
             n = len(cards)
-            cols = "g3" if n % 3 == 0 else "g2"
-            out.append(f'<div class="ggrid {cols}">' + "".join(card(c, ids, i, fb=icon) for i, c in enumerate(cards)) + "</div>")
-        if s["kv"]:
-            out.append('<div class="card gcard" data-r><dl class="spec">' + "".join(f"<div><dt>{E(k)}</dt><dd>{E(v)}</dd></div>" for k, v in s["kv"]) + "</dl></div>")
-        if s["bullets"]:
-            out.append('<div class="card gcard gwide" data-r><ul class="ep-list ok">' + "".join(f"<li>{ic('check')}<span>{E(x)}</span></li>" for x in s["bullets"]) + "</ul></div>")
+            if 3 <= n <= 7 and k % 2 == 1 and not any(c["kv"] for c in cards):
+                first = card(cards[0], ids, 0, fb=icon).replace('class="card gcard"', 'class="card gcard big"', 1)
+                first = first.replace("</article>", tile(name, k, "gt") + "</article>", 1)
+                rest_cards = "".join(card(c, ids, i + 1, fb=icon) for i, c in enumerate(cards[1:]))
+                out.append(f'<div class="gbento">{first}{rest_cards}</div>')
+            else:
+                cols = "g3" if n % 3 == 0 else "g2"
+                out.append(f'<div class="ggrid {cols}">' + "".join(card(c, ids, i, fb=icon) for i, c in enumerate(cards)) + "</div>")
+        kvh = '<div class="card gcard" data-r><dl class="spec">' + "".join(f"<div><dt>{E(a)}</dt><dd>{E(b)}</dd></div>" for a, b in s["kv"]) + "</dl></div>" if s["kv"] else ""
+        bh = '<div class="card gcard gwide" data-r><ul class="ep-list ok">' + "".join(f"<li>{ic('check')}<span>{E(x)}</span></li>" for x in s["bullets"]) + "</ul></div>" if s["bullets"] else ""
+        if (kvh or bh) and not cards:
+            out.append(f'<div class="gsplit"><div class="gside" data-r>{tile(name, k)}</div><div class="gmain">{kvh}{bh}</div></div>')
+        else:
+            out.append(kvh + bh)
         if s["links"]:
             out.append('<div class="glinks" data-r>' + "".join(f'<a class="btn btn-oi" href="{E(route(h, ids))}">{E(t)}{ARROW}</a>' for t, h in s["links"] if route(h, ids)) + "</div>")
     out.append("</section>")
     return "".join(out)
+
+def prose(rest, ids, icon):
+    blocks, toc = [], []
+    for s in rest:
+        s = clean(s)
+        sid = slug(s["h2"] or s["eyebrow"])
+        if not s["h2"] and not (s["lead"] or s["bullets"] or s["cards"] or s["kv"]):
+            continue
+        if s["h2"]:
+            toc.append(f'<li><a href="#{sid}">{E(s["h2"])}</a></li>')
+        b = [f'<section class="pblock" id="{sid}" data-r>']
+        if s["h2"] and not s["faq"]:
+            b.append(f'<h2 class="h3">{E(s["h2"])}</h2>')
+        b += [f'<p class="t-bl">{E(p)}</p>' if i == 0 and not s["h2"] else f'<p class="t-bm">{E(p)}</p>' for i, p in enumerate(s["lead"])]
+        for c in s["cards"]:
+            b.append(f'<h3 class="t-tm">{E(c["h"])}</h3>' + "".join(f'<p class="t-bm">{E(p)}</p>' for p in c["p"]))
+            if c["li"]: b.append('<ul class="plist">' + "".join(f"<li>{E(x)}</li>" for x in c["li"]) + "</ul>")
+            if c["kv"]: b.append('<dl class="spec">' + "".join(f"<div><dt>{E(x)}</dt><dd>{E(y)}</dd></div>" for x, y in c["kv"]) + "</dl>")
+        if s["bullets"]: b.append('<ul class="plist">' + "".join(f"<li>{E(x)}</li>" for x in s["bullets"]) + "</ul>")
+        if s["kv"]: b.append('<dl class="spec pspec">' + "".join(f"<div><dt>{E(x)}</dt><dd>{E(y)}</dd></div>" for x, y in s["kv"]) + "</dl>")
+        for f in s["faq"]:
+            b.append(f'<h3 class="t-tm">{E(f["q"])}</h3>' + "".join(f'<p class="t-bm">{E(a)}</p>' for a in f["a"]))
+        b.append("</section>")
+        blocks.append("".join(b))
+    nav = f'<nav class="ptoc" aria-label="On this page"><p class="eb" style="padding-top:0">On this page</p><ol>{"".join(toc)}</ol></nav>' if len(toc) > 2 else "<div></div>"
+    return f'<section class="sec px" id="article"><div class="prose-grid">{nav}<article class="pbody">{"".join(blocks)}</article></div></section>'
 
 def platforms(secs):
     text = []
@@ -276,7 +324,11 @@ def build(data, cfg):
   </div>
 </section>'''
     wall = platforms(secs)
-    body = [hero_html] + ([wall] if wall else []) + [section(s, ids, icon) for s in rest]
+    name = cfg.get("name", "")
+    if cfg.get("prose"):
+        body = [hero_html] + ([wall] if wall else []) + [prose(rest, ids, icon)]
+    else:
+        body = [hero_html] + ([wall] if wall else []) + [section(s, ids, icon, k, name) for k, s in enumerate(rest)]
     cta = cfg.get("cta", {})
     body.append(f'''<section class="sec px" id="start">
   <div class="close" data-r>

@@ -5,3 +5,12 @@ const {inView,REDUCED}=window.AIT;
   const run=()=>host.querySelectorAll(".fill").forEach(f=>f.style.setProperty("--g",1));
   if(REDUCED)run();else inView(document.getElementById("dash"),run,"0px")})();
 document.querySelectorAll(".faqlist details").forEach(d=>d.addEventListener("toggle",()=>{if(d.open)document.querySelectorAll(".faqlist details").forEach(o=>{if(o!==d)o.open=false})}));
+/* pixel tiles */
+(()=>{const {ART,ORDER,smooth,easeIO,clamp,NS}=window.AIT;
+document.querySelectorAll("[data-pix]").forEach(host=>{const kind=host.dataset.pix;if(!ART[kind])return;
+  const svg=document.createElementNS(NS,"svg");svg.setAttribute("viewBox","0 0 448 308");svg.setAttribute("aria-hidden","true");svg.setAttribute("fill","#fff");svg.setAttribute("preserveAspectRatio","xMidYMid slice");svg.style.cssText="position:absolute;inset:0;left:0;top:0;width:100%;height:100%;transform:none";
+  const px=[];for(let r=0;r<22;r++)for(let c=0;c<32;c++){const e=document.createElementNS(NS,"circle");e.setAttribute("cx",c*14+7);e.setAttribute("cy",r*14+7);e.setAttribute("r",1);e.setAttribute("fill-opacity",.4);svg.append(e);if(ART[kind](c,r))px.push({e,k:ORDER[kind](c,r)})}
+  const ks=px.map(p=>p.k),lo=Math.min(...ks),rg=Math.max(1e-6,Math.max(...ks)-lo);px.forEach(p=>p.s=((p.k-lo)/rg)*.6);host.append(svg);
+  const draw=p=>px.forEach(o=>{const g=smooth((p-o.s)/.4);o.e.setAttribute("r",1+4*g);o.e.setAttribute("fill-opacity",.4+.6*g)});
+  if(REDUCED){draw(1);return}draw(0);
+  inView(svg,()=>{const t0=performance.now()+200;const f=()=>{const p=clamp((performance.now()-t0)/1300);draw(easeIO(p));if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)},"0px 0px -5% 0px")})})();
