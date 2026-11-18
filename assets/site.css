@@ -720,3 +720,9 @@ html[data-preloader] .pre{display:block}
 .gfine{padding-top:1rem}
 @media (max-width:1024px){.gcell{height:7.5rem}}
 @media (max-width:560px){.gwall{grid-template-columns:repeat(auto-fit,minmax(6.5rem,1fr))}.gcell{height:6.5rem;padding:1rem}}
+.glogo.gi .ic{width:1.5rem;height:1.5rem}
+.glogo.gi{width:3.5rem;color:var(--accent)}
+.gcard:hover .glogo.gi{color:var(--on)}
+.gsteps .t-tm{display:flex;align-items:center;gap:.75rem}
+.gi2{display:inline-flex;color:var(--accent)}
+.gi2 .ic{width:1.25rem;height:1.25rem}

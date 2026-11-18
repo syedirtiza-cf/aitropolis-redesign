@@ -47,6 +47,66 @@ def brand_in(text):
             return f, n
     return None
 
+ICONS = [
+ (r"\bcrm\b|salesforce|hubspot|siebel|customer relationship", "users"),
+ (r"\berp\b|\bebs\b|\bsap\b|dynamics|odoo|enterprise resource", "blocks"),
+ (r"assess|audit|review|discover|diagnos|health check|readiness|gap", "scan-search"),
+ (r"strateg|roadmap|plan|advis|consult|vision|governance", "compass"),
+ (r"design|architect|blueprint|model", "pencil-ruler"),
+ (r"build|develop|engineer|implement|configur|custom|integrat|api", "hammer"),
+ (r"test|qa\b|quality|validat|verif", "flask-conical"),
+ (r"deploy|go-live|launch|release|rollout|cut-?over|migrat", "rocket"),
+ (r"optimi|tuning|performance|speed|accelerat|scal", "gauge"),
+ (r"train|learn|enablement|knowledge|education|skill|academy", "graduation-cap"),
+ (r"support|managed|operate|operations|24/7|monitor|sre|helpdesk|service desk", "headset"),
+ (r"secur|compliance|risk|protect|privacy|threat|zero trust|resilien|disaster|backup|recover", "shield-check"),
+ (r"identity|access|auth|encrypt|key|wallet custody", "key-round"),
+ (r"cloud|saas|iaas|paas|hybrid", "cloud"),
+ (r"data|database|warehouse|lake|etl|pipeline|analytics|bi\b|insight|report", "database"),
+ (r"ai\b|machine learning|ml\b|llm|generative|rag|model|neural|vision|nlp|agent|copilot|predict", "brain"),
+ (r"automat|workflow|process|bpm|orchestrat|rpa", "workflow"),
+ (r"gpu|compute|cluster|server|hardware|infrastructure|virtual|container|kubernetes|network", "server"),
+ (r"blockchain|token|smart contract|defi|crypto|ledger|web3|nft", "hexagon"),
+ (r"payment|fintech|bank|treasury|financ|billing|invoice|credit|lending|trading", "banknote"),
+ (r"cost|finops|budget|saving|roi|price|pricing", "circle-dollar-sign"),
+ (r"seo|search|keyword|rank", "search"),
+ (r"content|copy|blog|editorial|writing|article", "file-text"),
+ (r"social|influenc|community|brand|campaign|marketing|advertis|ppc|paid|media|growth|lead|conversion|funnel", "megaphone"),
+ (r"email|crm|customer|sales|pipeline|contact", "users"),
+ (r"ar\b|vr\b|xr\b|immersive|metaverse|3d|virtual reality|augmented", "glasses"),
+ (r"av\b|audio|video|display|screen|projection|stage|event|broadcast|studio", "video"),
+ (r"scenograph|experience|exhibit|museum|installation|interactive|set design", "cuboid"),
+ (r"mobile|app\b|ios|android", "smartphone"),
+ (r"web|portal|website|front-?end|ux|ui\b|ecommerce|commerce|shop", "monitor"),
+ (r"erp|ebs|sap|dynamics|odoo|enterprise resource|finance system|supply|inventory|logistic|manufactur|procure", "blocks"),
+ (r"team|staff|talent|offshore|hire|resource|people|squad|workforce", "users-round"),
+ (r"iso\b|standard|certif|audit trail|policy|regulat", "badge-check"),
+ (r"partner|alliance|vendor|ecosystem|collaborat", "handshake"),
+ (r"result|outcome|impact|metric|kpi|saving|growth|improv|uplift", "trending-up"),
+ (r"challenge|problem|pain|constraint|issue|legacy", "shield-alert"),
+ (r"solution|approach|method|framework", "lightbulb"),
+ (r"global|region|country|countries|worldwide|international|locale|multi-?site", "globe"),
+ (r"healthcare|clinical|patient|hospital|pharma", "heart-pulse"),
+ (r"telecom|carrier|sms|messag|network operator|5g", "radio-tower"),
+ (r"government|public sector|municipal|ministry|authority", "landmark"),
+ (r"retail|consumer|store", "shopping-cart"),
+ (r"fraud|aml|kyc|anomal", "fingerprint"),
+ (r"document|contract|paperwork|records|archive", "file-check"),
+ (r"integrat|connect|interface|middleware|esb|bridge", "plug"),
+]
+IRE = [(re.compile(rx, re.I), n) for rx, n in ICONS]
+
+def icon_for(title, href="", fallback="check"):
+    h = href or ""
+    if h.startswith("/case-studies") or h.startswith("case-studies"): return "briefcase"
+    if h.startswith("/insights") or h.startswith("insights"): return "file-text"
+    head, _, rest = title.partition("\x00")
+    for text in (head, rest):
+        for rx, n in IRE:
+            if text and rx.search(text):
+                return n
+    return fallback
+
 def mark(f, cls="brand"):
     return f'<i class="{cls}" aria-hidden="true" style="--m:url(brands/{f}.svg)"></i>'
 
@@ -56,9 +116,17 @@ def title_case(t):
 def count(s):
     return len(s["cards"]) + len(s["kv"]) + len(s["bullets"]) + len(s["faq"])
 
-def card(c, ids, i, flat=False):
+def prep(c):
+    if c["li"] and all(re.fullmatch(r"\d{1,2}", x) for x in c["li"]):
+        c["n"] = c["n"] or c["li"][0].zfill(2); c["li"] = []
+    return c
+
+def card(c, ids, i, flat=False, fb="check"):
     b = brand_in(c["h"])
-    logo = f'<span class="glogo" title="{E(b[1])}">{mark(b[0])}</span>' if b else ""
+    if b:
+        logo = f'<span class="glogo" title="{E(b[1])}">{mark(b[0])}</span>'
+    else:
+        logo = f'<span class="glogo gi">{ic(icon_for(c["h"] + "\x00" + " ".join(c["p"][:1]), c.get("href", ""), fb))}</span>'
     h = logo + f'<h3 class="t-tm">{E(c["h"])}</h3>'
     body = "".join((f'<p class="eb" style="padding-top:.5rem">{E(p)}</p>' if len(p) <= 28 and not p.endswith(".") else f'<p class="t-bm muted">{E(p)}</p>') for p in c["p"])
     if c["tags"]:
@@ -73,7 +141,7 @@ def card(c, ids, i, flat=False):
 
 def steps(cards):
     items = "".join(
-        f'<li data-r style="--d:{(i % 3) * 90}ms"><span class="gnum">{E(c["n"] or str(i + 1).zfill(2))}</span><div><h3 class="t-tm">{E(c["h"])}</h3>'
+        f'<li data-r style="--d:{(i % 3) * 90}ms"><span class="gnum">{E(c["n"] or str(i + 1).zfill(2))}</span><div><h3 class="t-tm"><span class="gi2">{ic(icon_for(c["h"] + "\x00" + " ".join(c["p"][:1]), "", "check"))}</span>{E(c["h"])}</h3>'
         + "".join(f'<p class="t-bm muted">{E(p)}</p>' for p in c["p"]) + "</div></li>"
         for i, c in enumerate(cards))
     return f'<ol class="gsteps">{items}</ol>'
@@ -116,13 +184,13 @@ def section(s, ids, icon):
         out.append(f'<div class="faq dash-t" style="padding-top:2rem"><div data-r="fade">{pill}<h2 class="h2" style="padding-top:1.5rem" data-mask="h">{E(s["h2"])}</h2></div><div class="faqlist">{items}</div></div>')
     else:
         out.append(head(s, icon, s["lead"]))
-        cards = s["cards"]
+        cards = [prep(c) for c in s["cards"]]
         if cards and all(c["n"] for c in cards):
             out.append(steps(cards))
         elif cards:
             n = len(cards)
             cols = "g3" if n % 3 == 0 else "g2"
-            out.append(f'<div class="ggrid {cols}">' + "".join(card(c, ids, i) for i, c in enumerate(cards)) + "</div>")
+            out.append(f'<div class="ggrid {cols}">' + "".join(card(c, ids, i, fb=icon) for i, c in enumerate(cards)) + "</div>")
         if s["kv"]:
             out.append('<div class="card gcard" data-r><dl class="spec">' + "".join(f"<div><dt>{E(k)}</dt><dd>{E(v)}</dd></div>" for k, v in s["kv"]) + "</dl></div>")
         if s["bullets"]:
