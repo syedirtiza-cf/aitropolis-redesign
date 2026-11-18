@@ -121,6 +121,53 @@ def tile(name, k, cls=""):
     kind, g = art(name, k)
     return f'<div class="dtile {g} {cls}" data-pix="{kind}" aria-hidden="true"></div>'
 
+def short(t):
+    return re.split(r"\s*[:|]\s*", t)[0].strip()
+
+DIST = {"systems": "Systems", "foundations": "Foundations", "intelligence": "Intelligence", "exchange": "Exchange", "signal": "Signal", "immersion": "Immersion"}
+
+def crumbs(name, cfg):
+    t = short(cfg.get("title", ""))
+    parts = name.split("-")
+    if name.startswith("case-studies-"): return [("Case studies", "case-studies.html"), (t, "")]
+    if name.startswith("insights-"): return [("Insights", "insights.html"), (t, "")]
+    if name in ("privacy", "terms", "accessibility"): return [("Legal", ""), (t, "")]
+    if name == "ai": return [("Solutions", "solutions.html"), ("AI Center", "")]
+    if name == "ai-gpu": return [("Solutions", "solutions.html"), ("AI Center", "ai.html"), ("GPU", "")]
+    if parts[0] == "solutions" and len(parts) >= 2 and parts[1] in DIST:
+        c = [("Solutions", "solutions.html")]
+        if len(parts) == 2: return c + [(DIST[parts[1]], "")]
+        return c + [(DIST[parts[1]], f"solutions-{parts[1]}.html"), (t, "")]
+    if parts[0] in ("solutions", "digital"): return [("Solutions", "solutions.html"), (t, "")]
+    return []
+
+def crumb_html(name, cfg):
+    cs = crumbs(name, cfg)
+    if not cs: return ""
+    items = []
+    for i, (t, h) in enumerate(cs):
+        last = i == len(cs) - 1
+        items.append(f'<li>{"<span aria-current=\"page\">" + E(t) + "</span>" if last or not h else "<a href=\"" + h + "\">" + E(t) + "</a>"}</li>')
+    return f'<nav class="crumb" aria-label="Breadcrumb" data-h style="--d:0ms"><ol>{"".join(items)}</ol></nav>'
+
+def link_label(href):
+    h = (href or "").lstrip("/")
+    if h.startswith("case-studies"): return "Read the 3-minute case"
+    if h.startswith("insights"): return "Read the article"
+    if h.startswith("solutions") or h.startswith("ai") or h.startswith("digital"): return "See the service"
+    return "Open the page"
+
+def related(cfg):
+    rel = cfg.get("related") or []
+    if not rel: return ""
+    cards = "".join(
+        f'<article class="card gcard" data-r style="--d:{i * 90}ms"><span class="glogo gi">{ic(r["icon"])}</span><h3 class="t-tm">{E(r["title"])}</h3><p class="t-bm muted">{E(r["desc"])}</p><a class="open-d lnk" href="{E(r["href"])}" aria-label="{link_label(r["href"])}: {E(r["title"])}">{link_label(r["href"])}</a></article>'
+        for i, r in enumerate(rel))
+    return f'''<section class="sec px" id="related">
+  <div class="shead dash-t"><div><span class="pill pill-line"><i>{ic("compass")}</i>Keep exploring</span></div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">{E(cfg.get("related_h", "More from this part of the site."))}</h2></div></div>
+  <div class="ggrid g3">{cards}</div>
+</section>'''
+
 def title_case(t):
     return t if not t.isupper() else t.capitalize()
 
@@ -149,7 +196,7 @@ def card(c, ids, i, flat=False, fb="check"):
     if c["li"]:
         body += '<ul class="ep-list ok">' + "".join(f"<li>{ic('check')}<span>{E(x)}</span></li>" for x in c["li"]) + "</ul>"
     href = route(c.get("href"), ids)
-    foot = f'<a class="open-d lnk" href="{E(href)}">{E(c["h"])}</a>' if href and not href.startswith("#") else ""
+    foot = f'<a class="open-d lnk" href="{E(href)}" aria-label="{link_label(href)}: {E(c["h"])}">{link_label(href)}</a>' if href and not href.startswith("#") else ""
     return f'<article class="card gcard" data-r style="--d:{(i % 3) * 90}ms">{h}{body}{foot}</article>'
 
 def steps(cards):
@@ -159,10 +206,10 @@ def steps(cards):
         for i, c in enumerate(cards))
     return f'<ol class="gsteps">{items}</ol>'
 
-def head(s, icon, lead):
+def head(s, icon, lead, idx=""):
     pill = f'<span class="pill pill-line"><i>{ic(icon)}</i>{E(title_case(s["eyebrow"]))}</span>' if s["eyebrow"] else ""
     ld = "".join(f'<p class="t-bm muted">{E(p)}</p>' for p in lead)
-    return f'<div class="shead dash-t"><div>{pill}</div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">{E(s["h2"])}</h2>{ld}</div></div>'
+    return f'<div class="shead dash-t"><div>{pill}{idx}</div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">{E(s["h2"])}</h2>{ld}</div></div>'
 
 CTA_RE = re.compile(r"^(book a|talk to an engineer|get in touch|contact us|read the|see )", re.I)
 
@@ -172,9 +219,9 @@ def clean(s):
     return s
 
 def stats(kv):
-    return '<div class="gstats">' + "".join(f'<div class="card" data-r style="--d:{i * 90}ms"><p class="num-m">{E(v)}</p><p class="t-bm muted">{E(k)}</p></div>' for i, (k, v) in enumerate(kv)) + "</div>"
+    return '<div class="gstats dark">' + "".join(f'<div class="card" data-r style="--d:{i * 90}ms"><p class="num-m">{E(v)}</p><p class="t-bm muted">{E(k)}</p></div>' for i, (k, v) in enumerate(kv)) + "</div>"
 
-def section(s, ids, icon, k=0, name=""):
+def section(s, ids, icon, k=0, name="", tot=0):
     s = clean(s)
     sid = slug(s["eyebrow"] or s["h2"])
     out = [f'<section class="sec px" id="{sid}">']
@@ -196,7 +243,7 @@ def section(s, ids, icon, k=0, name=""):
         pill = f'<span class="pill pill-line"><i>{ic("circle-help")}</i>{E(title_case(s["eyebrow"]) or "Questions")}</span>'
         out.append(f'<div class="faq dash-t" style="padding-top:2rem"><div data-r="fade">{pill}<h2 class="h2" style="padding-top:1.5rem" data-mask="h">{E(s["h2"])}</h2></div><div class="faqlist">{items}</div></div>')
     else:
-        out.append(head(s, icon, s["lead"]))
+        out.append(head(s, icon, s["lead"], f'<p class="idx" aria-hidden="true">{k + 1:02d} / {tot:02d}</p>' if tot > 2 else ""))
         cards = [prep(c) for c in s["cards"]]
         if cards and sum(1 for c in cards if c["n"]) >= max(2, len(cards) - 1) and all(c["h"] for c in cards):
             out[0] = f'<section class="sec px" id="{sid}"><div class="gband" data-r>'
@@ -292,6 +339,7 @@ def build(data, cfg):
   <div class="hero-in">
     {{{{header}}}}
     <div class="hero-copy">
+      {crumb_html(cfg.get("name", ""), cfg)}
       <div data-h style="--d:0ms"><span class="pill pill-glass"><i>{ic(icon)}</i>{E(cfg.get("pill") or title_case(hero["eyebrow"]))}</span></div>
       <h1 class="h1" data-mask="hero">{E(hero["h1"])}</h1>
       <p class="lead t-bl" data-h style="--d:420ms">{E(lead)}</p>
@@ -328,7 +376,8 @@ def build(data, cfg):
     if cfg.get("prose"):
         body = [hero_html] + ([wall] if wall else []) + [prose(rest, ids, icon)]
     else:
-        body = [hero_html] + ([wall] if wall else []) + [section(s, ids, icon, k, name) for k, s in enumerate(rest)]
+        body = [hero_html] + ([wall] if wall else []) + [section(s, ids, icon, k, name, len(rest)) for k, s in enumerate(rest)]
+    body.append(related(cfg))
     cta = cfg.get("cta", {})
     body.append(f'''<section class="sec px" id="start">
   <div class="close" data-r>

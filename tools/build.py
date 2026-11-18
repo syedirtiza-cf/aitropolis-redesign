@@ -40,7 +40,32 @@ def main():
     shell = (SRC / "shell.html").read_text()
     header = (SRC / "header.html").read_text()
     manifest = json.loads((SRC / "pages.json").read_text()) if (SRC / "pages.json").exists() else {}
+    def trim(t, n=120):
+        if len(t) <= n: return t
+        cut = t[:n].rsplit(" ", 1)[0].rstrip(" ,.;:")
+        return cut + "…"
+    def group(n):
+        if n.startswith("case-studies-"): return "case-studies-"
+        if n.startswith("insights-"): return "insights-"
+        parts = n.split("-")
+        if parts[0] == "solutions" and len(parts) > 2 and parts[1] in pagegen.DIST: return f"solutions-{parts[1]}-"
+        return ""
+    def rel_for(n):
+        g = group(n)
+        if not g: return []
+        sibs = [k for k in manifest if group(k) == g]
+        if n not in sibs or len(sibs) < 2: return []
+        i = sibs.index(n)
+        out = []
+        for k in (sibs[(i + j) % len(sibs)] for j in range(1, min(4, len(sibs)))):
+            c = manifest[k]
+            out.append({"title": pagegen.short(c["title"]), "desc": trim(c["desc"] or ""), "href": k + ".html", "icon": c.get("icon", "sparkles")})
+        return out
     for name, cfg in manifest.items():
+        cfg = {**cfg, "related": rel_for(name)}
+        if name.startswith("case-studies-"): cfg["related_h"] = "More published work."
+        elif name.startswith("insights-"): cfg["related_h"] = "More to read."
+        elif group(name).startswith("solutions-"): cfg["related_h"] = "Other services in this district."
         data = json.loads((SRC / "content" / f"{name}.json").read_text())
         cfg = {**cfg, "name": name, "prose": name.startswith("insights-") or name in ("privacy", "terms", "accessibility")}
         body = pagegen.build(data, cfg)

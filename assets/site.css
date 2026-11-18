@@ -1,5 +1,6 @@
 /* ===== Tokens (Kelder palette on the Aitropolis electric blue) ===== */
 :root{
+  --mono:'DM Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
   --font:'DM Sans','Cosmica',ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --page:#f5f8fc;--surface:#fff;--soft:#f1f5fb;--line:#dde5f0;--dash:#9fb3d1;
   --ink:#06142e;--muted:#55667f;--faint:#9aa8bd;
@@ -763,3 +764,23 @@ html[data-preloader] .pre{display:block}
 .gband .h2,.gband .t-tm{color:var(--on)}
 .gband .pill-line{background:rgb(255 255 255/.12);color:var(--on)}
 .gband .shead{padding-top:0}
+
+/* ---- Polish pass: mono labels, breadcrumbs, counters, dark stats ---- */
+.idx{padding-top:1rem;font-family:var(--mono);font-size:.8125rem;letter-spacing:.02em;color:var(--muted)}
+.crumb{display:flex;justify-content:center;padding-bottom:1.25rem}
+.crumb ol{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.25rem .5rem;font-family:var(--mono);font-size:.8125rem;color:var(--on-soft)}
+.crumb li{display:flex;align-items:center;gap:.5rem}
+.crumb li+li::before{content:"/";color:var(--on-mute)}
+.crumb a{color:var(--on-soft);transition:color .2s}
+.crumb a:hover,.crumb a:focus-visible{color:var(--on)}
+.crumb [aria-current]{color:var(--on)}
+.spec dt{font-family:var(--mono);font-size:.875rem}
+.gcard .tags li{font-family:var(--mono);font-size:.8125rem}
+.ptoc .eb{font-family:var(--mono)}
+.gstats.dark{gap:0;padding:.5rem;border-radius:var(--r-card);background:var(--g-steps);color:var(--on)}
+.gstats.dark .card{background:transparent;border-radius:0;min-height:12rem;padding:1.75rem}
+.gstats.dark .card+.card{border-left:1px dashed rgb(255 255 255/.3)}
+.gstats.dark .num-m{color:var(--lime)}
+.gstats.dark .muted{color:var(--on-soft);font-family:var(--mono);font-size:.875rem}
+@media (max-width:1024px){.gstats.dark .card:nth-child(3){border-left:0}.gstats.dark .card:nth-child(n+3){border-top:1px dashed rgb(255 255 255/.3)}}
+@media (max-width:560px){.gstats.dark .card+.card{border-left:0;border-top:1px dashed rgb(255 255 255/.3)}.gstats.dark .card{min-height:0}}
