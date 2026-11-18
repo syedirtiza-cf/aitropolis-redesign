@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src"
-PAGES = ["industries", "case-studies", "partners", "about", "contact"]
+PAGES = ["industries", "case-studies", "insights", "partners", "about", "contact"]
 VERSION = time.strftime("%Y%m%d%H%M")
 
 def nav(active):
@@ -24,6 +24,7 @@ def nav(active):
         f'<button class="nav-sol{" on" if active == "solutions" else ""}" type="button" aria-expanded="false" aria-haspopup="dialog" aria-controls="mega-sol">Solutions{chev}</button>'
         f'<a{on("industries")} href="industries.html">Industries</a>'
         f'<a{on("cases")} href="case-studies.html">Case studies</a>'
+        f'<a{on("insights")} href="insights.html">Insights</a>'
         f'<a{on("partners")} href="partners.html">Partners</a>'
         f'<a{on("about")} href="about.html">About</a>'
     )

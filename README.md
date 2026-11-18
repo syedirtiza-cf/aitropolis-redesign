@@ -8,6 +8,7 @@ Standalone HTML prototypes of the redesigned site. They are a design test for th
 | Solutions hub | `solutions.html` |
 | Industries | `industries.html` (generated) |
 | Case studies | `case-studies.html` (generated) |
+| Insights | `insights.html` (generated) |
 | Partners | `partners.html` (generated) |
 | About | `about.html` (generated) |
 | Contact | `contact.html` (generated) |
@@ -47,6 +48,7 @@ No build step: the folder is plain static files, so any static host works. `robo
 
 ## Things to know before porting
 
+- **Insights is the list page only.** The seven articles link to `/insights/<slug>`, which exist only in the Next.js app. Titles, excerpts, topics, dates and reading times are the published list. The cadence line ("we publish weekly") and the email-subscribe copy from the current site are left out, since the prototype has no subscribe backend and the dates do not show a weekly cadence.
 - **Vendor logos** are single-colour marks from Simple Icons (CC0), in `assets/brands/` with a licence and trademark note. They identify the vendor and imply no endorsement. Where a vendor's partner programme sets its own logo rules, swap in the programme's assets before publishing. BytePlus has no mark in that set and uses an initials tile.
 - **Partner certifications are left out.** The Partners page shows what we do on each vendor and the services it supports. The certification lists on the current site are not shown until the team confirms which are held. NVIDIA is in `canon.json` but has no entry on the current Partners page, so it is not on this one either.
 - **Case-study metrics are left out.** The case-study cards show only the published summaries. The numbers in `canon.json` need team sign-off before they are shown.

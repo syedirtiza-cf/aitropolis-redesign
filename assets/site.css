@@ -653,3 +653,27 @@ html[data-preloader] .pre{display:block}
 @media (max-width:1024px){.lwall{grid-template-columns:repeat(4,1fr)}.lcell{height:8rem}}
 @media (max-width:560px){.lwall{grid-template-columns:repeat(3,1fr)}.lcell{height:7rem;padding:1rem}}
 .lcell.more{color:var(--accent)}.lcell.more small{font-size:.875rem;line-height:1.3;max-width:9rem}.lcell.more:hover{background:var(--ink);color:var(--on)}.lcell.more:hover .mico{background:var(--lime);color:var(--ink)}
+
+/* ===== Insights ===== */
+.agrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+.acard{display:flex;flex-direction:column;padding:.75rem .75rem 1.5rem;transition:opacity .25s var(--ease),transform .25s var(--ease),translate .5s var(--ease)}
+.acard.out{opacity:0;transform:scale(.97)}.js .acard.out{transition-duration:.25s}
+.acard .dtile{height:11rem}
+.acard .dbody{display:flex;flex-direction:column;flex:1;padding:1.25rem 1.25rem 0}
+.acard h3{padding-top:.875rem}.acard p.t-bm{padding-top:.625rem}
+.acard .meta{display:flex;flex-wrap:wrap;align-items:center;gap:.375rem 1rem;font-size:.8125rem;color:var(--muted)}
+.acard .meta .cat{padding:.25rem .625rem;border-radius:999px;background:var(--soft);color:var(--accent)}
+.acard .meta span:last-child{display:inline-flex;align-items:center;gap:.375rem}
+.acard .meta svg{width:.8rem;height:.8rem}
+.acard.feat{grid-column:span 2;flex-direction:row;gap:1rem;padding:.75rem}
+.acard.feat .dtile{flex:0 0 42%;height:auto;min-height:20rem}
+.acard.feat .dbody{padding:1.5rem 1.25rem 1rem 1rem}
+.acard.feat p.t-bm{font-size:var(--t-bl)}
+.newb{position:absolute;left:.75rem;top:.75rem;display:inline-flex;align-items:center;height:1.75rem;padding:0 .75rem;border-radius:999px;background:var(--lime);color:var(--ink);font-size:.8125rem;font-weight:500}
+.dmv li a{display:block}
+.dmv li{padding:0}.dmv li a{padding:.375rem .875rem;border-radius:999px;transition:background .25s var(--ease),color .25s var(--ease)}
+.dmv li a:hover{background:var(--lime);color:var(--ink)}
+.dmrow:not(a){cursor:default}
+@media (max-width:1024px){.agrid{grid-template-columns:1fr 1fr}.acard.feat{grid-column:1/-1}}
+@media (max-width:768px){.agrid{grid-template-columns:1fr}.acard.feat{flex-direction:column}.acard.feat .dtile{flex:none;min-height:11rem}.acard.feat .dbody{padding:1.25rem 1.25rem 0}}
+@media (max-width:1100px){.hdr nav,.bar nav{gap:1.25rem}}
