@@ -635,3 +635,21 @@ html[data-preloader] .pre{display:block}
 .js .dmrow.in{opacity:1;transform:none}
 @media (max-width:1024px){.prgrid{grid-template-columns:1fr}.dmrow{grid-template-columns:auto 1fr auto}.dmv{grid-column:1/-1;padding-top:.25rem}}
 @media (max-width:560px){.prt{padding:1.5rem}}
+
+/* ===== Vendor logos ===== */
+.brand{display:block;width:100%;height:100%;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat}
+.logo-tile{flex:none;display:flex;align-items:center;justify-content:center;width:5rem;height:3.5rem;padding:.75rem 1rem;border-radius:var(--r-panel);background:var(--soft);color:var(--ink);transition:background .3s var(--ease),color .3s var(--ease)}
+.logo-tile.txt{font-weight:500;font-size:var(--t-tm);letter-spacing:-.02em;color:var(--muted)}
+.prt:hover .logo-tile{background:var(--ink);color:var(--on)}
+.prt.flash{box-shadow:0 0 0 3px var(--accent2);transition:box-shadow .3s var(--ease)}
+.lwall{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden}
+.lcell{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.75rem;height:9rem;padding:1.5rem;background:var(--surface);color:var(--muted);text-align:center;transition:background .3s var(--ease),color .3s var(--ease)}
+.lcell .brand{width:100%;max-width:6rem;height:2.5rem}
+.lcell .wtxt{display:flex;align-items:center;height:2.5rem;font-size:var(--t-tl);font-weight:500;letter-spacing:-.02em}
+.lcell small{font-size:.8125rem;line-height:1}
+.lcell:hover,.lcell:focus-visible{background:var(--soft);color:var(--accent)}
+.js .lcell{opacity:0;transform:translateY(1rem);transition:opacity .7s var(--ease),transform .8s var(--ease),background .3s var(--ease),color .3s var(--ease);transition-delay:var(--d,0ms)}
+.js .lcell.in{opacity:1;transform:none}
+@media (max-width:1024px){.lwall{grid-template-columns:repeat(4,1fr)}.lcell{height:8rem}}
+@media (max-width:560px){.lwall{grid-template-columns:repeat(3,1fr)}.lcell{height:7rem;padding:1rem}}
+.lcell.more{color:var(--accent)}.lcell.more small{font-size:.875rem;line-height:1.3;max-width:9rem}.lcell.more:hover{background:var(--ink);color:var(--on)}.lcell.more:hover .mico{background:var(--lime);color:var(--ink)}

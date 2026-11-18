@@ -47,6 +47,7 @@ No build step: the folder is plain static files, so any static host works. `robo
 
 ## Things to know before porting
 
+- **Vendor logos** are single-colour marks from Simple Icons (CC0), in `assets/brands/` with a licence and trademark note. They identify the vendor and imply no endorsement. Where a vendor's partner programme sets its own logo rules, swap in the programme's assets before publishing. BytePlus has no mark in that set and uses an initials tile.
 - **Partner certifications are left out.** The Partners page shows what we do on each vendor and the services it supports. The certification lists on the current site are not shown until the team confirms which are held. NVIDIA is in `canon.json` but has no entry on the current Partners page, so it is not on this one either.
 - **Case-study metrics are left out.** The case-study cards show only the published summaries. The numbers in `canon.json` need team sign-off before they are shown.
 - **The contact form sends nothing.** It validates and shows a confirmation that says so. The Next.js build posts to the existing contact route.

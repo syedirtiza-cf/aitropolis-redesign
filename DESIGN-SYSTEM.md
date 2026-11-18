@@ -92,6 +92,7 @@ Required states on every interactive element: default, hover, active, focus-visi
 - **Sub-page hero:** the same hero as the homepage, with a tilted stat card. The card holds one big figure, three dashed rows and a chart of real data (bars of counts, or the studio coverage chart). No invented numbers.
 - **Explorer (industries):** a sticky list of sectors on the left; the right panel swaps content on hover, click or arrow keys, and follows the URL hash. On tablet and phone the list becomes a horizontal chip row.
 - **Filter and search (case studies):** pill filters with `aria-pressed`, a live search, an `aria-live` count, an empty state. Cards fade out before they are hidden.
+- **Vendor marks (partners):** single colour, drawn with a CSS mask from `assets/brands/*.svg` (CC0), in ink on a soft tile and in the muted text colour on the logo wall. Never recoloured to a brand colour, never enlarged past the tile. The mask URL in a `--m` variable resolves from the stylesheet, so write `url(brands/name.svg)`.
 - **People and offices (about):** initials tiles on the blue gradients, years of experience as a plain figure, and offices with a live local time.
 - **Form (contact):** 14px fields, visible labels with "required" or "optional", inline errors tied to the field with `aria-invalid`, an error summary with `role="alert"` and focus on the first error, a loading state, and a confirmation with `role="status"` and focus moved to it. A honeypot field is hidden from people and screen readers. Errors use `#b3261e`, which is never used for anything else.
 

@@ -26,9 +26,20 @@ $("#ptotal").textContent=P.length;
   if(REDUCED)run();else inView($("#dash"),run,"0px")})();
 /* directory */
 const grid=$("#prgrid"),arrow=ic("arrow-right");
-P.forEach((p,i)=>{const a=mk("article","card prt");a.dataset.k=p.k;a.dataset.r="";a.style.setProperty("--d",`${(i%2)*90}ms`);
+/* Vendor marks: Simple Icons (CC0). BytePlus has no mark in that set, so it keeps an initials tile. */
+const LOGO={AWS:"aws",Azure:"azure",GCP:"gcp",Oracle:"oracle",SAP:"sap",Odoo:"odoo","Red Hat":"redhat",VMware:"vmware",IBM:"ibm",Zoom:"zoom"};
+const slug=p=>"p-"+p.s.toLowerCase().replace(/[^a-z0-9]/g,"");
+const logoTile=(p,ini)=>LOGO[p.s]?`<span class="logo-tile" role="img" aria-label="${p.s} logo"><span class="brand" style="--m:url(brands/${LOGO[p.s]}.svg)"></span></span>`:`<span class="logo-tile txt" aria-hidden="true">${ini}</span>`;
+/* logo wall */
+(()=>{const w=$("#lwall");P.forEach((p,i)=>{const a=mk("a","lcell");a.href="#"+slug(p);a.setAttribute("aria-label",p.n);a.setAttribute("role","listitem");a.dataset.r="";a.style.setProperty("--d",`${i*40}ms`);
+  a.innerHTML=LOGO[p.s]?`<span class="brand" style="--m:url(brands/${LOGO[p.s]}.svg)"></span><small>${p.s}</small>`:`<span class="wtxt">${p.s}</span>`;w.append(a);
+  a.addEventListener("click",e=>{const t=document.getElementById(slug(p));if(!t)return;e.preventDefault();if(t.hidden)$(".chip",$("#chipbar")).click();t.scrollIntoView({behavior:"smooth",block:"center"});t.classList.add("flash");setTimeout(()=>t.classList.remove("flash"),1600)});
+  if(!REDUCED)new IntersectionObserver(([e],io)=>{if(e.isIntersecting){a.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(a)});
+  /* a twelfth cell keeps the grid even and answers "what if my vendor is not here?" */
+  const m=mk("a","lcell more");m.href="contact.html";m.setAttribute("role","listitem");m.innerHTML=`<span class="mico">${ic("plus")}</span><small>Using something else? Ask us</small>`;w.append(m)})();
+P.forEach((p,i)=>{const a=mk("article","card prt");a.id=slug(p);a.dataset.k=p.k;a.dataset.r="";a.style.setProperty("--d",`${(i%2)*90}ms`);
   const ini=p.s.replace(/[^A-Za-z0-9]/g,"").slice(0,2).toUpperCase();
-  a.innerHTML=`<div class="prt-h"><span class="mono-tile ${p.g}" aria-hidden="true">${ini}</span><div><h3 class="t-tl">${p.n}</h3><p class="tier">${p.tier}</p></div></div><p class="t-bm muted">${p.d}</p><p class="eb">Where we work on it</p><ul class="tags">${p.c.map(x=>`<li>${x}</li>`).join("")}</ul><p class="eb">Services it supports</p><ul class="prt-sv">${p.sv.map(k=>`<li><a href="${SV[k][1]}"><span>${SV[k][0]}</span>${arrow}</a></li>`).join("")}</ul>`;
+  a.innerHTML=`<div class="prt-h">${logoTile(p,ini)}<div><h3 class="t-tl">${p.n}</h3><p class="tier">${p.tier}</p></div></div><p class="t-bm muted">${p.d}</p><p class="eb">Where we work on it</p><ul class="tags">${p.c.map(x=>`<li>${x}</li>`).join("")}</ul><p class="eb">Services it supports</p><ul class="prt-sv">${p.sv.map(k=>`<li><a href="${SV[k][1]}"><span>${SV[k][0]}</span>${arrow}</a></li>`).join("")}</ul>`;
   grid.append(a);if(!REDUCED)new IntersectionObserver(([e],io)=>{if(e.isIntersecting){a.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(a)});
 const bar=$("#chipbar");let kind="all";
 const chip=(k,l)=>{const b=mk("button","chip");b.type="button";b.dataset.k=k;b.setAttribute("aria-pressed",String(k==="all"));b.textContent=l;b.addEventListener("click",()=>{kind=k;$$(".chip",bar).forEach(x=>x.setAttribute("aria-pressed",String(x===b)));apply()});bar.append(b)};
