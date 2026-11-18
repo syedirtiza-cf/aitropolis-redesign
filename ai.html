@@ -7,14 +7,14 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Enterprise AI and GPU Infrastructure | Aitropolis</title>
 <meta name="description" content="Generative AI, machine learning and managed NVIDIA GPU infrastructure from the Intelligence district, built around your business logic.">
-<link rel="icon" href="assets/icon.svg?v=202611190320" type="image/svg+xml">
-<link rel="icon" href="assets/favicon.ico?v=202611190320" sizes="48x48">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=202611190320">
+<link rel="icon" href="assets/icon.svg?v=202611190324" type="image/svg+xml">
+<link rel="icon" href="assets/favicon.ico?v=202611190324" sizes="48x48">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=202611190324">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
 <script>try{if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("js")}catch(e){}</script>
-<link rel="stylesheet" href="assets/site.css?v=202611190320">
+<link rel="stylesheet" href="assets/site.css?v=202611190324">
 </head>
 <body>
 <div class="cover" id="cover">
@@ -118,8 +118,8 @@
   <div class="acts"><a class="btn btn-oi" href="contact.html">Contact</a><a class="btn btn-p" href="#" data-book>Book a call</a></div></div>
 
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
-<script src="assets/icons.js?v=202611190320"></script>
-<script src="assets/site.js?v=202611190320"></script>
+<script src="assets/icons.js?v=202611190324"></script>
+<script src="assets/site.js?v=202611190324"></script>
 <script>
 const {inView,REDUCED}=window.AIT;
 (()=>{const host=document.getElementById("bars");if(!host)return;
@@ -137,6 +137,12 @@ document.querySelectorAll("[data-pix]").forEach(host=>{const kind=host.dataset.p
   const draw=p=>px.forEach(o=>{const g=smooth((p-o.s)/.4);o.e.setAttribute("r",1+4*g);o.e.setAttribute("fill-opacity",.4+.6*g)});
   if(REDUCED){draw(1);return}draw(0);
   inView(svg,()=>{const t0=performance.now()+200;const f=()=>{const p=clamp((performance.now()-t0)/1300);draw(easeIO(p));if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)},"0px 0px -5% 0px")})})();
+/* in-page nav: highlight the section in view */
+(()=>{const links=[...document.querySelectorAll(".subnav a")];if(!links.length)return;
+  const secs=links.map(a=>document.getElementById(a.getAttribute("href").slice(1))).filter(Boolean);
+  const set=id=>links.forEach(a=>{const on=a.getAttribute("href")==="#"+id;a.classList.toggle("on",on);if(on)a.setAttribute("aria-current","true");else a.removeAttribute("aria-current")});
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)set(e.target.id)})},{rootMargin:"-30% 0px -60% 0px"});secs.forEach(s=>io.observe(s));
+  links.forEach(a=>a.addEventListener("click",e=>{const t=document.getElementById(a.getAttribute("href").slice(1));if(!t)return;e.preventDefault();t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"});history.replaceState(null,"",a.getAttribute("href"))}))})();
 
 </script>
 </body>

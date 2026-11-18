@@ -14,3 +14,9 @@ document.querySelectorAll("[data-pix]").forEach(host=>{const kind=host.dataset.p
   const draw=p=>px.forEach(o=>{const g=smooth((p-o.s)/.4);o.e.setAttribute("r",1+4*g);o.e.setAttribute("fill-opacity",.4+.6*g)});
   if(REDUCED){draw(1);return}draw(0);
   inView(svg,()=>{const t0=performance.now()+200;const f=()=>{const p=clamp((performance.now()-t0)/1300);draw(easeIO(p));if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)},"0px 0px -5% 0px")})})();
+/* in-page nav: highlight the section in view */
+(()=>{const links=[...document.querySelectorAll(".subnav a")];if(!links.length)return;
+  const secs=links.map(a=>document.getElementById(a.getAttribute("href").slice(1))).filter(Boolean);
+  const set=id=>links.forEach(a=>{const on=a.getAttribute("href")==="#"+id;a.classList.toggle("on",on);if(on)a.setAttribute("aria-current","true");else a.removeAttribute("aria-current")});
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)set(e.target.id)})},{rootMargin:"-30% 0px -60% 0px"});secs.forEach(s=>io.observe(s));
+  links.forEach(a=>a.addEventListener("click",e=>{const t=document.getElementById(a.getAttribute("href").slice(1));if(!t)return;e.preventDefault();t.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"});history.replaceState(null,"",a.getAttribute("href"))}))})();

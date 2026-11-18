@@ -221,10 +221,22 @@ def clean(s):
 def stats(kv):
     return '<div class="gstats dark">' + "".join(f'<div class="card" data-r style="--d:{i * 90}ms"><p class="num-m">{E(v)}</p><p class="t-bm muted">{E(k)}</p></div>' for i, (k, v) in enumerate(kv)) + "</div>"
 
-def section(s, ids, icon, k=0, name="", tot=0):
+def srows(cards, ids, icon):
+    items = []
+    for i, c in enumerate(cards):
+        b = brand_in(c["h"])
+        ico = f'<span class="glogo">{mark(b[0])}</span>' if b else f'<span class="glogo gi">{ic(icon_for(c["h"] + "\x00" + " ".join(c["p"][:1]), c.get("href", ""), icon))}</span>'
+        body = "".join((f'<p class="eb" style="padding-top:.25rem">{E(p)}</p>' if len(p) <= 28 and not p.endswith(".") else f'<p class="t-bm muted">{E(p)}</p>') for p in c["p"])
+        if c["tags"]: body += '<ul class="tags">' + "".join(f"<li>{E(t)}</li>" for t in c["tags"]) + "</ul>"
+        if c["li"]: body += '<ul class="ep-list ok">' + "".join(f"<li>{ic('check')}<span>{E(x)}</span></li>" for x in c["li"]) + "</ul>"
+        if c["kv"]: body += '<dl class="spec">' + "".join(f"<div><dt>{E(a)}</dt><dd>{E(v)}</dd></div>" for a, v in c["kv"]) + "</dl>"
+        items.append(f'<article class="srow" data-r style="--d:{(i % 3) * 60}ms">{ico}<h3 class="t-tm">{E(c["h"])}</h3><div class="sbody">{body}</div></article>')
+    return '<div class="srows">' + "".join(items) + "</div>"
+
+def section(s, ids, icon, k=0, name="", tot=0, rows=False, bare=False):
     s = clean(s)
     sid = slug(s["eyebrow"] or s["h2"])
-    out = [f'<section class="sec px" id="{sid}">']
+    out = [f'<section class="{"ssec" if bare else "sec px"}" id="{sid}">']
     if not s["h2"] and not s["faq"] and not s["cards"]:
         if s["kv"] and len(s["kv"]) <= 6:
             out.append(stats(s["kv"]))
@@ -246,13 +258,15 @@ def section(s, ids, icon, k=0, name="", tot=0):
         out.append(head(s, icon, s["lead"], f'<p class="idx" aria-hidden="true">{k + 1:02d} / {tot:02d}</p>' if tot > 2 else ""))
         cards = [prep(c) for c in s["cards"]]
         if cards and sum(1 for c in cards if c["n"]) >= max(2, len(cards) - 1) and all(c["h"] for c in cards):
-            out[0] = f'<section class="sec px" id="{sid}"><div class="gband" data-r>'
+            out[0] = f'<section class="{"ssec" if bare else "sec px"}" id="{sid}"><div class="gband" data-r>'
             out.append(steps(cards))
             out.append("</div>")
             band = True
         elif cards:
             n = len(cards)
-            if 3 <= n <= 7 and k % 2 == 1 and not any(c["kv"] for c in cards):
+            if rows:
+                out.append(srows(cards, ids, icon))
+            elif 3 <= n <= 7 and k % 2 == 1 and not any(c["kv"] for c in cards):
                 first = card(cards[0], ids, 0, fb=icon).replace('class="card gcard"', 'class="card gcard big"', 1)
                 first = first.replace("</article>", tile(name, k, "gt") + "</article>", 1)
                 rest_cards = "".join(card(c, ids, i + 1, fb=icon) for i, c in enumerate(cards[1:]))
@@ -297,7 +311,7 @@ def prose(rest, ids, icon):
     nav = f'<nav class="ptoc" aria-label="On this page"><p class="eb" style="padding-top:0">On this page</p><ol>{"".join(toc)}</ol></nav>' if len(toc) > 2 else "<div></div>"
     return f'<section class="sec px" id="article"><div class="prose-grid">{nav}<article class="pbody">{"".join(blocks)}</article></div></section>'
 
-def platforms(secs):
+def platforms(secs, raw=False):
     text = []
     for s in secs:
         text += [s["h2"], s["h1"]] + s["lead"] + s["bullets"] + s["tags"] + [x for k in s["kv"] for x in k]
@@ -311,15 +325,42 @@ def platforms(secs):
         k = len(rx.findall(blob))
         if k:
             found.append((k, f, n))
+    found.sort(key=lambda x: -x[0])
+    if raw:
+        return found
     if len(found) < 2:
         return ""
-    found.sort(key=lambda x: -x[0])
     cells = "".join(f'<div class="gcell">{mark(f)}<small>{E(n)}</small></div>' for _, f, n in found[:12])
     return f'''<section class="sec px" id="platforms">
   <div class="shead dash-t"><div><span class="pill pill-line"><i>{ic("layers")}</i>Platforms</span></div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Platforms named on this page.</h2></div></div>
   <div class="gwall" data-r>{cells}</div>
   <p class="t-bs muted gfine" data-r>Product and platform names belong to their owners. A mark identifies the platform we work on and implies no endorsement.</p>
 </section>'''
+
+def service_body(rest, ids, icon, cfg, secs, hero_html, found):
+    name = cfg.get("name", "")
+    tot = len(rest)
+    main, nav = [], []
+    for k, sec in enumerate(rest):
+        main.append(section(sec, ids, icon, k, name, tot, rows=True, bare=True))
+        label = title_case(sec["eyebrow"]) or sec["h2"]
+        if label and (sec["h2"] or sec["eyebrow"]):
+            nav.append(f'<a href="#{slug(sec["eyebrow"] or sec["h2"])}">{E(short(label))}</a>')
+    nsteps = sum(len([c for c in sec["cards"] if c["n"]]) for sec in rest)
+    ncaps = sum(len(sec["cards"]) for sec in rest if not any(c["n"] for c in sec["cards"]))
+    nfaq = sum(len(sec["faq"]) for sec in rest)
+    facts = [(str(v), l) for v, l in ((len([a for a in nav]), "sections"), (nsteps, "delivery steps"), (nfaq, "questions answered")) if v]
+    marks = "".join(f'<li title="{E(n)}">{mark(f)}<span>{E(n)}</span></li>' for _, f, n in found[:6])
+    parts = name.split("-")
+    dist = (DIST.get(parts[1], "") + " district") if len(parts) > 1 else cfg.get("pill", "")
+    rail = f'''<aside class="svc-rail" aria-label="At a glance"><div class="card rail-card">
+      <p class="idx" style="padding-top:0">{E(dist)}</p>
+      <dl class="rail-facts">{"".join(f'<div><dt>{E(l)}</dt><dd>{E(v)}</dd></div>' for v, l in facts)}</dl>
+      {('<p class="eb" style="padding-top:1.25rem">Platforms named</p><ul class="rail-marks">' + marks + '</ul>') if marks else ''}
+      <div class="rail-acts"><a class="btn btn-p" href="#" data-book>Book a 15-minute assessment{ARROW}</a><a class="btn btn-oi" href="contact.html">Talk to an engineer, not a form</a></div>
+    </div></aside>'''
+    sub = f'<nav class="subnav" aria-label="On this page"><div class="px"><div class="subnav-in">{"".join(nav)}</div></div></nav>' if len(nav) > 2 else ""
+    return [hero_html, sub, f'<section class="px svc"><div class="svc-grid">{rail}<div class="svc-main">{"".join(main)}</div></div></section>']
 
 def build(data, cfg):
     secs = data["sections"]
@@ -373,7 +414,9 @@ def build(data, cfg):
 </section>'''
     wall = platforms(secs)
     name = cfg.get("name", "")
-    if cfg.get("prose"):
+    if cfg.get("service"):
+        body = service_body(rest, ids, icon, cfg, secs, hero_html, platforms(secs, True))
+    elif cfg.get("prose"):
         body = [hero_html] + ([wall] if wall else []) + [prose(rest, ids, icon)]
     else:
         body = [hero_html] + ([wall] if wall else []) + [section(s, ids, icon, k, name, len(rest)) for k, s in enumerate(rest)]
