@@ -23,6 +23,8 @@ SERVICE_LAYOUT = "service pages: solutions-<district>-<service>"
 CASE_LAYOUT = "every case-studies-* page"
 # insight articles (insights-*) use the editorial layout
 ARTICLE_LAYOUT = "every insights-* article"
+# district hubs on the hub layout (one for review first)
+HUB_LAYOUT = {"solutions-systems"}
 VERSION = time.strftime("%Y%m%d%H%M")
 
 def nav(active):
@@ -69,13 +71,13 @@ def main():
             out.append({"title": pagegen.short(c["title"]), "desc": trim(c["desc"] or ""), "href": k + ".html", "icon": c.get("icon", "sparkles")})
         return out
     for name, cfg in manifest.items():
-        cfg = {**cfg, "related": rel_for(name)}
+        cfg = {**cfg, "related": rel_for(name), "svc_list": [(pagegen.short(c["title"]), k) for k, c in manifest.items() if name.count("-") == 1 and k.startswith(name + "-")], "svc_desc": {k + ".html": trim(c["desc"] or "", 130) for k, c in manifest.items() if group(k).startswith("solutions-")}}
         if name.startswith("case-studies-"): cfg["related_h"] = "More published work."
         elif name.startswith("insights-"): cfg["related_h"] = "More to read."
         elif name.startswith("industries-"): cfg["related_h"] = "Other sectors."
         elif group(name).startswith("solutions-"): cfg["related_h"] = "Other services in this district."
         data = json.loads((SRC / "content" / f"{name}.json").read_text())
-        cfg = {**cfg, "name": name, "prose": name in ("privacy", "terms", "accessibility"), "case": name.startswith("case-studies-"), "article": name.startswith("insights-"), "service": len(name.split("-")) > 2 and name.split("-")[0] == "solutions" and name.split("-")[1] in pagegen.DIST}
+        cfg = {**cfg, "name": name, "prose": name in ("privacy", "terms", "accessibility"), "case": name.startswith("case-studies-"), "article": name.startswith("insights-"), "hub": name in HUB_LAYOUT, "service": len(name.split("-")) > 2 and name.split("-")[0] == "solutions" and name.split("-")[1] in pagegen.DIST}
         body = pagegen.build(data, cfg)
         ctx = {"v": VERSION, "nav": nav(cfg.get("active", "")), "on_contact": ""}
         ctx["header"] = render(header, ctx)

@@ -434,6 +434,55 @@ def case_body(rest, ids, icon, cfg, hero_html):
     sub = f'<nav class="subnav" aria-label="On this page"><div class="px"><div class="subnav-in">' + "".join(f'<a href="#{i}">{E(t)}</a>' for i, t in nav) + "</div></div></nav>" if len(nav) > 2 else ""
     return [hero_html, sub, f'<section class="px svc"><div class="svc-grid">{rail}<div class="svc-main">{"".join(main)}</div></div></section>']
 
+HUBS = {"systems": ("Systems", "blocks", "blocks"), "foundations": ("Foundations", "layers", "slabs"), "intelligence": ("Intelligence", "brain", "burst"),
+        "exchange": ("Exchange", "hexagon", "hex"), "signal": ("Signal", "radar", "waves"), "immersion": ("Immersion", "glasses", "gem")}
+SECTOR_PAGE = {"banking": "industries-banking", "telecom": "industries-telecommunications", "government": "industries-government", "manufactur": "industries-manufacturing", "retail": "industries-retail", "healthcare": "industries-healthcare"}
+
+def sector_link(label):
+    l = label.lower()
+    for k, v in SECTOR_PAGE.items():
+        if k in l: return v + ".html"
+    return ""
+
+def hub_services(rest, cfg=None):
+    """Every service page of the district (from the manifest), plus the live 'Dive deeper' section to drop."""
+    dive = next((sec for sec in rest if "dive deeper" in (sec["eyebrow"] or "").lower()), None)
+    own = (cfg or {}).get("svc_list") or []
+    if own:
+        return [{"h": t, "href": "/" + k.replace("-", "/", 2)} for t, k in own], dive
+    return ([c for c in dive["cards"] if c.get("href")] if dive else []), dive
+
+def switcher(cur):
+    items = "".join(f'<a href="solutions-{k}.html"{" class=\"on\" aria-current=\"page\"" if k == cur else ""}>{ic(v[1])}{v[0]}</a>' for k, v in HUBS.items())
+    return f'<nav class="subnav dswitch" aria-label="Districts"><div class="px"><div class="subnav-in">{items}</div></div></nav>'
+
+def hub_body(rest, ids, icon, cfg, hero_html, services, dive):
+    name = cfg.get("name", "")
+    key = name.split("-")[1]
+    art_kind = HUBS[key][2]
+    descs = cfg.get("svc_desc", {})
+    tiles = []
+    for i, c in enumerate(services):
+        href = route(c["href"], ids)
+        d = descs.get(href, "")
+        tiles.append(f'<article class="card ecard" data-r style="--d:{(i % 3) * 90}ms"><div class="dtile {GRADS[i % 3]}" data-pix="{art_kind if i % 2 == 0 else KINDS[(KINDS.index(art_kind) + i) % 6]}" aria-hidden="true"></div><div class="dbody"><h3 class="t-tl">{E(c["h"])}</h3><p class="t-bm muted">{E(d)}</p><a class="open-d lnk" href="{E(href)}" aria-label="See the service: {E(c["h"])}">See the service</a></div></article>')
+    head = f'<div class="shead dash-t"><div><span class="pill pill-line"><i>{ic("layout-grid")}</i>Services</span></div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">Start with the service that fits.</h2><p class="t-bm muted">Each service has its own page with what is included, how it runs and the questions people ask.</p></div></div>'
+    out = [hero_html, switcher(key), f'<section class="sec px" id="services">{head}<div class="egrid hgrid">{"".join(tiles)}</div></section>']
+    todo = [s for s in rest if s is not dive]
+    for k, sec in enumerate(todo):
+        e = (sec["eyebrow"] or "").lower()
+        if "industries we serve" in e:
+            sec = clean(sec)
+            chips = "".join((f'<li><a href="{sector_link(b)}">{E(b)}</a></li>' if sector_link(b) else f"<li>{E(b)}</li>") for b in sec["bullets"])
+            out.append(f'<section class="sec px" id="industries"><div class="shead dash-t"><div><span class="pill pill-line"><i>{ic("factory")}</i>Industries</span></div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">{E(sec["h2"])}</h2></div></div><ul class="tags big" data-r>{chips}</ul></section>')
+        else:
+            out.append(section(sec, ids, icon, k, name, len(todo)))
+    return out
+
+def hub_hero_parts(cfg, services, ids):
+    items = "".join(f'<li><a href="{E(route(c["href"], ids))}"><span>{i + 1:02d}</span>{E(c["h"])}</a></li>' for i, c in enumerate(services))
+    return f'<div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Services in this district</p></div><ol class="kcont">{items}</ol>'
+
 def alist(items):
     rows = []
     for x in items:
@@ -495,6 +544,13 @@ def build(data, cfg):
         pillnote = E(facts_case["domain"] or facts_case["district"] or "Case study")
         rows_html = "".join(f'<div class="dash-t d"{" style=\"padding-top:1rem\"" if i == 0 else ""}><dt>{E(k)}</dt><dd>{E(v)}</dd></div>' for i, (k, v) in enumerate([("District", facts_case["district"]), ("Domain", facts_case["domain"]), ("Format", "Published case study")]) if v)
         right_html = '<div class="dash-head"><p class="t-bs" style="color:var(--on-soft)">Key figures</p></div><dl class="kfig">' + "".join(f'<div><dd>{E(v)}</dd><dt>{E(k)}</dt></div>' for k, v in facts_case["stats"][:4]) + "</dl>"
+    elif cfg.get("hub"):
+        svcs, _d = hub_services(rest, cfg)
+        sub = "Services"
+        num_html = f'<p class="num-l">{len(svcs)}</p>'
+        pillnote = "each with its own page"
+        rows_html = '<div class="dash-t d" style="padding-top:1rem"><dt>Founded</dt><dd data-canon="founded">2010</dd></div><div class="dash-t d"><dt>Deployments</dt><dd data-canon="deployments">200+</dd></div><div class="dash-t d"><dt>Countries</dt><dd data-canon="countries">30+</dd></div>'
+        right_html = hub_hero_parts(cfg, svcs, ids)
     elif cfg.get("article"):
         meta = [b for b in hero["bullets"] if b.strip() and b.strip() != "•"]
         date = meta[0] if meta else ""
@@ -543,7 +599,10 @@ def build(data, cfg):
 </section>'''
     wall = platforms(secs)
     name = cfg.get("name", "")
-    if cfg.get("article"):
+    if cfg.get("hub") and hub_services(rest, cfg)[0]:
+        svcs, dive = hub_services(rest, cfg)
+        body = hub_body(rest, ids, icon, cfg, hero_html, svcs, dive)
+    elif cfg.get("article"):
         body = article_body(rest, ids, icon, cfg, hero_html)
     elif cfg.get("case"):
         body = case_body(rest, ids, icon, {**cfg, "_facts": facts_case}, hero_html)

@@ -879,3 +879,24 @@ html[data-preloader] .pre{display:block}
 .aend{padding-top:1rem}
 .ptoc a.on{color:var(--ink);font-weight:500}
 @media (max-width:768px){.aprog{top:4rem}.ablock.acall{padding:1.5rem}.atable>div{flex-direction:column;gap:.25rem}.aend .rail-acts{grid-template-columns:1fr!important}}
+
+/* ---- District hubs ---- */
+.dswitch .subnav-in{justify-content:center}
+.dswitch a{display:inline-flex;align-items:center;gap:.5rem}
+.dswitch .ic{width:1rem;height:1rem}
+.hgrid{grid-template-columns:repeat(3,1fr)}
+.hgrid .ecard .dbody{display:flex;flex-direction:column;gap:.75rem;padding:1.5rem .75rem 0}
+.hgrid .ecard .dbody .lnk{margin-top:auto}
+.tags.big{gap:.625rem;padding-top:0}
+.tags.big li{padding:0;background:none}
+.tags.big li,.tags.big a{font-size:var(--t-bm)}
+.tags.big li{padding:.625rem 1.125rem;border-radius:999px;background:var(--surface);border:1px solid var(--line)}
+.tags.big li:has(a){padding:0}
+.tags.big a{display:block;padding:.625rem 1.125rem;border-radius:999px;transition:background .25s var(--ease),color .25s var(--ease)}
+.tags.big a:hover,.tags.big a:focus-visible{background:var(--ink);color:var(--on)}
+@media (max-width:1024px){.hgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:768px){.hgrid{grid-template-columns:1fr}.dswitch .subnav-in{justify-content:flex-start}}
+.egrid{display:grid;gap:1.25rem}
+.ecard{display:flex;flex-direction:column;padding:.75rem .75rem 1.5rem}
+.ecard .dtile{height:11rem}
+.hgrid .ecard .dbody{padding-inline:.75rem}
