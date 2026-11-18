@@ -380,7 +380,11 @@ def build(data, cfg):
     alt = f'<a class="btn btn-o" href="{E(sec_link[1])}">{E(sec_link[0])}</a>' if sec_link else f'<a class="btn btn-o" href="#{slug(rest[0]["eyebrow"] or rest[0]["h2"]) if rest else "start"}">See what is covered</a>'
     sized = [s for s in rest if count(s) and s["h2"] and not s["faq"]]
     mx = max([count(s) for s in sized] or [1])
-    bars = [[(title_case(s["eyebrow"]) or s["h2"])[:22], count(s)] for s in sized][:7]
+    def lab(s):
+        t = short(title_case(s["eyebrow"]) or s["h2"])
+        return t if len(t) <= 26 else t[:26].rsplit(" ", 1)[0] + "…"
+    bars = [[lab(s), count(s)] for s in sized][:7]
+    nsec = len([s for s in rest if s["h2"] or s["eyebrow"]])
     total = sum(count(s) for s in rest if not s["faq"])
     sub = cfg.get("stat", "Topics on this page")
     hero_html = f'''<section id="top" class="hero px">
@@ -402,7 +406,7 @@ def build(data, cfg):
         <div class="dash-l">
           <div>
             <p class="t-bs" style="color:var(--on-soft)">{E(sub)}</p>
-            <p class="num-l" data-count>{len(sized)}</p>
+            <p class="num-l" data-count>{nsec}</p>
             <div style="padding-top:1rem"><span class="stat-pill">{ic("arrow-up-right")}<span>{total} items listed across them</span></span></div>
           </div>
           <dl class="rows">
