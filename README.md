@@ -12,7 +12,7 @@ Standalone HTML prototypes of the redesigned site. They are a design test for th
 | About | `about.html` (generated) |
 | Contact | `contact.html` (generated) |
 
-Shared code lives in `assets/site.css` and `assets/site.js`. `assets/icons.js` is the inline Lucide icon sprite (ISC licence, see `assets/LICENSE-lucide.txt`). Each page adds its own markup and a small page script. `assets/` also holds the logo files. The Solutions mega menu and the district data are in `assets/site.js`.
+Shared code lives in `assets/site.css` and `assets/site.js`. `assets/icons.js` is the inline Lucide icon sprite (ISC licence, see `assets/LICENSE-lucide.txt`). Each page adds its own markup and a small page script. `assets/` also holds the logo files and the favicon set (`icon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`), all the electric blue symbol. The Solutions mega menu and the district data are in `assets/site.js`.
 
 ## Generated pages
 
