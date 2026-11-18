@@ -48,6 +48,14 @@ def brand_in(text):
     return None
 
 ICONS = [
+ (r"business case|\broi\b|return on|invest|value", "trending-up"),
+ (r"success stor|case stud|on record|client", "briefcase"),
+ (r"further reading|reading|resources|guides", "book-open"),
+ (r"why |difference|advantage", "lightbulb"),
+ (r"what we (deliver|do)|capabilit|deliverable|included", "package"),
+ (r"methodolog|how we|how it|approach|delivery", "workflow"),
+ (r"industries|sectors|verticals", "factory"),
+ (r"questions|faq", "circle-help"),
  (r"\bcrm\b|salesforce|hubspot|siebel|customer relationship", "users"),
  (r"\berp\b|\bebs\b|\bsap\b|dynamics|odoo|enterprise resource", "blocks"),
  (r"assess|audit|review|discover|diagnos|health check|readiness|gap", "scan-search"),
@@ -207,7 +215,7 @@ def steps(cards):
     return f'<ol class="gsteps">{items}</ol>'
 
 def head(s, icon, lead, idx=""):
-    pill = f'<span class="pill pill-line"><i>{ic(icon_for(s["eyebrow"] + " " + s["h2"], "", icon))}</i>{E(title_case(s["eyebrow"]))}</span>' if s["eyebrow"] else ""
+    pill = f'<span class="pill pill-line"><i>{ic(icon_for(s["eyebrow"], "", icon))}</i>{E(title_case(s["eyebrow"]))}</span>' if s["eyebrow"] else ""
     ld = "".join(f'<p class="t-bm muted">{E(p)}</p>' for p in lead)
     return f'<div class="shead dash-t"><div>{pill}{idx}</div><div class="hd" data-r="fade"><h2 class="h2" data-mask="h">{E(s["h2"])}</h2>{ld}</div></div>'
 
