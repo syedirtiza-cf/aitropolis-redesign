@@ -1,0 +1,295 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Global delivery",
+   "h1": "A project should not stop when one office closes",
+   "h2": "",
+   "lead": [
+    "Studios in four time zones pass work to each other at the end of each local day, so a fix or a build can move overnight instead of waiting for the next morning."
+   ],
+   "links": [
+    [
+     "Talk to an engineer, not a form",
+     "/contact"
+    ]
+   ],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Four studios",
+   "h1": "",
+   "h2": "Where the work is done",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Dubai",
+     "lvl": "h3",
+     "p": [
+      "Global HQ, UAE, DIFC, Dubai International Financial Centre."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Time zone",
+       "GMT+4"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "London",
+     "lvl": "h3",
+     "p": [
+      "Europe, UK."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Time zone",
+       "GMT+0/+1"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Islamabad",
+     "lvl": "h3",
+     "p": [
+      "South Asia, Pakistan."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Time zone",
+       "GMT+5"
+      ]
+     ],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "",
+     "h": "Singapore",
+     "lvl": "h3",
+     "p": [
+      "APAC, Singapore."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [
+      [
+       "Time zone",
+       "GMT+8"
+      ]
+     ],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "How a handover works",
+   "h1": "",
+   "h2": "Five habits that keep it from dropping work",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "One owner per workstream",
+     "lvl": "h3",
+     "p": [
+      "A named person is accountable for each piece of work, whichever studio is awake."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "A written handover each day",
+     "lvl": "h3",
+     "p": [
+      "What was done, what is blocked and what the next studio should pick up first."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "One backlog, one tracker",
+     "lvl": "h3",
+     "p": [
+      "Every studio works from the same list, so nothing lives in a private inbox."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "Overlap windows for decisions",
+     "lvl": "h3",
+     "p": [
+      "Where two working days overlap, questions that need a conversation are held for that window."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "A named lead for escalation",
+     "lvl": "h3",
+     "p": [
+      "Problems go to a person with authority to decide, not into a queue."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it does not fit",
+   "h1": "",
+   "h2": "A limit worth knowing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Tightly coupled work wants overlap",
+     "lvl": "h3",
+     "p": [
+      "Work that needs constant conversation between a few people, such as early architecture, is slower when it is passed between time zones. We keep those teams in overlapping hours and use the handover model for work that can be split cleanly."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Related",
+   "h1": "",
+   "h2": "Read next",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/offshore-it-teams",
+     "n": "",
+     "h": "Offshore IT teams",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/managed-services",
+     "n": "",
+     "h": "Managed services",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/about",
+     "n": "",
+     "h": "About Aitropolis",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Global delivery, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Where are your studios?",
+     "a": [
+      "Dubai, London, Islamabad and Singapore. Dubai is the global head office."
+     ]
+    },
+    {
+     "q": "How does follow-the-sun delivery work?",
+     "a": [
+      "Each studio works its own local day. At the end of it, the team writes a handover and passes open work to the next studio, so progress continues while the first team is offline."
+     ]
+    },
+    {
+     "q": "Will someone be available in our time zone?",
+     "a": [
+      "Working hours and response times are agreed per engagement. Overlap with your day is one of the things we plan for at the start, not something we promise for every project in advance."
+     ]
+    },
+    {
+     "q": "Is every service covered around the clock?",
+     "a": [
+      "No. Round-the-clock cover is set in the service agreement for services such as managed operations. Project work follows the studio working days agreed for it."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

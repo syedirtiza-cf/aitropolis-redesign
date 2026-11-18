@@ -49,6 +49,7 @@ def main():
     def group(n):
         if n.startswith("case-studies-"): return "case-studies-"
         if n.startswith("insights-"): return "insights-"
+        if n.startswith("industries-"): return "industries-"
         parts = n.split("-")
         if parts[0] == "solutions" and len(parts) > 2 and parts[1] in pagegen.DIST: return f"solutions-{parts[1]}-"
         return ""
@@ -67,6 +68,7 @@ def main():
         cfg = {**cfg, "related": rel_for(name)}
         if name.startswith("case-studies-"): cfg["related_h"] = "More published work."
         elif name.startswith("insights-"): cfg["related_h"] = "More to read."
+        elif name.startswith("industries-"): cfg["related_h"] = "Other sectors."
         elif group(name).startswith("solutions-"): cfg["related_h"] = "Other services in this district."
         data = json.loads((SRC / "content" / f"{name}.json").read_text())
         cfg = {**cfg, "name": name, "prose": name.startswith("insights-") or name in ("privacy", "terms", "accessibility"), "service": name in SERVICE_LAYOUT}

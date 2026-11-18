@@ -479,5 +479,78 @@
    "p": "Book an assessment and bring the report, batch or system that hurts most. An engineer will say where to look first."
   },
   "icon": "blocks"
+ },
+ "industries-banking": {
+  "title": "Banking & Financial Services IT Solutions",
+  "desc": "Enterprise banking systems must handle mission-critical transactions, regulatory compliance and 24/7 availability.",
+  "active": "industries",
+  "icon": "landmark",
+  "pill": "Industries",
+  "cta": {
+   "h": "Start with the system that blocks you most",
+   "p": "Book an assessment and name the platform that causes the most trouble. An engineer will say where to begin."
+  }
+ },
+ "industries-telecommunications": {
+  "title": "Telecommunications IT Solutions",
+  "desc": "Telecom operators need agile billing, customer management and infrastructure to compete.",
+  "active": "industries",
+  "icon": "radio-tower",
+  "pill": "Industries",
+  "cta": {
+   "h": "Start with the system that blocks you most",
+   "p": "Book an assessment and name the platform that causes the most trouble. An engineer will say where to begin."
+  }
+ },
+ "industries-government": {
+  "title": "Government & Public Sector IT Solutions",
+  "desc": "Government agencies require secure, compliant systems that serve citizens while keeping availability high.",
+  "active": "industries",
+  "icon": "building-2",
+  "pill": "Industries",
+  "cta": {
+   "h": "Start with the system that blocks you most",
+   "p": "Book an assessment and name the platform that causes the most trouble. An engineer will say where to begin."
+  }
+ },
+ "industries-manufacturing": {
+  "title": "Manufacturing & Supply Chain IT Solutions",
+  "desc": "Manufacturers face supply chain complexity, need real-time visibility and must optimise operations globally.",
+  "active": "industries",
+  "icon": "factory",
+  "pill": "Industries",
+  "cta": {
+   "h": "Start with the system that blocks you most",
+   "p": "Book an assessment and name the platform that causes the most trouble. An engineer will say where to begin."
+  }
+ },
+ "industries-retail": {
+  "title": "Retail IT Solutions",
+  "desc": "Retailers must deliver seamless omnichannel experiences while managing inventory, pricing and customer loyalty.",
+  "active": "industries",
+  "icon": "shopping-bag",
+  "pill": "Industries",
+  "cta": {
+   "h": "Start with the system that blocks you most",
+   "p": "Book an assessment and name the platform that causes the most trouble. An engineer will say where to begin."
+  }
+ },
+ "industries-healthcare": {
+  "title": "Healthcare IT Solutions",
+  "desc": "Healthcare providers must protect data, stay compliant and keep systems interoperable while delivering patient-centred care.",
+  "active": "industries",
+  "icon": "heart-pulse",
+  "pill": "Industries",
+  "cta": {
+   "h": "Start with the system that blocks you most",
+   "p": "Book an assessment and name the platform that causes the most trouble. An engineer will say where to begin."
+  }
+ },
+ "global-delivery": {
+  "title": "Global Delivery: Follow-the-Sun Studios",
+  "desc": "Four studios in four time zones hand work to each other at the end of each local day, so projects keep moving overnight.",
+  "active": "about",
+  "icon": "globe",
+  "pill": "Global delivery"
  }
 }

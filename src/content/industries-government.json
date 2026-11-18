@@ -1,0 +1,258 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Government & Public Sector",
+   "h1": "Public systems have to be secure and affordable to run",
+   "h2": "",
+   "lead": [
+    "Agencies hold data that citizens cannot take elsewhere, on systems that span departments and budgets that rarely grow."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it hurts",
+   "h1": "",
+   "h2": "What the sector asks of its systems",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Legacy systems integration across agencies",
+    "Security and compliance (FedRAMP, NIST, ISO)",
+    "E-government services modernisation",
+    "Data silos and information sharing",
+    "Budget constraints and cost optimisation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we deliver",
+   "h1": "",
+   "h2": "The work we take on",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Government ERP systems",
+    "Secure cloud deployment",
+    "Data warehouse and analytics",
+    "Citizen experience modernisation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "What we lean on",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Technology focus",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Secure cloud (GovCloud, FedRAMP)",
+      "Data integration",
+      "Analytics for citizen services"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "Where we start",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/systems/erp",
+     "n": "",
+     "h": "ERP implementation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud transformation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/bi",
+     "n": "",
+     "h": "Business intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/managed-services",
+     "n": "",
+     "h": "Managed services",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/iso-bpm",
+     "n": "",
+     "h": "ISO & business process management",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it does not fit",
+   "h1": "",
+   "h2": "A limit worth knowing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Procurement and accreditation set the pace",
+     "lvl": "h3",
+     "p": [
+      "Procurement rules and security accreditation decide how fast work can move. Some data may not be allowed in any public cloud, and then private cloud is the answer."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Published work",
+   "h1": "",
+   "h2": "Projects in this sector",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/case-studies/uae-public-sector-cloud-compliance",
+     "n": "",
+     "h": "UAE Public Sector Entity",
+     "lvl": "h3",
+     "p": [
+      "IAR compliance through Oracle Cloud and managed services"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/dubai-municipality-ai-frames",
+     "n": "",
+     "h": "Dubai Municipality",
+     "lvl": "h3",
+     "p": [
+      "AI frames across civic infrastructure"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/rta-iot-museum",
+     "n": "",
+     "h": "RTA",
+     "lvl": "h3",
+     "p": [
+      "IoT and audio-visual for a transport museum"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Government & Public Sector, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Which government & public sector problems do you work on?",
+     "a": [
+      "Legacy systems integration across agencies, security and compliance (FedRAMP, NIST, ISO), e-government services modernisation, data silos and information sharing and budget constraints and cost optimisation."
+     ]
+    },
+    {
+     "q": "Which services do government & public sector clients use?",
+     "a": [
+      "ERP implementation, cloud transformation, business intelligence, managed services and iSO & business process management."
+     ]
+    },
+    {
+     "q": "What government & public sector work have you published?",
+     "a": [
+      "UAE Public Sector Entity (IAR compliance through Oracle Cloud and managed services), Dubai Municipality (AI frames across civic infrastructure) and RTA (IoT and audio-visual for a transport museum)."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

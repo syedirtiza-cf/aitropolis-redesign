@@ -48,6 +48,8 @@ def brand_in(text):
     return None
 
 ICONS = [
+ (r"\b(dubai|london|islamabad|singapore)\b|studios|offices|locations", "map-pin"),
+ (r"business intelligence|analytics|dashboard|reporting", "chart-column"),
  (r"business case|\broi\b|return on|invest|value", "trending-up"),
  (r"success stor|case stud|on record|client", "briefcase"),
  (r"further reading|reading|resources|guides", "book-open"),
@@ -139,6 +141,8 @@ def crumbs(name, cfg):
     parts = name.split("-")
     if name.startswith("case-studies-"): return [("Case studies", "case-studies.html"), (t, "")]
     if name.startswith("insights-"): return [("Insights", "insights.html"), (t, "")]
+    if name.startswith("industries-"): return [("Industries", "industries.html"), (re.sub(r" IT Solutions$", "", t), "")]
+    if name == "global-delivery": return [("About", "about.html"), ("Global delivery", "")]
     if name in ("privacy", "terms", "accessibility"): return [("Legal", ""), (t, "")]
     if name == "ai": return [("Solutions", "solutions.html"), ("AI Center", "")]
     if name == "ai-gpu": return [("Solutions", "solutions.html"), ("AI Center", "ai.html"), ("GPU", "")]

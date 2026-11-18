@@ -1,0 +1,259 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Telecommunications",
+   "h1": "Billing errors reach customers before the engineers see them",
+   "h2": "",
+   "lead": [
+    "Operators run rating, provisioning and messaging at volume, on platforms that grew by acquisition. Changing one part risks the others."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it hurts",
+   "h1": "",
+   "h2": "What the sector asks of its systems",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Complex rating and billing systems",
+    "5G infrastructure and OSS/BSS modernisation",
+    "Customer churn management",
+    "Network automation and orchestration",
+    "Digital transformation of customer experience"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we deliver",
+   "h1": "",
+   "h2": "The work we take on",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "OSS/BSS implementation and modernisation",
+    "Network automation",
+    "Customer experience management",
+    "Revenue assurance"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "What we lean on",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Technology focus",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "OSS/BSS platforms",
+      "Kubernetes",
+      "5G orchestration",
+      "Customer analytics"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "Where we start",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/intelligence/telecom-platforms",
+     "n": "",
+     "h": "Telecom platforms",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/erp",
+     "n": "",
+     "h": "ERP implementation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud transformation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/bi",
+     "n": "",
+     "h": "Business intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/signal",
+     "n": "",
+     "h": "Digital marketing",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it does not fit",
+   "h1": "",
+   "h2": "A limit worth knowing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Carrier terms set some timelines",
+     "lvl": "h3",
+     "p": [
+      "Carrier integration and regulatory approval differ by operator and country, and they set timelines we do not control."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Published work",
+   "h1": "",
+   "h2": "Projects in this sector",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/case-studies/pakistan-telecom-oracle-coe",
+     "n": "",
+     "h": "Pakistan Telecom",
+     "lvl": "h3",
+     "p": [
+      "Oracle Database Centre of Excellence"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/australia-telecom-post-acquisition",
+     "n": "",
+     "h": "Australia Telecom",
+     "lvl": "h3",
+     "p": [
+      "Managed database and analytics after an acquisition"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/gms-telecom-us",
+     "n": "",
+     "h": "GMS Global Message System",
+     "lvl": "h3",
+     "p": [
+      "Enterprise A2P messaging platform, US"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Telecommunications, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Which telecommunications problems do you work on?",
+     "a": [
+      "Complex rating and billing systems, 5G infrastructure and OSS/BSS modernisation, customer churn management, network automation and orchestration and digital transformation of customer experience."
+     ]
+    },
+    {
+     "q": "Which services do telecommunications clients use?",
+     "a": [
+      "Telecom platforms, eRP implementation, cloud transformation, business intelligence and digital marketing."
+     ]
+    },
+    {
+     "q": "What telecommunications work have you published?",
+     "a": [
+      "Pakistan Telecom (Oracle Database Centre of Excellence), Australia Telecom (Managed database and analytics after an acquisition) and GMS Global Message System (Enterprise A2P messaging platform, US)."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

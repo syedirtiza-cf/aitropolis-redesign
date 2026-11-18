@@ -1,0 +1,246 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Healthcare",
+   "h1": "Patient data has to move, and stay private",
+   "h2": "",
+   "lead": [
+    "Clinical, administrative and device systems rarely share a format, and every integration is also a privacy decision."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it hurts",
+   "h1": "",
+   "h2": "What the sector asks of its systems",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Electronic health record (EHR) interoperability",
+    "HIPAA compliance and data security",
+    "Patient experience and engagement",
+    "Clinical decision support",
+    "Population health management"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we deliver",
+   "h1": "",
+   "h2": "The work we take on",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "EHR implementation",
+    "Health data integration",
+    "Clinical analytics",
+    "Patient engagement platforms"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "What we lean on",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Technology focus",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "HL7, FHIR standards",
+      "Secure cloud",
+      "Clinical analytics",
+      "Interoperability platforms"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "Where we start",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/systems/erp",
+     "n": "",
+     "h": "ERP implementation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud transformation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/bi",
+     "n": "",
+     "h": "Business intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/mlops",
+     "n": "",
+     "h": "Machine learning operations",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/managed-services",
+     "n": "",
+     "h": "Managed services",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it does not fit",
+   "h1": "",
+   "h2": "A limit worth knowing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Clinical decisions stay with clinicians",
+     "lvl": "h3",
+     "p": [
+      "We build the data and integration layer. Regulatory approval of medical software is a separate process that we do not replace."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Published work",
+   "h1": "",
+   "h2": "Projects in this sector",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/case-studies/healthcare-ai-twin",
+     "n": "",
+     "h": "Healthcare AI Digital Twin",
+     "lvl": "h3",
+     "p": [
+      "AI digital twin across AWS, Azure and Vertex AI"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/aicenna",
+     "n": "",
+     "h": "AICenna",
+     "lvl": "h3",
+     "p": [
+      "Brand launch for a healthcare AI platform"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Healthcare, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Which healthcare problems do you work on?",
+     "a": [
+      "Electronic health record (EHR) interoperability, hIPAA compliance and data security, patient experience and engagement, clinical decision support and population health management."
+     ]
+    },
+    {
+     "q": "Which services do healthcare clients use?",
+     "a": [
+      "ERP implementation, cloud transformation, business intelligence, machine learning operations and managed services."
+     ]
+    },
+    {
+     "q": "What healthcare work have you published?",
+     "a": [
+      "Healthcare AI Digital Twin (AI digital twin across AWS, Azure and Vertex AI) and AICenna (Brand launch for a healthcare AI platform)."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

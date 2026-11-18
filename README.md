@@ -15,6 +15,7 @@ Standalone HTML prototypes of the redesigned site. They are a design test for th
 | AI, GPU, Growth Partner, offshore teams, ISO and BPM | `ai.html`, `ai-gpu.html`, `digital-growth-partner.html`, `solutions-offshore-it-teams.html`, `solutions-iso-bpm.html` (generated) |
 | Six districts and 32 service pages | `solutions-<district>.html`, `solutions-<district>-<service>.html` (generated) |
 | 21 case studies, 7 insight articles | `case-studies-<slug>.html`, `insights-<slug>.html` (generated) |
+| Six sector pages and Global delivery | `industries-<sector>.html`, `global-delivery.html` (generated from the app's sector data and page copy by `tools/import_app_pages.py`) |
 | Privacy, terms, accessibility | `privacy.html`, `terms.html`, `accessibility.html` (generated) |
 
 Shared code lives in `assets/site.css` and `assets/site.js`. `assets/icons.js` is the inline Lucide icon sprite (ISC licence, see `assets/LICENSE-lucide.txt`). Each page adds its own markup and a small page script. `assets/` also holds the logo files and the favicon set (`icon.svg`, `favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`), all the electric blue symbol. The Solutions mega menu and the district data are in `assets/site.js`.
@@ -29,7 +30,7 @@ python3 tools/build.py
 
 The build also stamps every page's script and stylesheet links with a version, so browsers never serve a stale file after a deploy.
 
-## Content pages (74 pages)
+## Content pages (81 pages)
 
 Every other page is written as data and rendered by one template, so the whole site stays consistent.
 

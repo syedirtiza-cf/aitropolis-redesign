@@ -1,0 +1,283 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Banking & Financial Services",
+   "h1": "A bank cannot pause while the core system is replaced",
+   "h2": "",
+   "lead": [
+    "Regulators, customers and fraudsters all keep moving. Modernising the platform underneath has to happen without a gap in service."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it hurts",
+   "h1": "",
+   "h2": "What the sector asks of its systems",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Legacy core banking systems blocking innovation",
+    "Regulatory compliance (AML, KYC, Basel III, MiFID II)",
+    "Open banking and API-first architecture requirements",
+    "Real-time fraud detection and risk management",
+    "Customer experience modernisation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we deliver",
+   "h1": "",
+   "h2": "The work we take on",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Core banking system modernisation",
+    "Real-time payment processing",
+    "Regulatory reporting automation",
+    "Customer analytics at scale"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "What we lean on",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Technology focus",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Oracle Banking Suite",
+      "AWS",
+      "ML for fraud detection",
+      "Blockchain for settlements"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "Where we start",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/systems/erp",
+     "n": "",
+     "h": "ERP implementation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud transformation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/bi",
+     "n": "",
+     "h": "Business intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/generative-ai",
+     "n": "",
+     "h": "Generative AI",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/exchange",
+     "n": "",
+     "h": "Blockchain & tokenisation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/custom-software",
+     "n": "",
+     "h": "Custom software",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it does not fit",
+   "h1": "",
+   "h2": "A limit worth knowing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Licensing and approval stay with you",
+     "lvl": "h3",
+     "p": [
+      "Regulatory approval remains the institution's responsibility. We build to the requirements your compliance team confirms."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Published work",
+   "h1": "",
+   "h2": "Projects in this sector",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/case-studies/arib-fintech-cloud-acceleration",
+     "n": "",
+     "h": "ARIB",
+     "lvl": "h3",
+     "p": [
+      "Fintech cloud acceleration, KSA"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/quikcard-oracle-cloud-migration",
+     "n": "",
+     "h": "Quikcard",
+     "lvl": "h3",
+     "p": [
+      "Payments workload moved to Oracle Cloud, Canada"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/riskcalm-finops-oracle-cloud",
+     "n": "",
+     "h": "RiskCalm",
+     "lvl": "h3",
+     "p": [
+      "FinOps for a fintech on Oracle Cloud, US"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/case-studies/trustedpof-fintech",
+     "n": "",
+     "h": "TrustedPoF",
+     "lvl": "h3",
+     "p": [
+      "Fraud detection for a fintech launch"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Banking & Financial Services, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Which banking & financial services problems do you work on?",
+     "a": [
+      "Legacy core banking systems blocking innovation, regulatory compliance (AML, KYC, Basel III, MiFID II), open banking and API-first architecture requirements, real-time fraud detection and risk management and customer experience modernisation."
+     ]
+    },
+    {
+     "q": "Which services do banking & financial services clients use?",
+     "a": [
+      "ERP implementation, cloud transformation, business intelligence, generative AI, blockchain & tokenisation and custom software."
+     ]
+    },
+    {
+     "q": "What banking & financial services work have you published?",
+     "a": [
+      "ARIB (Fintech cloud acceleration, KSA), Quikcard (Payments workload moved to Oracle Cloud, Canada), RiskCalm (FinOps for a fintech on Oracle Cloud, US) and TrustedPoF (Fraud detection for a fintech launch)."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

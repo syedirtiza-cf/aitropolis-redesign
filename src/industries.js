@@ -57,7 +57,8 @@ function select(i,hash){if(i===cur)return;cur=i;const d=I[i];
   <div class="ep-cols"><div><p class="eb">Where it hurts</p><ul class="ep-list">${d.hurts.map(x=>`<li>${ic("minus")}<span>${x}</span></li>`).join("")}</ul></div><div><p class="eb">What we deliver</p><ul class="ep-list ok">${d.does.map(x=>`<li>${ic("check")}<span>${x}</span></li>`).join("")}</ul></div></div>
   <p class="eb">Technology focus</p><ul class="tags">${d.tech.map(x=>`<li>${x}</li>`).join("")}</ul>
   <p class="eb">Services</p><ul class="ep-svc">${d.svc.map(k=>`<li><a href="${S[k][1]}"><span>${S[k][0]}</span>${arrow}</a></li>`).join("")}</ul>
-  <p class="eb">Published work</p><ul class="ep-cases">${d.cases.map(c=>`<li><a href="/case-studies/${c[0]}"><b>${c[1]}</b><small>${c[2]}</small>${arrow}</a></li>`).join("")}</ul>`;
+  <p class="eb">Published work</p><ul class="ep-cases">${d.cases.map(c=>`<li><a href="/case-studies/${c[0]}"><b>${c[1]}</b><small>${c[2]}</small>${arrow}</a></li>`).join("")}</ul>
+  <a class="btn btn-oi" style="margin-top:2rem" href="/industries/${d.slug}">See the full ${d.name.split(" &")[0].toLowerCase()} page${arrow}</a>`;
   panel.classList.remove("swap");void panel.offsetWidth;panel.classList.add("swap");
   if(hash)history.replaceState(null,"","#"+d.slug)}
 const start=I.findIndex(d=>"#"+d.slug===location.hash);select(start>=0?start:0,false);

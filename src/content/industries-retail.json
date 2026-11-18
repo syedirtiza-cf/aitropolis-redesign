@@ -1,0 +1,233 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Retail",
+   "h1": "A customer sees one shop. Your systems see four.",
+   "h2": "",
+   "lead": [
+    "Online orders, store stock, loyalty and promotions each sit in their own system, so the customer meets the gaps."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it hurts",
+   "h1": "",
+   "h2": "What the sector asks of its systems",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Omnichannel customer experience",
+    "Real-time inventory and fulfilment",
+    "Pricing optimisation and promotions",
+    "Customer loyalty and personalisation",
+    "Analytics-driven merchandising"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we deliver",
+   "h1": "",
+   "h2": "The work we take on",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "E-commerce platform implementation",
+    "Omnichannel inventory management",
+    "Customer analytics and personalisation",
+    "Marketing automation"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "What we lean on",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Technology focus",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "Salesforce Commerce",
+      "Analytics",
+      "Real-time inventory",
+      "Personalisation engines"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "Where we start",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/systems/crm",
+     "n": "",
+     "h": "CRM",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud transformation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/bi",
+     "n": "",
+     "h": "Business intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/signal",
+     "n": "",
+     "h": "Digital marketing",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/mlops",
+     "n": "",
+     "h": "Machine learning operations",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it does not fit",
+   "h1": "",
+   "h2": "A limit worth knowing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Our published retail work is limited",
+     "lvl": "h3",
+     "p": [
+      "Our published case work in retail is one cross-sector engagement, so expect us to ask more about your trade before we propose anything."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Published work",
+   "h1": "",
+   "h2": "Projects in this sector",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/case-studies/dell-technologies-uae",
+     "n": "",
+     "h": "Dell Technologies UAE",
+     "lvl": "h3",
+     "p": [
+      "Customer transformation across sectors, retail among them"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Retail, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Which retail problems do you work on?",
+     "a": [
+      "Omnichannel customer experience, real-time inventory and fulfilment, pricing optimisation and promotions, customer loyalty and personalisation and analytics-driven merchandising."
+     ]
+    },
+    {
+     "q": "Which services do retail clients use?",
+     "a": [
+      "CRM, cloud transformation, business intelligence, digital marketing and machine learning operations."
+     ]
+    },
+    {
+     "q": "What retail work have you published?",
+     "a": [
+      "Dell Technologies UAE (Customer transformation across sectors, retail among them)."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}

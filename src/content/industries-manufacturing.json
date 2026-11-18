@@ -1,0 +1,222 @@
+{
+ "sections": [
+  {
+   "eyebrow": "Manufacturing & Supply Chain",
+   "h1": "The plant knows before the ERP does",
+   "h2": "",
+   "lead": [
+    "Shop-floor data, stock and orders live in different systems, so planning works from yesterday's picture."
+   ],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it hurts",
+   "h1": "",
+   "h2": "What the sector asks of its systems",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "Supply chain visibility and resilience",
+    "Demand planning and inventory optimisation",
+    "Operational technology (OT) and IT convergence",
+    "Predictive maintenance and asset optimisation",
+    "Sustainability and ESG reporting"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "What we deliver",
+   "h1": "",
+   "h2": "The work we take on",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [],
+   "kv": [],
+   "bullets": [
+    "ERP for manufacturing",
+    "Supply chain optimisation",
+    "Predictive maintenance",
+    "Quality management systems"
+   ],
+   "tags": []
+  },
+  {
+   "eyebrow": "Technology",
+   "h1": "",
+   "h2": "What we lean on",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Technology focus",
+     "lvl": "h3",
+     "p": [],
+     "tags": [
+      "SAP, Oracle Manufacturing",
+      "Predictive analytics",
+      "IoT sensors",
+      "Supply chain networks"
+     ],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Services",
+   "h1": "",
+   "h2": "Where we start",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/solutions/systems/erp",
+     "n": "",
+     "h": "ERP implementation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/foundations/cloud",
+     "n": "",
+     "h": "Cloud transformation",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/intelligence/mlops",
+     "n": "",
+     "h": "Machine learning operations",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "/solutions/systems/bi",
+     "n": "",
+     "h": "Business intelligence",
+     "lvl": "h3",
+     "p": [],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Where it does not fit",
+   "h1": "",
+   "h2": "A limit worth knowing",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "",
+     "n": "",
+     "h": "Plant-floor control is a specialist field",
+     "lvl": "h3",
+     "p": [
+      "Our published manufacturing work is an ERP modernisation. Where a project reaches plant-floor control systems, we say early when a specialist vendor is needed."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Published work",
+   "h1": "",
+   "h2": "Projects in this sector",
+   "lead": [],
+   "links": [],
+   "cards": [
+    {
+     "href": "/case-studies/riyadh-pharma-erp-modernization",
+     "n": "",
+     "h": "Riyadh Pharma",
+     "lvl": "h3",
+     "p": [
+      "ERP and infrastructure modernisation for a pharmaceutical manufacturer, KSA"
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    }
+   ],
+   "faq": [],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  },
+  {
+   "eyebrow": "Questions",
+   "h1": "",
+   "h2": "Manufacturing & Supply Chain, answered",
+   "lead": [],
+   "links": [],
+   "cards": [],
+   "faq": [
+    {
+     "q": "Which manufacturing & supply chain problems do you work on?",
+     "a": [
+      "Supply chain visibility and resilience, demand planning and inventory optimisation, operational technology (OT) and IT convergence, predictive maintenance and asset optimisation and sustainability and ESG reporting."
+     ]
+    },
+    {
+     "q": "Which services do manufacturing & supply chain clients use?",
+     "a": [
+      "ERP implementation, cloud transformation, machine learning operations and business intelligence."
+     ]
+    },
+    {
+     "q": "What manufacturing & supply chain work have you published?",
+     "a": [
+      "Riyadh Pharma (ERP and infrastructure modernisation for a pharmaceutical manufacturer, KSA)."
+     ]
+    }
+   ],
+   "kv": [],
+   "bullets": [],
+   "tags": []
+  }
+ ]
+}
