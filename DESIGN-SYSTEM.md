@@ -1,5 +1,7 @@
 # AITROPOLIS DESIGN SYSTEM · v3
 
+Last updated 21 November 2026 (page-type layouts added in 5e).
+
 Rules for the redesigned site. `assets/site.css` holds the values (its `:root` block holds every token); this file holds the rules. v3 replaces v2 (paper, indigo, ink, volt, copper), which still governs the live site until the redesign is ported.
 
 **Source.** The layout, motion and effects come from the Kelder template (public domain). The type choice comes from Awesomic's style reference. Colour sits on the Aitropolis electric blue. Do not copy anything from Kelder that is not in the prototypes here.
@@ -108,6 +110,21 @@ Required states on every interactive element: default, hover, active, focus-visi
 - Section ids come from the section title, are omitted when empty, and generated blocks use their own names.
 - Card links say what they open ("See the service", "Read the 3-minute case", "Read the article"), and the accessible name starts with the visible text.
 - Vendor marks show only for platforms the page names; a page that names fewer than two gets no wall.
+
+## 5e / Page-type layouts
+
+Every page keeps the same hero, header and footer. The body changes with the page type, so the site reads as one family without every page looking the same.
+
+| Page type | Body |
+|---|---|
+| District hub | District switcher (six chips with icons, current one filled ink) under the hero. Hero card: a count and a numbered list of every service in the district. Service tiles: pixel-art top, title, description, "See the service". Industries as chips; a chip links to its sector page where one exists. |
+| Service page | Sticky pill nav of the page's sections (shown at three or more). Side rail 19rem wide and sticky: district, counts, platforms named as marks, the primary and secondary actions. Capabilities as hairline rows (icon, title, detail). Steps as a dark band with lime icon tiles. |
+| Case study | Hero card: headline result large, four key figures, district and domain. Side rail with district, domain, headline. Challenge and solution as chapters (minus markers, then ticks). Results on the dark gradient with figures in lime; a result with no figure takes a tick tile. Architecture as rows; connections as three tiles. |
+| Insight article | Hero card: reading time, date, topic, numbered contents. Sticky contents list with the current section marked. Progress bar under the header (accent blue, 3px). Opening answer in a white callout, bottom line in a dark one. Checklists with a bold lead-in. Tables with the figure large. Questions open one at a time. |
+| General page | Section label pill with a mono counter, then card grid, bento (first card large with pixel art), split section (sticky pixel-art panel beside a list), dark steps band, spec list, stat tiles. |
+| Legal | Plain reading column with a contents list. |
+
+Shared parts: breadcrumb (mono, centred above the hero pill), section counter ("03 / 07", mono), "Keep exploring" row of three sibling pages before the closing block, and the closing block with one primary action.
 
 ## 6 / Motion
 
