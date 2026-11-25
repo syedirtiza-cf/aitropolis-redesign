@@ -185,7 +185,7 @@ $$("[data-par]").forEach(el=>{if(REDUCED)return;const lag=Number(el.dataset.par)
 const FLOWS={
   flow1:{spine:[[.74,-.04],[.62,.28],[.8,.5],[1.15,.68]],spread:[.07,.22],twist:.83,strands:26,reveal:false},
   flow2:{spine:[[.004,.01],[.02,.17],[-.004,.34],[.028,.52],[-.004,.7],[-.012,.99]],spread:[.008,.028],twist:3.2,strands:22,reveal:"down",rel:true},
-  flow3:{spine:[[.935,.3],[.915,.5],[.94,.7],[.915,.97]],spread:[.012,.036],twist:1.6,strands:22,reveal:"up",fan:.9}
+  flow3:{spine:[[.935,.14],[.915,.36],[.94,.6],[.915,.86]],spread:[.012,.036],twist:1.6,strands:22,reveal:"up",fan:.9}
 };
 const flow=(cv,cfg)=>{
   const ctx=cv.getContext("2d");let w=0,h=0,dpr=1,now=0;const P=cfg.spine;const n=P.length;let prog=cfg.reveal?0:1;
