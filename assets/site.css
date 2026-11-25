@@ -904,3 +904,5 @@ html[data-preloader] .pre{display:block}
 .gband .shead.dash-t{border-top:0}
 .gband .gsteps li:first-child{border-top:0}
 .gband .gsteps li:last-child{border-bottom:0}
+/* closing block: the ribbon would cross the centred text on narrow screens */
+@media (max-width:768px){.close canvas{display:none}}
