@@ -184,7 +184,7 @@ $$("[data-par]").forEach(el=>{if(REDUCED)return;const lag=Number(el.dataset.par)
 /* ---- Line flows: silk ribbons of hair-thin strands ---- */
 const FLOWS={
   flow1:{spine:[[.74,-.04],[.62,.28],[.8,.5],[1.15,.68]],spread:[.07,.22],twist:.83,strands:26,reveal:false},
-  flow2:{spine:[[.004,.01],[.02,.17],[-.004,.34],[.028,.52],[-.004,.7],[-.012,.99]],spread:[.008,.028],twist:3.2,strands:22,reveal:"down",rel:true},
+  flow2:{spine:[[.05,-.03],[.065,.17],[.04,.34],[.07,.52],[.04,.7],[.055,.86],[.045,1.03]],spread:[.008,.026],twist:3.2,strands:22,reveal:"down",rel:true},
   flow3:{spine:[[.935,-.03],[.915,.26],[.94,.5],[.915,.74],[.935,1.03]],spread:[.012,.036],twist:1.6,strands:22,reveal:"up",fan:.9}
 };
 const flow=(cv,cfg)=>{
