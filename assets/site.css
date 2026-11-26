@@ -910,3 +910,7 @@ html[data-preloader] .pre{display:block}
 /* footer social icons */
 .f-soc .btn.ico{width:3.5rem;padding:0;display:inline-grid;place-items:center}
 .f-soc .btn.ico .ic{width:1.5rem;height:1.5rem}
+
+/* partners: vendor marks inside the district-map pills */
+.dmv li.v{display:inline-flex;align-items:center;gap:.5rem;padding:.375rem .875rem .375rem .75rem}
+.dmv li .vm{flex:none;width:1.125rem;height:1.125rem;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat}

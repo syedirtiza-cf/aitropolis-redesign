@@ -47,8 +47,9 @@ chip("all","All partners");Object.entries(KIND).forEach(([k,l])=>chip(k,l));
 function apply(){let n=0;$$(".prt",grid).forEach(a=>{const show=kind==="all"||a.dataset.k===kind;if(show){n++;if(a.hidden){a.hidden=false;requestAnimationFrame(()=>a.classList.remove("out"))}else a.classList.remove("out")}else if(!a.hidden){a.classList.add("out");setTimeout(()=>{if(a.classList.contains("out"))a.hidden=true},260)}});$("#cnt").textContent=`Showing ${n} of ${P.length} partners`}
 apply();
 /* district map */
+const MK={Oracle:"oracle",SAP:"sap",Odoo:"odoo",AWS:"aws",Azure:"azure",GCP:"gcp","Red Hat":"redhat",VMware:"vmware",IBM:"ibm",Zoom:"zoom"};
 const DM=[["systems","Systems","blocks",["Oracle","SAP","Odoo"]],["foundations","Foundations","layers",["AWS","Azure","GCP","BytePlus","Red Hat","VMware"]],["intelligence","Intelligence","brain",["IBM","GCP","Azure","Red Hat"]],["immersion","Immersion","glasses",["Zoom"]]];
 const dm=$("#dmap");
 DM.forEach(([slug,t,icn,v],i)=>{const r=mk("a","dmrow");r.href=`/solutions/${slug}`;r.dataset.r="";r.style.setProperty("--d",`${i*70}ms`);
-  r.innerHTML=`<span class="mico lg">${ic(icn)}</span><span class="dmt"><b>${t}</b><small>District</small></span><ul class="dmv">${v.map(x=>`<li>${x}</li>`).join("")}</ul>${arrow}`;dm.append(r);if(!REDUCED)new IntersectionObserver(([e],io)=>{if(e.isIntersecting){r.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(r)});
+  r.innerHTML=`<span class="mico lg">${ic(icn)}</span><span class="dmt"><b>${t}</b><small>District</small></span><ul class="dmv">${v.map(x=>`<li class="v">${MK[x]?`<i class="vm" aria-hidden="true" style="--m:url(brands/${MK[x]}.svg)"></i>`:""}${x}</li>`).join("")}</ul>${arrow}`;dm.append(r);if(!REDUCED)new IntersectionObserver(([e],io)=>{if(e.isIntersecting){r.classList.add("in");io.disconnect()}},{rootMargin:"0px 0px -4% 0px"}).observe(r)});
 })();
