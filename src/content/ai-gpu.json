@@ -263,16 +263,37 @@
    "links": [],
    "cards": [],
    "faq": [],
-   "kv": [],
-   "bullets": [
-    "01 Workloads Training · inference · RAG · HPC · agents",
-    "02 AI software vLLM · Triton · Kubernetes · Slurm · CUDA",
-    "03 Compute H200 · B200 · B300",
-    "04 GPU fabric NVLink · NVSwitch",
-    "05 Network InfiniBand · 400G / 800G Ethernet",
-    "06 Storage NVMe · parallel filesystem · object storage",
-    "07 Data centre Power · cooling · rack · monitoring"
+   "kv": [
+    [
+     "Workloads",
+     "Training · inference · RAG · HPC · agents"
+    ],
+    [
+     "AI software",
+     "vLLM · Triton · Kubernetes · Slurm · CUDA"
+    ],
+    [
+     "Compute",
+     "H200 · B200 · B300"
+    ],
+    [
+     "GPU fabric",
+     "NVLink · NVSwitch"
+    ],
+    [
+     "Network",
+     "InfiniBand · 400G / 800G Ethernet"
+    ],
+    [
+     "Storage",
+     "NVMe · parallel filesystem · object storage"
+    ],
+    [
+     "Data centre",
+     "Power · cooling · rack · monitoring"
+    ]
    ],
+   "bullets": [],
    "tags": []
   },
   {
@@ -282,6 +303,71 @@
    "lead": [],
    "links": [],
    "cards": [
+    {
+     "href": "",
+     "n": "01",
+     "h": "Tell us what you are running",
+     "lvl": "h3",
+     "p": [
+      "The model, the workload, training or inference, and the throughput you need. Not a part number, the problem."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "02",
+     "h": "We design the configuration",
+     "lvl": "h3",
+     "p": [
+      "GPU, CPU, memory, storage, network, power and cooling, matched to that workload."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "03",
+     "h": "We quote hardware and lead time",
+     "lvl": "h3",
+     "p": [
+      "A quote for that configuration with its lead time, not a price from a list."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "04",
+     "h": "We deploy",
+     "lvl": "h3",
+     "p": [
+      "Racked, cabled and networked, with the CUDA and software stack configured and tested."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
+    {
+     "href": "",
+     "n": "05",
+     "h": "We operate",
+     "lvl": "h3",
+     "p": [
+      "Monitoring, optimisation and support for as long as you want us to run it."
+     ],
+     "tags": [],
+     "li": [],
+     "kv": [],
+     "a": []
+    },
     {
      "href": "",
      "n": "",
@@ -298,13 +384,7 @@
    ],
    "faq": [],
    "kv": [],
-   "bullets": [
-    "1 Tell us what you are running The model, the workload, training or inference, and the throughput you need. Not a part number, the problem.",
-    "2 We design the configuration GPU, CPU, memory, storage, network, power and cooling, matched to that workload.",
-    "3 We quote hardware and lead time A quote for that configuration with its lead time, not a price from a list.",
-    "4 We deploy Racked, cabled and networked, with the CUDA and software stack configured and tested.",
-    "5 We operate Monitoring, optimisation and support for as long as you want us to run it."
-   ],
+   "bullets": [],
    "tags": []
   },
   {

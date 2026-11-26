@@ -187,6 +187,9 @@ def count(s):
     return len(s["cards"]) + len(s["kv"]) + len(s["bullets"]) + len(s["faq"])
 
 def prep(c):
+    m = re.match(r"^(\d{1,2})\.\s+(.+)$", c["h"])
+    if m and not c["n"]:   # an author-numbered title ("1. Discovery") becomes a numbered step
+        c["n"], c["h"] = m.group(1).zfill(2), m.group(2)
     c["li"] = [x for x in c["li"] if not re.match(r"^(read|see|view|open|learn|book)\b", x, re.I)]
     nums = [x for x in c["li"] if re.fullmatch(r"\d{1,2}", x)]
     if nums:
@@ -273,8 +276,14 @@ def section(s, ids, icon, k=0, name="", tot=0, rows=False, bare=False):
         cards = [prep(c) for c in s["cards"]]
         if cards and sum(1 for c in cards if c["n"]) >= max(2, len(cards) - 1) and all(c["h"] for c in cards):
             out[0] = f'<section class="{"ssec" if bare else "sec px"}"{ida}><div class="gband" data-r>'
-            out.append(steps(cards))
+            last_n = max(i for i, c in enumerate(cards) if c["n"])
+            nums = [int(c["n"]) for c in cards[:last_n + 1] if c["n"].isdigit()]
+            complete = nums == list(range(1, last_n + 2))   # 1..k with no gaps: what follows is a note, not a step
+            numbered, others = (cards[:last_n + 1], cards[last_n + 1:]) if complete else (cards, [])
+            out.append(steps(numbered))
             out.append("</div>")
+            if others:   # a note that is not one of the numbered steps sits below the band as a card
+                out.append(f'<div class="ggrid g1" style="margin-top:1.25rem">' + "".join(card(c, ids, i, fb=icon) for i, c in enumerate(others)) + "</div>")
             band = True
         elif cards:
             n = len(cards)

@@ -105,6 +105,13 @@ The seven articles (`insights-*.html`) share an editorial layout: the hero card 
 
 The six hubs (`solutions-<district>.html`) share a navigation-first layout: a district switcher under the hero, a hero card that lists every service page in the district, a grid of service tiles (pixel art, the page's own description, a link), then the district's own sections, with industries as chips that link to the sector pages where one exists. The service list comes from the manifest, so a new service page appears on its hub on the next build. The hubs no longer show the live site's "Dive deeper" list, which was missing some services.
 
+## Import rules that matter
+
+- A list item made of a number, a title and a description (live site: `li > p, h3, p`) is kept as three parts and becomes a numbered step. A list item made of two or more spans (name and note) becomes a spec row. A bare marker such as a diamond does not count as a part.
+- Card titles the author numbered ("1. Discovery") become numbered steps with the number removed from the title. Articles keep their numbered headings.
+- A numbered steps list that runs 1 to k with no gaps and is followed by an unnumbered card shows that card as a note below the band, not as an extra step.
+- `tools/build.py` also re-stamps the asset versions on `index.html` and `solutions.html`, which are hand-written. If it did not, returning visitors could keep old styles on those two pages.
+
 ## Imported copy
 
 - **Text comes from the current site.** The 67 inner pages carry the published wording, converted to UK spelling by `tools/extract.py`. It has not had an editorial pass.

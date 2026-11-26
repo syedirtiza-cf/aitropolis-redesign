@@ -106,5 +106,12 @@ def main():
         out = render(shell, {**ctx, "title": m["title"], "desc": m["desc"], "content": body, "page_script": page_script})
         (ROOT / f"{name}.html").write_text(out)
         print("built", f"{name}.html", len(out), "bytes")
+    # the two hand-written pages are not generated, but their asset links still need the new version
+    for hand in ("index.html", "solutions.html"):
+        t = (ROOT / hand).read_text()
+        t2 = re.sub(r"(assets/(?:site\.css|site\.js|icons\.js|icon\.svg|favicon\.ico|apple-touch-icon\.png)\?v=)\d+", r"\g<1>" + VERSION, t)
+        if t2 != t:
+            (ROOT / hand).write_text(t2)
+            print("stamped", hand)
 
 main()

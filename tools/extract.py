@@ -72,6 +72,12 @@ class X(HTMLParser):
         tag, cls, buf, hc, href, kids, lastrow = s.stack.pop()
         text = re.sub(r"\s+", " ", buf).strip()
         parent = s.stack[-1][0] if s.stack else ""
+        if tag == "li" and len(kids) >= 2:
+            parts = kids[1:] if re.fullmatch(r"\d{1,2}", kids[0]) else kids
+            real = [k for k in parts if re.search(r"[A-Za-z0-9]", k)]
+            if len(real) >= 2:
+                s.emit(["row", real, "", ""])
+                return
         if tag == "div":
             # a div holding only short text-leaves is a row: (label, note, value)
             if kids and not text:
@@ -97,9 +103,18 @@ class X(HTMLParser):
             elif text:
                 s.emit(["p", text, cls, ""])
             return
-        if parent in ("h1", "h2", "h3", "h4", "p", "summary", "li", "dt", "dd") or (parent == "a" and tag not in ("h3", "h4", "p")):
+        block_in_li = False
+        if parent == "li":
+            ent = s.stack[-1]
+            if tag in ("h3", "h4"):
+                block_in_li = True; ent[6] = True            # a titled item: keep number, title and text apart
+            elif tag == "p" and (re.fullmatch(r"\d{1,2}", text) or ent[6]):
+                block_in_li = True
+        if not block_in_li and (parent in ("h1", "h2", "h3", "h4", "p", "summary", "li", "dt", "dd") or (parent == "a" and tag not in ("h3", "h4", "p"))):
             if text != "+":
                 s.stack[-1][2] += " " + text + (" " if buf[-1:].isspace() else "")
+                if parent == "li" and tag == "span":
+                    s.stack[-1][5].append(text)
         elif text:
             if not href:
                 href = next((e[4] for e in reversed(s.stack) if e[0] == "a" and e[4]), "")
