@@ -906,3 +906,7 @@ html[data-preloader] .pre{display:block}
 .gband .gsteps li:last-child{border-bottom:0}
 /* closing block: the ribbon would cross the centred text on narrow screens */
 @media (max-width:768px){.close canvas{display:none}}
+
+/* footer social icons */
+.f-soc .btn.ico{width:3.5rem;padding:0;display:inline-grid;place-items:center}
+.f-soc .btn.ico .ic{width:1.5rem;height:1.5rem}
