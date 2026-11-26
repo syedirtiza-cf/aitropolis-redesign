@@ -2,6 +2,15 @@
 
 A standalone static prototype of the redesigned Aitropolis website: 90 HTML files (89 pages and a 404). It is a design test and is not the live site. Last updated 21 November 2026.
 
+## Start here (for a new contributor)
+
+1. Clone the repo and serve the folder: `python3 -m http.server 4173`, then open http://localhost:4173/. Opening the files directly breaks the asset paths.
+2. Pages are generated from `src/pages.json` and `src/content/*.json` by `python3 tools/build.py`. Edit the JSON or the CSS and JS in `assets/`, run the build, and commit the generated `.html` files with the source. Every build re-stamps the asset version on all pages (a timestamp in the `?v=` links), so a build touches all 90 HTML files. That is expected: commit them together, and do not build only to look.
+3. You do not need the importers. The content is already committed as JSON. `tools/import_live.py` needs saved copies of the current live pages, and `tools/import_source.py` and `tools/import_app_pages.py` read the private Next.js app, which is not in this repo. Re-running an import overwrites hand edits to a page's JSON, so edit the JSON directly.
+4. After changing anything, paste `tools/audit.js` into the browser console on any page. An empty result means all pages passed.
+5. Read `DESIGN-SYSTEM.md` before changing styles, and the "Open items" list at the end of this file for what is still to do.
+6. GitHub Pages caches for about ten minutes. Force a refresh before judging a deploy.
+
 ## What is here
 
 | Area | Files |
