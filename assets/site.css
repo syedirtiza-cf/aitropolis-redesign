@@ -289,7 +289,7 @@ html:not(.js) .dash{--k:0}
 .spanel .top span:first-child{font-size:.875rem;color:var(--muted)}
 .spanel .top span:last-child{font-weight:500}
 .tline{position:relative;height:6rem;margin-top:1.25rem}
-.tline .trk{position:absolute;left:.5rem;right:.5rem;top:1.25rem;border-top:2px solid var(--b200);transform-origin:0 50%}
+.tline .trk{position:absolute;left:.5rem;right:.5rem;top:calc(1rem - 1px);border-top:2px solid var(--b200);transform-origin:0 50%}
 .tline .trk.f{border-color:var(--accent);right:auto}
 .tline .pt{position:absolute;top:.5rem;width:1rem;height:1rem;border-radius:var(--r-xs);border:2px solid var(--accent);background:var(--soft)}
 .tline .pt.fill{background:var(--accent)}.tline .pt.last{background:var(--ink);border-color:var(--ink)}
@@ -352,7 +352,7 @@ footer{color:var(--on)}
 .f-top p.cap{font-size:.875rem;color:#e6eefb}
 .f-top ul{display:flex;flex-direction:column;gap:.75rem;padding-top:1rem}
 .f-top a{position:relative;display:inline-block}
-.f-soc{display:flex;gap:.75rem;padding-top:2rem}
+.f-soc{display:flex;flex-wrap:wrap;gap:.75rem;padding-top:2rem}
 .f-bot{display:flex;justify-content:space-between;gap:2rem;padding:2rem 0;font-size:.875rem;color:#e6eefb}
 .f-bot>div:last-child{text-align:right}
 @media (max-width:1024px){.f-top{grid-template-columns:19.7rem 1fr 1fr 1fr}.f-bot{justify-content:flex-start;gap:1.25rem}}
