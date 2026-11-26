@@ -807,7 +807,7 @@ html[data-preloader] .pre{display:block}
 .rail-acts .btn{width:100%;justify-content:center}
 .svc-main{min-width:0}
 .ssec{padding-bottom:5rem;scroll-margin-top:9rem}
-.ssec .shead{display:block;padding:0 0 2rem}
+.ssec .shead{display:block;padding:1.5rem 0 2rem}
 .ssec .shead .hd{padding-top:1.25rem}
 .ssec .shead .hd p.t-bm{padding-top:1rem}
 .ssec .faq{grid-template-columns:1fr;gap:1.5rem}
@@ -914,3 +914,8 @@ html[data-preloader] .pre{display:block}
 /* partners: vendor marks inside the district-map pills */
 .dmv li.v{display:inline-flex;align-items:center;gap:.5rem;padding:.375rem .875rem .375rem .75rem}
 .dmv li .vm{flex:none;width:1.125rem;height:1.125rem;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat}
+
+/* checklist cards: no rule above the first item; gap after hairline row lists */
+.gcard .ep-list li:first-child{border-top:0}
+.ssec .srows+.gcard,.ssec .srows+.gsplit{margin-top:1.5rem}
+@media (max-width:560px){.ssec .shead{padding-top:1.25rem}}
