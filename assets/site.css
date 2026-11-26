@@ -919,3 +919,7 @@ html[data-preloader] .pre{display:block}
 .gcard .ep-list li:first-child{border-top:0}
 .ssec .srows+.gcard,.ssec .srows+.gsplit{margin-top:1.5rem}
 @media (max-width:560px){.ssec .shead{padding-top:1.25rem}}
+/* a card that follows a card grid, bento, steps or stat row gets the same gap as the grid's own cards */
+.sec>:is(.ggrid,.gbento,.gstats,.gsteps,.gsplit,.card)+.card{margin-top:1.25rem}
+
+.ggrid.g1{grid-template-columns:1fr}

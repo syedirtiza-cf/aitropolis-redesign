@@ -286,7 +286,7 @@ def section(s, ids, icon, k=0, name="", tot=0, rows=False, bare=False):
                 rest_cards = "".join(card(c, ids, i + 1, fb=icon) for i, c in enumerate(cards[1:]))
                 out.append(f'<div class="gbento">{first}{rest_cards}</div>')
             else:
-                cols = "g3" if n % 3 == 0 else "g2"
+                cols = "g1" if n == 1 else ("g3" if n % 3 == 0 else "g2")
                 out.append(f'<div class="ggrid {cols}">' + "".join(card(c, ids, i, fb=icon) for i, c in enumerate(cards)) + "</div>")
         kvh = '<div class="card gcard" data-r><dl class="spec">' + "".join(f"<div><dt>{E(a)}</dt><dd>{E(b)}</dd></div>" for a, b in s["kv"]) + "</dl></div>" if s["kv"] else ""
         bh = '<div class="card gcard gwide" data-r><ul class="ep-list ok">' + "".join(f"<li>{ic('check')}<span>{E(x)}</span></li>" for x in s["bullets"]) + "</ul></div>" if s["bullets"] else ""
